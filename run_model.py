@@ -5,7 +5,7 @@ import numpy as np
 N_HIDDEN = 50
 LEARNING_RATE = 0.05
 
-data, mask, names = createNDArray()
+data, mask, names = dm.createNDArray()
 
 dm.shuffle_all(data, mask, names)
 

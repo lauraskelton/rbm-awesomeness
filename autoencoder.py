@@ -48,7 +48,7 @@ class CFAutoencoder(object):
 
         # multiply by zeros where all 5 inputs were zero
 
-        self.cost = T.mean(T.dot(self.entropy, self.x_mask)
+        self.cost = T.mean(T.dot(self.entropy, self.x_mask))
 
         self.parameters = [self.W, self.b_in, self.b_out]
         self.gradients = T.grad(self.cost, self.parameters)
@@ -62,7 +62,7 @@ class CFAutoencoder(object):
         i, batch_size = T.iscalars('i', 'batch_size')
         self.train_step = theano.function([i, batch_size], self.cost, 
                                             updates=self.updates, 
-                                            givens={self.x:         self.inputs[i:i+batch_size]
+                                            givens={self.x:         self.inputs[i:i+batch_size],
                                                     self.x_mask:   self.mask[i:i+batch_size]})
 
 
@@ -70,32 +70,3 @@ class CFAutoencoder(object):
         with open(f, "wb") as f:
             cPickle.dump([thing.get_value() for thing in self.parameters], f)
 
-def run_epochs(aa, n_epochs):#, save=True):
-    if 'n' not in dir(run_epochs):
-        run_epochs.n = 0
-
-    if 'costs' not in dir(run_epochs):
-        run_epochs.costs = [(0, 999999)]
-
-    start = time.time()
-    print time
-    for x in xrange(n_epochs):
-        run_epochs.n += 1
-        costs = epoch(1000, n_train, aa.train_step)
-        print "=== epoch {} ===".format(run_epochs.n)
-        print "costs: {}".format([line[()] for line in costs])
-        print "avg: {}".format(np.mean(costs))
-        run_epochs.costs.append((run_epochs.n, np.mean(costs)))
-
-    elapsed = (time.time() - start)
-    print "ELAPSED TIME: {}".format(elapsed)
-
-    # if save:
-    #     vis = aa.visualize_hidden()
-    #     img = Image.fromarray(vis)
-    #     summary = "eyes_epoch_{}_{:0.4f}".format(run_epochs.n, run_epochs.costs[-1][1])
-    #     img.save("imgs/aa/single_layer/{}.png".format(summary))
-    #     aa.save("data/save/aa/single_layer/{}.pkl".format(summary))
-
-    if run_epochs.costs[-2][1] < run_epochs.costs[-1][1]:
-        aa = aa.copy(aa.learning_rate * 0.9)
