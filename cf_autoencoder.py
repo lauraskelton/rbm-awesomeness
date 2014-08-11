@@ -1,8 +1,8 @@
 import theano
 import numpy as np
 
-class Autoencoder(object):
-    def __init__(self, input_tensor, n_in, n_hidden, learning_rate, pct_blackout=0.2, 
+class CFAutoencoder(object):
+    def __init__(self, input_tensor, emptiness_tensor, n_in, n_hidden, learning_rate, pct_blackout=0.2, 
                     W=None, b_in=None, b_out=None):
         if W == None:
             # initialization of weights as suggested in theano tutorials
@@ -30,20 +30,25 @@ class Autoencoder(object):
         self.n_in = n_in
         self.n_hidden = n_hidden
         self.inputs = input_tensor
+        self.empties = emptiness_tensor
         self.x = matrixType('x')
+        self.x_empty = matrixType('empty')
 
         self.pct_blackout = pct_blackout
         self.noise = T.shared_randomstreams.RandomStreams(1234).binomial(
                             (self.x.shape), n=1, p=1-(self.pct_blackout), 
                             dtype=theano.config.floatX)
         self.noisy = self.noise * self.x
+
         self.active_hidden = T.nnet.sigmoid(T.dot(self.noisy, self.W) + self.b_in)
         self.output = T.nnet.sigmoid(T.dot(self.active_hidden, self.W.T) + self.b_out)
 
         self.entropy = -T.sum(self.x * T.log(self.output) + 
                                 (1 - self.x) * T.log(1 - self.output), axis=1)
 
-        self.cost = T.mean(self.entropy)
+        # multiply by zeros where all 5 inputs were zero
+
+        self.cost = T.mean(T.dot(self.entropy, self.x_empty)
 
         self.parameters = [self.W, self.b_in, self.b_out]
         self.gradients = T.grad(self.cost, self.parameters)
@@ -57,8 +62,9 @@ class Autoencoder(object):
         i, batch_size = T.iscalars('i', 'batch_size')
         self.train_step = theano.function([i, batch_size], self.cost, 
                                             updates=self.updates, 
-                                            givens={self.x:self.inputs[i:i+batch_size]})
-                                            #, mode="DebugMode")
+                                            givens={self.x:         self.inputs[i:i+batch_size]
+                                                    self.x_empty:   self.empties[i:i+batch_size]})
+
 
     def save(self, f):
         with open(f, "wb") as f:
