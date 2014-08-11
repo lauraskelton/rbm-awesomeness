@@ -24,7 +24,7 @@ def loadBeerChooser(path='data'):
         (user,beerid,rating)=line.split(',')
         userPrefs.setdefault(user,{})
         userPrefs[user][beers[beerid]]=float(rating)
-    return userPrefs, beers
+    return userPrefs
 
 def transformPrefs(userPrefs):
     itemPrefs={}
@@ -36,15 +36,19 @@ def transformPrefs(userPrefs):
     return itemPrefs
 
 def createNDArray():
-    userPrefs, beerNames = loadBeerChooser()
+    userPrefs = loadBeerChooser()
     itemPrefs = transformPrefs(userPrefs)
     beersArray = sorted(itemPrefs.iteritems(), key=operator.itemgetter(0))
     usersArray = sorted(userPrefs.iteritems(), key=operator.itemgetter(0))
-    beerNamesArray = sorted(beerNames.iteritems(), key=operator.itemgetter(0))
     
     # 2 dimensional array of zeros, each beer gets 5 zeros in the vector, one for each rating level (1...5)
     trainingArray = np.zeros((len(usersArray), len(beersArray) * 5))
     bitMaskArray = np.zeros((len(usersArray), len(beersArray) * 5))
+
+    filteredBeerNamesArray = []
+    for k in range(0,len(beersArray)):
+        # add beer name to names array in correct order
+        filteredBeerNamesArray.append(beersArray[k][0])
 
      # Copy all of the ratings to the appropriate place in the vector
     for j in range(0,len(usersArray)):
@@ -56,4 +60,15 @@ def createNDArray():
                 for r in range(0,5):
                     bitMaskArray[j][(k * 5) + r] = 1
 
-    return trainingArray, bitMaskArray, beerNamesArray
+    return trainingArray, bitMaskArray, filteredBeerNamesArray
+
+
+
+
+
+
+
+
+
+
+
