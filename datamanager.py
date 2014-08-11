@@ -28,7 +28,7 @@ def loadBeerChooser(path='data'):
 
 def transformPrefs(userPrefs):
     itemPrefs={}
-    for beer in userPrefs:
+    for person in userPrefs:
         for beer in userPrefs[person]:
             itemPrefs.setdefault(beer,{})
             # Flip person and beer
@@ -56,7 +56,7 @@ def createNDArray():
                 for r in range(0,5):
                     bitMaskArray[j][(k * 5) + r] = 1
 
-    return trainingArray, bitMaskArray, beerNamesArray
+    return trainingArray, bitMaskArray, ⁄⁄€‹‹beerNamesArray
 
 
 
