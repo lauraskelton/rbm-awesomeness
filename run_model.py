@@ -1,13 +1,17 @@
 import datamanager as dm
 import autoencoder as ae
 import numpy as np
+import theano
+import theano.tensor as T
+import time
+
 
 N_HIDDEN = 50
 LEARNING_RATE = 0.05
 
 data, mask, names = dm.createNDArray()
 
-dm.shuffle_all(data, mask, names)
+dm.shuffle_all(data, mask)
 
 sixty = int(len(data) * 0.6)
 eighty = int(len(data) * 0.8)
@@ -20,7 +24,7 @@ valid = data[sixty:eighty]
 test = data[eighty:]
 
 shared_train = theano.shared(train, "train_set")
-shared_masks = theano.shared(train_mask, "train_mask")
+shared_mask = theano.shared(train_mask, "train_mask")
 
 nn = ae.CFAutoencoder(shared_train, shared_mask, data.shape[1], N_HIDDEN, LEARNING_RATE)
 
@@ -52,3 +56,13 @@ def run_epochs(nn, n_epochs, batch_size, n_train):
 
     elapsed = (time.time() - start)
     print "ELAPSED TIME: {}".format(elapsed)
+
+run_epochs(nn, 1000, 256, sixty)
+
+def neuron_idx_to_beer_name(names, n):
+	return names[n/5]
+
+def make_readable(weights):
+	return {neuron_idx_to_beer_name(names, i) : weights[i:i+5] for i in xrange(0, len(weights), 5)}
+
+dicts = [make_readable(row) for row in nn.W.get_value().T]
