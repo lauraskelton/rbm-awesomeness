@@ -57,11 +57,3 @@ def createNDArray():
                     bitMaskArray[j][(k * 5) + r] = 1
 
     return trainingArray, bitMaskArray, beerNamesArray
-
-
-
-
-
-
-
-
