@@ -1,0 +1,1907 @@
+Coors Killian's Irish Red	0.336065961174
+Samuel Adams Summer Ale	0.330597751398
+Plzensky Prazdroj Pilsner Urquell	0.32911790691
+Guinness Smithwick's	0.328755973224
+Guinness Harp Lager	0.326507647224
+Stella Artois Stella Artois	0.325326311589
+Anheuser-Busch InBev Bass Pale Ale	0.322672293314
+Anheuser-Busch InBev Boddingtons Pub Ale	0.322047929623
+Grupo Modelo Pacifico	0.32194894762
+Desnoes and Geddes Red Stripe	0.321371200442
+Grupo Modelo Negra Modelo	0.320787345142
+Spoetzl Shiner Bock	0.320600232275
+Grolsch Grolsch Premium Lager	0.31831529087
+FEMSA Dos Equis Amber	0.317782084043
+Magic Hat #9	0.317611772441
+Grupo Modelo Corona Extra	0.314122821441
+Coors Blue Moon	0.312993425412
+New Belgium Fat Tire	0.312734463447
+Amstel Amstel Light	0.312531576934
+Guinness Guinness Extra Stout	0.311941028918
+Yuengling Traditional Lager	0.311270259104
+Heineken Newcastle Brown Ale	0.310809890913
+Rogue Dead Guy	0.309867247028
+Heineken Heineken	0.308537657408
+Sapporo Sapporo Premium Beer	0.306662694664
+Lagunitas IPA	0.306566756903
+Dogfish Head 60 Minute IPA	0.306415481733
+Anchor Anchor Steam	0.306154417752
+Abita Purple Haze	0.305565518036
+Stone Pale Ale	0.30554971076
+Huyghe Delirium Tremens	0.30457923606
+Moortgat Duvel	0.303956513867
+Peroni Peroni	0.302980753913
+Morland Old Speckled Hen	0.302383082089
+FEMSA Dos Equis Special Lager	0.302033075314
+Stone Ruination IPA	0.301264659204
+Beck's Beck's	0.300210690752
+Anheuser-Busch InBev Hoegaarden	0.300051648055
+Youngs Double Chocolate Stout	0.299830205375
+Victory HopDevil	0.299128797048
+Huyghe Delirium Nocturnum	0.298367138356
+Sierra Nevada Celebration	0.298163092308
+Dogfish Head 90 Minute IPA	0.29714174146
+Unibroue La Fin Du Monde	0.295816519594
+Dogfish Head 120 Minute IPA	0.295552104805
+Michelob Shock Top	0.295509097811
+Anheuser-Busch InBev Leffe Blonde	0.294840528806
+Anheuser-Busch Rolling Rock	0.294534216218
+Samuel Adams Winter Lager	0.294022782738
+Spaten-Franziskaner Oktoberfest Ur-Märzen	0.293852443715
+Chimay Chimay Première (Red)	0.293795537278
+Molson Molson Canadian	0.29345391594
+Samuel Adams Cherry Wheat	0.292873401873
+Yuengling Black and Tan	0.29283001698
+Samuel Adams Noble Pils	0.292745011924
+Samuel Smith Oatmeal Stout	0.292209396684
+Abita Turbodog	0.292075128965
+Tsingtao Tsingtao	0.291666864266
+Stone IPA	0.291123581474
+Stone Double Bastard	0.29100482972
+Dogfish Head Indian Brown Ale	0.290797178067
+Harpoon I.P.A.	0.290329951305
+Anchor Anchor Liberty Ale	0.290093202534
+FEMSA Tecate	0.289986158159
+Stone Smoked Porter	0.28952504184
+Genesee Dundee Honey Brown	0.28903534948
+Yuengling Premium Beer	0.288895528924
+Stone Oaked Arrogant Bastard	0.288402129919
+Dogfish Head Aprihop	0.287716525596
+Labatt Labatt Blue	0.287654854381
+Goose Island Honker's Ale	0.287615509266
+Ommegang Hennepin	0.287540948756
+Guinness Guinness Draught	0.286836394943
+Spaten-Franziskaner Hefe-Weissbier	0.286622259578
+Samuel Adams Sam Adams Light	0.28626334187
+Stone Arrogant Bastard	0.286161446276
+Bell's Two Hearted Ale	0.285856622942
+Samuel Adams Octoberfest	0.285809444982
+Oskar Blues Old Chub	0.285596297697
+Samuel Adams Boston Ale	0.285439196084
+Sierra Nevada Bigfoot	0.284076570923
+Sierra Nevada Pale Ale	0.28300599881
+Green Flash West Coast IPA	0.282495000235
+Chimay Chimay Tripel (White)	0.282124961767
+Ommegang Abbey Ale	0.281688252115
+Leinenkugel's Summer Shandy	0.281646105489
+Dogfish Head Palo Santo Marron	0.281644602615
+Lindemans Framboise	0.281305413166
+Paulaner Hefe-Weizen	0.281190524056
+Widmer Brothers Hefeweizen	0.281023699208
+Dogfish Head Raison D'Etre	0.28094840751
+Samuel Adams Boston Lager	0.280829978839
+Leinenkugel's Sunset Wheat	0.280811132276
+Asahi Breweries Asahi Super Dry	0.280692375052
+Dogfish Head World Wide Stout	0.280045423804
+Victory Hop Wallop	0.279726186241
+Allagash White	0.27943072155
+Miller MGD	0.279125474318
+Redhook Long Hammer IPA	0.278870749698
+Unibroue Maudite	0.278752227948
+Spaten-Franziskaner Hefe-Weissbier Dunkel	0.278635643076
+Paulaner Salvator	0.278411226347
+Oskar Blues Dale's Pale Ale	0.278405650358
+New Belgium Ranger IPA	0.277997865261
+Aying Celebrator Doppelbock	0.277113028128
+Coors Blue Moon Harvest Moon	0.277018181342
+Dogfish Head Chicory Stout	0.276861975116
+Bear Republic Racer 5	0.276763013529
+Dogfish Head Punkin Ale	0.276430415099
+Sierra Nevada Tumbler	0.276144071531
+New Belgium 1554	0.27559483331
+Redhook ESB	0.275526002685
+Stone Sublimely Self-Righteous	0.275437570168
+Sierra Nevada Torpedo Extra IPA	0.275263130383
+Samuel Smith Nut Brown Ale	0.275169314764
+Dogfish Head Midas Touch	0.275011603195
+Saranac Black and Tan	0.274707575076
+Pabst Pabst Blue Ribbon	0.27412716727
+Grupo Modelo Corona Light	0.273765588069
+Bell's Oberon	0.273733321008
+North Coast Old Rasputin	0.273535838593
+Samuel Smith Taddy Porter	0.272251299909
+Saranac India Pale Ale	0.271707042632
+Goose Island 312	0.27145174567
+Ommegang Three Philosophers	0.271401131
+Anheuser-Busch LandShark Lager	0.271255610095
+Stone Imperial Russian Stout	0.270881623312
+Fuller's ESB	0.270649391536
+Southern Tier UnEarthly	0.27064547329
+Brooklyn Brooklyn Lager	0.269657768198
+Rogue Shakespeare Stout	0.269283034671
+Oskar Blues Ten Fidy	0.269277656794
+Dogfish Head Burton Baton	0.269252286885
+Spaten-Franziskaner Optimator	0.269172285762
+Chimay Chimay Grande Reserve (Blue)	0.268446187405
+Fuller's London Porter	0.268433861351
+Anderson Valley Boont Amber Ale	0.267857333948
+Dupont Saison Dupont	0.267548894216
+Michelob Amber Bock	0.267531483226
+Great Divide Espresso Oak Aged Yeti	0.267356985313
+Dogfish Head Festina Peche	0.267141238857
+Coors Coors Light	0.266931015547
+Stone Levitation	0.26638994334
+Victory Storm King	0.26597854617
+Lagunitas Hop Stoopid	0.265580714853
+Huyghe Delirium Noel	0.265137738368
+Rogue Chocolate Stout	0.264396815249
+Bear Republic Hop Rod Rye	0.264287436145
+Unibroue Trois Pistoles	0.263973466268
+Samuel Adams Smoked Lager	0.263295018481
+Flying Dog Snake Dog	0.263287186575
+Lagunitas Censored (Kronik)	0.262762374123
+Anheuser-Busch InBev Leffe Brune	0.262753111227
+Left Hand Milk Stout	0.262175508949
+Bear Republic Red Rocket Ale	0.262047311806
+Orval Orval	0.261714005634
+Brooklyn East India Pale Ale	0.261620903751
+Anheuser-Busch Budweiser	0.261416437089
+Molson Molson Golden	0.260922529694
+Bell's Amber Ale	0.260717422545
+Coors Blue Moon Honey Moon	0.260088255716
+Lagunitas A Little Sumpin' Sumpin' Ale	0.259977775729
+Verhaeghe Duchesse de Bourgogne	0.259939884379
+Anchor Anchor Porter	0.259257985997
+Brooklyn Black Chocolate Stout	0.259162508224
+Van Steenberge Piraat	0.258635610707
+Samuel Smith Imperial Stout	0.258293911546
+Victory Golden Monkey	0.257999397506
+Heineken Birra Moretti	0.257825390646
+Allagash Curieux	0.257758391819
+Samuel Adams Coastal Wheat	0.257585413108
+Schneider Aventinus Weizen-Eisbock	0.25692264892
+Harpoon UFO Hefeweizen	0.25684717486
+North Coast Brother Thelonious	0.256585775575
+Samuel Adams Blackberry Witbier	0.256474355085
+Flying Dog Tire Bite	0.256093230468
+Rogue Double Dead Guy	0.256053979359
+Unibroue Blanche De Chambly	0.255453629117
+Murphy Murphy's Irish Stout	0.255394225259
+Victory Old Horizontal	0.254732274276
+Avery Maharaja	0.254569861315
+Rogue Hazelnut Brown Nectar	0.254323382211
+Oskar Blues Gordon	0.25390765277
+Miller Miller High Life	0.253840363316
+FEMSA Bohemia	0.253811941723
+FEMSA Sol	0.253483088575
+Green Flash Imperial IPA	0.253250638126
+St. Pauli St. Pauli Girl	0.252456339315
+Founders Red's Rye P.A.	0.252454638365
+Van Steenberge Gulden Draak	0.252430555517
+Ommegang Witte	0.252282521058
+Troegs Dreamweaver Wheat	0.252146523343
+Wychwood Hobgoblin	0.251854053733
+Mendocino Red Tail Ale	0.25183029738
+Smuttynose IPA	0.251721991872
+Speakeasy Big Daddy IPA	0.251616584008
+Troegs Troegenator	0.250428036777
+Lagunitas Wilco Tango Foxtrot	0.250314820939
+Lost Coast Downtown Brown	0.249997878273
+Victory Prima Pils	0.249675274634
+Weihenstephaner Hefeweissbier	0.249352730742
+Bitburger Bitburger Premium Pils	0.248885805349
+Miller Miller Lite	0.248847214484
+Budvar Czechvar (Budvar)	0.248692513128
+Troegs HopBack Amber	0.248625036541
+North Coast Red Seal Ale	0.248508860123
+Stone Cali-Belgique	0.248040078575
+Coors Coors	0.248001277577
+Samuel Adams Pale Ale	0.247801675972
+Founders Breakfast Stout	0.247785225483
+Troegs Nugget Nectar	0.247517873681
+North Coast Pranqster	0.246969863982
+Yuengling Porter	0.246686016146
+Boon Rawd Singha	0.246622037987
+Leinenkugel's Honey Weisse	0.246298953891
+Founders Centennial IPA	0.246228918778
+Westmalle Dubbel	0.246110761212
+Sierra Nevada Summerfest	0.245687007283
+Samuel Adams Cream Stout	0.245424179718
+Ommegang Rare Vos	0.245176991122
+Wells Banana Bread Beer	0.245128142195
+Allagash Dubbel Reserve	0.24450256009
+Southern Tier Creme Brulee Stout	0.244395659571
+Yuengling Light Lager	0.244058420912
+Great Lakes Edmund Fitzgerald	0.243926286544
+Theakston Old Peculier	0.243685754367
+Spoetzl Shiner Blonde	0.243606554888
+Big Sky Moose Drool	0.243573604642
+Dogfish Head Sah'tea	0.24325424204
+Alaskan Alaskan Amber	0.242999416203
+FEMSA Xingu Black Beer	0.242569234434
+Sierra Nevada Harvest	0.241851033971
+Sierra Nevada Porter	0.241789475198
+Anheuser-Busch InBev Bud Light	0.241583532446
+Westmalle Tripel	0.241473220141
+Great Divide Titan IPA	0.24108367857
+Coors Blue Moon Full Moon	0.240968982517
+Boulder Beer Hazed and Infused	0.24090981825
+Anheuser-Busch InBev Bud Light Lime	0.240785300526
+Matt Brewing Mississippi Mud Black & Tan	0.240722991858
+Flying Dog Raging Bitch Belgian IPA	0.240674546748
+Rogue Chipotle Ale	0.239756651973
+Kirin Kirin Ichiban	0.23952222669
+Weyerbacher Double Simcoe IPA	0.239335842575
+Stone Old Guardian	0.239328976031
+Unibroue Don de Dieu	0.23905109562
+Bell's Hopslam	0.238946284437
+Victory Baltic Thunder	0.238941351983
+Anheuser-Busch Budweiser American Ale	0.23863304394
+Aying Oktober Fest-Märzen	0.23846573916
+Lagunitas Brown Shugga'	0.238334585072
+Southern Tier Pumking	0.238247439857
+Lagunitas Cappuccino Stout	0.238070650354
+Brooklyn Local 1	0.238024491311
+Lagunitas Olde Gnarlywine	0.238002131695
+Abita Jockamo IPA	0.237608160502
+Samuel Adams White Ale	0.237279073494
+Unibroue Éphémère Apple	0.237083709325
+Lagunitas The Hairy Eyeball Ale	0.236788544946
+Three Floyds Gumballhead	0.236691806598
+Brooklyn Summer Ale	0.236372909015
+Samuel Adams Old Fezziwig Ale	0.236142407768
+Troegs JavaHead Stout	0.235703832764
+Samuel Adams Irish Red	0.235336898886
+Anheuser-Busch Budweiser Select	0.235230243605
+New Glarus Spotted Cow	0.235200186069
+Great Divide Oak-Aged Yeti	0.234652038076
+Lost Abbey The Angel's Share (Bourbon Barrel-Aged)	0.234545676839
+Fuller's London Pride	0.234494162183
+Sierra Nevada Southern Hemisphere Harvest	0.234406650569
+Paulaner Oktoberfest Marzen	0.233741325618
+Carlsberg Carlsberg Beer	0.233615046473
+Weihenstephaner Hefeweissbier Dunkel	0.233562446737
+Green Flash Hop Head Red	0.233000417426
+Matt Brewing Pete's Wicked Strawberry Blonde	0.232637041652
+Bell's Expedition Stout	0.232595895615
+New Belgium Skinny Dip	0.232318734777
+Great Divide Yeti Imperial Stout	0.232145852314
+Sierra Nevada Stout	0.232087132377
+Dixie Blackened Voodoo	0.231995785306
+Matt Brewing Pete's Wicked Ale	0.23198299761
+Oskar Blues Mamas Little Yella Pils	0.231818609428
+Founders Dirty Bastard	0.231684502834
+Avery White Rascal	0.23144268831
+Saranac Black Forest	0.231369516419
+Troegs Pale Ale	0.231313045237
+Great Lakes Dortmunder Gold	0.231305042213
+Rogue Mocha Porter	0.231266443882
+Stone Saison Du BUFF	0.231210506509
+St. Bernardus Abt 12	0.230940070894
+Dogfish Head Olde School Barleywine	0.230558829151
+Saranac Pale Ale	0.230406473974
+21st Amendment Hell or High Watermelon	0.230257427806
+Boulder Beer Mojo IPA	0.230213189684
+Orkney SkullSplitter	0.229979287241
+Labatt Labatt Blue Light	0.229867087439
+Weyerbacher Hops Infusion	0.22976499819
+Founders Double Trouble	0.229725794452
+Speakeasy Prohibition Ale	0.229680221331
+Kona Longboard Lager	0.228764129106
+Sweetwater 420 Extra Pale Ale	0.228647911196
+Breckenridge Vanilla Porter	0.228437473412
+Flying Dog Doggie Style	0.228090688228
+Lagunitas Maximus	0.227939090078
+Foster's Foster's Premium Ale	0.227903966242
+Bosteels Tripel Karmeliet	0.22768217432
+Lowenbrau Munich Löwenbräu Original	0.227469174297
+Avery Ellie's Brown	0.227095985347
+21st Amendment Brew Free or Die IPA	0.22707283238
+Van Steenberge Monk's Café	0.227023673753
+Anderson Valley Hop Ottin IPA	0.227000734841
+Samuel Adams Scotch Ale	0.226980989866
+Abita Amber	0.226887361966
+Smuttynose Old Brown Dog	0.226752781445
+Rochefort Trappistes Rochefort 8	0.226347018381
+Achouffe La Chouffe	0.226140672043
+Schneider Weisse	0.226052797651
+Miller Mickey's Fine Malt Liquor	0.22516590571
+Magic Hat Wacko	0.225048123364
+Magic Hat Circus Boy	0.225021366478
+Avery The Reverend	0.224939500101
+Kona Fire Rock Pale Ale	0.224853393462
+Michelob Ultra	0.224454069917
+Lindemans Pêche	0.224329574799
+Flying Dog Gonzo	0.224251080787
+Samuel Adams Cranberry Lambic	0.223947173664
+Samuel Adams Chocolate Bock	0.223823973738
+Shipyard IPA	0.223591838817
+Rodenbach Grand Cru	0.223335407196
+Southern Tier Oat	0.223283571146
+Leinenkugel's Berry Weisse	0.223212207844
+Samuel Adams Holiday Porter	0.223167654776
+Samuel Smith India Ale	0.222241751951
+Founders Porter	0.222067377389
+Bear Republic Big Bear Black Stout	0.221698728024
+Russian River Blind Pig IPA	0.221395509773
+Blue Point Brewing Toasted Lager	0.221336882407
+Unibroue Chambly Noire	0.221295261284
+St. Bernardus Prior 8	0.22083050584
+Lost Coast Great White	0.220807720089
+Schneider Aventinus	0.220590345159
+Sierra Nevada Glissade	0.22040328611
+Grupo Modelo Modelo Especial	0.219996480071
+Samuel Adams Honey Porter	0.219916384539
+Sierra Nevada Kellerweis	0.219876864272
+New Belgium 2° Below Winter Ale	0.219812889959
+Green Flash Le Freak	0.219779907764
+Russian River Supplication	0.21943671321
+Goose Island Matilda	0.219416876105
+Hair of the Dog Fred	0.21934701325
+Lagunitas Pils	0.219180590232
+Brooklyn Brown Ale	0.218815466132
+Deschutes Black Butte Porter	0.218384866407
+Lagunitas New Dogtown Pale Ale	0.218342549236
+Bear Republic Racer X	0.218079137784
+Flying Dog In Heat Wheat	0.217886182902
+Southern Tier IPA	0.217789506956
+Aying Brau-Weisse	0.21735155865
+Russian River Pliny the Elder	0.216945167844
+Victory Wild Devil Ale	0.216571392722
+Maui CoCoNut Porter	0.216476678119
+Widmer Brothers Drifter Pale Ale	0.216281774558
+Weihenstephaner Original Premium	0.216203771055
+Hair of the Dog Adam	0.215937077249
+Leinenkugel's Oktoberfest	0.215932751538
+Heineken Heineken Premium Light	0.215611381158
+Hitachino White Ale	0.215500884519
+Allagash Tripel Reserve	0.215131258513
+Dogfish Head Bitches Brew	0.214793008606
+Rogue Santa's Private Reserve	0.214699135884
+Rochefort Trappistes Rochefort 10	0.2146269549
+Firestone Walker Union Jack IPA	0.214586785211
+Weyerbacher Merry Monks' Ale	0.214568545359
+Dogfish Head Theobroma	0.214291673241
+Achouffe Chouffe Houblon Dobbelen IPA Tripel	0.214056401622
+Flying Dog Old Scratch	0.213858073761
+Goose Island India Pale Ale	0.213620354396
+Great Divide Hercules Double IPA	0.213557513334
+Heineken Birra Moretti La Rossa	0.213492056933
+Brasserie Lefebvre Blanche de Bruxelles	0.213430618899
+Deschutes Inversion IPA	0.213121439874
+Breckenridge Avalanche	0.212753091274
+Abita Andygator	0.212713605056
+Mendocino White Hawk IPA	0.212656705285
+Lindemans Kriek	0.212537193169
+Samuel Adams Black Lager	0.212365975175
+Belhaven Scottish Ale	0.212328242987
+Deschutes Mirror Pond	0.212049445203
+Port / Pizza Port Old Viscosity	0.212030468597
+Avery India Pale Ale	0.211979349135
+Breckenridge 471 Small Batch IPA	0.211845316633
+North Coast Old Stock Ale	0.211630271336
+New Belgium Mothership Wit	0.211263160631
+Sea Dog Blue Paw	0.211016355214
+Smuttynose Robust Porter	0.210931099474
+Goose Island Bourbon County Stout	0.210773928568
+Deschutes Hop Henge Experimental IPA	0.210737377298
+Founders Kentucky Breakfast Stout	0.210730851841
+Ithaca Flower Power	0.210406734914
+Boulder Beer Mojo Risin	0.210296034798
+He'Brew (Shmaltz) Bittersweet Lenny's R.I.P.A.	0.210091737567
+Allagash Black	0.210024188384
+Great Lakes Commodore Perry	0.209920172507
+Lagunitas Little Sumpin' Wild	0.209847220733
+Leinenkugel's Fireside Nut Brown	0.209820690014
+Clipper City Heavy Seas Loose Cannon (Hop3)	0.20964236801
+Great Lakes Burning River	0.209157544775
+Bosteels Pauwel Kwak	0.20898753716
+Ommegang Ommegeddon	0.208561087913
+Lagunitas Lucky 13	0.208475709452
+Southern Tier Jah-va	0.208294873003
+New Holland Dragon's Milk	0.208037231939
+Firestone Walker Double Barrel Ale	0.207878843901
+Spoetzl Shiner Hefeweizen	0.207675695123
+St. Bernardus Pater 6	0.207453355839
+Brooklyn Pennant Ale 55	0.207184519048
+Anderson Valley Barney Flats Oatmeal Stout	0.207097174519
+Lindemans Pomme	0.206929536882
+Spaten-Franziskaner Premium	0.206886880309
+Sierra Nevada Anniversary Ale	0.206842279718
+Samuel Adams Imperial White	0.206706468124
+Bell's Best Brown Ale	0.206539833376
+St. Bernardus Tripel	0.206461175591
+Avery The Czar	0.206324599501
+Stone 14th Anniversary Emperial IPA	0.205877330035
+Pabst Old Style	0.205865238002
+Samuel Adams Hefeweizen	0.205788845737
+Aying Ur-Weisse	0.205607943291
+Avery Collaboration Not Litigation	0.205586702048
+Harpoon Leviathan Imperial IPA	0.205565613219
+Belhaven Wee Heavy	0.205282901973
+Coors Blue Moon Pale Moon	0.205234650003
+Smuttynose Shoals Pale Ale	0.205058258196
+BrewDog Punk IPA	0.205032733019
+Southern Tier Mokah	0.20427735839
+Michelob Lager	0.203541405565
+Spoetzl Shiner Bohemian Black Lager	0.20348403686
+Sierra Nevada Estate Brewers Harvest Ale	0.203432688221
+Dogfish Head Raison D'extra	0.203384332761
+Deschutes Jubelale	0.203207314222
+Weihenstephaner Kristallweissbier	0.203173945619
+Founders Curmudgeon Old Ale	0.202973998255
+Saranac Adirondack Lager	0.202928927881
+Samuel Adams Latitude 48	0.20277717595
+Magic Hat Hocus Pocus	0.202596725797
+Deschutes Cinder Cone Red Ale	0.202596440232
+He'Brew (Shmaltz) Genesis Ale	0.20246967769
+Two Brothers Cane and Ebel	0.202033562755
+Shipyard Pumpkinhead	0.201968157387
+Ballast Point Sculpin IPA	0.20158225798
+Cantillon Classic Gueuze	0.201089341459
+Deschutes Hop Trip	0.200845931347
+Schloss Eggenberg Samichlaus Bier	0.200814996863
+Rogue St. Rogue Red Ale	0.200519500369
+Three Floyds Dark Lord	0.20050878293
+Stoudts American Pale Ale	0.200138125368
+Port / Pizza Port Wipeout I.P.A.	0.200020659389
+Troegs Mad Elf	0.199719473754
+Samuel Smith Old Brewery Pale Ale	0.199593994258
+Mikkeller Beer Geek Breakfast	0.199230734618
+North Coast Scrimshaw Pilsner	0.199028116964
+Long Trail Long Trail IPA	0.198916759136
+Rogue Juniper Pale Ale	0.198781166964
+Full Sail Amber	0.198510274605
+Genesee Genesee Cream Ale	0.198211100685
+Russian River Consecration	0.198171405684
+Bell's Porter	0.198102851418
+Three Floyds Alpha King	0.197318449958
+Moortgat Maredsous 10	0.196451369955
+Bell's Kalamazoo Stout	0.196451287027
+Rogue Yellow Snow IPA	0.196341214181
+Leinenkugel's Classic Amber	0.19631550926
+Corsendonk Abbey Brown Ale	0.196110701039
+Flying Dog Double Dog	0.196003428082
+Achouffe McChouffe	0.195888051933
+Dogfish Head Immort Ale	0.195735670944
+Het Anker Gouden Carolus Triple	0.195691962149
+Jolly Pumpkin La Roja	0.195649801266
+Erie Brewing Railbender Ale	0.19561965089
+Bell's Winter White	0.195601496884
+Deschutes Red Chair NWPA	0.195471139396
+Samuel Adams Double Bock	0.195458673807
+Victory Whirlwind	0.195455631143
+Rogue XS Imperial IPA	0.195092804456
+Paulaner Original Munich Lager	0.194716597342
+Lost Abbey Avant Garde	0.194645751
+Deschutes Obsidian Stout	0.194474774166
+Carlsberg Carlsberg Elephant	0.194358756647
+Maui Big Swell IPA	0.194170185618
+Anheuser-Busch Wild Blue Blueberry Lager	0.194134289577
+Victory V Twelve	0.193727247669
+New Belgium La Folie	0.193648651905
+Stoudts Scarlet Lady Ale	0.193301322156
+Three Floyds Robert the Bruce	0.193298898211
+Mendocino Black Hawk Stout	0.193136995565
+Bear Republic XP Pale Ale	0.19313399587
+Allagash Grand Cru	0.192970537559
+Samuel Adams Imperial Stout	0.192909245263
+Lost Abbey Red Barn	0.192826589048
+Lost Coast 8 Ball Stout	0.192730300091
+Samuel Adams Imperial Pilsner	0.192657248507
+Moylans Hopsickle	0.192614876875
+Anheuser-Busch Natural Light	0.192465905842
+New Belgium Abbey Ale	0.192451783648
+Hoppin' Frog B.O.R.I.S. The Crusher	0.192266599457
+Green Flash Double Stout	0.192226790836
+Southern Tier Phin & Matt's Extraordinary Ale	0.192152565955
+Lost Abbey Judgment Day	0.191869934925
+Flying Dog Road Dog	0.191784707071
+Southern Tier Oak-Aged Un'earthly	0.191738354387
+Warsteiner Premium Verum	0.191428213017
+Lindemans Gueuze	0.191427865948
+Warsteiner Premium Dunkel	0.191223207931
+The Bruery Autumn Maple	0.191208415452
+Great Lakes Eliot Ness	0.190202155749
+Hacker-Pschorr Oktoberfest-Märzen	0.190190104044
+Lost Coast Indica India Pale Ale	0.189950350589
+Samuel Smith Winter Welcome	0.189812603477
+Butternuts Porkslap Pale Ale	0.189782761561
+Mendocino Eye of the Hawk	0.189567731796
+Magic Hat Lucky Kat	0.189494547032
+Abita Abbey Ale	0.189253505243
+Port / Pizza Port Hop-15	0.189023085583
+Kona Pipeline Porter	0.188957629137
+Urthel Hop-it	0.188892802753
+Pyramid Haywire Hefeweizen	0.1888415163
+Unibroue La Terrible	0.188701210192
+Boulevard Double Wide IPA	0.188672909407
+Anchor Christmas Ale 2009	0.188036515853
+Buffalo Bill's Pumpkin Ale	0.187851412795
+Konigshoeven La Trappe Quadrupel	0.187393869868
+Bell's Special Double Cream Stout	0.187138647383
+Avery DuganA IPA	0.187016253273
+Terrapin Rye Pale Ale	0.186825802463
+Hitachino Red Rice Ale	0.186561965471
+Molson Molson Ice	0.18630214502
+Pabst Pabst Blue Ribbon Light	0.186212735053
+Full Sail Pale Ale	0.186041044478
+Rogue American Amber	0.186026736986
+Pyramid Audacious Apricot Ale	0.185530856388
+Fantome Saison	0.185328653282
+Pabst Lone Star	0.184956458637
+Karl Strauss Red Trolley Ale	0.184907453885
+Molson Molson XXX	0.184728160704
+Great Divide Chocolate Oak-Aged Yeti Imperial Stout	0.184542794345
+Ska Brewing Modus Hoperandi	0.184528092609
+Samuel Smith Organic Lager	0.184263067806
+Abita Strawberry Harvest Lager	0.184114088293
+Hitachino Espresso Stout	0.183975719114
+Lost Abbey Devotion	0.183943039296
+Rogue Brutal Bitter	0.183739125165
+Lagunitas Undercover Investigation Shut-Down	0.183640148189
+AleSmith AleSmith IPA	0.18292301665
+Miller Miller High Life Light	0.182858165659
+Lagunitas A Little Sumpin' Extra! Ale	0.1828420117
+Lindemans Gueuze Cuvée René	0.182727674877
+Rochefort Trappistes 6	0.182546176627
+Harpoon Summer Beer	0.182540960378
+Ommegang Chocolate Indulgence	0.18252053914
+Flying Dog Horn Dog	0.182250604373
+Dogfish Head Shelter Pale Ale	0.182008722648
+Moortgat Maredsous 8	0.181850255021
+Michelob Light	0.181738613739
+Great Lakes Lake Erie Monster	0.181444001634
+Avery Hog Heaven	0.181367458641
+Goose Island Sofie	0.181258425024
+Stoudts Pils	0.180987823551
+North Coast Acme California IPA	0.180913503589
+Speakeasy Double Daddy	0.18084585933
+Founders Devil Dancer Triple IPA	0.180396127428
+Lost Abbey Serpent's Stout	0.180179534295
+Asia Pacific Tiger Beer	0.180006998108
+Lost Abbey Gift Of The Magi	0.179993273239
+Coors Blue Moon Rising Moon	0.179698294073
+BrewDog Tokyo	0.179470819179
+Kona Wailua	0.179460148996
+Corsendonk Corsendonk Christmas Ale	0.179427217235
+Weyerbacher Imperial Pumpkin Ale	0.17935329998
+Harviestoun Old Engine Oil	0.178984811321
+Ballast Point Big Eye IPA	0.178852138108
+Rogue Morimoto Soba Ale	0.178770744975
+Schlenkerla Rauchbier Marzen	0.178582226243
+Rogue John John Dead Guy Ale	0.178111353835
+Southern Tier 2XIPA	0.177616884261
+Harpoon UFO White	0.177602023628
+Dupont Foret	0.177402283117
+Two Brothers Heavy Handed IPA	0.176986774742
+New Glarus Fat Squirrel Ale	0.176904497083
+Shipyard Ringwood Old Thumper	0.176758383762
+Nacional Dominicana Presidente	0.175954735863
+Bell's Pale Ale	0.175903777974
+Konigshoeven La Trappe Dubbel	0.175822604609
+Yards General Washington's Tavern Porter	0.175661843412
+Beamish & Crawford Beamish Irish Stout	0.175533051437
+Long Trail Long Trail Ale	0.175281174272
+North Coast Acme California Pale Ale	0.175251913693
+Port / Pizza Port 3rd Anniversary	0.175237931759
+St. Bernardus Wit	0.175110744364
+Schlenkerla Rauchbier Weizen	0.174495659935
+Hacker-Pschorr Weisse Dark	0.174487716294
+Deschutes Mirror Mirror	0.174396556857
+Three Floyds Dreadnaught	0.174140187304
+Green Flash Barleywine	0.174134941903
+Lost Abbey The Angel's Share (Brandy Barrel-Aged)	0.174091997089
+Moylans Moylander	0.173837613719
+Jolly Pumpkin Oro de Calabaza	0.173661451955
+Pyramid Snow Cap	0.173609970548
+New Belgium Hoptober	0.173346277938
+Avery Mephistopheles	0.17334110729
+Two Brothers Domain DuPage	0.173321455745
+Russian River Redemption	0.173135551311
+Anheuser-Busch InBev Redbridge	0.173070313055
+Dogfish Head Fort	0.172991507813
+Coronado Islander IPA	0.172711781652
+Genesee Dundee India Pale Ale	0.172602621659
+Weyerbacher Blithering Idiot	0.172505817594
+Leinenkugel's Red Lager	0.172478647237
+Three Floyds Pride and Joy	0.17203183062
+Lost Abbey Lost And Found	0.172029015246
+Coors Keystone Light	0.17199652548
+BridgePort BridgePort IPA	0.171985523601
+Smuttynose Pumpkin Ale	0.17185676537
+Goose Island Summertime	0.171609720059
+Victory Festbier	0.171402003137
+Hacker-Pschorr Weisse	0.171219022685
+Anderson Valley Winter Solstice	0.171073077922
+Ballast Point Victory at Sea	0.170818250202
+Harpoon Winter Warmer	0.170699213375
+New Belgium Trippel	0.17059697543
+Victory Yakima Glory	0.170521812481
+Ska Brewing Decadent	0.170422416152
+Southern Tier Iniquity	0.170333569364
+North Coast Old No. 38 Stout	0.170220915158
+Bockor Cuvee des Jacobins Rouge	0.169451863151
+Paulaner Premium Pils	0.169309519718
+Left Hand Sawtooth	0.169162499268
+Beck's Beck's Oktoberfest	0.168780696193
+Michelob Ultra Amber	0.168755781111
+Russian River Damnation	0.168577773206
+Southern Tier Uber Sun	0.168348271813
+Two Brothers The Bitter End	0.167937406892
+Goose Island Christmas Ale	0.167636211101
+Rogue XS Old Crustacean	0.167327791178
+Corsendonk Abbey Pale Ale	0.167319403684
+Affligem Affligem Tripel	0.16692628589
+Flying Dog Dogtoberfest	0.166482123682
+Moosehead Lager	0.166412090141
+Belhaven Twisted Thistle IPA	0.166250775921
+Firestone Walker Red Nectar	0.165926014264
+Great Lakes Christmas Ale	0.165908650434
+Beck's Beck's Dark	0.165590142174
+Schlitz Schlitz	0.165465451817
+Coors Blue Moon Grand Cru	0.165204974689
+AleSmith AleSmith X	0.165127585369
+Black Sheep Monty Python's Holy Grail	0.165120048248
+Traquair House Ale	0.164766616155
+New Belgium Mighty Arrow	0.164733612782
+Rogue Morimoto Imperial Pilsner	0.164666175668
+Smuttynose Big A IPA	0.164372367766
+AleSmith Speedway Stout	0.164326917007
+Affligem Affligem Blonde	0.164316376676
+Short's Brewing Huma-Lupa-Licious IPA	0.164312631236
+Victory Helios	0.164286785222
+Great Divide Fresh Hop Pale Ale	0.16363098391
+BrewDog Bashah	0.163561774099
+Southampton Double White	0.163553047116
+Firestone Walker Pale 31	0.163551075904
+Firestone Walker Nectar IPA	0.163342976627
+BridgePort Hop Czar	0.162893220377
+AleSmith Anvil ESB	0.162739973159
+Lion Brewery Lionshead Deluxe Pilsner	0.162423988653
+Brasserie Caracole Nostradamus	0.162377676343
+Konigshoeven La Trappe Tripel	0.16196771602
+Breckenridge Oatmeal Stout	0.16193295935
+Weyerbacher Insanity	0.161918372354
+Bell's Octoberfest	0.161883066057
+Avery Salvation	0.161492610146
+Redhook Winter Hook	0.161466139869
+Staropramen (StarBev) Staropramen Lager	0.161282299546
+Lost Abbey 10 Commandments	0.16121888612
+Victory St. Victorious	0.161151945172
+Deschutes The Abyss	0.160776323627
+Blue Point Brewing Hoptical Illusion	0.160770035952
+Kronenbourg 1664	0.160746355759
+Dogfish Head Pangaea	0.160726880182
+Leinenkugel's Creamy Dark	0.160703393399
+Scottish and Newcastle John Courage	0.16043125459
+Weyerbacher Old Heathen	0.160273197044
+Full Sail Full Sail IPA	0.159685226336
+Full Sail Session Black	0.159350424439
+Founders Imperial Stout	0.159307429021
+Port / Pizza Port Santa's Little Helper	0.159292414852
+Brooklyn Monster Ale	0.159125446604
+Yuengling Lord Chesterfield Ale	0.158878174146
+Mad River Jamaica Red Ale	0.158708140389
+Otter Creek Wolaver's India Pale Ale	0.158502244036
+Great Lakes Holy Moses White Ale	0.158472780423
+Big Sky IPA	0.158464082278
+Jolly Pumpkin Luciernaga (The Firefly)	0.158137178342
+Ballast Point Calico Amber Ale	0.157980045401
+Rogue Imperial Porter	0.157969718716
+Southern Tier Imperial Choklat Stout	0.157829715414
+Moylans Kilt Lifter	0.157768329776
+Bear Republic Peter Brown Tribute Ale	0.157662804684
+Alken-Maes Grimbergen Dubbel	0.157648336122
+Goose Island Pere Jacques	0.157580625924
+The Bruery Mischief	0.157443945082
+Yards Philadelphia Pale Ale	0.157313610934
+Surly Furious	0.157286747574
+Affligem Affligem Noel	0.157133218843
+Lost Coast Alleycat Amber	0.156586261335
+Buffalo Bill's Orange Blossom Cream Ale	0.1563541475
+Cisco Whale's Tale Pale Ale	0.15626626589
+Dogfish Head Chateau Jiahu	0.156137973383
+Anheuser-Busch Rolling Rock Light	0.155997139112
+Deschutes Green Lakes	0.155977954153
+Harpoon UFO Raspberry Hefeweizen	0.155678256846
+Ommegang BPA	0.155660381412
+Deschutes Jubel 2010	0.155634115629
+The Bruery 2 Turtle Doves	0.155343366527
+Ninkasi Believer	0.155300907813
+Aying Altbairisch Dunkel	0.155242191616
+Coronado Idiot IPA	0.155226709667
+Southern Tier Gemini	0.155196352277
+Samuel Smith Pure Brewed Lager	0.154743905961
+Hofbräu München Oktoberfestbier	0.154621068518
+Brasserie Dieu du Ciel Péché Mortel	0.154331888418
+Michelob Jack's Pumpkin Spice	0.154161106219
+Elysian Brewing The Immortal IPA	0.153886933161
+Boulevard The Sixth Glass	0.153775788264
+Gaffel Gaffel Kölsch	0.153483022711
+Goose Island Mild Winter	0.153434483769
+21st Amendment Monk's Blood	0.153315915998
+New Zealand Breweries Steinlager	0.153299383208
+Avery The Kaiser	0.153254191172
+Pyramid Amber Ale	0.153175556499
+New Holland Mad Hatter	0.153105172359
+New Holland The Poet	0.153013379342
+Clipper City Heavy Seas Peg Leg	0.152961941594
+De Dolle Stille Nacht	0.15272980006
+Ninkasi Total Domination	0.152318687203
+Rogue Imperial Stout	0.152100674297
+Nogne O Imperial Stout	0.151991481626
+Ballast Point Yellowtail Pale Ale	0.151941278691
+Widmer Brothers Drop Top Amber	0.151749497892
+Abita Restoration Pale Ale	0.151604981868
+BrewDog Hardcore IPA	0.151178028575
+Iron City Premium Lager	0.150089887832
+Brooklyn Winter Ale	0.149989886563
+Alpine Pure Hoppiness	0.149794849149
+Weyerbacher Heresy	0.149769105283
+Brooklyn Brooklyner Weisse	0.149707333313
+Redhook Blonde Ale	0.1496417184
+Victory Moonglow Weizenbock	0.14951150608
+Scottish and Newcastle McEwan's India Pale Ale	0.149280274464
+New Belgium Sunshine Wheat	0.149151927862
+Magic Hat Hi.P.A.	0.149131501535
+Moylans Dragoons	0.148949458387
+Three Floyds Behemoth	0.148853961952
+Southern Tier Hop Sun	0.148725387283
+Ninkasi Tricerahops	0.148632354165
+Yards Extra Special Ale	0.148077607768
+Southern Tier Tripel	0.14802145555
+Dogfish Head Squall IPA	0.147873709784
+Flying Dog Garde Dog	0.147833671783
+Karl Strauss Woodie Gold	0.147601608719
+Magic Hat Blind Faith	0.147330964638
+Brooklyn Brooklyner-Schneider Hopfen-Weisse	0.147291095607
+Erdinger Weissbier Dunkel	0.147185674342
+Full Sail Session Lager	0.146912091915
+Goose Island Harvest Ale	0.146711453622
+Thirsty Dog Siberian Night	0.146575873853
+Smuttynose Wheat Wine Ale	0.146261733281
+Long Trail Pale Ale	0.145955945453
+Pabst Stroh's	0.145872977567
+Clipper City Heavy Seas Big DIPA	0.145850031932
+Dogfish Head Black & Blue	0.14549835538
+Anheuser-Busch InBev Bud Light Golden Wheat	0.145433694171
+Lancaster Milk Stout	0.145251838565
+Rogue XS Imperial Stout	0.145106519277
+Van Honsebrouck Kasteel Rouge	0.144935882897
+Dubuisson Scaldis Belgian Ale	0.144919905665
+Boulevard Unfiltered Wheat Beer	0.144832191669
+Miller Icehouse	0.144660569591
+Surly Bender	0.144339475634
+Port / Pizza Port High Tide	0.144009611903
+Miller Miller Genuine Draft Light 64	0.143921869206
+Bell's Third Coast Old Ale	0.143713075494
+Weihenstephaner Korbinian	0.143625663326
+Guinness 250th Anniversary Stout	0.143384253372
+Rodenbach Rodenbach Classic Ale	0.143342674125
+Great Divide Hibernation Ale	0.143064557801
+Rogue Kells Irish-Style Lager	0.142430855709
+Leinenkugel's 1888 Bock	0.142092445717
+Lindemans Cassis	0.142046624349
+Palm Palm Speciale	0.141917630722
+Jolly Pumpkin Bam Biere	0.141749605001
+St. Sylvestre 3 Monts	0.141484370407
+Pyramid Thunderhead	0.141418986515
+Yards Thomas Jefferson's Tavern Ale	0.141276720511
+Founders Pale Ale	0.140692416634
+Mission IPA	0.140430315733
+Stoudts Gold Lager	0.140391587698
+Port / Pizza Port Older Viscosity	0.140376774485
+Rogue Single Malt Ale	0.14030098596
+Erdinger Weissbier	0.140144975411
+Ithaca Cascazilla	0.140087953885
+Surly CynicAle	0.140057706222
+Sierra Nevada 30th Anniversary Grand Cru	0.139543062085
+Bell's Oarsman Ale	0.139535650385
+Ballast Point Black Marlin Porter	0.139427394787
+Yards Brawler	0.139142224155
+Alken-Maes Grimbergen Blonde	0.138693601661
+Goose Island Oatmeal Stout	0.138639052383
+Anchor Small Beer	0.138515000904
+The Bruery Saison Rue	0.138317137752
+Sweetwater IPA	0.138140725915
+Murphy Murphy's Irish Red	0.137749986149
+Meantime London Porter	0.137624862094
+Victory V Lager	0.137612790425
+St. Feuillien Tripel	0.137468209973
+St. Bernardus Christmas Ale	0.137062826179
+Michelob Winter's Bourbon Cask Ale	0.137049834122
+Miller Steel Reserve	0.136964646856
+Clipper City Heavy Seas Small Craft Warning	0.136944343013
+Bavik Petrus Oud Bruin	0.136877828252
+Fuller's 1845	0.136873971737
+Van Honsebrouck Kasteel Blonde	0.13669446839
+Weihenstephaner Festbier	0.136591333528
+Troegs Rugged Trail	0.136492553403
+Alaskan Alaskan IPA	0.136363827171
+Mikkeller Simcoe Single Hop IPA	0.136311593388
+Meantime IPA	0.1360162521
+Summit Extra Pale Ale	0.135716884837
+Odell Brewing 90 Shilling Ale	0.135693048482
+Allagash Odyssey	0.135410899233
+Schneider Hopfen-Weisse	0.134847431581
+Southampton Grand Cru	0.134710022146
+Troegs The Flying Mouflan	0.134369971943
+He'Brew (Shmaltz) Messiah Bold	0.134363362678
+Hitachino Japanese Classic Ale	0.134136215701
+Mission Hefeweizen	0.133951191615
+Boulevard Pale Ale	0.133660683092
+BrewDog Dogma	0.133523821493
+Surly Coffee Bender	0.133493668298
+Samuel Adams Utopias	0.133403159895
+Rogue MoM (Half-E-Weizen)	0.133323488339
+Avery Old Jubilation	0.133164138897
+Samuel Smith Organic Best Ale	0.133107052616
+Jolly Pumpkin Bam Noire	0.13306906275
+Abita Mardi Gras Bock	0.132567865914
+Pabst Old Milwaukee	0.132504303034
+Great Lakes Nosferatu	0.132481486493
+Terrapin Hopsecutioner	0.132070949693
+Great Lakes Blackout Stout	0.131904712667
+Pyramid Curve Ball Blonde Ale	0.131679201811
+Metropolitan Flywheel	0.131675636026
+Rogue Smoke Ale	0.131367654437
+Widmer Brothers Brrr	0.131299131849
+Magic Hat Jinx	0.130967101886
+Bell's Hell Hath No Fury	0.130928893111
+Sea Dog Apricot Wheat	0.130820762306
+Odell Brewing Odell IPA	0.130625511368
+Sly Fox Phoenix Pale Ale	0.130583201517
+Boulder Beer Sweaty Betty Blonde	0.130211202563
+Miller Miller Chill	0.130171683189
+Karl Strauss Amber Lager	0.130089437301
+Dogfish Head My Antonia	0.129910440288
+Brooklyn Oktoberfest	0.129899892733
+Coronado Red Devil	0.129859961471
+Weyerbacher Quad	0.129760407842
+Dupont Avec Les Bons Voeux	0.129596638546
+AleSmith Wee Heavy	0.129080973893
+Spaten-Franziskaner Spaten Premium Lager	0.128920107911
+Saint Arnold Elissa IPA	0.128561089539
+North Coast Le Merle	0.128328707511
+New Glarus Crack'd Wheat	0.128164462086
+Great Lakes Conway's irish Ale	0.128143334958
+Alaskan Smoked Porter	0.127995170738
+Dixie Dixie Beer	0.127942552494
+Port / Pizza Port 2nd Anniversary	0.127366507679
+Schneider Wiesen Edel-Weisse	0.127331571319
+Bavik Wittekerke	0.127034780245
+Leinenkugel's Original	0.127020126243
+Southampton India Pale Ale	0.126846724287
+Mad River Steelhead Extra Stout	0.126738476049
+New Belgium Eric's Ale	0.126683608209
+BridgePort Ebenezer	0.126529321883
+Otter Wolaver's Oatmeal Stout	0.126423895522
+Tyranena Bitter Woman IPA	0.126218065664
+Anderson Valley Boont ESB	0.126206458055
+Half Acre Daisy Cutter	0.125903806887
+Alaskan Alaskan White	0.125751935191
+Affligem Affligem Dubbel	0.125682387391
+Goose Island Nut Brown Ale	0.125356345258
+Russian River Pliny The Younger	0.125174005899
+Surly Darkness	0.125061854739
+Alaskan Alaskan Winter	0.124966257276
+Anderson Valley Poleeko Gold Pale Ale	0.1249453595
+Sierra Nevada 30th Anniversary Fritz & Ken's Ale	0.124009526722
+Breckenridge Christmas Ale	0.123994750782
+Mad River Steelhead Extra Pale Ale	0.123636243285
+Bell's Christmas Ale	0.123615375157
+Saranac Chocolate Amber	0.123532155618
+Two Brothers Hop Juice	0.12309626363
+Achouffe N'Ice Chouffe	0.122980555601
+Goose Island Night Stalker	0.122958006069
+Kulmbacher EKU 28	0.12263519715
+Jolly Pumpkin Calabaza Blanca	0.122444446256
+Magic Hat Hex	0.122436293271
+Unibroue Quelque Chose	0.12242323897
+Wychwood Fiddler's Elbow	0.122373785716
+Bell's Third Coast Beer	0.122305444408
+Yards India Pale Ale	0.122260274348
+Hopworks (HUB) Hopworks IPA	0.122055890368
+Blue Point Brewing Blue Point Blueberry	0.121876857862
+Anheuser-Busch InBev Busch Light	0.121816412023
+Harpoon Octoberfest Bier	0.121482859287
+New Glarus Wisconsin Belgian Red	0.121253206747
+Aying Weizen-Bock	0.121211586245
+Yards Saison	0.121152580036
+Harpoon Harpoon Ale	0.120974499564
+Alaskan Alaskan Summer	0.120840061125
+Arcadia Hopmouth Double IPA	0.12079096416
+Weihenstephaner Vitus	0.120758833919
+Southampton Biere de Garde	0.12073531973
+Southern Tier Hoppe	0.12051693988
+Shipyard Export Ale	0.120380503334
+Port / Pizza Port Shark Attack	0.120008454022
+Caldera Hopportunity Knocks	0.119912793992
+Victory Ten Years Alt	0.119798996737
+Ithaca Apricot Wheat	0.119732675991
+Dubuisson Scaldis Noel	0.119707750197
+Magic Hat Roxy Rolles	0.119616597433
+Moylans Old Blarney	0.1195447624
+Greene King / Morland Abbot Ale	0.11944524657
+Avery The Beast Grand Cru	0.11943037178
+Drake's Imperial Stout	0.119259532404
+Terrapin Coffee Oatmeal Imperial Stout	0.119178956745
+The Bruery Orchard White	0.119054139127
+Hair of the Dog Blue Dot	0.119024791102
+Ballast Point Dorado Double IPA	0.119015891875
+Brasserie a Vapeur Saison de Pipaix	0.118911372346
+Harpoon Chocolate Stout	0.118888576992
+Saranac Belgian White	0.118861081175
+Deschutes Hop in the Dark	0.11849693132
+Southern Tier Old Man	0.118085808554
+Flying Dog Kerberos Tripel	0.117793722944
+New Glarus Stone Soup	0.117498334862
+AleSmith Horny Devil	0.117467872666
+Genesee Dundee Pale Bock Lager	0.117224683282
+Goose Island Imperial IPA	0.117181102157
+Westvleteren Westvleteren 12	0.117033593119
+Genesee Narragansett Lager	0.116999864953
+Guinness Kilkenny	0.116930621783
+Victory St. Boisterous	0.116322004457
+Mikkeller Jackie Brown	0.116041180224
+Lancaster Hop Hog	0.115851359535
+Troegs Dead Reckoning Porter	0.115715182282
+Boulder Beer Cold Hop	0.115693697685
+Left Hand Fade to Black	0.115608600557
+New Glarus Hop Hearty Ale	0.115526381302
+Russian River Temptation	0.114682415948
+Michelob Porter	0.114202790096
+Great Divide Smoked Baltic Porter	0.114053630091
+Konigshoeven La Trappe Blond	0.113465733952
+Flying Dog Woody Creek White	0.113125728303
+Goose Island Demolition	0.112979806515
+Lost Abbey Cuvee De Tomme	0.112690495386
+Deschutes Twilight Ale	0.112659002769
+Duck-Rabbit Milk Stout	0.11258091531
+Saranac Pale Pale Ale	0.112415279268
+Brooklyn Pilsner	0.111876925521
+Stone 10.10.10 Vertical Epic Ale	0.111267416877
+Harpoon Leviathan Triticus	0.111241098947
+Long Trail Double Bag	0.111199866709
+Leinenkugel's Big Butt Doppelbock	0.111058017376
+Ommegang Biere de Mars	0.110856800595
+Full Sail Wassail	0.110634563303
+Greene King / Morland Wexford Irish Cream Ale	0.110532427032
+Southern Tier Krampus	0.110485518124
+Miller Milwaukee's Best Light	0.110147962263
+Two Brothers Red Eye Coffee Porter	0.109544930606
+Long Trail Blackbeary Wheat	0.109431643198
+Abita Satsuma Harvest Wit	0.108929299125
+Allagash Four	0.108914963304
+Saranac Pumpkin Ale	0.108760085467
+Brasserie Grain d'Orge Belzebuth	0.1083416799
+Dogfish Head Red & White	0.108305714824
+Great Divide Belgica	0.107683643908
+Van Honsebrouck Kasteel Bruin	0.107551572971
+Miller Milwaukee's Best	0.107110013215
+Avery New World Porter	0.107074489381
+Belhaven St. Andrews Ale	0.106946390002
+Flossmoor Station Pullman Brown Ale	0.106829265479
+Michelob Marzen	0.10674035256
+Iron City I.C. Light	0.106609678662
+Anheuser-Busch InBev Busch Beer	0.106511032712
+Lazy Magnolia Southern Pecan	0.10650078509
+Coney Island (Shmaltz) Human Blockhead	0.106399372898
+Smisje Vuuve	0.106175084688
+Rogue Captain Sig's Deadliest Ale	0.106009578943
+Rogue Dad's Little Helper	0.105858473345
+Fantome De Noel	0.105829681604
+Redhook Late Harvest	0.105788527463
+Genesee Dundee Pale Ale	0.105711778055
+Mad River Steelhead Double IPA	0.105454143618
+Southern Tier Big Red	0.105121218265
+Terrapin Hop Karma Brown IPA	0.105115247409
+Rogue Dirtoir Black Lager	0.104942178397
+Brooklyn Post Road Pumpkin Ale	0.104806639616
+Coney Island (Shmaltz) Coney Island Lager	0.104785275609
+Tommyknocker Maple Nut Brown Ale	0.104768008436
+Great Divide Rumble IPA	0.104728958713
+Hopworks (HUB) Survival 7-Grain Stout	0.104456089935
+Left Hand Black Jack Porter	0.104378739489
+Great Divide Old Ruffian	0.104118020802
+Sly Fox Royal Weisse	0.10403187204
+Stoudts Double IPA	0.103912506424
+Goose Island Juliet	0.103659947508
+AleSmith Nautical Nut Brown Ale	0.103623466608
+Arcadia Hop Rocket	0.103402700017
+Boulder Beer Obovoid	0.10333249031
+Sierra Nevada Life & Limb	0.103308270544
+Mikkeller Warrior Single Hop IPA	0.103190686831
+Drake's IPA	0.102939084627
+Alpine Exponential Hoppiness	0.102904419887
+Flying Fish Farmhouse Summer Ale	0.102801226226
+Clipper City Heavy Seas Red Sky At Night	0.102369354837
+New Glarus Raspberry Tart	0.102100419952
+Elysian Brewing Avatar Jasmine IPA	0.102063635888
+Deschutes The Dissident	0.101700840296
+Southern Tier Harvest Ale	0.101658629565
+Left Hand Warrior IPA	0.101499752225
+Otter Creek Wolaver's Brown Ale	0.101438019879
+Southern Star Pine Belt Pale Ale	0.101266652932
+Abita Pecan Harvest	0.101199771712
+Ballast Point Wahoo Wheat	0.101195602226
+Sly Fox Rte. 113 India Pale Ale	0.100958709109
+He'Brew (Shmaltz) R.I.P.A. on Rye	0.100667433873
+Boulevard Bully! Porter	0.100140769572
+Saint Arnold Brown Ale	0.100098123789
+Flying Fish Belgian Style Dubbel	0.0997881942561
+Hitachino XH	0.0996603855081
+Brooklyn Local 2	0.0995020181977
+Abbaye du Val-Dieu Val-Dieu Triple	0.0994155017181
+Sweetwater Georgia Brown	0.0992609023674
+Pretty Things Jack D'Or	0.0992099781447
+Mikkeller Beer Geek Brunch Weasel	0.0989602044285
+Left Hand Twin Sisters	0.0989211599459
+Great Divide Denver Pale Ale	0.0988351702314
+Stoudts Triple	0.098759697059
+Tommyknocker Butt Head	0.09866369943
+Left Hand Juju Ginger	0.0985360040757
+Founders Harvest Ale	0.098433436242
+Old Dominion Dominion Oak Barrel Stout	0.098394317455
+Brouwerij Boon Boon Oude Geuze	0.0983384576816
+St. Feuillien Blonde	0.0979483166111
+Middle Ages Wailing Wench	0.0975673119469
+Allagash Allagash Hugh Malone	0.0973937338529
+Mikkeller Cascade Single Hop	0.0973478047141
+Boulevard Saison - Brett	0.0972485343127
+Speakeasy Untouchable	0.0971233510298
+Nogne O Porter	0.097034782458
+Moortgat Duvel Green	0.0968505834962
+Sweetwater Sweetwater Blue	0.0967988459113
+Michelob Pale Ale	0.096761573995
+Achel Trappist Bruin	0.0961565952021
+Bell's Barrel Aged Java Stout	0.0960218162058
+De Dolle De Dulle Teve	0.0959841768054
+Mikkeller It's Alive	0.0959692835143
+Ommegang Zuur	0.0951569984426
+Southern Tier 422 Pale Wheat Ale	0.0950131427908
+Arcadia Cocoa Loco	0.0947772820252
+Eel River I.P.A.	0.0946632083935
+Rogue Morimoto Black Obi	0.094601796405
+Mission Amber Ale	0.0941199754054
+Saranac Vanilla Stout	0.0937432095075
+Harpoon Celtic Ale	0.09370536324
+Bell's Oatmeal Stout	0.0936964860007
+21st Amendment Fireside Chat	0.0935508116455
+Brasserie Caracole Troublette	0.0933982332795
+Russian River Salvation	0.0929749491881
+He'Brew (Shmaltz) Jewbelation Bar Mitzvah 13	0.0928640367742
+Samuel Adams Dunkelweizen	0.0923864627475
+Dupont Moinette Blond	0.0923860963952
+The Bruery Hottenroth Berliner Weisse	0.0923251026501
+AleSmith Old Numbskull	0.0921751250755
+Anheuser-Busch Stone Mill Pale Ale	0.0921338396247
+Brooklyn Black OpS	0.0921294818275
+Young's Oatmeal Stout	0.0920787145726
+Duck-Rabbit Porter	0.0919867029933
+Harpoon Leviathan Baltic Porter	0.0919531754783
+Capital Autumnal Fire	0.0918045596981
+Harpoon Leviathan Quad	0.0915585505738
+Redhook Double Black Stout	0.091444929558
+Ommegang Tripel Perfection	0.0913852356342
+Boulevard Zon	0.0913815343213
+Belhaven Scottish Stout	0.0913655090306
+Urthel Hibernus Quentum	0.0913572308273
+Coopers Coopers Best Extra Stout	0.0913378459602
+Peak Organic IPA	0.091284995141
+Abita Christmas Ale	0.0912171040253
+Philadelphia Newbold IPA	0.0911062443938
+Sleeman Honey Brown Lager	0.090847072155
+Odell Brewing 5 Barrel Pale Ale	0.0908437941062
+Minhas Simpler Times Lager	0.0904315276323
+Great Divide Saison Farmhouse Ale	0.0903955883593
+Anderson Valley Brother David's Triple	0.0900385235589
+Philadelphia Kenzinger	0.0899326466197
+Great Lakes Grassroots Ale	0.0896950418897
+Moortgat Maredsous 6	0.0896752876985
+Great Divide St. Bridget's Porter	0.0896080691235
+BrewDog Chaos Theory	0.0895337715562
+Southampton Imperial Porter	0.0891650100206
+Achel Trappist 5 Blonde	0.0891307627426
+Clipper City MärzHon	0.0890118014818
+Captain Lawrence Xtra Gold	0.0887260497153
+Flying Fish Imperial Espresso Porter	0.0883902940412
+Anheuser-Busch Bare Knuckle Stout	0.0881616040142
+Spoetzl Shiner Smokehaus	0.0881447090289
+Flying Dog K9 Cruiser	0.0880438567355
+Goose Island Bourbon County Brand Coffee Stout	0.0877223598521
+Philadelphia Walt Wit	0.0876629297729
+Terrapin Big Hoppy Monster	0.0876012006125
+Redhook Copper Hook	0.0873791988413
+Widmer Brothers Broken Halo IPA	0.0873543822532
+Lost Coast Winterbraun	0.0872277753014
+Schlafly Oatmeal Stout	0.0871663757033
+New Belgium Springboard	0.0871600699947
+Harviestoun Ola Dubh 30 Year Old	0.0869346475145
+Real Ale Brewing Firemans #4	0.0868272849753
+Summit India Pale Ale	0.086593338678
+Flying Fish HopFish	0.0864815215181
+Traquair Jacobite Ale	0.0864336415919
+Bell's Barrel Aged Expedition Stout	0.0860170683702
+Carlow Brewing O'Hara's Celtic Stout	0.0860090474132
+Duck-Rabbit Baltic Porter	0.085718399691
+Mikkeller Amarillo Single Hop IPA	0.0856950819953
+New Holland Golden Cap	0.0855275887685
+Grand Teton Bitch Creek ESB	0.0851092613203
+Augustiner Edelstoff	0.0850739714443
+Harpoon Leviathan Big Bohemian	0.0848683173698
+Cantillon Rose De Gambrinus	0.0848421495016
+Anderson Valley Deep Enders Dark Porter	0.0847880149197
+Coronado Mermaid's Red	0.0843552479705
+Summit Horizon Red	0.0843382342245
+Founders Backwoods Bastard	0.0843105120579
+BrewDog Paradox Smokehead	0.0842802188081
+Elysian Brewing Dragonstooth Stout	0.0842674594695
+BridgePort Blue Heron	0.0842626580564
+Miller Milwaukee's Best Ice	0.0842122991438
+McAuslan St. Ambroise Oatmeal Stout	0.0841440948208
+Great Lakes Oktoberfest	0.0841069947537
+Schlitz Schlitz Malt Liquor	0.0840214712241
+Alpine Nelson	0.0840091964176
+Ommegang Adoration	0.0836505293667
+Anheuser-Busch Wild Hop Lager	0.0836281912318
+New Belgium Old Cherry	0.0834183059704
+Saranac Traditional Lager	0.0832947546354
+Founders Nemesis 2010	0.0832759354478
+Port / Pizza Port Moon Lit Sessions	0.0832049621191
+Middle Ages Druid Fluid	0.083076554412
+Het Anker Gouden Carolus Classic	0.083022846414
+Anchor Summer Beer	0.0828488150231
+Alpine Duet	0.0826814196715
+Augustiner Maximator	0.0825187147692
+Genesee Dundee Porter	0.0824049655437
+Yards Love Stout	0.0821880363032
+Otter Creek Russian Imperial Stout	0.0820934764944
+Great Divide Claymore Scotch Ale	0.0818752175325
+Nogne O India Pale Ale	0.0818249602814
+New Glarus Dancing Man Wheat	0.08164168589
+Verhaeghe Echt Kriekenbier	0.0816277936874
+Highland Oatmeal Porter	0.0816262251094
+De Dolle Boskeun	0.081574293564
+River Horse Brewing Hop Hazard	0.0813251947425
+New Glarus Coffee Stout	0.0812168267026
+Pyramid Rollick Amber Lager	0.0811715963491
+Brasserie Caracole Saxo	0.0810877939457
+Carlow Brewing O'Hara's Irish Red	0.0808609454206
+Harpoon Munich Dark Beer	0.0807008410535
+Magic Hat Odd Notion Summer '09	0.0806413690744
+Redhook Slim Chance	0.0805809629356
+Saranac Pomegranate Wheat	0.080463591712
+Magic Hat Odd Notion Spring '09	0.0803880646258
+Highland Gaelic Ale	0.0803463819481
+Flying Fish Extra Pale Ale	0.0801871442084
+Cantillon Iris	0.080143618904
+Coopers Coopers Sparkling Ale	0.0801403674932
+Philadelphia Rowhouse Red	0.0798636815617
+Speakeasy Payback Porter	0.079843451517
+Great Divide Hades	0.0798304901807
+Saint Arnold Oktoberfest	0.079814380471
+Drake's 1500 Pale Ale	0.0798021037817
+Middle Ages Grail Ale	0.0796479356192
+Ithaca Nut Brown Ale	0.0796172455134
+Great Divide Hoss	0.0795407339055
+Wachusett IPA	0.0792402073016
+Pretty Things American Darling	0.0789756496769
+Saranac Bohemian Pilsener	0.0788331550139
+Middle Ages ImPaled Ale	0.0787578137153
+Duck-Rabbit Brown Ale	0.0787408200253
+Hoppin' Frog Mean Manalishi Double I.P.A.	0.078736813531
+Wychwood Scarecrow	0.0787228739438
+Einbecker Brauhaus Ur-Bock Dunkel	0.0783974434395
+Full Sail Old Boardhead	0.0783578554511
+Grand Teton Black Cauldron	0.078265922822
+Middle Ages Dragonslayer	0.0782011293241
+Michelob Honey Lager	0.0781488004648
+Sierra Nevada 30th Anniversary Jack And Ken's Ale	0.077916903268
+Wachusett Blueberry	0.0778683068754
+Elysian Brewing Perseus Porter	0.0777754481696
+Heinrich Reissdorf Reissdorf Kölsch	0.0774569758761
+Lost Abbey Inferno Ale	0.077387058506
+Southern Tier Pale Ale	0.07732718921
+Smuttynose Star Island Single	0.0772740210649
+Atlantic Bar Harbor Blueberry Ale	0.0772327253159
+Harpoon Catamount Maple Wheat	0.0771247216312
+DAB Original	0.0769976632784
+Butternuts Snapperhead IPA	0.0769935431879
+Saranac Summer Ale	0.0769567421388
+Jolly Pumpkin Maracaibo Especial (Special Brown Ale)	0.0769547610926
+Sleeman Cream Ale	0.0769207278026
+Moylans Tipperary Pale Ale	0.0768237581417
+Mad River Steelhead Scotch Porter	0.0767821312281
+Bell's Cherry Ale	0.076645946265
+Ska Brewing Ten Pin Porter	0.076405561206
+Brouwerij Girardin Girardin Gueuze Black Label	0.0762731513373
+Lindemans Faro Lambic	0.0761837688804
+Innis and Gunn Oak Aged Beer	0.0761820876533
+Anheuser-Busch Bud Ice Light	0.0760687632375
+BridgePort Black Strap Stout	0.076063796776
+Sly Fox Ichor	0.0759441179673
+Arcadia India Pale Ale	0.0758074764369
+Rahr and Sons Stormcloud IPA	0.0757008471726
+Tyranena Dirty Old Man	0.0754906217821
+Coors Keystone Ice	0.0753707201701
+Erie Brewing Misery Bay IPA	0.0751500861884
+Tommyknocker Imperial Nut Brown Ale	0.0748558602294
+Saint Arnold Fancy Lawnmower	0.0747515604242
+Cantillon Kriek	0.0746778263352
+Great Divide Samurai Rice Ale	0.0746453896362
+Bell's Barrel Aged Cherry Stout	0.0744246143844
+Genesee Dundee Wheat Beer	0.0744222481415
+Schlafly Pumpkin Ale	0.0741974801007
+AleSmith Yulesmith (Winter)	0.0741181277157
+Smuttynose Imperial Stout	0.0740157085261
+Ska Brewing Pinstripe	0.0737576231831
+Bell's Sparkling Ale	0.0736156842188
+Capital Blond Doppelbock	0.0732611187287
+Butternuts Moo Thunder	0.0732499882788
+North Coast Old Plowshare Stout	0.0731615675173
+Urthel Samaranth	0.0730591269315
+Grand Teton Sweetgrass IPA	0.0727234972706
+Michelob Beach Bum Blonde	0.0727230333351
+Abita Abita Light	0.0726318161183
+Great Divide 15th Anniversary Wood Aged Double IPA	0.0725978061222
+Ninkasi Oatis	0.0717655866632
+Pabst Old Style Light	0.0716981779401
+Terrapin Rye Squared	0.0716842830892
+Smuttynose S'muttonator	0.0715389232775
+Westvleteren Westvleteren Blond	0.0713565199487
+Coney Island (Shmaltz) Albino Python	0.0711861679611
+Metropolitan Krankshaft	0.0711589709922
+Sunner Sünner Kölsch	0.0709774840942
+Voodoo Pilzilla	0.0708616876382
+New Holland Ichabod	0.0708029644432
+Dark Horse Crooked Tree IPA	0.0707910415772
+Samuel Smith Organic Raspberry Fruit Beer	0.0707574614763
+North Coast Blue Star	0.0707299844113
+Left Hand Polestar Pilsner	0.0707073691839
+Great Divide Colette Farmhouse Ale	0.0706957400015
+Wells Wells Bombardier	0.0704029701081
+Captain Lawrence Golden Delicious	0.0703508116759
+Boulevard Bourbon Barrel Quad	0.0702697703452
+Thomas Hooker Hop Meadow IPA	0.0700233313249
+Sinebrychoff Koff Porter	0.069845490013
+Grand Teton Lost Continent	0.0698098007914
+Saranac Rye Pilsener	0.069788309533
+Hofbräu München Hofbräu Original	0.0697798128386
+Weyerbacher Winter Ale	0.0692335524986
+Elysian Brewing The Wise ESB	0.068841851566
+Hitachino Real Ginger Brew	0.068809552569
+Coney Island (Shmaltz) Sword Swallower	0.0686077611487
+Schlenkerla Rauchbier Urbock	0.0685243863409
+Wychwood WychCraft	0.0682815899907
+Victory Sunrise Weiss	0.0681965260578
+United Breweries Kingfisher Premium Lager	0.0681060935772
+Michelob Original Lager	0.0680105387697
+Southampton Pumpkin Ale	0.067778570218
+Full Sail Full Sail LTD 03	0.0677470125411
+Mikkeller Black Hole	0.0675601497452
+Full Sail Full Sail LTD 01	0.0672231671141
+Saranac Nut Brown Ale	0.067094976944
+Smuttynose Winter Ale	0.0670582571781
+Aying Jahrhundert	0.066625784023
+Big Sky Powder Hound Winter Ale	0.0666101708079
+Flying Fish Grand Cru Winter Reserve	0.0661364607439
+Bell's Barrel Aged Double Cream Stout	0.0660001146627
+Unibroue 17	0.065932232943
+Two Brothers Northwind	0.0657129535965
+Achel Trappist Extra	0.0655420200542
+Port / Pizza Port Panzer Imperial Pilsner	0.0652278354008
+Widmer Brothers Snow Plow	0.0647227571673
+Oggi's Hop Juice Double IPA	0.0645311202529
+AleSmith Grand Cru	0.0642223235138
+Captain Lawrence Captain's Reserve	0.0640575487571
+Alaskan Alaskan Stout	0.0640379707593
+Rahr and Sons Texas Red	0.0635309940197
+Cisco Brewers Indie Pale Ale	0.0633524163866
+Lakefront New Grist	0.063322770072
+Philadelphia Joe	0.0633086939081
+Ska Brewing True Blonde Ale	0.063204136652
+Boulevard Dry Stout	0.0630614870231
+Orkney Dragonhead Stout	0.0630404475617
+Capital Wisconsin Amber	0.0623299707924
+Arcadia Angler's Ale	0.0622390161417
+Brouwerij Boon Boon Oude Kriek	0.061881637506
+Abbaye du Val-Dieu Val-Dieu Blond	0.0617123400628
+Widmer Brothers Okto	0.0616584507882
+Alaskan Alaskan Barley Wine	0.0616029328292
+Great Divide Wild Raspberry Ale	0.0615581415502
+Mendocino Blue Heron	0.0615171680941
+Einbecker Brauhaus Ur-Bock Hell	0.0613055529109
+Het Anker Gouden Carolus Noel	0.0612735565435
+AleSmith Yulesmith (Summer)	0.0611360629633
+Abbaye du Val-Dieu Val-Dieu Brune	0.0610204642914
+Lake Placid Ubu Ale	0.0608937525455
+Eel River Amber Ale	0.0607919768377
+Real Ale Brewing Brewhouse Brown	0.0607799283139
+Goose Island Green Line Pale Ale	0.0606948543567
+Het Anker Gouden Carolus Hopsinjoor	0.0604980620221
+Founders Cerise	0.0604571244767
+Stoudts Fat Dog	0.0602669611923
+Lagunitas Imperial Stout	0.0600490624642
+Southern Tier Porter	0.0597360688206
+Buffalo Bill's Blueberry Oatmeal Stout	0.0597047800368
+Four Peaks Kiltlifter	0.0596231812642
+Lost Abbey Carnevale 2009	0.0595913331364
+Great Lakes Moondog Ale	0.0592364961606
+Bell's The Oracle	0.0591570998081
+Lost Abbey Deliverance	0.0584147837185
+St. Bernardus Watou Tripel	0.0583512782765
+Het Anker Cuvee Van de Keizer Blue	0.0582467357326
+Boulder Beer Never Summer	0.058158036772
+Flying Fish ESB Ale	0.0580910684784
+Saint Arnold Divine Reserve #9	0.0580852892083
+Allagash Interlude	0.0580833684718
+Pretty Things Baby Tree	0.0579652571527
+Boulevard Lunar Ale	0.0579138311042
+New Belgium Blue Paddle Pilsner	0.0576860632166
+Damm Estrella Damm	0.057615659424
+Duck-Rabbit Barleywine Ale	0.057563081776
+Summit Hefe Weizen	0.057517969083
+Saint Arnold Winter Stout	0.0574766435987
+Meantime Coffee Porter	0.0574251060734
+Left Hand Jackman's	0.0573775722119
+Midnight Sun Arctic Rhino Coffee Porter	0.0573749104242
+Bosteels Deus Brut des Flandres	0.0573391255894
+Pabst Old Milwaukee Light	0.0571003998956
+Highland Kashmir IPA	0.0570646902987
+Real Ale Brewing Full Moon Pale Rye Ale	0.0567479018255
+Metropolitan Dynamo	0.0567453032803
+Carolina Beer Company Carolina Blonde	0.056692846597
+Dark Horse Reserve Special Black Bier Ale	0.0566592101274
+Erie Brewing Mad Anthony's APA	0.0564648665198
+De Dolle Oerbier	0.0564348806542
+Saint Arnold Amber Ale	0.0563369302235
+Sly Fox Pikeland Pils	0.0562642657346
+Bell's Big Head	0.0561868280027
+Baltika #2	0.0560131483985
+Old Dominion Dominion Millennium Ale	0.055823749304
+Pabst Olympia	0.0555888787597
+Magic Hat Odd Notion Fall '09	0.0553002706369
+Alaskan Alaskan Baltic Porter	0.0551471775043
+Ska Brewing Buster Nut Brown	0.055117588113
+Hitachino Nest Weizen	0.0550005197579
+Orkney Dark Island	0.0545775539084
+Mikkeller Draft Bear	0.0545112099996
+BridgePort BridgePort ESB	0.0544414674938
+Philadelphia Fleur de Lehigh	0.0544306104195
+Smisje Wostyntje	0.0543599938026
+Sly Fox O'Reilly's Stout	0.0543027824153
+Starr Hill Northern Lights IPA	0.0542313362546
+Browar Okocim Okocim Beer	0.0539633130739
+Einbecker Brauhaus Mai-Ur-Bock	0.0538253838034
+Thirsty Dog Old Leghumper	0.0537200362391
+Dupont Biere de Miel	0.0536510789456
+Rahr and Sons Blonde	0.0536453361831
+Rogue Younger's Special Bitter	0.0536363308685
+Brahma Brahma	0.0535382096151
+Saranac Caramel Porter	0.0533324271992
+Harpoon Bohemian Pilsner	0.0532415529445
+Summit Great Northern Porter	0.0532247102263
+Southern Tier Heavy Weizen	0.0529998007628
+Capital Winter Skål	0.0529087585033
+Big Sky Scape Goat Pale Ale	0.0528938510767
+He'Brew (Shmaltz) Origin	0.0526253269914
+Summit Winter Ale	0.0525795594826
+St. Feuillen Saison	0.0525750369606
+Butternuts Heinnieweisse	0.0525583270294
+Full Sail Wreck The Halls	0.0524923378525
+Saranac Helles Lager	0.0518456364353
+Saint Arnold Spring Bock	0.0516845503083
+BrewDog Riptide	0.0516711113994
+Lakefront Fuel Cafe	0.0516588588041
+Leinenkugel's Light	0.0514317335891
+Summit Oktoberfest	0.0513014313726
+Saint Arnold Christmas Ale	0.0512778402614
+Bell's Consecrator Doppelbock	0.0512575553731
+Saranac India Brown Ale	0.0511505027427
+Saranac E.S.B.	0.0510144328746
+Genesee Dundee Festive Ale	0.0508323437582
+Great Lakes Glockenspiel	0.0506201686322
+Schlafly Kölsch	0.0505776557191
+Two Brothers Monarch White Beer	0.0505472436163
+Sierra Nevada India Pale Ale	0.0504876140635
+Brouwerij Boon Boon Oude Geuze Mariage Parfait	0.0503443201329
+Sly Fox Saison VOS	0.0502396904427
+Three Floyds Black Sun Stout	0.0497796033489
+Two Brothers Bonfire Dunkle Weisse	0.0496397058007
+Foothills Hoppyum	0.0494575510273
+Weltenburger Hefe-Weissbier Dunkel	0.0494017099142
+Surly Bitter Brewer	0.0492638149007
+Brouwerij Oud Beersel Oud Beersel Framboise	0.0492502955745
+Mayflower IPA	0.0490725857271
+Full Sail Full Sail LTD 02	0.0487321531841
+Dark Horse Scotty Karate	0.0486861370839
+Meantime London Stout	0.0486441191986
+Nogne O Pale Ale	0.0484410516702
+Otter Creek Summer Ale	0.04833332997
+Otter Creek Copper Ale	0.0479387611366
+Boulevard Seeyoulater Doppelbock	0.0478627954753
+Starr Hill Jomo Lager	0.0475609449206
+Het Anker Gouden Carolus Ambrio	0.0475220054449
+Big Sky Summer Honey	0.047426623459
+Middle Ages Kilt Tilter	0.047367655795
+Real Ale Brewing Rio Blanco Pale Ale	0.0471975298307
+Mikkeller Nelson Sauvin Single Hop IPA	0.0468958998411
+Ithaca Ground Break	0.0467478149245
+Dark Horse Perkulator	0.0466125210294
+Boulevard Boulevard Pilsner	0.0463678670428
+Free State Ad Astra Ale	0.0459022372278
+Saranac Imperial IPA	0.0458865149852
+Schell's Grain Belt Premium	0.0458565829944
+Highland Cold Mountain Winter Ale	0.0455903449404
+Baltika #9 Extra Lager	0.0455679421714
+Zywiec Breweries Zywiec Beer	0.0454027242673
+Sierra Nevada 30th Anniversary Charlie Fred And Ken's Bock	0.0451055504305
+Van Steenberge Augustijn	0.0450410111237
+Abbaye des Rocs Brasserie des Rocs Triple Imperiale	0.0450353211756
+Jolly Pumpkin Madrugada Obscura (Dark Dawn Stout)	0.04492108255
+Lost Abbey Witch's Wit	0.0447365912529
+Pyramid Crystal Wheat	0.0446913355234
+Short's Brewing Pandemonium	0.0446164007498
+Sprecher Black Bavarian	0.0446138939108
+Elysian Brewing Night Owl Pumpkin Ale	0.044555804399
+Genesee Genny Light	0.0445030021459
+Redhook Black Hook Porter	0.0442585764331
+Radeberger Pilsner	0.0441839253322
+Erie Brewing Presque Isle Pilsner	0.0441526437973
+Michigan Celis White	0.0433385312521
+Williams Brothers Alba Scots Pine Ale	0.0432109312589
+Uinta Brewing Summer Solstice Ale	0.0431506505124
+Lake Placid 46'er Pale Ale	0.0428907203734
+Duck-Rabbit Amber Ale	0.0428701630143
+Eel River Acai Berry Wheat	0.0420976067528
+Mikkeller Black	0.0419384811739
+Ska Brewing Nefarious Ten Pin	0.0417184807683
+Clipper City Heavy Seas Below Decks	0.0414052008829
+Kulmbacher Eisbock	0.0412745545634
+Bell's Smoked Stout	0.0411202484405
+Caldera IPA	0.0409933707446
+Capital Capital Oktoberfest	0.0408889254085
+BridgePort BridgePort Porter	0.0407447905522
+Terrapin Golden Ale	0.0405716890915
+Minhas Simpler Times Pilsner	0.0405356762485
+Mac and Jack's African Amber	0.0405268697413
+Mayflower Porter	0.0403226700291
+Schlafly No. 15	0.0402642805347
+Atlantic Bar Harbor Coal Porter	0.0402281849108
+Saint Arnold Texas Wheat	0.0400947146417
+Lakefront E.S.B.	0.0400411157142
+Saranac Irish Red	0.0400174489997
+Sly Fox Odyssey	0.0399901621458
+Tallgrass Buffalo Sweat	0.0398932204757
+Michelob Honey Wheat	0.0398041515865
+Westvleteren Westvleteren 8	0.0394302586136
+Tyranena Scurvy	0.0393382869356
+Surly Abrasive Ale	0.039095566727
+Great Divide Tripel	0.0390250214166
+Tallgrass IPA	0.0387808794138
+Van Steenberge Bruegel	0.0385686547491
+New Holland Night Tripper	0.0385440249624
+Rogue Independence Hop Ale	0.0385420381406
+Pyramid Juggernaut Red Ale	0.0383609575272
+Erie Brewing Ol' Red Cease and Desist	0.0383258390152
+Sly Fox Black Raspberry Reserve	0.0379258779882
+Avery Karma	0.0377963229207
+Summit Maibock	0.0374341242697
+Bell's Lager Beer	0.0373329514498
+Brouwerij Oud Beersel Oude Kriek Vieille	0.037160999163
+Verhaeghe Vichtenaar	0.0370744809638
+Harviestoun Ola Dubh 16 Year Old	0.0369094242373
+De Proef Flemish Primitive	0.0368853955821
+Erdinger Pikantus	0.0364416185962
+Abita SOS	0.0361630570434
+Southern Tier Raspberry Wheat Beer	0.0360612121155
+New Belgium Biere De Mars	0.0360136035257
+Hudepohl-Schoenling Little Kings Cream Ale	0.0358134439925
+St. Peter's India Pale Ale	0.035695902909
+Mammoth Brewing IPA 395	0.0354688976787
+Highland Black Mocha Stout	0.0354195033043
+Schlenkerla Helles Lagerbier	0.0352037580261
+Sprecher Abbey Triple	0.0350811743785
+Clipper City Heavy Seas Holy Sheet	0.0349177755605
+Saranac Winter Wassail	0.0348425460199
+St. Peter's Golden Ale	0.0348344792426
+Brasserie de Silly Pink Killer	0.034765180342
+Captain Lawrence Nor' Easter	0.0347599834794
+St. Peter's Cream Stout	0.0343725795673
+Otter Creek Wolaver's Will Steven's Pumpkin Ale	0.0343713450994
+Highland St. Terese's Pale Ale	0.0342315918482
+Goose Island Naughty Goose	0.0341493353474
+Southampton Altbier	0.0341350497772
+Anchor Bock Beer	0.0339859241129
+Van Honsebrouck St. Louis Gueuze Fond Tradition	0.0339814144897
+Saranac Oatmeal Stout	0.0339582224694
+Michigan High Seas India Pale Ale	0.0338724109469
+Ithaca Pale Ale	0.0336871499484
+Southern Tier Cherry Saison	0.0336520147063
+Tyranena Rocky's Revenge	0.0336168654471
+Kenya Breweries Tusker Premium Lager	0.0334088403611
+Odell Brewing Cutthroat Porter	0.0333423827949
+Uinta Brewing Cutthroat Pale Ale	0.033292732091
+Unibroue Raftman	0.0331514188699
+Labatt Kokanee	0.0331333087206
+Schell's Maifest	0.033100061283
+Rahr and Sons Buffalo Butt	0.0330502146612
+Saint Arnold Divine Reserve #8	0.0328155068946
+Summit Pilsener	0.0327285290824
+Great Divide Dunkel Weisse	0.0324770967222
+Three Floyds Alpha Klaus	0.0322649902767
+Sly Fox Christmas Ale	0.03222328775
+Baltika #7 Export Lager	0.032131727828
+Dark Horse Double Crooked Tree IPA	0.0320329590925
+Coniston Bluebird Bitter	0.0318704475702
+St. Feuillien Brune	0.0318320674508
+Caldera Pale Ale	0.0317327769341
+Odell Brewing Easy Street Wheat	0.0316611403728
+Pisgah Pale Ale	0.0316028164124
+Foothills Sexual Chocolate	0.0315880491264
+Mission Blonde Ale	0.0314249739631
+Rahr and Sons Ugly Pug	0.0313614582248
+Bell's Eccentric Ale	0.0312934942058
+Avery Out Of Bounds Stout	0.0312750878869
+Rahr and Sons Bucking Bock	0.0311016972136
+Evolution Lucky 7 Porter	0.0310750896814
+Rahr and Sons Winter Warmer	0.0309499854487
+Baltika #6 Porter	0.0309363482341
+Bavik Bavik Premium Pils	0.0309345762377
+Pyramid Imperial Hefeweizen	0.0309081943921
+Saranac Golden Pilsener	0.0307941467726
+Labatt Ice	0.0306823739371
+Left Hand Smoke Jumper	0.0305189143196
+Rahr and Sons Blind Salamander	0.0304808058254
+Banks Banks Beer	0.0300941293455
+Odell Brewing Isolation Ale	0.0300809658903
+Left Hand Haystack Wheat	0.0299338485371
+Van Steenberge Bornem Double	0.0298098059116
+Switchback Switchback Ale	0.0298073148498
+Schlafly Reserve Imperial Stout	0.029633167715
+Left Hand Oktoberfest	0.0294801999161
+Abita Fall Fest	0.0294575358833
+Mikkeller I Beat YoU	0.0294161659123
+De Ranke XX Bitter	0.0293654955427
+Odell Brewing Bourbon Barrel Stout	0.029237600873
+Eel River Porter	0.029234236124
+Wachusett Green Monsta	0.0291233699456
+Boulder Beer Planet Porter	0.029088486413
+Dark Horse Tres Blueberry Stout	0.0290848885681
+Mikkeller Santa's Little Helper 2008	0.0289289652587
+Evolution Lot #3 IPA	0.0288944245857
+Flying Dog Dog Schwarz	0.0288567488633
+Odell Brewing Red Ale	0.0286513927385
+Odell Brewing St. Lupulin	0.0286122250544
+Hometown New York Lager	0.0283618542029
+Hometown New Jersey Lager	0.0283618542029
+Schlafly Bière de Garde	0.0282142083786
+Otter Creek Oktoberfest	0.0281474613016
+BridgePort Haymaker	0.0280167906813
+Full Sail Full Sail Nut Brown Ale	0.0279625848577
+Coopers Coopers Original Pale Ale	0.0277856013007
+Otter Creek Wolaver's Pale Ale	0.0277413315459
+J.W. Lees Harvest Ale	0.0277008454031
+Anheuser-Busch Rolling Rock Red	0.0276759858152
+Dark Horse Plead The 5th	0.0276710897101
+Van Steenberge Bornem Triple	0.0275579670942
+Arcadia Jaw-Jacker	0.0275045265064
+Iron City Augustiner Lager	0.0273994707863
+Tallgrass Tallgrass Ale	0.0273843855788
+Free State Copperhead Pale Ale	0.0273321741011
+Odell Brewing Saboteur	0.0272114865471
+St. Bernardus Grotten Flemish Ale	0.0270119437414
+Surly SurlyFest	0.0269393056686
+Four Peaks Hop Knot	0.0268468283612
+Tallgrass Oasis	0.0266855353385
+Allagash Fluxus 2010	0.0265683027333
+Ithaca Double IPA	0.0264636285073
+Voodoo Big Black Voodoo Daddy	0.0264429255621
+Saranac Scotch Ale	0.0264232684639
+Lake Placid India Pale Ale	0.0264207267068
+Schlafly Reserve Barleywine	0.0263478208264
+Brasserie La Binchoise La Binchoise Blonde Tradition	0.0262994671482
+De Blaugies Saison De L'Epeautre	0.0262191924489
+Hometown Pennsylvania Lager	0.026204756571
+Harpoon Brown	0.0261286647769
+Alaskan Alaskan Pale	0.0260080930199
+Ska Brewing True Blonde Dubbel	0.0259958819597
+Michigan Nut Brown Ale	0.0259087431332
+Furthermore Oscura	0.0257991896353
+Bavik Petrus Aged Pale	0.0257850102425
+Tyranena Hop Whore	0.0256625332621
+Brasserie Piedboeuf Jupiler	0.0255545313203
+Redhook Sunrye	0.025510710604
+Ska Brewing Steel Toe Milk Stout	0.025474597125
+Three Floyds Brian Boru	0.0252165933089
+Founders Canadian Breakfast Stout	0.0250940570489
+New Belgium Vrienden Ale	0.0249082328264
+Evolution Primal Pale Ale	0.0247198448177
+Baltika #5 Golden Lager	0.0246591088893
+Saranac Belgian Ale	0.0246070165527
+Saranac Season's Best Nut Brown Lager	0.0245759047337
+Nogne O God Jul	0.0243417731622
+Ithaca Gorges Smoked Porter	0.0243222319027
+Young's Old Nick	0.0242781276226
+Coney Island (Shmaltz) Freaktoberfest	0.0240189534993
+Schlafly Grand Cru	0.0237858895273
+Midnight Sun Sockeye Red IPA	0.0234440221672
+Clipper City Heavy Seas Prosit!	0.0231363351577
+Great Divide Double Wit	0.0229345327321
+Oriental Cass Fresh	0.0229158698122
+Clipper City Heavy Seas Winter Storm	0.0228362352404
+Blue Point Brewing Old Howling Bastard	0.0228199750707
+Cisco Brewers Grey Lady	0.0227768188152
+Otter Creek Imperial IPA	0.0227723445236
+Founders Nemesis 2009	0.0226917671802
+Thomas Hooker Irish Red	0.0226241400424
+Thomas Hooker Watermelon Ale	0.0223971610288
+Otter Creek Pale Ale	0.0221470199886
+Konigshoeven Witte Trappist	0.0221269808195
+Rahr and Sons Iron Thistle	0.02211560113
+Sly Fox Incubus	0.0219952339709
+Hitachino Lacto Sweet Stout	0.0218894687755
+Thomas Hooker Blonde Ale	0.0218140699748
+Weltenburger Asam Bock	0.0211961368873
+Foothills Seeing Double IPA	0.0211695843117
+Otter Creek 15th Anniversary IPA	0.0211469988649
+Widmer Brothers Cherry Oak Doppelbock	0.0209640657235
+Otter Creek Stovepipe Porter	0.0206577774158
+Southern Tier Backburner	0.0202380842506
+Rahr and Sons Oktoberfest	0.0201729949844
+Coast HopArt	0.0201185240712
+Schell's Zommerfest	0.0200707193861
+Four Peaks 8th Street Ale	0.0199008827437
+Unibroue Seigneuriale	0.0198563321467
+Tuckerman Headwall Alt	0.0198563321467
+Schlafly Tripel	0.0198526977414
+New Belgium Giddy Up!	0.0197871797523
+Coopers Coopers Premium Lager	0.0197624864022
+Tuckerman Pale Ale	0.0196860735308
+Steinhaus Mission St. Brown Ale	0.0196227508853
+Brasserie Castelain St. Amand	0.0195941402222
+Southampton Abbot 12	0.0194022024122
+Boulevard Two Jokers Double-Wit	0.0194020157559
+Ithaca White Gold	0.0192447671525
+Thiriez Blonde	0.0191914400689
+Craftsman Heavenly Hefeweizen	0.0191466840844
+Rush River The Unforgiven Amber Ale	0.0191384834176
+Boulder Beer Killer Penguin	0.0191178925127
+Avery Seventeen	0.0190057203459
+Schell's Bock	0.0188959536709
+New Belgium Belgo IPA	0.0188951920237
+Mikkeller Nugget Single Hop IPA	0.0187922634798
+Schell's FireBrick	0.0187378956827
+Left Hand Oak-Aged Widdershins	0.018636871045
+Atlantic Bar Harbor Real Ale	0.0185846452205
+Clipper City Heavy Seas Hang Ten	0.0185564479713
+Michigan Sunset Amber	0.0185361968862
+Rogue Ten Thousand Brew Ale	0.0183375626702
+Starr Hill Amber Ale	0.0181446853806
+Free State Oatmeal Stout	0.0180619398289
+Tennent Caledonian Tennent's Lager	0.0179784711539
+Michelob Dunkel Weisse	0.0179692768557
+Marshall Brewing Atlas IPA	0.0179474501686
+Harpoon Smoked Porter	0.0178290508652
+Smuttynose Summer Weizen	0.0177798719061
+Konigshoeven Tilburg's Dutch Brown Ale	0.0176844040236
+Zywiec Breweries Zywiec Porter	0.0176818274618
+Henry Weinhard's Private Reserve	0.0176180829581
+Odell Brewing Double Pilsner	0.0176156095183
+Pyramid Broken Rake	0.0172992965633
+Harpoon Crystal Wheat	0.0171237762262
+Summit ESB	0.0169323017982
+Schell's Oktoberfest	0.0166709116154
+Hale's Ales Supergoose DIPA	0.0164770122449
+Southern Tier Chautauqua Brew	0.0162558993183
+Capital Maibock	0.0162188667043
+Sprecher Special Amber	0.015978654219
+James Boag Premium Lager	0.0156792029752
+Boxcar Original Ale	0.0156642909654
+New English Troopers Tipple	0.0156612613549
+Cisco Brewers Bailey's Ale	0.0156438761373
+Tallgrass Kold	0.015510914635
+Gordon Biersch Black Toad	0.0154293301419
+He'Brew (Shmaltz) Rejewvenator	0.0152187059583
+Capital Capital Baltic Porter	0.0150666233915
+Bell's Rye Stout	0.014966973746
+Shepherd Neame Spitfire	0.0149379307152
+Summit Oatmeal Stout	0.0147692587209
+Evolution Exile ESB	0.014686357554
+New Holland Existential Hopwine	0.0145547608527
+Michigan Mackinac Pale Ale	0.0145335258513
+Squatters IPA	0.0145095466838
+Smuttynose Baltic Porter	0.0141099392203
+Cantillon Vigneronne	0.0140178556935
+Half Acre Ginger Twin	0.0138961719979
+Summit Scandia Ale	0.013749832149
+Hite Hite	0.0137051535642
+Three Floyds Rabbid Rabbit	0.0137038421825
+Terrapin Gamma Ray	0.0135444128946
+Duck-Rabbit Wee Heavy Scotch Style Ale	0.0134046330118
+Otter Creek Wolaver's Wit Bier	0.0132312799201
+Dupont Moinette Brune	0.0131821113937
+Highland Clawhammer Oktoberfest	0.0131095962244
+Saint Somewhere Lectio Divina	0.0131095962244
+Full Sail Full Sail 21	0.0131095962244
+Saint Somewhere Saison Athene	0.0131095962244
+Haandbryggeriet (Norway) Aqua Vita Porter	0.0130807085383
+Left Hand Chainsaw Ale (Double Sawtooth)	0.0130416299317
+Foothills Total Eclipse Stout	0.0127504478883
+Schell's Dark	0.0125256238098
+Surly Hell	0.0124481707372
+Stone 09.09.09 Vertical Epic Ale	0.0124258796134
+Squatters Chasing Tail Golden Ale	0.0123946332253
+Harpoon Glacier Harvest '09 Wet Hop	0.0123744500322
+Michelob Hop Hound Amber Wheat	0.0123723123525
+Grand Teton Howling Wolf	0.012323020451
+Thomas Hooker Liberator	0.0123225022771
+Henry Weinhard's Blue Boar Ale	0.012251040885
+Schloss Eggenberg Urbock 23°	0.0122397203196
+Voodoo Wynona's Big Brown Ale	0.0122380257632
+Köstritzer Köstritzer Schwarzbier	0.0122133683899
+Odell Brewing Levity Amber Ale	0.0121736703017
+Starr Hill Dark Starr Stout	0.012117501226
+Left Hand Imperial Stout	0.0121075258547
+Rush River Bubblejack India Pale Ale	0.0119470192692
+Captain Lawrence Smoke from the Oak	0.0117058840873
+Dupont Avril	0.0116994948014
+De Struise Pannepot	0.011652244906
+Great Divide 16th Anniversary Wood Aged	0.011617201561
+Schell's Hopfenmalz	0.0115850922049
+Stillwater Artisanal Stateside Saison	0.0115364446775
+Russian River Beatification	0.0115160682211
+Thomas Hooker Octoberfest Lager	0.0113708549089
+Darwin Brewery Original Flag Porter	0.0113670487625
+Left Hand Oak Aged Imperial Stout	0.0113553506401
+Drake's Blonde	0.0113256823342
+Brunehaut St. Martin Blonde	0.0110634904097
+Uinta Brewing Blue Sky Pilsener	0.0108560195229
+Eel River Raven's Eye Imperial Stout	0.0105999115436
+Real Ale Brewing Lost Gold IPA	0.010500540126
+Schell's Deer Brand	0.0103540707411
+Schell's Snowstorm 2010	0.0101958687565
+Black Sheep Black Sheep Ale	0.0101604910618
+Craftsman Triple White Sage	0.0101117622521
+Mythos Mythos	0.00992619591933
+New Holland Full Circle	0.00992076243514
+Abbaye du Val-Dieu Val-Dieu Grand Cru	0.00958434719356
+Schlitz Schlitz Red Bull XL	0.00943890928159
+Capital Capital Pilsner	0.00933972491302
+Duck-Rabbit Schwarzbier	0.00928556069974
+Highland Seven Sisters	0.00917671735711
+Tooheys Tooheys New	0.00917050193125
+Real Ale Brewing Oktoberfest	0.0090261638422
+Telegraph Stock Porter	0.00901894583454
+Surly Wet	0.00893479655355
+Straub Peter Straub's Special Dark	0.00888771178211
+Youngs Special London Ale	0.00883219568447
+Harpoon English Style Old Ale	0.0088028623219
+Baltika #8 Wheat Ale	0.00876456807217
+Marshall Brewing Sundown Wheat	0.00875344506051
+Arcadia Shipwreck Porter	0.00871628439948
+Ithaca Brute	0.00869289474001
+Cisco Brewers Captain Swain's Extra Stout	0.00865233350813
+New Holland Pilgrim's Dole	0.00865233350813
+Brasserie de Silly Scotch Silly	0.00864603028505
+Schell's Lakemaid	0.00863967936758
+Fuller's Vintage Ale	0.00848901953115
+Quilmes Quilmes	0.00845250503577
+Full Sail Slipknot Imperial IPA	0.00824963335478
+Michelob Bavarian Style Wheat	0.00822935251457
+Ithaca Alphalpha	0.00810103476514
+Michigan Screamin' Pumpkin Spiced Ale	0.00810096546493
+Urthel Vlaemse Bock	0.00808651228419
+Middle Ages Beast Bitter	0.00805142070031
+Brasserie Caracole Caracole	0.00804338203922
+Harpoon Barley Wine	0.00786575773466
+Mad River John Barleycorn	0.00786575773466
+Thomas Hooker American Pale Ale	0.00779550362023
+Left Hand Snow Bound Winter Ale	0.00768466369728
+Cisco Sankaty Light	0.00764545758406
+New Belgium Le Fleur Misseur	0.00763862901538
+Harpoon Oatmeal Stout	0.00745601961685
+Schell's Stout	0.00744047311825
+Henry Weinhard's Hefeweizen	0.0071529219051
+Haandbryggeriet (Norway) Norse Porter	0.0070791819612
+Bell's Poolside Ale	0.0070791819612
+Sly Fox Oktoberfest	0.00667648180785
+Free State Wheat State Golden	0.00641428988336
+Ska Brewing Steel Toe Stout	0.00635655707908
+Black Sheep Riggwelter Yorkshire Ale	0.00626371850159
+Alaskan Double Black IPA	0.00621768078876
+Kettlehouse Cold Smoke Scotch Ale	0.00614259779318
+Het Anker Cuvee Van de Keizer Red	0.00603041426324
+Cisco Brewers Moor Porter	0.00603041426324
+Haandbryggeriet Odin's Tipple	0.0060015265771
+Surly Smoke	0.00578259459277
+Drake's Amber	0.00576822233875
+Drake's Hefe	0.00569796822432
+Silver City Ridgetop Red	0.00569796822432
+Einbecker Brauhaus Schwarzbier	0.00499514052632
+Baltika #3 Classic	0.00498164656529
+New Holland Dark Tulip	0.00498164656529
+Arcadia London Porter	0.00472294047027
+Schlitz Schlitz High Gravity VSL	0.0047194546408
+Fantome Hiver	0.0047194546408
+Van Honsebrouck Bacchus	0.0047194546408
+Full Sail Prodigal Sun IPA	0.0047194546408
+Tyranena Sheep Shagger Scotch Ale	0.0047194546408
+Great Divide Barrel-Aged Old Ruffian	0.00464920052637
+Greene King / Morland Olde Suffolk English Ale	0.00464920052637
+Foothills Foothills Oktoberfest	0.00457894641194
+Great Lakes Winter Ale	0.00455636194887
+Foothills Foothills Red	0.00455636194887
+Marshall Brewing McNellie's Pub Ale	0.00447471370956
+Turk Tuborg Skol Beer	0.00439524708501
+Great Lakes Barrel-Aged Blackout Stout	0.0042611973546
+Schlitz Schlitz Bull Ice	0.00419507079182
+Harviestoun Bitter & Twisted	0.00419507079182
+Bristol Laughing Lab	0.00392657564425
+Hometown Light	0.0038626247529
+Cisco Brewers Cherry Woods	0.00367068694284
+Starr Hill Pale Ale	0.00367068694284
+Castlemaine Perkins XXXX Bitter	0.00367068694284
+Oggi's California Gold Blonde Ale	0.00367068694284
+St. Peter's Old-Style Porter	0.00360043282841
+Thomas Hooker Imperial Porter	0.00340849501835
+Oggi's Torrey Pines IPA	0.00314630309386
+Van Honsebrouck St. Louis Premium Kriek	0.00311741540772
+Sudwerk Imperial Pilsner	0.00262191924489
+Sprecher Russian Imperial Stout	0.00262191924489
+Urthel Saisonnière	0.00262191924489
+Redhook Tripel	0.00262191924489
+Michigan Celis Grand Cru	0.00262191924489
+Pisgah Porter	0.0025641438726
+Haandbryggeriet (Norway) Nissefar	0.00209753539591
+Full Sail Grandsun of Spot	0.00209753539591
+Left Hand Terra-Rye'zd	0.00209753539591
+Shepherd Neame Bishops Finger	0.00209753539591
+Stillwater Artisanal Cellar Door	0.00209753539591
+Luxembourg Diekirch Premium	0.00209753539591
+New Belgium Transatlantique Kriek	0.00202728128148
+Michigan Celis Raspberry	0.00183534347142
+Baltika #4 Dark Lager	0.00157315154693
+Coniston Old Man Ale	0.0015028974325
+New Glarus Unplugged Enigma	0.0012022915689
+Rahr and Sons Summertime Wheat	0.00104876769795
+Nogne O Tyttebaer	0.00104876769795
+Brasserie Dieu du Ciel Corne Du Diable	0.000524383848977
+Fantome Black Ghost	0.000524383848977
+Silver City Oktoberfest	0.000524383848977
+Brunehaut St. Martin Brune	0.000524383848977
+Silver City Fat Scotch Ale	0.000524383848977
+Craftsman Poppyfields Pale Ale	0.000524383848977
+Sinebrychoff Porter	0.000524383848977
+Cantillon Bruocsella 1900 Grand Cru	0.000524383848977
+Cantillon Saint Lamvinus	0.000524383848977
+Mikkeller Czech-Style Pilsner	0.000524383848977
+Silver City Bavarian Style Hefeweizen	0.000524383848977
+Green's Green's Endeavor	0.000524383848977
+Sprecher Irish Style Stout	0
+Brouwerij Oud Beersel Oude Gueuze Vieille	0
+Green's Green's Discovery	0
+Brasserie Dieu du Ciel Route Des Épices	0
+Saranac Bock	0
+Timmermans Bourgogne Des Flandres	0
+Sly Fox Dunkel Lager	0
+St. Sylvestre Gavroche	0
+Pisgah India Pale Ale	0
+Surly Four	0
+Smisje Catherine the Great	0
+Dixie Crimson Voodoo	0
+Half Acre Big Hugs	0
+De Struise Black Albert	0
+Hill Farmstead Ephraim	0

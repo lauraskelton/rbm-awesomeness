@@ -1,0 +1,2270 @@
+Samuel Adams Scotch Ale	1.035
+Highland Tasgall Ale	1.035
+Silver City Fat Scotch Ale	1.035
+Traquair House Ale	1.035
+Meantime Scotch Ale	1.035
+Dark Horse Scotty Karate	1.035
+Rahr and Sons Iron Thistle	1.035
+Kettlehouse Cold Smoke Scotch Ale	1.035
+Saranac Scotch Ale	1.035
+Traquair Jacobite Ale	1.035
+Sly Fox Gang Aft Agley	1.035
+Otter Creek Otter Kilter	1.035
+Saint Arnold Divine Reserve #8	1.035
+Founders Backwoods Bastard	1.035
+Middle Ages Kilt Tilter	1.035
+Silver City Macfarlanes Scotch Ale	1.035
+Erie Brewing Ol' Red Cease and Desist	1.035
+AleSmith Wee Heavy	1.035
+Belhaven Wee Heavy	1.035
+Moylans Kilt Lifter	1.035
+Great Divide Claymore Scotch Ale	1.035
+Orkney SkullSplitter	1.035
+Kulmbacher Eisbock	1.027
+Schneider Aventinus Weizen-Eisbock	1.027
+Two Brothers Northwind	1.024
+Port / Pizza Port Santa's Little Helper	1.024
+Great Divide Oak-Aged Yeti	1.024
+BrewDog Paradox Glen Grant	1.024
+Sierra Nevada 30th Anniversary Fritz & Ken's Ale	1.024
+Goose Island Bourbon County Brand Coffee Stout	1.024
+Stone Imperial Russian Stout	1.024
+Weyerbacher Insanity	1.024
+Smuttynose Imperial Stout	1.024
+Bell's Barrel Aged Expedition Stout	1.024
+J.W. Lees Harvest Ale	1.024
+Redhook Double Black Stout	1.024
+AleSmith Old Numbskull	1.024
+Mikkeller Black Hole	1.024
+Brooklyn Monster Ale	1.024
+Schlafly Reserve Imperial Stout	1.024
+Hoppin' Frog B.O.R.I.S. The Crusher	1.024
+Eel River Raven's Eye Imperial Stout	1.024
+Haandbryggeriet Odin's Tipple	1.024
+Weyerbacher Blithering Idiot	1.024
+Rogue XS Imperial Stout	1.024
+Samuel Smith Imperial Stout	1.024
+Otter Creek Russian Imperial Stout	1.024
+Great Divide Chocolate Oak-Aged Yeti Imperial Stout	1.024
+Surly Darkness	1.024
+Brasserie Dieu du Ciel Péché Mortel	1.024
+North Coast Old Rasputin	1.024
+Flossmoor Station Wooden Hell	1.024
+Goose Island Bourbon County Stout	1.024
+Three Floyds Dark Lord	1.024
+Bell's Barrel Aged Cherry Stout	1.024
+Middle Ages Dragonslayer	1.024
+Stoudts Fat Dog	1.024
+Foothills Sexual Chocolate	1.024
+Bell's Harry Magill's Spiced Stout	1.024
+Dogfish Head Bitches Brew	1.024
+Alvinne Podge Belgian Imperial Stout	1.024
+Founders Canadian Breakfast Stout	1.024
+Lost Abbey Serpent's Stout	1.024
+BrewDog Paradox Springbank	1.024
+Samuel Adams Imperial Stout	1.024
+Moylans Ryan Sullivan's Imperial Stout	1.024
+Half Acre Big Hugs	1.024
+Left Hand Oak Aged Imperial Stout	1.024
+BrewDog Devine Rebel	1.024
+Boulder Beer Obovoid	1.024
+Great Divide Yeti Imperial Stout	1.024
+Voodoo Black Magick	1.024
+Alvinne Melchior	1.024
+Old Dominion Dominion Millennium Ale	1.024
+Allagash Fluxus 2010	1.024
+Rogue Imperial Stout	1.024
+BrewDog Paradox Smokehead	1.024
+Thirsty Dog Siberian Night	1.024
+Drake's Imperial Stout	1.024
+Nogne O Imperial Stout	1.024
+Elysian Brewing Dragonstooth Stout	1.024
+Weyerbacher Old Heathen	1.024
+Full Sail Black Gold Imperial Stout	1.024
+Bell's Barrel Aged Double Cream Stout	1.024
+Midnight Sun Arctic Devil	1.024
+Samuel Adams Imperial Stout	1.024
+Port / Pizza Port Older Viscosity	1.024
+Bear Republic Big Bear Black Stout	1.024
+Young's Old Nick	1.024
+Flying Dog Horn Dog	1.024
+Weyerbacher Heresy	1.024
+Grand Teton Black Cauldron	1.024
+Dark Horse Plead The 5th	1.024
+Saint Arnold Divine Reserve #9	1.024
+Bell's Expedition Stout	1.024
+Avery Samael's Ale	1.024
+Dogfish Head World Wide Stout	1.024
+Saranac Imperial Stout	1.024
+BrewDog Paradox Islay	1.024
+Goose Island Night Stalker	1.024
+Coast Blackbeerd	1.024
+Lagunitas Imperial Stout	1.024
+Buffalo Bill's Blueberry Oatmeal Stout	1.024
+Bell's Barrel Aged Java Stout	1.024
+Oskar Blues Ten Fidy	1.024
+AleSmith Speedway Stout	1.024
+Terrapin Coffee Oatmeal Imperial Stout	1.024
+Great Divide Espresso Oak Aged Yeti	1.024
+De Struise Black Albert	1.024
+Brooklyn Black OpS	1.024
+Victory Storm King	1.024
+Big Sky Ivan the Terrible	1.024
+Sierra Nevada Bigfoot	1.022
+New Holland Pilgrim's Dole	1.022
+Bell's Batch 6,000	1.022
+Southern Tier Backburner	1.022
+Victory Old Horizontal	1.022
+Stone Old Guardian	1.022
+Middle Ages Druid Fluid	1.022
+Moylans Old Blarney	1.022
+Hair of the Dog Doggie Claws	1.022
+Hair of the Dog Fred	1.022
+Mikkeller Big Worse Barley Wine	1.022
+Sierra Nevada 30th Anniversary Jack And Ken's Ale	1.022
+Harpoon Leviathan Triticus	1.022
+Schlafly Reserve Barleywine	1.022
+Boulder Beer Killer Penguin	1.022
+Terrapin Gamma Ray	1.022
+Troegs The Flying Mouflan	1.022
+Smuttynose Barleywine Style Ale	1.022
+Founders Nemesis 2010	1.022
+Left Hand Oak-Aged Widdershins	1.022
+Three Floyds Behemoth	1.022
+Full Sail Old Boardhead	1.022
+Smuttynose Wheat Wine Ale	1.022
+Bell's Time Capsule Ale	1.022
+Great Divide Barrel-Aged Old Ruffian	1.022
+Alaskan Alaskan Barley Wine	1.022
+Founders Nemesis 2009	1.022
+Big Sky Olde Bluehair	1.022
+Deschutes Mirror Mirror	1.022
+Blue Point Brewing Old Howling Bastard	1.022
+Redhook Treblehook	1.022
+Great Divide Old Ruffian	1.022
+Dogfish Head Olde School Barleywine	1.022
+Mad River John Barleycorn	1.022
+Thomas Hooker Old Marley	1.022
+Rogue XS Old Crustacean	1.022
+Harpoon Barley Wine	1.022
+Rogue Double Dead Guy	1.02
+Boulevard Seeyoulater Doppelbock	1.02
+Rogue Double Dead Guy	1.02
+Aying Celebrator Doppelbock	1.02
+Green's Green's Discovery	1.02
+Otter Creek Mud Bock	1.02
+Dark Horse Perkulator	1.02
+Thomas Hooker Liberator	1.02
+Lost Abbey The Angel's Share (Brandy Barrel-Aged)	1.02
+He'Brew (Shmaltz) Jewbelation Bar Mitzvah 13	1.02
+Mikkeller Fra Til (From To)	1.02
+Left Hand Rye Bock Lager	1.02
+Fuller's 1845	1.02
+Rogue Imperial Porter	1.02
+Great Divide Smoked Baltic Porter	1.02
+Stone Double Bastard	1.02
+Flying Dog K9 Cruiser	1.02
+Arcadia Shipwreck Porter	1.02
+Left Hand Chainsaw Ale (Double Sawtooth)	1.02
+Heineken Birra Moretti La Rossa	1.02
+Stone Arrogant Bastard	1.02
+Stone Sublimely Self-Righteous	1.02
+Lagunitas Undercover Investigation Shut-Down	1.02
+Southern Tier Cuvee Series 3	1.02
+New Holland Dragon's Milk	1.02
+Beer Here Mørke	1.02
+Ska Brewing Nefarious Ten Pin	1.02
+Mendocino Eye of the Hawk	1.02
+Stone Oaked Arrogant Bastard	1.02
+Capital Blond Doppelbock	1.02
+Capital Capital Baltic Porter	1.02
+Troegs Troegenator	1.02
+Middle Ages Wailing Wench	1.02
+Hitachino XH	1.02
+Port / Pizza Port Old Viscosity	1.02
+Ithaca Ten	1.02
+Kulmbacher EKU 28	1.02
+Dark Horse Reserve Special Black Bier Ale	1.02
+Lagunitas Brown Shugga'	1.02
+Spaten-Franziskaner Optimator	1.02
+Southern Tier Cuvee Series 2	1.02
+Left Hand Smoked Goosinator Doppelbock	1.02
+Weihenstephaner Korbinian	1.02
+Dogfish Head Immort Ale	1.02
+Lagunitas Wilco Tango Foxtrot	1.02
+He'Brew (Shmaltz) Rejewvenator	1.02
+Lagunitas The Hairy Eyeball Ale	1.02
+Capital Autumnal Fire	1.02
+Tommyknocker Butt Head	1.02
+Harpoon Leviathan Baltic Porter	1.02
+Left Hand Goosinator Doppelbock	1.02
+Flossmoor Station Killer Kapowski	1.02
+Schloss Eggenberg Urbock 23°	1.02
+Smuttynose Baltic Porter	1.02
+Sierra Nevada Life & Limb	1.02
+Great Lakes Nosferatu	1.02
+Coronado Red Devil	1.02
+Southern Tier Cuvee Series 1	1.02
+Paulaner Salvator	1.02
+Zywiec Breweries Zywiec Porter	1.02
+He'Brew (Shmaltz) Origin	1.02
+Bell's Consecrator Doppelbock	1.02
+Sierra Nevada 30th Anniversary Grand Cru	1.02
+Sly Fox Instigator Doppelbock	1.02
+Smuttynose S'muttonator	1.02
+Victory Baltic Thunder	1.02
+Leinenkugel's Big Butt Doppelbock	1.02
+Augustiner Maximator	1.02
+Wachusett Green Monsta	1.02
+Sinebrychoff Koff Porter	1.02
+Full Sail Full Sail 21	1.02
+Samuel Adams Double Bock	1.02
+Weltenburger Asam Bock	1.02
+Alaskan Alaskan Baltic Porter	1.02
+Samuel Adams Utopias	1.02
+Sinebrychoff Porter	1.02
+Yards Thomas Jefferson's Tavern Ale	1.02
+Flying Dog Gonzo	1.02
+Victory St. Victorious	1.02
+Widmer Brothers Cherry Oak Doppelbock	1.02
+Bell's Eccentric Ale	1.02
+Deschutes Jubel 2010	1.02
+Lost Abbey The Angel's Share (Bourbon Barrel-Aged)	1.02
+Bell's Special Double Cream Stout	1.019
+Grand Teton Howling Wolf	1.019
+Ska Brewing Steel Toe Milk Stout	1.019
+Samuel Adams Cream Stout	1.019
+Theakston Old Peculier	1.019
+Schneider Hopfen-Weisse	1.019
+Clipper City Heavy Seas Hang Ten	1.019
+Left Hand Milk Stout	1.019
+Fuller's Vintage Ale	1.019
+Youngs Double Chocolate Stout	1.019
+Founders Curmudgeon Old Ale	1.019
+Greene King / Morland Olde Suffolk English Ale	1.019
+Victory Moonglow Weizenbock	1.019
+Southern Tier Old Man	1.019
+Butternuts Moo Thunder	1.019
+Harpoon English Style Old Ale	1.019
+Harviestoun Old Engine Oil	1.019
+Ska Brewing Steel Toe Stout	1.019
+Brooklyn Brooklyner-Schneider Hopfen-Weisse	1.019
+Aying Weizen-Bock	1.019
+St. Peter's Cream Stout	1.019
+Hair of the Dog Adam	1.019
+Weihenstephaner Vitus	1.019
+Harpoon Weizenbock	1.019
+Great Lakes Glockenspiel	1.019
+Highland Auld Asheville Vintage Ale	1.019
+Ithaca Eleven	1.019
+Harviestoun Ola Dubh 30 Year Old	1.019
+Otter Creek Otterbahn	1.019
+Schneider Aventinus	1.019
+Erdinger Pikantus	1.019
+Bell's Third Coast Old Ale	1.019
+Coniston Old Man Ale	1.019
+Haandbryggeriet (Norway) Nissemor	1.019
+Widmer Brothers Snow Plow	1.019
+North Coast Old Stock Ale	1.019
+Harviestoun Ola Dubh 16 Year Old	1.019
+Lancaster Milk Stout	1.019
+Eel River Triple Exultation	1.019
+Harviestoun Ola Dubh (30 Year)	1.019
+Samuel Adams Winter Lager	1.019
+Schlitz Schlitz Bull Ice	1.018
+Rogue Dad's Little Helper	1.018
+Molson Molson XXX	1.018
+Schlitz Schlitz Red Bull XL	1.018
+Miller Mickey's Fine Malt Liquor	1.018
+Schlitz Schlitz Malt Liquor	1.018
+Schlitz Schlitz High Gravity VSL	1.018
+Harpoon Leviathan Quad	1.017
+Saranac Imperial IPA	1.017
+St. Feuillien Cuvée De Noël	1.017
+Lagunitas A Little Sumpin' Extra! Ale	1.017
+21st Amendment Monk's Blood	1.017
+Three Floyds Dreadnaught	1.017
+Oskar Blues Gordon	1.017
+Captain Lawrence Captain's Reserve	1.017
+Bell's Hell Hath No Fury	1.017
+Stone 14th Anniversary Emperial IPA	1.017
+Moylans Hopsickle	1.017
+Westvleteren Westvleteren 12	1.017
+Chimay Chimay Grande Reserve (Blue)	1.017
+Allagash Black	1.017
+Ninkasi Tricerahops	1.017
+Hoppin' Frog Mean Manalishi Double I.P.A.	1.017
+Boulder Beer Mojo Risin	1.017
+Dubuisson Scaldis Noel	1.017
+Big Sky Biere de Noel	1.017
+De Dolle Oerbier	1.017
+Achouffe N'Ice Chouffe	1.017
+Avery The Beast Grand Cru	1.017
+AleSmith Yulesmith (Summer)	1.017
+Midnight Sun Conspiracy	1.017
+The Bruery 2 Turtle Doves	1.017
+Alpine Exponential Hoppiness	1.017
+Abbaye du Val-Dieu Val-Dieu Grand Cru	1.017
+Dogfish Head Squall IPA	1.017
+Dogfish Head Raison D'Etre	1.017
+Lost Abbey Judgment Day	1.017
+Harpoon Leviathan Imperial IPA	1.017
+Two Brothers Hop Juice	1.017
+Troegs Mad Elf	1.017
+Sly Fox Ichor	1.017
+Het Anker Gouden Carolus Classic	1.017
+Avery Maharaja	1.017
+Van den Bossche Buffalo Belgian Stout	1.017
+Ommegang Adoration	1.017
+Brasserie Caracole Nostradamus	1.017
+Smisje Guido	1.017
+Port / Pizza Port Hop-15	1.017
+Van Honsebrouck Kasteel Bruin	1.017
+Rochefort Trappistes Rochefort 8	1.017
+Boulevard Bourbon Barrel Quad	1.017
+Russian River Pliny The Younger	1.017
+Otter Creek Imperial IPA	1.017
+Unibroue Maudite	1.017
+Tyranena Hop Whore	1.017
+Brooklyn Local 2	1.017
+Weyerbacher Quad	1.017
+Flying Dog Double Dog	1.017
+Rogue XS Imperial IPA	1.017
+Het Anker Cuvee Van de Keizer Blue	1.017
+Van Steenberge Gulden Draak	1.017
+Achouffe McChouffe	1.017
+Lagunitas Hop Stoopid	1.017
+Midnight Sun Cohoho	1.017
+Lost Abbey 10 Commandments	1.017
+Coronado Idiot IPA	1.017
+Abbaye des Rocs Brasserie des Rocs Triple Imperiale	1.017
+Great Divide 16th Anniversary Wood Aged	1.017
+Bear Republic Racer X	1.017
+Rogue Ten Thousand Brew Ale	1.017
+Unibroue Trois Pistoles	1.017
+De Proef Troubadour Obscura	1.017
+St. Bernardus Christmas Ale	1.017
+Southern Tier 2XIPA	1.017
+Corsendonk Corsendonk Christmas Ale	1.017
+Bell's Big Head	1.017
+Stoudts Double IPA	1.017
+Grand Teton Lost Continent	1.017
+Hair of the Dog Blue Dot	1.017
+Huyghe Delirium Noel	1.017
+Mammoth Brewing IPA 395	1.017
+Deschutes Hop Henge Experimental IPA	1.017
+Abbaye des Rocs Brasserie des Rocs Ambree	1.017
+Dupont Moinette Brune	1.017
+Breckenridge 471 Small Batch IPA	1.017
+Affligem Affligem Noel	1.017
+Russian River Salvation	1.017
+Pretty Things Baby Tree	1.017
+Achel Trappist Bruin	1.017
+Ska Brewing Decadent	1.017
+Sly Fox Odyssey	1.017
+Allagash Odyssey	1.017
+Brasserie a Vapeur Cochonne	1.017
+Avery DuganA IPA	1.017
+Ommegang Three Philosophers	1.017
+Dogfish Head 120 Minute IPA	1.017
+Abbaye des Rocs Brasserie des Rocs Grand Cru	1.017
+Victory Hop Wallop	1.017
+He'Brew (Shmaltz) Bittersweet Lenny's R.I.P.A.	1.017
+Mikkeller I Beat YoU	1.017
+Carlsberg Carlsberg Elephant	1.017
+Lost Abbey Cuvee De Tomme	1.017
+Great Divide Hercules Double IPA	1.017
+Mad River Steelhead Double IPA	1.017
+Moylans Moylander	1.017
+BridgePort Hop Czar	1.017
+Unibroue La Terrible	1.017
+Russian River Pliny the Elder	1.017
+Mikkeller Santa's Little Helper 2008	1.017
+De Struise Pannepot	1.017
+Arcadia Hop Rocket	1.017
+Jolly Pumpkin Maracaibo Especial (Special Brown Ale)	1.017
+Victory V Twelve	1.017
+Fantome Black Ghost	1.017
+Stone Ruination IPA	1.017
+Huyghe Delirium Nocturnum	1.017
+Brasserie La Binchoise La Binchoise Brune Tradition	1.017
+Smisje Calva Reserva	1.017
+Port / Pizza Port 3rd Anniversary	1.017
+Alpine Pure Hoppiness	1.017
+Dogfish Head Burton Baton	1.017
+Alvinne Balthazar	1.017
+St. Bernardus Abt 12	1.017
+Het Anker Gouden Carolus Noel	1.017
+AleSmith Grand Cru	1.017
+Bell's The Oracle	1.017
+St. Bernardus Brown Ale	1.017
+Unibroue 17	1.017
+Surly Abrasive Ale	1.017
+Avery Collaboration Not Litigation	1.017
+Ithaca Alphalpha	1.017
+Great Divide 15th Anniversary Wood Aged Double IPA	1.017
+Dogfish Head 90 Minute IPA	1.017
+Abbaye des Rocs Brasserie des Rocs Brune	1.017
+Bell's Hopslam	1.017
+Speakeasy Double Daddy	1.017
+Flossmoor Station Collaborative Evil	1.017
+Dogfish Head Raison D'extra	1.017
+Urthel Vlaemse Bock	1.017
+Mikkeller Santa's Little Helper 2007	1.017
+Left Hand Twin Sisters	1.017
+Weyerbacher Double Simcoe IPA	1.017
+BrewDog Zephyr	1.017
+Smuttynose Big A IPA	1.017
+Southampton Abbot 12	1.017
+Great Lakes Lake Erie Monster	1.017
+Dark Horse Double Crooked Tree IPA	1.017
+De Dolle Stille Nacht	1.017
+Smisje BBBourgondier	1.017
+Port / Pizza Port 2nd Anniversary	1.017
+Midnight Sun Melt Down	1.017
+The Bruery Autumn Maple	1.017
+Brasserie Lefebvre Floreffe Prima Melior	1.017
+Captain Lawrence Nor' Easter	1.016
+Full Sail Wassail	1.016
+Goose Island Christmas Ale	1.016
+Michelob Winter's Bourbon Cask Ale	1.016
+Great Lakes Winter Ale	1.016
+North Coast Old Plowshare Stout	1.016
+Dark Horse Tres Blueberry Stout	1.016
+Weyerbacher Winter Ale	1.016
+Anchor Christmas Ale 2009	1.016
+Goose Island Mild Winter	1.016
+Deschutes Jubelale	1.016
+Widmer Brothers Brrr	1.016
+Samuel Smith Winter Welcome	1.016
+Highland Black Mocha Stout	1.016
+Big Sky Powder Hound Winter Ale	1.016
+Dogfish Head Chicory Stout	1.016
+Rahr and Sons Winter Warmer	1.016
+Mad River Steelhead Extra Stout	1.016
+Leinenkugel's 1888 Bock	1.016
+Santa Cruz Mountain Devout Stout	1.016
+Saranac Winter Wassail	1.016
+Samuel Adams Chocolate Bock	1.016
+Saranac Bock	1.016
+Highland Cold Mountain Winter Ale	1.016
+Left Hand Snowbound	1.016
+Sierra Nevada Stout	1.016
+Redhook Winter Hook	1.016
+Old Dominion Dominion Oak Barrel Stout	1.016
+BridgePort Ebenezer	1.016
+Alaskan Alaskan Winter	1.016
+Anchor Bock Beer	1.016
+Harpoon Winter Warmer	1.016
+Spoetzl Shiner Bock	1.016
+Pyramid Snow Cap	1.016
+Lakefront Fuel Cafe	1.016
+Saint Arnold Christmas Ale	1.016
+Michelob Amber Bock	1.016
+Great Divide Hibernation Ale	1.016
+Rogue Chocolate Stout	1.016
+21st Amendment Fireside Chat	1.016
+New Glarus Coffee Stout	1.016
+Bell's Smoked Stout	1.016
+Einbecker Brauhaus Ur-Bock Dunkel	1.016
+Saranac Vanilla Stout	1.016
+Saranac Black Diamond Bock	1.016
+Bell's Rye Stout	1.016
+Left Hand Snow Bound Winter Ale	1.016
+Sly Fox Christmas Ale	1.016
+Mendocino Black Hawk Stout	1.016
+Avery Old Jubilation	1.016
+Samuel Adams Old Fezziwig Ale	1.016
+Summit Winter Ale	1.016
+Brasserie Dieu du Ciel Aphrodisiaque	1.016
+Anderson Valley Winter Solstice	1.016
+Full Sail Full Sail LTD 01	1.016
+Bell's Kalamazoo Stout	1.016
+Boulder Beer Never Summer	1.016
+Deschutes Obsidian Stout	1.016
+Thiriez Biere De Noel	1.016
+BridgePort Black Strap Stout	1.016
+Saint Arnold Spring Bock	1.016
+Genesee Dundee Festive Ale	1.016
+Harpoon Chocolate Stout	1.016
+Lost Coast 8 Ball Stout	1.016
+Great Lakes Christmas Ale	1.016
+Arcadia Cocoa Loco	1.016
+Saint Arnold Winter Stout	1.016
+Otter Creek Cuckoo Bock	1.015
+Rogue John John Dead Guy Ale	1.015
+Bell's Oatmeal Stout	1.015
+McAuslan St. Ambroise Oatmeal Stout	1.015
+Uinta Brewing Blue Sky Pilsener	1.015
+Alaskan Alaskan Stout	1.015
+Sierra Nevada Summerfest	1.015
+Smuttynose Maibock	1.015
+Magic Hat Odd Notion Fall '09	1.015
+Nogne O Brun	1.015
+Einbecker Brauhaus Mai-Ur-Bock	1.015
+Rahr and Sons Bucking Bock	1.015
+Saranac Bohemian Pilsener	1.015
+Breckenridge Oatmeal Stout	1.015
+Left Hand Fade to Black	1.015
+Deschutes The Dissident	1.015
+Unibroue Chambly Noire	1.015
+Port / Pizza Port Panzer Imperial Pilsner	1.015
+Rogue Dead Guy	1.015
+Otter Creek Otter Mon	1.015
+Saranac Pumpkin Ale	1.015
+Einbecker Brauhaus Ur-Bock Hell	1.015
+Weyerbacher Imperial Pumpkin Ale	1.015
+Troegs JavaHead Stout	1.015
+Samuel Adams Imperial Pilsner	1.015
+Genesee Dundee Pale Bock Lager	1.015
+Sierra Nevada Glissade	1.015
+Shipyard Pumpkinhead	1.015
+Harpoon Helles Blond Bock	1.015
+Bavik Petrus Oud Bruin	1.015
+Bockor Bellegems Bruin	1.015
+Ommegang Zuur	1.015
+Elysian Brewing Night Owl Pumpkin Ale	1.015
+Buffalo Bill's Pumpkin Ale	1.015
+Full Sail Capsize	1.015
+Dogfish Head Punkin Ale	1.015
+Sudwerk Imperial Pilsner	1.015
+Harpoon Leviathan Big Bohemian	1.015
+Mikkeller Draft Bear	1.015
+Rogue Morimoto Imperial Pilsner	1.015
+Samuel Smith Oatmeal Stout	1.015
+Coopers Coopers Best Extra Stout	1.015
+New Belgium 1554	1.015
+Smisje Catherine the Great	1.015
+Bavik Petrus Aged Pale	1.015
+Plzensky Prazdroj Pilsner Urquell	1.015
+Sierra Nevada 30th Anniversary Charlie Fred And Ken's Bock	1.015
+Brooklyn Post Road Pumpkin Ale	1.015
+Harpoon Oatmeal Stout	1.015
+Schlafly Pumpkin Ale	1.015
+Otter Wolaver's Oatmeal Stout	1.015
+Victory St. Boisterous	1.015
+Coors Blue Moon Harvest Moon	1.015
+Oskar Blues Mamas Little Yella Pils	1.015
+Van Steenberge Monk's Café	1.015
+Staropramen (StarBev) Staropramen Lager	1.015
+Ommegang Rare Vos	1.015
+Mikkeller Czech-Style Pilsner	1.015
+New Holland Ichabod	1.015
+Ninkasi Oatis	1.015
+Hopworks (HUB) Survival 7-Grain Stout	1.015
+Goose Island Oatmeal Stout	1.015
+Smuttynose Pumpkin Ale	1.015
+Otter Creek Vermont Lager	1.015
+Harpoon Bohemian Pilsner	1.015
+Anderson Valley Barney Flats Oatmeal Stout	1.015
+Captain Lawrence Rosso e Marrone	1.015
+Schlafly Oatmeal Stout	1.015
+Rogue Shakespeare Stout	1.015
+Ommegang Chocolate Indulgence	1.015
+De Dolle Extra Export Stout	1.015
+Anheuser-Busch InBev Leffe Brune	1.015
+New Holland The Poet	1.015
+Saranac Oatmeal Stout	1.015
+Young's Oatmeal Stout	1.015
+Konigshoeven Tilburg's Dutch Brown Ale	1.015
+De Ranke Noir de Dottignies	1.015
+Alvinne Gaspar	1.014
+Abita Amber	1.014
+Anchor Anchor Porter	1.014
+Saint Arnold Elissa IPA	1.014
+Beck's Beck's Oktoberfest	1.014
+Lost Coast Indica India Pale Ale	1.014
+Rogue Yellow Snow IPA	1.014
+Het Anker Gouden Carolus Hopsinjoor	1.014
+Allagash Allagash Hugh Malone	1.014
+Butte Creek Organic Porter	1.014
+Haandbryggeriet (Norway) Nissefar	1.014
+Clipper City MärzHon	1.014
+Boulder Beer Planet Porter	1.014
+Great Lakes Edmund Fitzgerald	1.014
+Southampton India Pale Ale	1.014
+Genesee Dundee Porter	1.014
+Ballast Point Victory at Sea	1.014
+St. Peter's India Pale Ale	1.014
+Dogfish Head 60 Minute IPA	1.014
+Harpoon I.P.A.	1.014
+Anderson Valley Hop Ottin IPA	1.014
+Full Sail Full Sail IPA	1.014
+Speakeasy Big Daddy IPA	1.014
+Kona Pipeline Porter	1.014
+Founders Porter	1.014
+Boulevard Bully! Porter	1.014
+Samuel Adams Latitude 48	1.014
+Sierra Nevada India Pale Ale	1.014
+Ithaca Flower Power	1.014
+Maui CoCoNut Porter	1.014
+Southern Tier Porter	1.014
+Mikkeller Nugget Single Hop IPA	1.014
+BrewDog Bashah	1.014
+Flying Dog Raging Bitch Belgian IPA	1.014
+Mayflower IPA	1.014
+Goose Island India Pale Ale	1.014
+BrewDog Punk IPA	1.014
+Harviestoun Bitter & Twisted	1.014
+De Ranke XX Bitter	1.014
+Pyramid Thunderhead	1.014
+Lancaster Hop Hog	1.014
+Elysian Brewing Perseus Porter	1.014
+Dark Horse Crooked Tree IPA	1.014
+Midnight Sun Sockeye Red IPA	1.014
+Saint Arnold Oktoberfest	1.014
+Lagunitas IPA	1.014
+Capital Capital Oktoberfest	1.014
+Ballast Point Black Marlin Porter	1.014
+Terrapin Hopsecutioner	1.014
+Butternuts Snapperhead IPA	1.014
+Silver City Oktoberfest	1.014
+Coronado Islander IPA	1.014
+Yuengling Porter	1.014
+Short's Brewing Huma-Lupa-Licious IPA	1.014
+Great Divide Hoss	1.014
+Ska Brewing Ten Pin Porter	1.014
+Sierra Nevada Porter	1.014
+Flying Fish Imperial Espresso Porter	1.014
+Magic Hat Lucky Kat	1.014
+BridgePort BridgePort Porter	1.014
+Bear Republic Racer 5	1.014
+Mikkeller Stateside IPA	1.014
+Philadelphia Joe	1.014
+Michelob Porter	1.014
+Green Flash West Coast IPA	1.014
+Southampton Imperial Porter	1.014
+Grand Teton Sweetgrass IPA	1.014
+Summit Great Northern Porter	1.014
+Michelob Porter	1.014
+Erie Brewing Misery Bay IPA	1.014
+AleSmith AleSmith IPA	1.014
+Real Ale Brewing Lost Gold IPA	1.014
+Anderson Valley Deep Enders Dark Porter	1.014
+Full Sail Top Sail	1.014
+Mission IPA	1.014
+Rahr and Sons Stormcloud IPA	1.014
+Van Steenberge Piraat	1.014
+Sierra Nevada Anniversary Ale	1.014
+Rogue Independence Hop Ale	1.014
+New Belgium Ranger IPA	1.014
+Full Sail Prodigal Sun IPA	1.014
+Maui Big Swell IPA	1.014
+Ninkasi Total Domination	1.014
+Eel River Porter	1.014
+Thomas Hooker Imperial Porter	1.014
+Smuttynose Robust Porter	1.014
+Sly Fox Oktoberfest	1.014
+Deschutes Inversion IPA	1.014
+Nogne O India Pale Ale	1.014
+Flying Dog Snake Dog	1.014
+Widmer Brothers Broken Halo IPA	1.014
+Ballast Point Big Eye IPA	1.014
+Urthel Hop-it	1.014
+Paulaner Oktoberfest Marzen	1.014
+Highland Big Butte Smoked Porter	1.014
+Avery The Kaiser	1.014
+Great Divide Belgica	1.014
+Alpine Duet	1.014
+Redhook Long Hammer IPA	1.014
+Brasserie Dieu du Ciel Corne Du Diable	1.014
+Dogfish Head Aprihop	1.014
+Marshall Brewing Atlas IPA	1.014
+Two Brothers Heavy Handed IPA	1.014
+Saranac India Pale Ale	1.014
+Alaskan Alaskan IPA	1.014
+Otter Creek 15th Anniversary IPA	1.014
+Magic Hat Hi.P.A.	1.014
+BridgePort BridgePort IPA	1.014
+Harpoon Smoked Porter	1.014
+Bear Republic Hop Rod Rye	1.014
+Haandbryggeriet (Norway) Aqua Vita Porter	1.014
+Russian River Blind Pig IPA	1.014
+Stone Cali-Belgique	1.014
+Mikkeller Simcoe Single Hop IPA	1.014
+21st Amendment Brew Free or Die IPA	1.014
+Weyerbacher Hops Infusion	1.014
+Avery India Pale Ale	1.014
+Samuel Adams Honey Porter	1.014
+Van den Bossche Buffalo Belgian Bitter	1.014
+Silver City Indianola IPA	1.014
+Stone Smoked Porter	1.014
+Leinenkugel's Oktoberfest	1.014
+Ballast Point Sculpin IPA	1.014
+Three Floyds Alpha Klaus	1.014
+Port / Pizza Port High Tide	1.014
+Highland Clawhammer Oktoberfest	1.014
+Mikkeller Amarillo Single Hop IPA	1.014
+Odell Brewing Odell IPA	1.014
+Sierra Nevada Southern Hemisphere Harvest	1.014
+Atlantic Bar Harbor Coal Porter	1.014
+New Holland Mad Hatter	1.014
+Captain Lawrence Smoke from the Oak	1.014
+Tyranena Bitter Woman IPA	1.014
+Bell's Octoberfest	1.014
+Port / Pizza Port Wipeout I.P.A.	1.014
+Hofbräu München Oktoberfestbier	1.014
+Eel River I.P.A.	1.014
+Mikkeller Nelson Sauvin Single Hop IPA	1.014
+Yards India Pale Ale	1.014
+Great Divide St. Bridget's Porter	1.014
+Flying Dog Dogtoberfest	1.014
+Long Trail Long Trail IPA	1.014
+New Glarus Hop Hearty Ale	1.014
+Haandbryggeriet (Norway) Norse Porter	1.014
+Coast HopArt	1.014
+Victory HopDevil	1.014
+Caldera IPA	1.014
+Flying Dog Road Dog	1.014
+Cisco Brewers Moor Porter	1.014
+Sweetwater IPA	1.014
+Wachusett IPA	1.014
+Schlenkerla Rauchbier Marzen	1.014
+Marshall Brewing Oktoberfest	1.014
+Rahr and Sons Oktoberfest	1.014
+Alaskan Double Black IPA	1.014
+Speakeasy Payback Porter	1.014
+Troegs Dead Reckoning Porter	1.014
+Highland Oatmeal Porter	1.014
+Hale's Ales Supergoose DIPA	1.014
+BrewDog Chaos Theory	1.014
+Brouwerij Contreras Valeir Extra	1.014
+North Coast Acme California IPA	1.014
+Victory Yakima Glory	1.014
+Left Hand Warrior IPA	1.014
+Peak Organic IPA	1.014
+Great Lakes Commodore Perry	1.014
+Samuel Adams Holiday Porter	1.014
+Hacker-Pschorr Oktoberfest-Märzen	1.014
+Genesee Dundee India Pale Ale	1.014
+Meantime IPA	1.014
+Scottish and Newcastle McEwan's India Pale Ale	1.014
+Shipyard IPA	1.014
+Redhook Black Hook Porter	1.014
+Foothills Foothills Oktoberfest	1.014
+Real Ale Brewing Oktoberfest	1.014
+Full Sail Half Pipe Porter	1.014
+Spaten-Franziskaner Oktoberfest Ur-Märzen	1.014
+Thirsty Dog Old Leghumper	1.014
+Breckenridge Vanilla Porter	1.014
+Sierra Nevada Harvest	1.014
+Marshall Brewing Big Jamoke	1.014
+New English Troopers Tipple	1.014
+Weihenstephaner Festbier	1.014
+Deschutes Hop in the Dark	1.014
+Left Hand Smoke Jumper	1.014
+Boulder Beer Cold Hop	1.014
+Firestone Walker Union Jack IPA	1.014
+Flying Dog Dog Schwarz	1.014
+Weltenburger Winter-Traum	1.014
+Terrapin Rye Squared	1.014
+Sierra Nevada Torpedo Extra IPA	1.014
+Drake's IPA	1.014
+Butte Creek Organic India Pale Ale	1.014
+Victory Festbier	1.014
+Stone IPA	1.014
+Elysian Brewing Avatar Jasmine IPA	1.014
+Mikkeller Warrior Single Hop IPA	1.014
+Caldera Hopportunity Knocks	1.014
+Philadelphia Newbold IPA	1.014
+Midnight Sun Arctic Rhino Coffee Porter	1.014
+Achouffe Chouffe Houblon Dobbelen IPA Tripel	1.014
+Avery New World Porter	1.014
+Smuttynose IPA	1.014
+Middle Ages ImPaled Ale	1.014
+Samuel Adams Octoberfest	1.014
+Founders Centennial IPA	1.014
+Bell's Two Hearted Ale	1.014
+Firestone Walker Nectar IPA	1.014
+Victory Wild Devil Ale	1.014
+Saranac Caramel Porter	1.014
+Port / Pizza Port Moon Lit Sessions	1.014
+Highland Kashmir IPA	1.014
+Mikkeller Cascade Single Hop	1.014
+Ska Brewing Modus Hoperandi	1.014
+Sierra Nevada Estate Brewers Harvest Ale	1.014
+Flying Fish HopFish	1.014
+Ithaca Gorges Smoked Porter	1.014
+Bell's Porter	1.014
+Schlenkerla Rauchbier Weizen	1.014
+Hopworks (HUB) Hopworks IPA	1.014
+Great Divide Rumble IPA	1.014
+Boulder Beer Mojo IPA	1.014
+Great Divide Titan IPA	1.014
+Rogue Mocha Porter	1.014
+Sly Fox Rte. 113 India Pale Ale	1.014
+Samuel Smith India Ale	1.014
+Mendocino White Hawk IPA	1.014
+Otter Creek Stovepipe Porter	1.014
+Silver City Panther Lake Porter	1.014
+Belhaven Twisted Thistle IPA	1.014
+Elysian Brewing The Immortal IPA	1.014
+Deschutes Black Butte Porter	1.014
+Full Sail Grandsun of Spot	1.014
+Blue Point Brewing Hoptical Illusion	1.014
+Alpine Nelson	1.014
+Surly Furious	1.014
+Sierra Nevada Celebration	1.014
+Harpoon Frankenfest	1.014
+Lost Abbey Lost And Found	1.013
+Left Hand Sawtooth	1.013
+Yards Extra Special Ale	1.013
+Long Trail Long Trail Ale	1.013
+Corsendonk Abbey Brown Ale	1.013
+Anheuser-Busch InBev Bud Light Golden Wheat	1.013
+Abita Abbey Ale	1.013
+Coors Blue Moon Full Moon	1.013
+Foster's Foster's Premium Ale	1.013
+Widmer Brothers Okto	1.013
+Alaskan Alaskan Amber	1.013
+Dogfish Head Midas Touch	1.013
+BridgePort BridgePort ESB	1.013
+Rochefort Trappistes 6	1.013
+Spoetzl Shiner Bohemian Black Lager	1.013
+Konigshoeven La Trappe Dubbel	1.013
+Full Sail Equinox	1.013
+Allagash Dubbel Reserve	1.013
+Lakefront E.S.B.	1.013
+Otter Creek Copper Ale	1.013
+Goose Island Harvest Ale	1.013
+BrewDog Dogma	1.013
+St. Feuillien Brune	1.013
+Williams Brothers Alba Scots Pine Ale	1.013
+Flying Fish ESB Ale	1.013
+St. Bernardus Prior 8	1.013
+Full Sail Session Black	1.013
+Smuttynose Winter Ale	1.013
+Alken-Maes Grimbergen Dubbel	1.013
+Brunehaut St. Martin Brune	1.013
+Victory Ten Years Alt	1.013
+Midnight Sun La Mâitresse du Moine	1.013
+Warsteiner Premium Dunkel	1.013
+Abbaye du Val-Dieu Val-Dieu Brune	1.013
+Highland Seven Sisters	1.013
+Moortgat Maredsous 8	1.013
+Arcadia Jaw-Jacker	1.013
+Anderson Valley Boont ESB	1.013
+FEMSA Xingu Black Beer	1.013
+Shipyard Ringwood Old Thumper	1.013
+Ommegang Abbey Ale	1.013
+Furthermore Oscura	1.013
+New Belgium Abbey Ale	1.013
+Clipper City Heavy Seas Holy Sheet	1.013
+Rahr and Sons Ugly Pug	1.013
+Flying Fish Belgian Style Dubbel	1.013
+Dogfish Head Chateau Jiahu	1.013
+St. Bernardus Pater 6	1.013
+Westmalle Dubbel	1.013
+Rogue Imperial Youngers Special Ale	1.013
+Grupo Modelo Negra Modelo	1.013
+Saranac E.S.B.	1.013
+Weltenburger Barock Dunkel	1.013
+Einbecker Brauhaus Schwarzbier	1.013
+Sly Fox Dunkel Lager	1.013
+Middle Ages Beast Bitter	1.013
+Goose Island Pere Jacques	1.013
+North Coast Cru D'or	1.013
+Stoudts Scarlet Lady Ale	1.013
+Elysian Brewing The Wise ESB	1.013
+AleSmith Anvil ESB	1.013
+Youngs Special London Ale	1.013
+Capital Capital Wild Rice	1.013
+Köstritzer Köstritzer Schwarzbier	1.013
+Dixie Blackened Voodoo	1.013
+Van Steenberge Bornem Double	1.013
+Affligem Affligem Dubbel	1.013
+Otter Creek Equinox Ale	1.013
+DAB Original	1.013
+Harpoon Munich Dark Beer	1.013
+Rogue Dirtoir Black Lager	1.013
+Long Trail Double Bag	1.013
+Magic Hat Odd Notion Spring '09	1.013
+Anchor Anchor Steam	1.013
+Samuel Adams Black Lager	1.013
+Southern Tier Harvest Ale	1.013
+Green's Green's Endeavor	1.013
+Clipper City Heavy Seas Winter Storm	1.013
+Silver City Big Daddy's ESB	1.013
+Redhook ESB	1.013
+Beck's Beck's Dark	1.013
+Saranac Black Forest	1.013
+Westvleteren Westvleteren 8	1.013
+Chimay Chimay Première (Red)	1.013
+Capital Munich Dark	1.013
+Grand Teton Bitch Creek ESB	1.013
+North Coast Brother Thelonious	1.013
+Mission Amber Ale	1.013
+Kulmbacher Mönchshof Schwarzbier	1.013
+Dogfish Head Theobroma	1.012
+Dogfish Head Shelter Pale Ale	1.012
+Metropolitan Dynamo	1.012
+Full Sail Nugget	1.012
+Schlafly No. 15	1.012
+Victory Sunrise Weiss	1.012
+He'Brew (Shmaltz) Messiah Bold	1.012
+Eel River Acai Berry Wheat	1.012
+Michelob Dunkel Weisse	1.012
+Flying Dog Doggie Style	1.012
+Weltenburger Hefe-Weizen Hell	1.012
+Terrapin Rye Pale Ale	1.012
+Rogue Santa's Private Reserve	1.012
+Drake's Hefe	1.012
+Moylans Tipperary Pale Ale	1.012
+BridgePort Ropewalk Amber Ale	1.012
+New Glarus Dancing Man Wheat	1.012
+Bear Republic Red Rocket Ale	1.012
+Van Steenberge Bruegel	1.012
+Sea Dog Apricot Wheat	1.012
+Saranac Rauchbier	1.012
+Pyramid Imperial Hefeweizen	1.012
+Leinenkugel's Berry Weisse	1.012
+Santa Cruz Mountain Amber Ale	1.012
+Saint Arnold Amber Ale	1.012
+Hacker-Pschorr Weisse	1.012
+Troegs Nugget Nectar	1.012
+Middle Ages Grail Ale	1.012
+Hair of the Dog Ruth	1.012
+Silver City Bavarian Style Hefeweizen	1.012
+Left Hand Haystack Wheat	1.012
+Wachusett Blueberry	1.012
+Ommegang BPA	1.012
+Schlenkerla Rauchbier Urbock	1.012
+New Belgium Giddy Up!	1.012
+Leinenkugel's Red Lager	1.012
+Magic Hat Hex	1.012
+Yuengling Black and Tan	1.012
+Anheuser-Busch InBev Leffe Blonde	1.012
+Voodoo Wynona's Big Brown Ale	1.012
+Saranac Black and Tan	1.012
+Highland Gaelic Ale	1.012
+Great Divide Fresh Hop Pale Ale	1.012
+Flying Fish Extra Pale Ale	1.012
+Mad River Jamaica Red Ale	1.012
+Rogue Seahorse Pale Ale	1.012
+St. Sylvestre Gavroche	1.012
+Founders Cerise	1.012
+Harpoon Peche	1.012
+Tyranena Rocky's Revenge	1.012
+Pyramid Audacious Apricot Ale	1.012
+Left Hand Terra-Rye'zd	1.012
+Yards Philadelphia Pale Ale	1.012
+Flying Dog Garde Dog	1.012
+Sly Fox Phoenix Pale Ale	1.012
+Mendocino Red Tail Ale	1.012
+Magic Hat Wacko	1.012
+New Glarus Stone Soup	1.012
+Jolly Pumpkin Luciernaga (The Firefly)	1.012
+Belhaven St. Andrews Ale	1.012
+Cold Spring Moonlight Ale	1.012
+Nogne O Pale Ale	1.012
+Harpoon Harpoon Ale	1.012
+Bell's Christmas Ale	1.012
+Avery Karma	1.012
+Blue Point Brewing Blue Point Blueberry	1.012
+Coors Blue Moon Pale Moon	1.012
+Two Brothers The Bitter End	1.012
+Tommyknocker Maple Nut Brown Ale	1.012
+Brasserie Lefebvre Floreffe Blonde	1.012
+Brasserie Dieu du Ciel Route Des Épices	1.012
+Harpoon Framboise	1.012
+Half Acre Ginger Twin	1.012
+Rahr and Sons Buffalo Butt	1.012
+Anchor Anchor Liberty Ale	1.012
+Brooklyn Brown Ale	1.012
+Speakeasy Untouchable	1.012
+Highland St. Terese's Pale Ale	1.012
+Bear Republic XP Pale Ale	1.012
+Brasserie Castelain St. Amand	1.012
+Michelob Bavarian Style Wheat	1.012
+Weltenburger Hefe-Weizen Dunkel	1.012
+Terrapin Hop Karma Brown IPA	1.012
+Alaskan Alaskan Pale	1.012
+Rogue Morimoto Soba Ale	1.012
+Harpoon Steve Stewart's Firth Of Forth Ale	1.012
+New Glarus Crack'd Wheat	1.012
+Brooklyn Winter Ale	1.012
+Schneider Weisse	1.012
+Boulder Beer Pass Time Pale Ale	1.012
+Great Lakes Orange Peel Ale	1.012
+Erdinger Weissbier Dunkel	1.012
+21st Amendment Hell or High Watermelon	1.012
+Smuttynose Star Island Single	1.012
+Two Brothers Cane and Ebel	1.012
+Aying Brau-Weisse	1.012
+Sly Fox Royal Weisse	1.012
+Otter Creek Raspberry Brown Winter Ale	1.012
+Silver City Clear Creek Pale Ale	1.012
+Karl Strauss Red Trolley Ale	1.012
+Voodoo Pilzilla	1.012
+Oskar Blues Old Chub	1.012
+Redhook Copper Hook	1.012
+New Belgium Fat Tire	1.012
+Samuel Smith Organic Raspberry Fruit Beer	1.012
+Ommegang Biere de Mars	1.012
+Sierra Nevada Tumbler	1.012
+Breckenridge Avalanche	1.012
+Steinhaus Jumping Cow Amber Ale	1.012
+Great Divide Dunkel Weisse	1.012
+Dogfish Head Indian Brown Ale	1.012
+Harpoon Old Rusty's Red Rye Ale	1.012
+Bell's Pale Ale	1.012
+He'Brew (Shmaltz) R.I.P.A. on Rye	1.012
+Pyramid Amber Ale	1.012
+Samuel Adams Cranberry Lambic	1.012
+Otter Creek Pale Ale	1.012
+Magic Hat Roxy Rolles	1.012
+New Glarus Raspberry Tart	1.012
+Coast Rye Not Brown Ale	1.012
+Caldera Pale Ale	1.012
+Wells Banana Bread Beer	1.012
+Konigshoeven La Trappe Blond	1.012
+Three Floyds Robert the Bruce	1.012
+Bell's Amber Ale	1.012
+AleSmith AleSmith X	1.012
+Bell's Cherry Ale	1.012
+Deschutes Green Lakes	1.012
+Ithaca Old Habit	1.012
+De Blaugies Darbyste	1.012
+Big Sky Moose Drool	1.012
+Lagunitas New Dogtown Pale Ale	1.012
+Surly Coffee Bender	1.012
+Tommyknocker Imperial Nut Brown Ale	1.012
+New Belgium Old Cherry	1.012
+Yuengling Lord Chesterfield Ale	1.012
+Speakeasy Prohibition Ale	1.012
+He'Brew (Shmaltz) Genesis Ale	1.012
+Dogfish Head Fort	1.012
+Brasserie Castelain Blond Biere de Garde	1.012
+Flossmoor Station Pullman Brown Ale	1.012
+Spaten-Franziskaner Hefe-Weissbier Dunkel	1.012
+Boulevard Lunar Ale	1.012
+Sierra Nevada Pale Ale	1.012
+Rogue Chipotle Ale	1.012
+Schneider Wiesen Edel-Weisse	1.012
+Mad River Steelhead Extra Pale Ale	1.012
+Drake's Amber	1.012
+Bayern Dragon's Breath	1.012
+Philadelphia Fleur de Lehigh	1.012
+Erdinger Weissbier	1.012
+Flying Dog In Heat Wheat	1.012
+Anheuser-Busch Budweiser American Ale	1.012
+Smuttynose Shoals Pale Ale	1.012
+Troegs HopBack Amber	1.012
+Aying Altbairisch Dunkel	1.012
+Genesee Dundee Pale Ale	1.012
+Inveralmond Lia Fail	1.012
+Goose Island Red Felt	1.012
+Big Sky Smoove Cherry Ale	1.012
+Oskar Blues Dale's Pale Ale	1.012
+Erie Brewing Mad Anthony's APA	1.012
+Widmer Brothers Drop Top Amber	1.012
+Harpoon Glacier Harvest '09 Wet Hop	1.012
+Real Ale Brewing Full Moon Pale Rye Ale	1.012
+Anderson Valley Boont Amber Ale	1.012
+Bell's Golden Rye	1.012
+Saranac Belgian Ale	1.012
+Mission Hefeweizen	1.012
+Kona Fire Rock Pale Ale	1.012
+Blue Point Brewing Toasted Lager	1.012
+Van Honsebrouck Kasteel Rouge	1.012
+Abita Pecan Harvest	1.012
+Dixie Crimson Voodoo	1.012
+Sweetwater Sweetwater Blue	1.012
+Thiriez Blonde	1.012
+Orkney Dark Island	1.012
+BridgePort Blue Heron	1.012
+New Glarus Wisconsin Belgian Red	1.012
+Saranac India Brown Ale	1.012
+Boulder Beer Hazed and Infused	1.012
+Samuel Adams Cherry Wheat	1.012
+Magic Hat Odd Notion Summer '09	1.012
+Belhaven Scottish Ale	1.012
+Alken-Maes Grimbergen Blonde	1.012
+Saranac Rye Pilsener	1.012
+Stone Levitation	1.012
+Santa Cruz Mountain Dread Brown Ale	1.012
+Buffalo Bill's Orange Blossom Cream Ale	1.012
+Three Floyds Pride and Joy	1.012
+Iron City Augustiner Lager	1.012
+Samuel Adams Boston Ale	1.012
+Southern Tier Heavy Weizen	1.012
+Paulaner Hefe-Weizen	1.012
+Butternuts Heinnieweisse	1.012
+Aying Ur-Weisse	1.012
+Redhook Late Harvest	1.012
+Abbaye du Val-Dieu Val-Dieu Blond	1.012
+Dogfish Head Palo Santo Marron	1.012
+Lost Abbey Gift Of The Magi	1.012
+Half Acre Daisy Cutter	1.012
+Matt Brewing Mississippi Mud Black & Tan	1.012
+Two Brothers Domain DuPage	1.012
+Moortgat Maredsous 6	1.012
+Bear Republic Peter Brown Tribute Ale	1.012
+Lost Coast Alleycat Amber	1.012
+Spaten-Franziskaner Hefe-Weissbier	1.012
+Terrapin Big Hoppy Monster	1.012
+Ska Brewing Pinstripe	1.012
+Rogue Morimoto Black Obi	1.012
+Sierra Nevada Kellerweis	1.012
+Rogue Captain Sig's Deadliest Ale	1.012
+Rogue Smoke Ale	1.012
+St. Sylvestre 3 Monts	1.012
+Drake's 1500 Pale Ale	1.012
+Westvleteren Westvleteren Blond	1.012
+Bell's Raspberry Ale	1.012
+Saranac Pale Pale Ale	1.012
+Brooklyn Brooklyner Weisse	1.012
+Great Divide Wild Raspberry Ale	1.012
+Three Floyds Alpha King	1.012
+Two Brothers Bonfire Dunkle Weisse	1.012
+Southampton Biere de Garde	1.012
+Sly Fox Black Raspberry Reserve	1.012
+Inveralmond Blackfriar	1.012
+Silver City Ridgetop Red	1.012
+Boxcar Original Ale	1.012
+Widmer Brothers Drifter Pale Ale	1.012
+Harpoon Glacier Harvest '08 Wet Hop	1.012
+Voodoo Gran Met	1.012
+Saranac Belgian Ale	1.012
+Mikkeller All Others Pale	1.012
+Mendocino Blue Heron	1.012
+Jolly Pumpkin Oro de Calabaza	1.012
+Weihenstephaner Hefeweissbier Dunkel	1.012
+Sweetwater 420 Extra Pale Ale	1.012
+Orval Orval	1.012
+Odell Brewing 90 Shilling Ale	1.012
+Dogfish Head Black & Blue	1.012
+Atlantic Bar Harbor Blueberry Ale	1.012
+Full Sail Full Sail Nut Brown Ale	1.012
+Two Brothers The Bitter End	1.012
+Brooklyn Brooklyn Lager	1.012
+Russian River Redemption	1.012
+Port / Pizza Port Shark Attack	1.012
+Hofbräu München Münchner Weisse	1.012
+Eel River Amber Ale	1.012
+Mikkeller Jackie Brown	1.012
+Uinta Brewing Cutthroat Pale Ale	1.012
+Rogue St. Rogue Red Ale	1.012
+Rogue Hazelnut Brown Nectar	1.012
+Samuel Adams Boston Lager	1.012
+Harpoon UFO Raspberry Hefeweizen	1.012
+Sea Dog Blue Paw	1.012
+Saranac Roggen Bock	1.012
+Pyramid Juggernaut Red Ale	1.012
+Steinhaus Mission St. Brown Ale	1.012
+Great Lakes Eliot Ness	1.012
+Hacker-Pschorr Weisse Dark	1.012
+Troegs Pale Ale	1.012
+New Belgium Mighty Arrow	1.012
+Butternuts Porkslap Pale Ale	1.012
+Surly Bender	1.012
+Stoudts American Pale Ale	1.012
+Erie Brewing Railbender Ale	1.012
+New Belgium Mighty Arrow	1.012
+Leinenkugel's Summer Shandy	1.012
+River Horse Brewing Hop Hazard	1.012
+Rahr and Sons Summertime Wheat	1.012
+Lost Abbey Devotion	1.012
+Unibroue Raftman	1.012
+Harpoon Kellerbier	1.012
+Real Ale Brewing Rio Blanco Pale Ale	1.012
+Hitachino Nest Weizen	1.012
+Anderson Valley Poleeko Gold Pale Ale	1.012
+Full Sail Keelhauler	1.012
+Weltenburger Hefe-Weissbier Dunkel	1.012
+Deschutes Red Chair NWPA	1.012
+Lost Abbey Avant Garde	1.012
+Rogue American Amber	1.012
+Rogue Sesquicentennial Ale	1.012
+Otter Creek Oktoberfest	1.012
+Founders Harvest Ale	1.012
+FEMSA Dos Equis Amber	1.012
+Magic Hat #9	1.012
+Harpoon Rauchfetzen	1.012
+Ninkasi Believer	1.012
+Pyramid Broken Rake	1.012
+Craftsman Triple White Sage	1.012
+Palm Palm Speciale	1.012
+Samuel Adams Dunkelweizen	1.012
+Skagway Spruce Tip Ale	1.012
+Goose Island Naughty Goose	1.012
+Cold Spring Cold Spring Pale Ale	1.012
+Spoetzl Shiner Hefeweizen	1.012
+Summit Hefe Weizen	1.012
+Stone Pale Ale	1.012
+Long Trail Blackbeary Wheat	1.012
+Short's Brewing Pandemonium	1.012
+Brasserie La Binchoise La Binchoise Blonde Tradition	1.012
+Coronado Mermaid's Red	1.012
+AleSmith Yulesmith (Winter)	1.012
+Weihenstephaner Hefeweissbier	1.012
+Coors Blue Moon Rising Moon	1.012
+Thiriez Amber	1.012
+Lakefront New Grist	1.012
+Redhook Sunrye	1.012
+New Glarus Unplugged Enigma	1.012
+New Belgium Springboard	1.012
+Brasserie Dieu du Ciel Dernière Volonté	1.012
+Schlafly Bière de Garde	1.012
+Brasserie Grain d'Orge Belzebuth	1.011
+Unibroue Don de Dieu	1.011
+New Holland Dark Tulip	1.011
+Russian River Damnation	1.011
+Mikkeller It's Alive	1.011
+Ska Brewing True Blonde Ale	1.011
+Sly Fox Incubus	1.011
+Mad River Steelhead Scotch Porter	1.011
+Otter Creek Wolaver's Brown Ale	1.011
+St. Feuillien Tripel	1.011
+Mikkeller USAlive!	1.011
+Flying Dog Kerberos Tripel	1.011
+Samuel Adams Irish Red	1.011
+Stoudts Triple	1.011
+Van den Bossche Pater Lieven Tripel	1.011
+Arcadia London Porter	1.011
+Guinness Kilkenny	1.011
+Brasserie Caracole Saxo	1.011
+Harpoon Celtic Ale	1.011
+Abbaye des Rocs Brasserie des Rocs Blonde	1.011
+Real Ale Brewing Brewhouse Brown	1.011
+Hitachino Red Rice Ale	1.011
+Three Floyds Brian Boru	1.011
+Brasserie Caracole Caracole	1.011
+Van Honsebrouck Kasteel Blonde	1.011
+Ska Brewing Buster Nut Brown	1.011
+Lagunitas Little Sumpin' Wild	1.011
+Dogfish Head Pangaea	1.011
+St. Bernardus Tripel	1.011
+Saranac Nut Brown Ale	1.011
+Great Divide Samurai Rice Ale	1.011
+Guinness Smithwick's	1.011
+Het Anker Cuvee Van de Keizer Red	1.011
+Victory Golden Monkey	1.011
+Southern Tier Tripel	1.011
+De Proef Signature Ale	1.011
+Fantome Strange Ghost	1.011
+Redhook Slim Chance	1.011
+Murphy Murphy's Irish Red	1.011
+New Belgium Skinny Dip	1.011
+Schlafly Grand Cru	1.011
+Allagash Curieux	1.011
+Allagash Tripel Reserve	1.011
+Moortgat Maredsous 10	1.011
+Saint Arnold Brown Ale	1.011
+Full Sail Vesuvius	1.011
+Shipyard Export Ale	1.011
+Saint Somewhere Lectio Divina	1.011
+Gordon Biersch Black Toad	1.011
+Ithaca White Gold	1.011
+Bell's Sparkling Ale	1.011
+Nogne O Brown Ale	1.011
+Corsendonk Abbey Pale Ale	1.011
+Anderson Valley Brother David's Triple	1.011
+Inveralmond Ossian	1.011
+Fantome BBB Dark White	1.011
+Huyghe Delirium Tremens	1.011
+Sweetwater Georgia Brown	1.011
+Bosteels Pauwel Kwak	1.011
+Affligem Affligem Tripel	1.011
+Atlantic Bar Harbor Real Ale	1.011
+Captain Lawrence Xtra Gold	1.011
+De Blaugies La Moneuse Speciale Noel	1.011
+Saranac Irish Red	1.011
+Left Hand St. Vrain Tripel	1.011
+Westmalle Tripel	1.011
+Dubuisson Scaldis Belgian Ale	1.011
+Goose Island Matilda	1.011
+De Ranke Pere Noel	1.011
+De Dolle De Dulle Teve	1.011
+Brasserie a Vapeur Vapeur en Folie	1.011
+Wychwood Hobgoblin	1.011
+Samuel Smith Taddy Porter	1.011
+Affligem Affligem Blonde	1.011
+Ommegang Tripel Perfection	1.011
+Darwin Brewery Original Flag Porter	1.011
+Schlafly Tripel	1.011
+Lost Abbey Inferno Ale	1.011
+Matt Brewing Pete's Wicked Ale	1.011
+Captain Lawrence Golden Delicious	1.011
+Heineken Newcastle Brown Ale	1.011
+Lazy Magnolia Southern Pecan	1.011
+Lost Coast Downtown Brown	1.011
+Abita Turbodog	1.011
+Thomas Hooker Irish Red	1.011
+Flying Fish Grand Cru Winter Reserve	1.011
+Het Anker Gouden Carolus Ambrio	1.011
+Van Steenberge Augustijn	1.011
+Great Lakes Conway's irish Ale	1.011
+Cisco Brewers Bailey's Ale	1.011
+Southampton Grand Cru	1.011
+Sly Fox Renard D'Or	1.011
+Meantime London Porter	1.011
+Bell's Third Coast Beer	1.011
+Left Hand Black Jack Porter	1.011
+Redhook Blonde Ale	1.011
+Brasserie La Binchoise La Binchoise Reserve Speciale	1.011
+AleSmith Horny Devil	1.011
+Foothills Foothills Red	1.011
+The Bruery Mischief	1.011
+Van Steenberge Bornem Triple	1.011
+Bosteels Deus Brut des Flandres	1.011
+Redhook Tripel	1.011
+New Belgium Trippel	1.011
+Carlow Brewing O'Hara's Irish Red	1.011
+Otter Creek Holy Otter	1.011
+Rogue Single Malt Ale	1.011
+Unibroue La Fin Du Monde	1.011
+Brooklyn Local 1	1.011
+Het Anker Gouden Carolus Triple	1.011
+Brouwerij Oud Beersel Bersalis	1.011
+Brunehaut St. Martin Blonde	1.011
+De Dolle Boskeun	1.011
+Midnight Sun Kodiak Brown	1.011
+St. Bernardus Grotten Flemish Ale	1.011
+Achouffe La Chouffe	1.011
+Smuttynose Old Brown Dog	1.011
+Troegs Rugged Trail	1.011
+Urthel Hibernus Quentum	1.011
+Green's Green's Quest	1.011
+New Belgium Hoptober	1.011
+North Coast Pranqster	1.011
+Real Ale Brewing Firemans #4	1.011
+Ithaca Nut Brown Ale	1.011
+Molson Molson Golden	1.011
+Chimay Chimay Tripel (White)	1.011
+Great Divide Tripel	1.011
+Bell's Best Brown Ale	1.011
+Samuel Smith Nut Brown Ale	1.011
+Konigshoeven La Trappe Tripel	1.011
+De Ranke Guldenberg	1.011
+Dupont Moinette Blond	1.011
+Brasserie Lefebvre Floreffe Triple	1.011
+Allagash Grand Cru	1.011
+Nethergate Old Growler	1.011
+Yards General Washington's Tavern Porter	1.011
+Lost Coast Winterbraun	1.011
+Fuller's London Porter	1.011
+Ska Brewing True Blonde Dubbel	1.011
+Otter Creek Otter San	1.011
+New Glarus Fat Squirrel Ale	1.011
+Goose Island Demolition	1.011
+St. Feuillien Blonde	1.011
+Nogne O God Jul	1.011
+De Dolle Arabier	1.011
+Weyerbacher Merry Monks' Ale	1.011
+Black Sheep Riggwelter Yorkshire Ale	1.011
+St. Peter's Old-Style Porter	1.011
+Smisje Wostyntje	1.011
+Moortgat Duvel	1.011
+Great Divide Hades	1.011
+BridgePort Haymaker	1.011
+Unibroue Seigneuriale	1.011
+De Proef Flemish Primitive	1.011
+St. Bernardus Watou Tripel	1.011
+Mayflower Porter	1.011
+Goose Island Nut Brown Ale	1.011
+Avery Ellie's Brown	1.011
+Bosteels Tripel Karmeliet	1.011
+Meantime Coffee Porter	1.011
+Nogne O Porter	1.011
+Midnight Sun Épluche-Culotte	1.011
+AleSmith Nautical Nut Brown Ale	1.011
+Avery Salvation	1.011
+Abbaye du Val-Dieu Val-Dieu Triple	1.011
+Nethergate Augustinian Ale	1.01
+Otter Creek Otteroo	1.01
+Victory Prima Pils	1.01
+Samuel Adams Noble Pils	1.01
+Augustiner Edelstoff	1.01
+New Belgium Sunshine Wheat	1.01
+Samuel Smith Organic Best Ale	1.01
+Black Sheep Monty Python's Holy Grail	1.01
+Karl Strauss Amber Lager	1.01
+Coopers Coopers Original Pale Ale	1.01
+Erie Brewing Presque Isle Pilsner	1.01
+Samuel Adams Coastal Wheat	1.01
+Smisje Vuuve	1.01
+Morland Old Speckled Hen	1.01
+Port / Pizza Port Isabelle Proximus	1.01
+Rahr and Sons Blonde	1.01
+Bavik Wittekerke	1.01
+Weihenstephaner Original Premium	1.01
+Boulevard Boulevard Pilsner	1.01
+Lost Abbey Cuvee De Tomme	1.01
+Lost Abbey Witch's Wit	1.01
+Anheuser-Busch InBev Bass Pale Ale	1.01
+Full Sail Rip Curl	1.01
+Bell's Poolside Ale	1.01
+Coney Island (Shmaltz) Human Blockhead	1.01
+Hometown New York Lager	1.01
+North Coast Blue Star	1.01
+Stoudts Gold Lager	1.01
+Saranac Season's Best Nut Brown Lager	1.01
+Browar Okocim Okocim Beer	1.01
+Leinenkugel's Fireside Nut Brown	1.01
+Michelob Hop Hound Amber Wheat	1.01
+Wychwood Scarecrow	1.01
+Southern Tier 422 Pale Wheat Ale	1.01
+Samuel Adams White Ale	1.01
+Paulaner Original Munich Lager	1.01
+Jolly Pumpkin Calabaza Blanca	1.01
+Warsteiner Premium Verum	1.01
+Ommegang Witte	1.01
+Samuel Adams Pale Ale	1.01
+Full Sail Full Sail LTD 03	1.01
+Captain Lawrence Little Linda's Liquid	1.01
+Saranac Pale Ale	1.01
+Saranac Helles Lager	1.01
+Yards Brawler	1.01
+Lost Coast Great White	1.01
+Firestone Walker Double Barrel Ale	1.01
+Cisco Whale's Tale Pale Ale	1.01
+Innis and Gunn Oak Aged Beer	1.01
+Pyramid Haywire Hefeweizen	1.01
+Saint Arnold Texas Wheat	1.01
+Samuel Smith Old Brewery Pale Ale	1.01
+Coors Blue Moon	1.01
+St. Peter's Golden Ale	1.01
+Harpoon Catamount Maple Wheat	1.01
+Widmer Brothers Hefeweizen	1.01
+Abbaye des Rocs Brasserie des Rocs Blanche Double	1.01
+Sleeman Honey Brown Lager	1.01
+Southern Tier Hop Sun	1.01
+Capital Wisconsin Amber	1.01
+Spaten-Franziskaner Premium	1.01
+Saranac Belgian White	1.01
+The Bruery Orchard White	1.01
+Weihenstephaner Kristallweissbier	1.01
+New Belgium Eric's Ale	1.01
+Orkney Dragonhead Stout	1.01
+Odell Brewing Saboteur	1.01
+Allagash White	1.01
+Russian River Deviation	1.01
+Hofbräu München Hofbräu Original	1.01
+Mikkeller Not Just Another Wit	1.01
+Coney Island (Shmaltz) Freaktoberfest	1.01
+Yards Love Stout	1.01
+Lowenbrau Munich Löwenbräu Original	1.01
+Belhaven Scottish Stout	1.01
+Bell's Winter White	1.01
+Leinenkugel's Creamy Dark	1.01
+Philadelphia Walt Wit	1.01
+Samuel Adams Smoked Lager	1.01
+Silver City Gold Mountain Pilsner	1.01
+Brasserie Lefebvre Blanche de Bruxelles	1.01
+Coors Blue Moon Honey Moon	1.01
+Rahr and Sons Blind Salamander	1.01
+Dogfish Head Sah'tea	1.01
+Samuel Adams Imperial White	1.01
+Full Sail Full Sail LTD 02	1.01
+Weltenburger Urtyp Hell	1.01
+Russian River Temptation	1.01
+Saranac Golden Pilsener	1.01
+Weltenburger Barock Hell	1.01
+Goose Island 312	1.01
+Brooklyn Summer Ale	1.01
+Saranac Pomegranate Wheat	1.01
+Michelob Pale Ale	1.01
+Russian River Supplication	1.01
+Middle Ages Black Heart Stout	1.01
+Otter Creek White Sail	1.01
+St. Pauli St. Pauli Girl	1.01
+Michelob Pale Ale	1.01
+Harpoon Brown	1.01
+Youngs Waggledance	1.01
+Capital Winter Skål	1.01
+Great Divide Double Wit	1.01
+Russian River Beatification	1.01
+Port / Pizza Port Brouwer's Imagination	1.01
+Marshall Brewing Sundown Wheat	1.01
+Allagash Interlude	1.01
+Coney Island (Shmaltz) Coney Island Lager	1.01
+Michelob Honey Wheat	1.01
+Fuller's London Pride	1.01
+Boulevard Unfiltered Wheat Beer	1.01
+Alaskan Alaskan White	1.01
+Long Trail Pale Ale	1.01
+Samuel Adams Hefeweizen	1.01
+Otter Creek Summer Ale	1.01
+Greene King / Morland Abbot Ale	1.01
+Hometown New Jersey Lager	1.01
+Cisco Brewers Cherry Woods	1.01
+Goose Island Juliet	1.01
+Pyramid Rollick Amber Lager	1.01
+Leinenkugel's Classic Amber	1.01
+Anheuser-Busch InBev Hoegaarden	1.01
+Wychwood Fiddler's Elbow	1.01
+Genesee Dundee Wheat Beer	1.01
+Black Sheep Black Sheep Ale	1.01
+Samuel Adams Pale Ale	1.01
+Konigshoeven Witte Trappist	1.01
+New Belgium Mothership Wit	1.01
+Leinenkugel's Sunset Wheat	1.01
+Harpoon Crystal Wheat	1.01
+Captain Lawrence Flaming Fury	1.01
+Brooklyn Pennant Ale 55	1.01
+Saranac Chocolate Amber	1.01
+Minhas Simpler Times Pilsner	1.01
+FEMSA Bohemia	1.01
+Dogfish Head Red & White	1.01
+Magic Hat Circus Boy	1.01
+Abita SOS	1.01
+Coors Killian's Irish Red	1.01
+St. Bernardus Wit	1.01
+Pyramid Crystal Wheat	1.01
+Troegs Dreamweaver Wheat	1.01
+Anchor Summer Beer	1.01
+Victory Whirlwind	1.01
+Nogne O Tyttebaer	1.01
+Saranac Traditional Lager	1.01
+Saranac Adirondack Lager	1.01
+Highland Cattail Peak Wheat	1.01
+Great Divide Denver Pale Ale	1.01
+New Belgium Sunshine Wheat	1.01
+Samuel Adams Summer Ale	1.01
+Metropolitan Flywheel	1.01
+Ithaca Brute	1.01
+Lagunitas A Little Sumpin' Sumpin' Ale	1.01
+Bell's Oberon	1.01
+Samuel Adams Blackberry Witbier	1.01
+Meantime London Stout	1.01
+Beck's Beck's	1.01
+Anheuser-Busch InBev Shock Top	1.01
+Boulder Beer Sweaty Betty Blonde	1.01
+Flying Dog Old Scratch	1.01
+Magic Hat Hocus Pocus	1.01
+Three Floyds Gumballhead	1.01
+Karl Strauss Woodie Gold	1.01
+Coopers Coopers Sparkling Ale	1.01
+Coors Blue Moon Grand Cru	1.01
+Schlenkerla Helles Lagerbier	1.01
+Brasserie Caracole Troublette	1.01
+Ommegang Ommegeddon	1.01
+Yuengling Traditional Lager	1.01
+Captain Lawrence Cuvee de Castleton	1.01
+Harpoon UFO Hefeweizen	1.01
+Rahr and Sons Texas Red	1.01
+Carlsberg Carlsberg Beer	1.01
+Kona Wailua	1.01
+Anheuser-Busch InBev Boddingtons Pub Ale	1.01
+Boulevard Two Jokers Double-Wit	1.01
+Bavik Bavik Premium Pils	1.01
+Russian River Consecration	1.01
+Bell's Batch 8,000	1.01
+Sly Fox Pikeland Pils	1.01
+Spaten-Franziskaner Spaten Premium Lager	1.01
+Genesee Dundee Honey Brown	1.01
+Scottish and Newcastle John Courage	1.01
+Stoudts Pils	1.01
+Saranac Summer Ale	1.01
+Radeberger Pilsner	1.01
+Anheuser-Busch InBev Redbridge	1.01
+Leinenkugel's Honey Weisse	1.01
+Flying Dog Woody Creek White	1.01
+Michelob Shock Top	1.01
+Real Ale Brewing Hans' Pils	1.01
+Wychwood WychCraft	1.01
+Capital Capital Pilsner	1.01
+Southern Tier Uber Sun	1.01
+Jolly Pumpkin La Roja	1.01
+Victory V Lager	1.01
+Marshall Brewing Old Pavilion	1.01
+Harpoon Summer Beer	1.009
+Philadelphia Kenzinger	1.009
+Goose Island Summertime	1.009
+Sunner Sünner Kölsch	1.009
+Ballast Point Yellowtail Pale Ale	1.009
+New Holland Full Circle	1.009
+Anheuser-Busch Bare Knuckle Stout	1.009
+Greene King / Morland Wexford Irish Cream Ale	1.009
+Flying Dog Tire Bite	1.009
+Guinness Guinness Draught	1.009
+Marshall Brewing McNellie's Pub Ale	1.009
+Drake's Blonde	1.009
+North Coast Old No. 38 Stout	1.009
+Three Floyds Black Sun Stout	1.009
+Sly Fox O'Reilly's Stout	1.009
+Avery Out Of Bounds Stout	1.009
+Beau's Lug Tread	1.009
+Terrapin Golden Ale	1.009
+Moylans Dragoons	1.009
+Nogne O Bitter	1.009
+Pyramid Curve Ball Blonde Ale	1.009
+Gaffel Gaffel Kölsch	1.009
+Sleeman Cream Ale	1.009
+Full Sail Hopocity	1.009
+Metropolitan Krankshaft	1.009
+Uinta Brewing Summer Solstice Ale	1.009
+New Glarus Spotted Cow	1.009
+Goose Island Honker's Ale	1.009
+Lagunitas Sirius Ale	1.009
+Saint Arnold Fancy Lawnmower	1.009
+Surly Bitter Brewer	1.009
+Boulevard Dry Stout	1.009
+Rogue Younger's Special Bitter	1.009
+Heinrich Reissdorf Reissdorf Kölsch	1.009
+Mission Blonde Ale	1.009
+Carlow Brewing O'Hara's Celtic Stout	1.009
+Alaskan Alaskan Summer	1.009
+Schlafly Kölsch	1.009
+Murphy Murphy's Irish Stout	1.009
+Beamish & Crawford Beamish Irish Stout	1.009
+Thomas Hooker Blonde Ale	1.009
+Genesee Genesee Cream Ale	1.009
+Guinness 250th Anniversary Stout	1.009
+Anchor Small Beer	1.009
+Guinness Guinness Extra Stout	1.009
+Highland Black Mountain Bitter	1.009
+Saint Somewhere Saison Athene	1.007
+De Proef Zoetzuur Flemish Ale	1.007
+Sly Fox Saison VOS	1.007
+Ommegang Hennepin	1.007
+Dupont Avec Les Bons Voeux	1.007
+Bockor Cuvee des Jacobins Rouge	1.007
+Fantome La Dalmatienne	1.007
+Rodenbach Rodenbach Classic Ale	1.007
+Brasserie a Vapeur Saison de Pipaix	1.007
+Dupont Biere de Miel	1.007
+Smuttynose Farmhouse Ale	1.007
+De Proef Zoetzuur Flemish Ale	1.007
+Victory Helios	1.007
+Goose Island Sofie	1.007
+New Belgium La Folie	1.007
+Dupont Saison Dupont	1.007
+Fantome Chocolat	1.007
+Lost Abbey Carnevale 2009	1.007
+Pretty Things Jack D'Or	1.007
+Boulevard Saison - Brett	1.007
+Great Divide Saison Farmhouse Ale	1.007
+Dupont Avril	1.007
+Verhaeghe Vichtenaar	1.007
+Surly CynicAle	1.007
+Great Divide Colette Farmhouse Ale	1.007
+Lost Abbey Red Barn	1.007
+Philadelphia Rowhouse Red	1.007
+Verhaeghe Echt Kriekenbier	1.007
+Flying Fish Farmhouse Summer Ale	1.007
+Harpoon Saison	1.007
+Urthel Saisonnière	1.007
+Yards Saison	1.007
+Stone Saison Du BUFF	1.007
+Port / Pizza Port Brother Levonian	1.007
+Brasserie des Geants Saison Voisin	1.007
+Lost Abbey Ne Goeien	1.007
+Verhaeghe Duchesse de Bourgogne	1.007
+Three Floyds Rabbid Rabbit	1.007
+Rodenbach Grand Cru	1.007
+New Holland Golden Cap	1.007
+The Bruery Saison Rue	1.007
+Dupont Foret	1.007
+Yuengling Premium Beer	1.006
+Coors Keystone Light	1.006
+Coney Island (Shmaltz) Albino Python	1.006
+Anheuser-Busch InBev LandShark Lager	1.006
+Anheuser-Busch Rolling Rock	1.006
+Kenya Breweries Tusker Premium Lager	1.006
+Pabst Pabst Blue Ribbon	1.006
+Iron City Premium Lager	1.006
+Pabst Old Style	1.006
+Stella Artois Stella Artois	1.006
+Grupo Modelo Modelo Especial	1.006
+Miller Icehouse	1.006
+Boon Rawd Singha	1.006
+Pabst Stroh's	1.006
+Guinness Harp Lager	1.006
+FEMSA Tecate	1.006
+Nacional Dominicana Presidente	1.006
+FEMSA Dos Equis Special Lager	1.006
+Pretty Things American Darling	1.006
+Michelob Lager	1.006
+Grupo Modelo Pacifico	1.006
+Rogue Kells Irish-Style Lager	1.006
+FEMSA Sol	1.006
+Miller Miller High Life	1.006
+Cantillon 50°N-4°E	1.006
+Asia Pacific Tiger Beer	1.006
+Tsingtao Tsingtao	1.006
+Miller Milwaukee's Best Ice	1.006
+Coors Keystone Ice	1.006
+Anheuser-Busch Natural Light	1.006
+Anheuser-Busch InBev Busch Beer	1.006
+Pabst Lone Star	1.006
+Coopers Coopers Premium Lager	1.006
+Leinenkugel's Original	1.006
+Lion Brewery Lionshead Deluxe Pilsner	1.006
+Kona Longboard Lager	1.006
+New Zealand Breweries Steinlager	1.006
+Miller Miller Genuine Draft Light 64	1.006
+Grolsch Grolsch Premium Lager	1.006
+Schlitz Schlitz	1.006
+Miller Milwaukee's Best	1.006
+Asahi Breweries Asahi Super Dry	1.006
+Bell's Lager Beer	1.006
+Molson Molson Ice	1.006
+Anheuser-Busch LandShark Lager	1.006
+Kirin Kirin Ichiban	1.006
+Heineken Heineken	1.006
+Heineken Birra Moretti	1.006
+Pabst Old Milwaukee Light	1.006
+Peroni Peroni	1.006
+Zywiec Breweries Zywiec Beer	1.006
+Anheuser-Busch Rolling Rock Red	1.006
+Spoetzl Shiner Blonde	1.006
+Moosehead Lager	1.006
+Miller Miller Chill	1.006
+Samuel Smith Pure Brewed Lager	1.006
+Coors Coors	1.006
+Anheuser-Busch InBev Bud Light Lime	1.006
+Anheuser-Busch Budweiser	1.006
+Luxembourg Diekirch Premium	1.006
+Michelob Original Lager	1.006
+Miller Miller Lite	1.006
+Pabst Old Milwaukee	1.006
+Coors Coors Light	1.006
+Coney Island (Shmaltz) Sword Swallower	1.006
+Hometown Pennsylvania Lager	1.006
+Anheuser-Busch Rolling Rock Light	1.006
+Kronenbourg 1664	1.006
+Labatt Labatt Blue	1.006
+Samuel Smith Organic Lager	1.006
+Pabst Pabst Blue Ribbon Light	1.006
+James Boag Premium Lager	1.006
+Miller MGD	1.006
+Minhas Simpler Times Lager	1.006
+Desnoes and Geddes Red Stripe	1.006
+Full Sail Session Lager	1.006
+Molson Molson Canadian	1.006
+Anheuser-Busch InBev Bud Light	1.006
+Grupo Modelo Corona Extra	1.006
+Dixie Dixie Beer	1.006
+Genesee Narragansett Lager	1.006
+Cantillon Bruocsella 1900 Grand Cru	1.006
+Sapporo Sapporo Premium Beer	1.006
+United Breweries Kingfisher Premium Lager	1.006
+Miller Milwaukee's Best Light	1.006
+Brouwerij Boon Boon Oude Kriek	1.005
+Cantillon Saint Lamvinus	1.005
+Lindemans Framboise	1.005
+Brouwerij Oud Beersel Oud Beersel Kriek	1.005
+Lindemans Pomme	1.005
+Van Steenberge Bios Kriek	1.005
+Lindemans Faro Lambic	1.005
+Brouwerij Oud Beersel Oud Beersel Framboise	1.005
+Lindemans Pêche	1.005
+Cantillon Fou' Foune	1.005
+Lindemans Kriek	1.005
+Brouwerij Oud Beersel Oude Kriek Vieille	1.005
+Lindemans Cassis	1.005
+Cantillon Vigneronne	1.005
+Bell's Oarsman Ale	1.004
+The Bruery Hottenroth Berliner Weisse	1.004
+Dogfish Head Festina Peche	1.004
+Brouwerij Boon Boon Oude Geuze Mariage Parfait	1.003
+Cantillon Classic Gueuze	1.003
+Cantillon Gueuze Loerik	1.003
+Brouwerij Boon Boon Oude Geuze	1.003
+Lindemans Gueuze Cuvée René	1.003
+Cantillon Cuvee des Champions	1.003
+Brouwerij Girardin Girardin Gueuze Black Label	1.003
+Lindemans Gueuze	1.003
+Brouwerij Oud Beersel Oude Gueuze Vieille	1.003
+Anheuser-Busch InBev Busch Light	1.001
+Anheuser-Busch Budweiser Select	1.001
+Michelob Ultra	1.001
+Amstel Amstel Light	1.001
+Iron City I.C. Light	1.001
+Heineken Heineken Premium Light	1.001
+Anheuser-Busch Bud Ice Light	1.001
+Hometown Light	1.001
+Samuel Adams Sam Adams Light	1.001
+Cisco Sankaty Light	1.001
+Labatt Labatt Blue Light	1.001
+Yuengling Light Lager	1.001
+Grupo Modelo Corona Light	1.001
+Leinenkugel's Light	1.001
+Michelob Ultra Amber	1.001
+Michelob Light	1.001
+Miller Miller High Life Light	1.001
+Pabst Old Style Light	1.001
+Abita Abita Light	1.001
+Ithaca Apricot Wheat	NULL
+Telegraph Gypsy Ale	NULL
+Brooklyn East India Pale Ale	NULL
+Schell's Deer Brand	NULL
+Allagash Four	NULL
+Lost Abbey Deliverance	NULL
+Southern Tier Jah-va	NULL
+Atlantic Brother Adam's Bragget Ale	NULL
+Firestone Walker Pale 31	NULL
+Fuller's ESB	NULL
+Sprecher Special Amber	NULL
+Odell Brewing St. Lupulin	NULL
+Thomas Hooker Watermelon Ale	NULL
+Evolution Lucky 7 Porter	NULL
+Arcadia Angler's Ale	NULL
+Genesee Genny Light	NULL
+Baltika #7 Export Lager	NULL
+Ithaca Pale Ale	NULL
+The Bruery Black Tuesday	NULL
+Budvar Czechvar (Budvar)	NULL
+Schell's Snowstorm 2010	NULL
+Michigan Peninsula Porter	NULL
+Craftsman Holiday Spruce	NULL
+Magic Hat Blind Faith	NULL
+Stillwater Artisanal Cellar Door	NULL
+Cantillon Iris	NULL
+Avery Mephistopheles	NULL
+Oriental OB Lager	NULL
+Two Brothers Monarch White Beer	NULL
+Lagunitas Censored (Kronik)	NULL
+Straub Peter Straub's Special Dark	NULL
+Cisco Brewers Grey Lady	NULL
+Pisgah Solstice	NULL
+Tyranena Three Beaches Honey Blonde	NULL
+Hite Hite	NULL
+Brasserie de Silly La Divine Blond	NULL
+Van Honsebrouck Brigand	NULL
+Fantome De Noel	NULL
+Founders Breakfast Stout	NULL
+Sprecher Barleywine	NULL
+New Belgium Dark Kriek	NULL
+Summit Oktoberfest	NULL
+Duck-Rabbit Märzen	NULL
+Harpoon UFO White	NULL
+Southern Tier Oat	NULL
+Tallgrass IPA	NULL
+Clipper City Heavy Seas Peg Leg	NULL
+Rush River The Unforgiven Amber Ale	NULL
+Lake Placid 46'er Pale Ale	NULL
+Southern Tier Imperial Choklat Stout	NULL
+Bristol Laughing Lab	NULL
+Left Hand Twin Sisters	NULL
+Abita Restoration Pale Ale	NULL
+Rochefort Trappistes Rochefort 10	NULL
+Full Sail Pale Ale	NULL
+Sprecher Oktoberfest	NULL
+Odell Brewing Double Pilsner	NULL
+Thomas Hooker American Pale Ale	NULL
+Cervecera Mexicana Ed Hardy Premium Beer	NULL
+Unibroue Quelque Chose	NULL
+Telegraph Robust Ale	NULL
+De Blaugies Saison De L'Epeautre	NULL
+Schell's Lakemaid	NULL
+Michigan Celis Raspberry	NULL
+Castlemaine Perkins XXXX Bitter	NULL
+Great Lakes Burning River	NULL
+Green Flash Hop Head Red	NULL
+Starr Hill Amber Ale	NULL
+BrewDog Hardcore IPA	NULL
+Avery The Czar	NULL
+Oggi's McGarvey's Scottish Ale	NULL
+Four Peaks Kiltlifter	NULL
+Baltika #2	NULL
+Pisgah Cosmos	NULL
+Tyranena High-Class Broad	NULL
+Henry Weinhard's Private Reserve	NULL
+Banks Banks Beer	NULL
+Otter Creek Wolaver's Will Steven's Pumpkin Ale	NULL
+Tri-City Giant Slayer	NULL
+Shepherd Neame Bishops Finger	NULL
+Anheuser-Busch Wild Blue Blueberry Lager	NULL
+Mythos Mythos	NULL
+Summit Pilsener	NULL
+Deschutes Bachelor ESB	NULL
+Great Lakes Holy Moses White Ale	NULL
+Stone 09.09.09 Vertical Epic Ale	NULL
+Capital Maibock	NULL
+Hitachino Espresso Stout	NULL
+Southern Tier Big Red	NULL
+Surly Smoke	NULL
+Carlton & United Pure Blonde	NULL
+Urthel Samaranth	NULL
+Pivovar Velké Popovice Kozel Cerny	NULL
+Brasserie de Silly Scotch Silly	NULL
+Abita Jockamo IPA	NULL
+North Coast Scrimshaw Pilsner	NULL
+Van Honsebrouck St. Louis Pêche	NULL
+Founders Double Trouble	NULL
+Sprecher Bourbon Barrel Aged Dopple Bock	NULL
+New Belgium Transatlantique Kriek	NULL
+Surly SurlyFest	NULL
+Duck-Rabbit Schwarzbier	NULL
+Matt Brewing Pete's Wicked Strawberry Blonde	NULL
+Telegraph Golden Wheat Ale	NULL
+Schell's Dark	NULL
+Little Creatures Pale Ale	NULL
+Southern Tier IPA	NULL
+Bristol Winter Warlock	NULL
+Sprecher Shakparo	NULL
+Boulevard Pale Ale	NULL
+Odell Brewing Red Ale	NULL
+Thomas Hooker Octoberfest Lager	NULL
+Evolution Lot #3 IPA	NULL
+Alken-Maes Judas	NULL
+Baltika #6 Porter	NULL
+Otter Creek Wolaver's Ben Gleason's White Ale	NULL
+Haandbryggeriet (Norway) Ardenne Blond	NULL
+Tennent Caledonian Tennent's Lager	NULL
+Schell's Schmaltz's Alt	NULL
+Michigan Nut Brown Ale	NULL
+Spoetzl Shiner Smokehaus	NULL
+Craftsman Heavenly Hefeweizen	NULL
+Great Lakes Dortmunder Gold	NULL
+Starr Hill Pale Ale	NULL
+Oriental Cass Fresh	NULL
+Free State Wheat State Golden	NULL
+Straub Straub Light	NULL
+Cisco Brewers Captain Swain's Extra Stout	NULL
+Pisgah Porter	NULL
+Tyranena The Devil Made Me Do It	NULL
+Hill Farmstead Jim	NULL
+Brahma Brahma	NULL
+Van Honsebrouck Bacchus	NULL
+Deschutes Twilight Ale	NULL
+Sprecher Abbey Triple	NULL
+Arcadia India Pale Ale	NULL
+New Belgium Biere De Mars	NULL
+Summit Maibock	NULL
+Duck-Rabbit Duck-Rabbator	NULL
+Mikkeller Black	NULL
+Harpoon Octoberfest Bier	NULL
+Lagunitas Cappuccino Stout	NULL
+Miller Steel Reserve	NULL
+Hitachino New Year Celebration Ale	NULL
+Tallgrass Buffalo Sweat	NULL
+Clipper City Heavy Seas Loose Cannon (Hop3)	NULL
+Ballast Point Wahoo Wheat	NULL
+Rush River Small Axe Golden Ale	NULL
+Voodoo White Magick Of The Sun	NULL
+Labatt Maximum Ice	NULL
+Bristol Compass IPA	NULL
+Abita Purple Haze	NULL
+Full Sail Amber	NULL
+Sprecher Mai Bock	NULL
+Odell Brewing Cutthroat Porter	NULL
+Thiriez Extra	NULL
+Moortgat Duvel Green	NULL
+Ithaca Double IPA	NULL
+New Holland Night Tripper	NULL
+Telegraph Rhinoceros	NULL
+Schell's Hopfenmalz	NULL
+Michigan Celis Pale Bock	NULL
+Southern Tier Pale Ale	NULL
+Carolina Beer Company Carolina Blonde	NULL
+Michelob Jack's Pumpkin Spice	NULL
+Great Lakes Blackout Stout	NULL
+Rogue Juniper Pale Ale	NULL
+Goose Island Imperial IPA	NULL
+Green Flash Barleywine	NULL
+Squatters IPA	NULL
+Boulevard Zon	NULL
+Oggi's Hop Juice Double IPA	NULL
+Achel Trappist Extra	NULL
+Four Peaks Hop Knot	NULL
+Baltika Lite	NULL
+Tyranena Dirty Old Man	NULL
+Henry Weinhard's Hefeweizen	NULL
+Baltika Cooler	NULL
+Jolly Pumpkin Bam Noire	NULL
+Otter Creek Wolaver's Pale Ale	NULL
+North Coast Acme California Pale Ale	NULL
+Tri-City Fortunato	NULL
+Hudepohl-Schoenling Little Kings Cream Ale	NULL
+Anheuser-Busch Stone Mill Pale Ale	NULL
+Michigan Superior Stout	NULL
+Summit Extra Pale Ale	NULL
+Craftsman Smoked Black Lager	NULL
+Great Lakes Grassroots Ale	NULL
+Michelob Beach Bum Blonde	NULL
+Stone 10.10.10 Vertical Epic Ale	NULL
+Pisgah Baptista	NULL
+Surly Hell	NULL
+Clipper City Heavy Seas Below Decks	NULL
+Pisgah Vortex II	NULL
+Pivovar Velké Popovice Kozel Premium	NULL
+Southampton Pumpkin Ale	NULL
+Brasserie de Silly Saison Silly	NULL
+Left Hand Juju Ginger	NULL
+Abita Fall Fest	NULL
+North Coast Red Seal Ale	NULL
+Van Honsebrouck St. Louis Kriek	NULL
+Fantome Saison	NULL
+Founders Dirty Bastard	NULL
+Sprecher Dopple Bock	NULL
+New Belgium Sahti	NULL
+Duck-Rabbit Rabid Duck	NULL
+Southern Star Pine Belt Pale Ale	NULL
+Unibroue Blanche De Chambly	NULL
+Telegraph California Ale	NULL
+Coniston Bluebird Bitter	NULL
+Brooklyn Black Chocolate Stout	NULL
+Schell's Bock	NULL
+Lake Placid Ubu Ale	NULL
+Southern Tier Iniquity	NULL
+Bristol Red Rocket	NULL
+38 Top Sail	NULL
+Sprecher Russian Imperial Stout	NULL
+Odell Brewing Levity Amber Ale	NULL
+Evolution Exile ESB	NULL
+AleSmith Lil' Devil	NULL
+Baltika #5 Golden Lager	NULL
+Telegraph Winter Ale	NULL
+Schell's Pils	NULL
+Michigan Mackinac Pale Ale	NULL
+Southern Tier Raspberry Wheat Beer	NULL
+Craftsman Edgar's Ale	NULL
+Green Flash Double Stout	NULL
+Starr Hill Northern Lights IPA	NULL
+BrewDog Tokyo	NULL
+Oggi's Torrey Pines IPA	NULL
+Free State Oatmeal Stout	NULL
+Pisgah Pale Ale	NULL
+Tyranena Stickin' It To The Man	NULL
+Hill Farmstead Ephraim	NULL
+Timmermans Bourgogne Des Flandres	NULL
+Schloss Eggenberg Samichlaus Bier	NULL
+North Coast Le Merle	NULL
+Tuckerman Pale Ale	NULL
+Fantome Brise-BonBons	NULL
+Deschutes The Abyss	NULL
+Smuttynose Summer Weizen	NULL
+Arcadia Imperial Stout	NULL
+New Belgium Belgo IPA	NULL
+Summit India Pale Ale	NULL
+Duck-Rabbit Brown Ale	NULL
+Mikkeller Beer Geek Brunch Weasel	NULL
+Great Lakes Oktoberfest	NULL
+Straub Straub Beer	NULL
+Hitachino Lacto Sweet Stout	NULL
+Southern Tier Hoppe	NULL
+Lagunitas Pils	NULL
+Tallgrass Tallgrass Ale	NULL
+Rush River Lost Arrow Porter	NULL
+Voodoo Love Child	NULL
+Labatt Kokanee	NULL
+Bristol Cheyenne Canon	NULL
+William Bull William's Pale Ale	NULL
+Foothills Total Eclipse Stout	NULL
+Founders Kentucky Breakfast Stout	NULL
+Sprecher Irish Style Stout	NULL
+Odell Brewing Bourbon Barrel Stout	NULL
+Duck-Rabbit Barleywine Ale	NULL
+Ithaca Cascazilla	NULL
+Telegraph Reserve Wheat Ale	NULL
+De Blaugies La Moneuse	NULL
+Schell's Grain Belt Premium	NULL
+Michigan Celis Grand Cru	NULL
+Southern Tier Oak-Aged Un'earthly	NULL
+Carlton & United Victoria Bitter	NULL
+Great Lakes Barrel-Aged Blackout Stout	NULL
+Squatters Chasing Tail Golden Ale	NULL
+Oggi's California Gold Blonde Ale	NULL
+Four Peaks 8th Street Ale	NULL
+Baltika Non-Alcoholic	NULL
+Tyranena Devil Over  A Barrel	NULL
+Henry Weinhard's Blue Boar Ale	NULL
+Baltika #9 Extra Lager	NULL
+Jolly Pumpkin Bam Biere	NULL
+Tri-City Brownhoist Nut Brown Ale	NULL
+De Ranke Kriek	NULL
+Deschutes Hop Trip	NULL
+Schell's Zommerfest	NULL
+Michigan Sunset Amber	NULL
+Summit ESB	NULL
+Craftsman Poppyfields Pale Ale	NULL
+Magic Hat Jinx	NULL
+Stillwater Artisanal Stateside Saison	NULL
+Cantillon Rose De Gambrinus	NULL
+Pisgah Hellbender Barleywine	NULL
+Surly Four	NULL
+Aying Oktober Fest-Märzen	NULL
+Pisgah Vortex I	NULL
+Brasserie Piedboeuf Jupiler	NULL
+Southampton Double White	NULL
+Brasserie de Silly La Divine Triple	NULL
+Left Hand Jackman's	NULL
+Abita Christmas Ale	NULL
+Van Honsebrouck St. Louis Premium Framboise	NULL
+Fantome Printemps	NULL
+Founders Devil Dancer Triple IPA	NULL
+Sprecher Czar Brew	NULL
+Big Sky IPA	NULL
+New Belgium Le Fleur Misseur	NULL
+Duck-Rabbit Porter	NULL
+Firestone Walker Red Nectar	NULL
+Hitachino White Ale	NULL
+Southern Tier UnEarthly	NULL
+Tallgrass Oasis	NULL
+Clipper City Heavy Seas Small Craft Warning	NULL
+Schell's Barrel Aged Schmaltz's Alt	NULL
+Weltenburger Anno 1050	NULL
+Lake Placid India Pale Ale	NULL
+Southern Tier Mokah	NULL
+Bristol Old No. 23	NULL
+Abita Strawberry Harvest Lager	NULL
+Rogue Brutal Bitter	NULL
+Full Sail Sun Of Spot	NULL
+Sprecher Pub Brown Ale	NULL
+Odell Brewing Isolation Ale	NULL
+Thomas Hooker Hop Meadow IPA	NULL
+Damm Estrella Damm	NULL
+Alaskan Smoked Porter	NULL
+Baltika #4 Dark Lager	NULL
+Telegraph White Ale	NULL
+De Proef Troubadour Blond	NULL
+Brooklyn Pilsner	NULL
+Schell's Oktoberfest	NULL
+Michigan High Seas India Pale Ale	NULL
+Southern Tier Raspberrry Porter	NULL
+Craftsman Cabernale	NULL
+Michelob Marzen	NULL
+Rogue MoM (Half-E-Weizen)	NULL
+Green Flash Le Freak	NULL
+Starr Hill Jomo Lager	NULL
+BrewDog The Physics	NULL
+Avery Hog Heaven	NULL
+Oggi's Sunset Amber Ale	NULL
+Free State Copperhead Pale Ale	NULL
+Cisco Brewers Baggywrinkle Barleywine	NULL
+Avery White Rascal	NULL
+Pisgah India Pale Ale	NULL
+Tyranena Sheep Shagger Scotch Ale	NULL
+Hill Farmstead Edward	NULL
+Timmermans Bourgogne Des Flandres Blonde	NULL
+Otter Creek Wolaver's Wit Bier	NULL
+Tuckerman Headwall Alt	NULL
+Turk Tuborg Skol Beer	NULL
+Arcadia Hopmouth Double IPA	NULL
+New Belgium Belgian Style Blond	NULL
+Summit Horizon Red	NULL
+Duck-Rabbit Amber Ale	NULL
+Mikkeller Beer Geek Breakfast	NULL
+New Belgium 2° Below Winter Ale	NULL
+Stone 07.07.07 Vertical Epic Ale	NULL
+Hitachino Japanese Classic Ale	NULL
+Southern Tier Creme Brulee Stout	NULL
+Lagunitas Maximus	NULL
+Switchback Switchback Ale	NULL
+Clipper City Heavy Seas Big DIPA	NULL
+Ballast Point Dorado Double IPA	NULL
+Rush River Bubblejack India Pale Ale	NULL
+Labatt Ice	NULL
+Bristol Beehive	NULL
+Left Hand Polestar Pilsner	NULL
+Abita Mardi Gras Bock	NULL
+Wells Wells Bombardier	NULL
+Foothills Seeing Double IPA	NULL
+Founders Imperial Stout	NULL
+Sprecher IPA2	NULL
+Big Sky Summer Honey	NULL
+Odell Brewing 5 Barrel Pale Ale	NULL
+Duck-Rabbit Baltic Porter	NULL
+Unibroue Éphémère Apple	NULL
+New Holland Existential Hopwine	NULL
+Telegraph Oatmeal Stout	NULL
+Schell's FireBrick	NULL
+Mac and Jack's African Amber	NULL
+Southern Tier Krampus	NULL
+Captured by Porches Invasive Species IPA	NULL
+Michelob Honey Lager	NULL
+Full Sail Wreck The Halls	NULL
+Sprecher Winter Brew	NULL
+Boulevard The Sixth Glass	NULL
+Oggi's Black Magic Stout	NULL
+Achel Trappist 5 Blonde	NULL
+Evolution Primal Pale Ale	NULL
+Avery Seventeen	NULL
+Goose Island Green Line Pale Ale	NULL
+Baltika #8 Wheat Ale	NULL
+Otter Creek Wolaver's India Pale Ale	NULL
+Tooheys Tooheys New	NULL
+De Ranke Cuvee De Ranke	NULL
+Deschutes Cinder Cone Red Ale	NULL
+Schell's Stout	NULL
+Michigan Screamin' Pumpkin Spiced Ale	NULL
+St. Feuillen Saison	NULL
+Craftsman IPA	NULL
+Stillwater Artisanal Of Love & Regret	NULL
+Cantillon Kriek	NULL
+Pabst Olympia	NULL
+Two Brothers Red Eye Coffee Porter	NULL
+Lagunitas Olde Gnarlywine	NULL
+Summit Oatmeal Stout	NULL
+Cisco Brewers Indie Pale Ale	NULL
+Aying Jahrhundert	NULL
+Pisgah Valdez	NULL
+Ithaca Ground Break	NULL
+Southampton Altbier	NULL
+Brasserie de Silly Pink Killer	NULL
+Left Hand Imperial Stout	NULL
+Abita Andygator	NULL
+Van Honsebrouck St. Louis Gueuze Fond Tradition	NULL
+Fantome Hiver	NULL
+Sprecher Black Bavarian	NULL
+New Belgium Imperial Berliner Weisse	NULL
+Summit Scandia Ale	NULL
+Duck-Rabbit Milk Stout	NULL
+Southern Tier Phin & Matt's Extraordinary Ale	NULL
+Tallgrass Kold	NULL
+Clipper City Heavy Seas Red Sky At Night	NULL
+Bitburger Bitburger Premium Pils	NULL
+Rush River Winter Warmer	NULL
+Lake Placid Honey Rye	NULL
+Southern Tier Gemini	NULL
+Bristol Mass Transit Ale	NULL
+Abita Satsuma Harvest Wit	NULL
+Full Sail Slipknot Imperial IPA	NULL
+Founders Red's Rye P.A.	NULL
+Sprecher Pipers Scotch-Style Ale	NULL
+Boulevard Double Wide IPA	NULL
+Odell Brewing Easy Street Wheat	NULL
+Cervecera Mexicana Ed Hardy Death Or Light Beer	NULL
+Adnams Broadside	NULL
+Telegraph Stock Porter	NULL
+Brooklyn Oktoberfest	NULL
+Schell's Maifest	NULL
+Michigan Celis White	NULL
+Southern Tier Pumking	NULL
+Craftsman 1903	NULL
+Green Flash Imperial IPA	NULL
+Starr Hill Dark Starr Stout	NULL
+BrewDog Riptide	NULL
+Oggi's Paradise Pale Ale	NULL
+Free State Ad Astra Ale	NULL
+Baltika #3 Classic	NULL
+Avery The Reverend	NULL
+Pisgah Equinox	NULL
+Tyranena Scurvy	NULL
+Hill Farmstead Abner	NULL
+Timmermans Bourgogne Des Flandres Brune	NULL
+Jolly Pumpkin Madrugada Obscura (Dark Dawn Stout)	NULL
+Otter Creek Wolaver's Pat Leavy's All-American Ale	NULL
+Tuckerman 6288 Stout	NULL
+Deschutes Mirror Pond	NULL
+Shepherd Neame Spitfire	NULL
+Anheuser-Busch Wild Hop Lager	NULL
+New Belgium Blue Paddle Pilsner	NULL
+Dogfish Head My Antonia	NULL
+Great Lakes Moondog Ale	NULL
+Konigshoeven La Trappe Quadrupel	NULL
+Stone 08.08.08 Vertical Epic Ale	NULL
+Hitachino Real Ginger Brew	NULL
+Southern Tier Cherry Saison	NULL
+Lagunitas Lucky 13	NULL
+Surly Wet	NULL
+Clipper City Heavy Seas Prosit!	NULL
+Ballast Point Calico Amber Ale	NULL
+Quilmes Quilmes	NULL
+Voodoo Big Black Voodoo Daddy	NULL
+Pivovar Velké Popovice Kozel Svetly	NULL
+Southern Tier Chautauqua Brew	NULL
+Breckenridge Christmas Ale	NULL
+Left Hand Oktoberfest	NULL
+Paulaner Premium Pils	NULL
+Van Honsebrouck St. Louis Premium Kriek	NULL
+Foothills Hoppyum	NULL
+Founders Pale Ale	NULL
+Sprecher Hefe Weiss	NULL
+Big Sky Scape Goat Pale Ale	NULL
+New Belgium Vrienden Ale	NULL
+Duck-Rabbit Wee Heavy Scotch Style Ale	NULL

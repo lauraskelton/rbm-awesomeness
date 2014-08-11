@@ -1,0 +1,2271 @@
+
+Anheuser-Busch Wild Blue Blueberry Lager	Adjunct Lager/Fruit Beer
+Southampton Altbier	Alt
+Victory Ten Years Alt	Altbier
+Alaskan Alaskan Amber	Altbier
+Otter Creek Copper Ale	Altbier
+Long Trail Long Trail Ale	Altbier
+Long Trail Double Bag	Altbier
+Mission Amber Ale	Altbier
+Widmer Brothers Okto	Altbier
+Free State Ad Astra Ale	Altbier
+Schell's Barrel Aged Schmaltz's Alt	Altbier
+Schell's Schmaltz's Alt	Altbier
+Tuckerman Headwall Alt	Altbier
+Southern Tier Chautauqua Brew	Amber Ale
+Otter Creek Wolaver's Pat Leavy's All-American Ale	Amber Ale
+Ballast Point Calico Amber Ale	Amber Ale
+Michelob Honey Lager	Amber Lager
+Anheuser-Busch Budweiser	American Adjunct Lager
+Coors Coors	American Adjunct Lager
+Iron City Premium Lager	American Adjunct Lager
+Leinenkugel's Original	American Adjunct Lager
+Miller Miller Chill	American Adjunct Lager
+Miller Miller Genuine Draft Light 64	American Adjunct Lager
+Miller Miller High Life	American Adjunct Lager
+Miller Miller Lite	American Adjunct Lager
+Pabst Pabst Blue Ribbon	American Adjunct Lager
+Pabst Pabst Blue Ribbon Light	American Adjunct Lager
+Schlitz Schlitz	American Adjunct Lager
+Anheuser-Busch InBev Bud Light	American Adjunct Lager
+Anheuser-Busch InBev Bud Light Lime	American Adjunct Lager
+Anheuser-Busch LandShark Lager	American Adjunct Lager
+Anheuser-Busch Natural Light	American Adjunct Lager
+Anheuser-Busch Rolling Rock	American Adjunct Lager
+Anheuser-Busch Rolling Rock Light	American Adjunct Lager
+Anheuser-Busch Rolling Rock Red	American Adjunct Lager
+Coors Keystone Ice	American Adjunct Lager
+Coors Keystone Light	American Adjunct Lager
+Coors Coors Light	American Adjunct Lager
+Dixie Dixie Beer	American Adjunct Lager
+Miller Icehouse	American Adjunct Lager
+Miller MGD	American Adjunct Lager
+Miller Milwaukee's Best	American Adjunct Lager
+Miller Milwaukee's Best Ice	American Adjunct Lager
+Miller Milwaukee's Best Light	American Adjunct Lager
+Pabst Old Milwaukee	American Adjunct Lager
+Pabst Old Milwaukee Light	American Adjunct Lager
+Pabst Stroh's	American Adjunct Lager
+Grupo Modelo Corona Extra	American Adjunct Lager
+FEMSA Dos Equis Special Lager	American Adjunct Lager
+Nacional Dominicana Presidente	American Adjunct Lager
+Desnoes and Geddes Red Stripe	American Adjunct Lager
+FEMSA Sol	American Adjunct Lager
+FEMSA Tecate	American Adjunct Lager
+Asia Pacific Tiger Beer	American Adjunct Lager
+Tsingtao Tsingtao	American Adjunct Lager
+Molson Molson Canadian	American Adjunct Lager
+Molson Molson Ice	American Adjunct Lager
+Anheuser-Busch InBev LandShark Lager	American Adjunct Lager
+Grupo Modelo Pacifico	American Adjunct Lager
+Labatt Labatt Blue	American Adjunct Lager
+Pabst Lone Star	American Adjunct Lager
+Pabst Old Style	American Adjunct Lager
+Minhas Simpler Times Lager	American Adjunct Lager
+Genesee Narragansett Lager	American Adjunct Lager
+Lion Brewery Lionshead Deluxe Pilsner	American Adjunct Lager
+Hometown Pennsylvania Lager	American Adjunct Lager
+Anheuser-Busch InBev Busch Beer	American Adjunct Lager
+Grupo Modelo Modelo Especial	American Adjunct Lager
+Kenya Breweries Tusker Premium Lager	American Adjunct Lager
+Banks Banks Beer	American Adjunct Lager
+Brahma Brahma	American Adjunct Lager
+Carlton & United Victoria Bitter	American Adjunct Lager
+Castlemaine Perkins XXXX Bitter	American Adjunct Lager
+Cervecera Mexicana Ed Hardy Premium Beer	American Adjunct Lager
+Cervecera Mexicana Ed Hardy Death Or Light Beer	American Adjunct Lager
+Damm Estrella Damm	American Adjunct Lager
+Labatt Ice	American Adjunct Lager
+Labatt Kokanee	American Adjunct Lager
+Oriental Cass Fresh	American Adjunct Lager
+Oriental OB Lager	American Adjunct Lager
+Pabst Olympia	American Adjunct Lager
+Quilmes Quilmes	American Adjunct Lager
+Schell's Deer Brand	American Adjunct Lager
+Schell's Grain Belt Premium	American Adjunct Lager
+Schell's Lakemaid	American Adjunct Lager
+Straub Straub Beer	American Adjunct Lager
+Tooheys Tooheys New	American Adjunct Lager
+Bell's Amber Ale	American Amber / Red Ale
+Coors Blue Moon Rising Moon	American Amber / Red Ale
+Anheuser-Busch Budweiser American Ale	American Amber / Red Ale
+Dixie Crimson Voodoo	American Amber / Red Ale
+Full Sail Nugget	American Amber / Red Ale
+Goose Island Red Felt	American Amber / Red Ale
+Magic Hat Roxy Rolles	American Amber / Red Ale
+New Belgium Fat Tire	American Amber / Red Ale
+New Belgium Giddy Up!	American Amber / Red Ale
+Otter Creek Oktoberfest	American Amber / Red Ale
+Port / Pizza Port Shark Attack	American Amber / Red Ale
+Pyramid Broken Rake	American Amber / Red Ale
+Pyramid Juggernaut Red Ale	American Amber / Red Ale
+Redhook Copper Hook	American Amber / Red Ale
+Redhook Late Harvest	American Amber / Red Ale
+Rogue American Amber	American Amber / Red Ale
+Rogue Captain Sig's Deadliest Ale	American Amber / Red Ale
+Rogue Sesquicentennial Ale	American Amber / Red Ale
+Abita Christmas Ale	American Amber / Red Ale
+Rogue St. Rogue Red Ale	American Amber / Red Ale
+AleSmith Yulesmith (Winter)	American Amber / Red Ale
+Anderson Valley Boont Amber Ale	American Amber / Red Ale
+Bear Republic Red Rocket Ale	American Amber / Red Ale
+Blue Point Brewing Toasted Lager	American Amber / Red Ale
+BridgePort Ropewalk Amber Ale	American Amber / Red Ale
+Drake's Amber	American Amber / Red Ale
+Eel River Amber Ale	American Amber / Red Ale
+Stone Levitation	American Amber / Red Ale
+Mad River Jamaica Red Ale	American Amber / Red Ale
+Mendocino Red Tail Ale	American Amber / Red Ale
+Middle Ages Grail Ale	American Amber / Red Ale
+Ninkasi Believer	American Amber / Red Ale
+Rogue Santa's Private Reserve	American Amber / Red Ale
+Ska Brewing Pinstripe	American Amber / Red Ale
+Speakeasy Prohibition Ale	American Amber / Red Ale
+Terrapin Big Hoppy Monster	American Amber / Red Ale
+Troegs HopBack Amber	American Amber / Red Ale
+Troegs Nugget Nectar	American Amber / Red Ale
+Widmer Brothers Drop Top Amber	American Amber / Red Ale
+Karl Strauss Red Trolley Ale	American Amber / Red Ale
+Lost Coast Alleycat Amber	American Amber / Red Ale
+Coronado Mermaid's Red	American Amber / Red Ale
+Half Acre Ginger Twin	American Amber / Red Ale
+Breckenridge Avalanche	American Amber / Red Ale
+Deschutes Green Lakes	American Amber / Red Ale
+Saint Arnold Amber Ale	American Amber / Red Ale
+Rahr and Sons Buffalo Butt	American Amber / Red Ale
+Silver City Ridgetop Red	American Amber / Red Ale
+Steinhaus Jumping Cow Amber Ale	American Amber / Red Ale
+Santa Cruz Mountain Amber Ale	American Amber / Red Ale
+Magic Hat Hex	American Amber / Red Ale
+Highland Gaelic Ale	American Amber / Red Ale
+Odell Brewing 90 Shilling Ale	American Amber / Red Ale
+Duck-Rabbit Amber Ale	American Amber / Red Ale
+Mac and Jack's African Amber	American Amber / Red Ale
+Odell Brewing Levity Amber Ale	American Amber / Red Ale
+Odell Brewing Red Ale	American Amber / Red Ale
+Oggi's Sunset Amber Ale	American Amber / Red Ale
+Rush River The Unforgiven Amber Ale	American Amber / Red Ale
+Sprecher Shakparo	American Amber / Red Ale
+Capital Winter Skål	American Amber / Red Lager
+Capital Wisconsin Amber	American Amber / Red Lager
+Flying Dog Old Scratch	American Amber / Red Lager
+Full Sail Full Sail LTD 02	American Amber / Red Lager
+Coors Killian's Irish Red	American Amber / Red Lager
+Leinenkugel's Classic Amber	American Amber / Red Lager
+Pyramid Rollick Amber Lager	American Amber / Red Lager
+Anheuser-Busch InBev Redbridge	American Amber / Red Lager
+Saranac Traditional Lager	American Amber / Red Lager
+Coney Island (Shmaltz) Coney Island Lager	American Amber / Red Lager
+Coney Island (Shmaltz) Freaktoberfest	American Amber / Red Lager
+Coney Island (Shmaltz) Human Blockhead	American Amber / Red Lager
+Genesee Dundee Honey Brown	American Amber / Red Lager
+Yuengling Traditional Lager	American Amber / Red Lager
+Karl Strauss Amber Lager	American Amber / Red Lager
+Hometown New Jersey Lager	American Amber / Red Lager
+Hometown New York Lager	American Amber / Red Lager
+Rahr and Sons Texas Red	American Amber / Red Lager
+Schell's Hopfenmalz	American Amber / Red Lager
+Straub Peter Straub's Special Dark	American Amber / Red Lager
+Full Sail Amber	American Amber Ale
+Lagunitas Censored (Kronik)	American Amber Ale
+Anheuser-Busch Wild Hop Lager	American Amber Lager
+Lagunitas Olde Gnarlywine	American Barley Wine
+Alaskan Alaskan Barley Wine	American Barleywine
+Bell's Batch 6,000	American Barleywine
+Bell's Time Capsule Ale	American Barleywine
+Big Sky Olde Bluehair	American Barleywine
+Full Sail Old Boardhead	American Barleywine
+Great Divide Barrel-Aged Old Ruffian	American Barleywine
+Great Divide Old Ruffian	American Barleywine
+Harpoon Barley Wine	American Barleywine
+Left Hand Oak-Aged Widdershins	American Barleywine
+Mikkeller Big Worse Barley Wine	American Barleywine
+Redhook Treblehook	American Barleywine
+Sierra Nevada Bigfoot	American Barleywine
+Blue Point Brewing Old Howling Bastard	American Barleywine
+Boulder Beer Killer Penguin	American Barleywine
+Dogfish Head Olde School Barleywine	American Barleywine
+Hair of the Dog Fred	American Barleywine
+Stone Old Guardian	American Barleywine
+Mad River John Barleycorn	American Barleywine
+Middle Ages Druid Fluid	American Barleywine
+Rogue XS Old Crustacean	American Barleywine
+Schlafly Reserve Barleywine	American Barleywine
+Thomas Hooker Old Marley	American Barleywine
+Three Floyds Behemoth	American Barleywine
+Victory Old Horizontal	American Barleywine
+Deschutes Mirror Mirror	American Barleywine
+Moylans Old Blarney	American Barleywine
+Founders Nemesis 2010	American Barleywine
+Hair of the Dog Doggie Claws	American Barleywine
+Sierra Nevada 30th Anniversary Jack And Ken's Ale	American Barleywine
+Smuttynose Barleywine Style Ale	American Barleywine
+Southern Tier Backburner	American Barleywine
+Troegs The Flying Mouflan	American Barleywine
+Bristol Old No. 23	American Barleywine
+Telegraph Rhinoceros	American Barleywine
+Avery Hog Heaven	American Barleywine/Imperial Red
+Great Divide Samurai Rice Ale	American Blonde Ale
+New Belgium Skinny Dip	American Blonde Ale
+Otter Creek Otter San	American Blonde Ale
+Redhook Blonde Ale	American Blonde Ale
+Redhook Slim Chance	American Blonde Ale
+Cisco Brewers Bailey's Ale	American Blonde Ale
+BridgePort Haymaker	American Blonde Ale
+Ska Brewing True Blonde Ale	American Blonde Ale
+Molson Molson Golden	American Blonde Ale
+Bell's Third Coast Beer	American Blonde Ale
+New Belgium Hoptober	American Blonde Ale
+Real Ale Brewing Firemans #4	American Blonde Ale
+Rogue Single Malt Ale	American Blonde Ale
+Shipyard Export Ale	American Blonde Ale
+Carolina Beer Company Carolina Blonde	American Blonde Ale
+Free State Wheat State Golden	American Blonde Ale
+Squatters Chasing Tail Golden Ale	American Blonde Ale
+Coast Rye Not Brown Ale	American Brown Ale
+Flossmoor Station Pullman Brown Ale	American Brown Ale
+Full Sail Full Sail Nut Brown Ale	American Brown Ale
+Goose Island Naughty Goose	American Brown Ale
+Mikkeller Jackie Brown	American Brown Ale
+Otter Creek Raspberry Brown Winter Ale	American Brown Ale
+Rogue Hazelnut Brown Nectar	American Brown Ale
+Saranac India Brown Ale	American Brown Ale
+Surly Coffee Bender	American Brown Ale
+Voodoo Wynona's Big Brown Ale	American Brown Ale
+Big Sky Moose Drool	American Brown Ale
+Abita Pecan Harvest	American Brown Ale
+Brooklyn Brown Ale	American Brown Ale
+Dogfish Head Indian Brown Ale	American Brown Ale
+Dogfish Head Palo Santo Marron	American Brown Ale
+He'Brew (Shmaltz) Genesis Ale	American Brown Ale
+He'Brew (Shmaltz) Messiah Bold	American Brown Ale
+Surly Bender	American Brown Ale
+Terrapin Hop Karma Brown IPA	American Brown Ale
+Tyranena Rocky's Revenge	American Brown Ale
+Steinhaus Mission St. Brown Ale	American Brown Ale
+Santa Cruz Mountain Dread Brown Ale	American Brown Ale
+Sierra Nevada Tumbler	American Brown Ale
+Bear Republic Peter Brown Tribute Ale	American Brown Ale
+Tommyknocker Imperial Nut Brown Ale	American Brown Ale
+Tommyknocker Maple Nut Brown Ale	American Brown Ale
+Bristol Cheyenne Canon	American Brown Ale
+Duck-Rabbit Brown Ale	American Brown Ale
+Tallgrass Tallgrass Ale	American Brown Ale
+Tri-City Brownhoist Nut Brown Ale	American Brown Ale
+Pyramid Amber Ale	American Dark Wheat Ale
+Schlafly No. 15	American Dark Wheat Ale
+Victory Hop Wallop	American Double / Imperial IPA
+Russian River Pliny the Elder	American Double / Imperial IPA
+Oskar Blues Gordon	American Double / Imperial IPA
+Arcadia Hop Rocket	American Double / Imperial IPA
+Bell's Big Head	American Double / Imperial IPA
+Bell's Hopslam	American Double / Imperial IPA
+Bell's The Oracle	American Double / Imperial IPA
+BrewDog Zephyr	American Double / Imperial IPA
+Captain Lawrence Captain's Reserve	American Double / Imperial IPA
+Flying Dog Double Dog	American Double / Imperial IPA
+Great Divide 15th Anniversary Wood Aged Double IPA	American Double / Imperial IPA
+Great Divide Hercules Double IPA	American Double / Imperial IPA
+Harpoon Leviathan Imperial IPA	American Double / Imperial IPA
+Ithaca Alphalpha	American Double / Imperial IPA
+Left Hand Twin Sisters	American Double / Imperial IPA
+Midnight Sun Cohoho	American Double / Imperial IPA
+Midnight Sun Melt Down	American Double / Imperial IPA
+Otter Creek Imperial IPA	American Double / Imperial IPA
+Port / Pizza Port 2nd Anniversary	American Double / Imperial IPA
+Port / Pizza Port 3rd Anniversary	American Double / Imperial IPA
+Port / Pizza Port Hop-15	American Double / Imperial IPA
+Rogue Ten Thousand Brew Ale	American Double / Imperial IPA
+Saranac Imperial IPA	American Double / Imperial IPA
+Ska Brewing Decadent	American Double / Imperial IPA
+Sly Fox Odyssey	American Double / Imperial IPA
+Avery Maharaja	American Double / Imperial IPA
+Lagunitas Hop Stoopid	American Double / Imperial IPA
+AleSmith Yulesmith (Summer)	American Double / Imperial IPA
+Boulder Beer Mojo Risin	American Double / Imperial IPA
+BridgePort Hop Czar	American Double / Imperial IPA
+Dogfish Head 90 Minute IPA	American Double / Imperial IPA
+Dogfish Head 120 Minute IPA	American Double / Imperial IPA
+Dogfish Head Burton Baton	American Double / Imperial IPA
+Grand Teton Lost Continent	American Double / Imperial IPA
+He'Brew (Shmaltz) Bittersweet Lenny's R.I.P.A.	American Double / Imperial IPA
+Stone Ruination IPA	American Double / Imperial IPA
+Mad River Steelhead Double IPA	American Double / Imperial IPA
+Ninkasi Tricerahops	American Double / Imperial IPA
+Rogue XS Imperial IPA	American Double / Imperial IPA
+Smuttynose Big A IPA	American Double / Imperial IPA
+Speakeasy Double Daddy	American Double / Imperial IPA
+Three Floyds Dreadnaught	American Double / Imperial IPA
+Two Brothers Hop Juice	American Double / Imperial IPA
+Tyranena Hop Whore	American Double / Imperial IPA
+Weyerbacher Double Simcoe IPA	American Double / Imperial IPA
+Alpine Exponential Hoppiness	American Double / Imperial IPA
+Alpine Pure Hoppiness	American Double / Imperial IPA
+Deschutes Hop Henge Experimental IPA	American Double / Imperial IPA
+Coronado Idiot IPA	American Double / Imperial IPA
+Great Lakes Lake Erie Monster	American Double / Imperial IPA
+Breckenridge 471 Small Batch IPA	American Double / Imperial IPA
+Moylans Hopsickle	American Double / Imperial IPA
+Moylans Moylander	American Double / Imperial IPA
+Mikkeller I Beat YoU	American Double / Imperial IPA
+Great Divide 16th Anniversary Wood Aged	American Double / Imperial IPA
+Stone 14th Anniversary Emperial IPA	American Double / Imperial IPA
+Mammoth Brewing IPA 395	American Double / Imperial IPA
+Avery DuganA IPA	American Double / Imperial IPA
+Bear Republic Racer X	American Double / Imperial IPA
+Dark Horse Double Crooked Tree IPA	American Double / Imperial IPA
+Dogfish Head Squall IPA	American Double / Imperial IPA
+Hair of the Dog Blue Dot	American Double / Imperial IPA
+Hoppin' Frog Mean Manalishi Double I.P.A.	American Double / Imperial IPA
+Southern Tier 2XIPA	American Double / Imperial IPA
+Lagunitas A Little Sumpin' Extra! Ale	American Double / Imperial IPA
+Russian River Pliny The Younger	American Double / Imperial IPA
+Stoudts Double IPA	American Double / Imperial IPA
+Surly Abrasive Ale	American Double / Imperial IPA
+Hill Farmstead Abner	American Double / Imperial IPA
+Hill Farmstead Ephraim	American Double / Imperial IPA
+Oggi's Hop Juice Double IPA	American Double / Imperial IPA
+Sprecher IPA2	American Double / Imperial IPA
+Tallgrass Oasis	American Double / Imperial IPA
+Full Sail Capsize	American Double / Imperial Pilsner
+Harpoon Leviathan Big Bohemian	American Double / Imperial Pilsner
+Mikkeller Draft Bear	American Double / Imperial Pilsner
+Port / Pizza Port Panzer Imperial Pilsner	American Double / Imperial Pilsner
+Samuel Adams Imperial Pilsner	American Double / Imperial Pilsner
+Rogue Morimoto Imperial Pilsner	American Double / Imperial Pilsner
+Sudwerk Imperial Pilsner	American Double / Imperial Pilsner
+Dogfish Head My Antonia	American Double / Imperial Pilsner
+Odell Brewing Double Pilsner	American Double / Imperial Pilsner
+Bell's Barrel Aged Cherry Stout	American Double / Imperial Stout
+Bell's Barrel Aged Java Stout	American Double / Imperial Stout
+Bell's Barrel Aged Double Cream Stout	American Double / Imperial Stout
+Bell's Harry Magill's Spiced Stout	American Double / Imperial Stout
+BrewDog Paradox Glen Grant	American Double / Imperial Stout
+BrewDog Paradox Islay	American Double / Imperial Stout
+BrewDog Paradox Smokehead	American Double / Imperial Stout
+BrewDog Paradox Springbank	American Double / Imperial Stout
+Buffalo Bill's Blueberry Oatmeal Stout	American Double / Imperial Stout
+Goose Island Bourbon County Stout	American Double / Imperial Stout
+Great Divide Chocolate Oak-Aged Yeti Imperial Stout	American Double / Imperial Stout
+Left Hand Oak Aged Imperial Stout	American Double / Imperial Stout
+Lost Abbey Serpent's Stout	American Double / Imperial Stout
+Port / Pizza Port Older Viscosity	American Double / Imperial Stout
+Redhook Double Black Stout	American Double / Imperial Stout
+Saranac Imperial Stout	American Double / Imperial Stout
+AleSmith Speedway Stout	American Double / Imperial Stout
+Brasserie Dieu du Ciel Péché Mortel	American Double / Imperial Stout
+Dogfish Head World Wide Stout	American Double / Imperial Stout
+Elysian Brewing Dragonstooth Stout	American Double / Imperial Stout
+Grand Teton Black Cauldron	American Double / Imperial Stout
+Terrapin Coffee Oatmeal Imperial Stout	American Double / Imperial Stout
+Voodoo Black Magick	American Double / Imperial Stout
+Half Acre Big Hugs	American Double / Imperial Stout
+Allagash Fluxus 2010	American Double / Imperial Stout
+Saint Arnold Divine Reserve #9	American Double / Imperial Stout
+Great Divide Espresso Oak Aged Yeti	American Double / Imperial Stout
+Founders Canadian Breakfast Stout	American Double / Imperial Stout
+Goose Island Bourbon County Brand Coffee Stout	American Double / Imperial Stout
+Goose Island Night Stalker	American Double / Imperial Stout
+Sierra Nevada 30th Anniversary Fritz & Ken's Ale	American Double / Imperial Stout
+Stoudts Fat Dog	American Double / Imperial Stout
+Odell Brewing Bourbon Barrel Stout	American Double / Imperial Stout
+Pisgah Valdez	American Double / Imperial Stout
+The Bruery Black Tuesday	American Double / Imperial Stout
+Clipper City Heavy Seas Small Craft Warning	American Imperial Pilsner
+Russian River Blind Pig IPA	American IPA
+Alaskan Alaskan IPA	American IPA
+BrewDog Punk IPA	American IPA
+Coast HopArt	American IPA
+Flying Dog Snake Dog	American IPA
+Full Sail Grandsun of Spot	American IPA
+Full Sail Full Sail IPA	American IPA
+Full Sail Prodigal Sun IPA	American IPA
+Great Divide Titan IPA	American IPA
+Harpoon I.P.A.	American IPA
+Left Hand Warrior IPA	American IPA
+Magic Hat Hi.P.A.	American IPA
+Magic Hat Lucky Kat	American IPA
+Mikkeller Amarillo Single Hop IPA	American IPA
+Mikkeller Cascade Single Hop	American IPA
+Mikkeller Nelson Sauvin Single Hop IPA	American IPA
+Mikkeller Nugget Single Hop IPA	American IPA
+Mikkeller Simcoe Single Hop IPA	American IPA
+Mikkeller Stateside IPA	American IPA
+Mikkeller Warrior Single Hop IPA	American IPA
+Otter Creek 15th Anniversary IPA	American IPA
+Port / Pizza Port High Tide	American IPA
+Port / Pizza Port Wipeout I.P.A.	American IPA
+Pyramid Thunderhead	American IPA
+Redhook Long Hammer IPA	American IPA
+Rogue Independence Hop Ale	American IPA
+Rogue Yellow Snow IPA	American IPA
+Sierra Nevada Anniversary Ale	American IPA
+Sierra Nevada Estate Brewers Harvest Ale	American IPA
+Sierra Nevada Torpedo Extra IPA	American IPA
+Sly Fox Rte. 113 India Pale Ale	American IPA
+Bell's Two Hearted Ale	American IPA
+Goose Island India Pale Ale	American IPA
+Abita Jockamo IPA	American IPA
+Firestone Walker Union Jack IPA	American IPA
+Great Lakes Commodore Perry	American IPA
+Ithaca Flower Power	American IPA
+Midnight Sun Sockeye Red IPA	American IPA
+Firestone Walker Nectar IPA	American IPA
+Avery India Pale Ale	American IPA
+Ballast Point Big Eye IPA	American IPA
+Ballast Point Sculpin IPA	American IPA
+Deschutes Inversion IPA	American IPA
+Founders Centennial IPA	American IPA
+Green Flash West Coast IPA	American IPA
+Lagunitas IPA	American IPA
+New Holland Mad Hatter	American IPA
+North Coast Acme California IPA	American IPA
+21st Amendment Brew Free or Die IPA	American IPA
+AleSmith AleSmith IPA	American IPA
+Anderson Valley Hop Ottin IPA	American IPA
+Bear Republic Hop Rod Rye	American IPA
+Bear Republic Racer 5	American IPA
+Blue Point Brewing Hoptical Illusion	American IPA
+Boulder Beer Mojo IPA	American IPA
+BridgePort BridgePort IPA	American IPA
+Dogfish Head 60 Minute IPA	American IPA
+Dogfish Head Aprihop	American IPA
+Drake's IPA	American IPA
+Genesee Dundee India Pale Ale	American IPA
+Elysian Brewing Avatar Jasmine IPA	American IPA
+Elysian Brewing The Immortal IPA	American IPA
+Erie Brewing Misery Bay IPA	American IPA
+Grand Teton Sweetgrass IPA	American IPA
+Hopworks (HUB) Hopworks IPA	American IPA
+Stone IPA	American IPA
+Mendocino White Hawk IPA	American IPA
+Mission IPA	American IPA
+Ninkasi Total Domination	American IPA
+Nogne O India Pale Ale	American IPA
+Saranac India Pale Ale	American IPA
+Sierra Nevada Celebration	American IPA
+Sierra Nevada Harvest	American IPA
+Sierra Nevada Southern Hemisphere Harvest	American IPA
+Ska Brewing Modus Hoperandi	American IPA
+Smuttynose IPA	American IPA
+Southampton India Pale Ale	American IPA
+Speakeasy Big Daddy IPA	American IPA
+Surly Furious	American IPA
+Terrapin Rye Squared	American IPA
+Two Brothers Heavy Handed IPA	American IPA
+Tyranena Bitter Woman IPA	American IPA
+Victory HopDevil	American IPA
+Wachusett IPA	American IPA
+Weyerbacher Hops Infusion	American IPA
+Widmer Brothers Broken Halo IPA	American IPA
+Maui Big Swell IPA	American IPA
+Alpine Duet	American IPA
+Alpine Nelson	American IPA
+Lost Coast Indica India Pale Ale	American IPA
+Coronado Islander IPA	American IPA
+New Belgium Ranger IPA	American IPA
+New Glarus Hop Hearty Ale	American IPA
+Butternuts Snapperhead IPA	American IPA
+Philadelphia Newbold IPA	American IPA
+Rahr and Sons Stormcloud IPA	American IPA
+Saint Arnold Elissa IPA	American IPA
+Deschutes Hop in the Dark	American IPA
+Mayflower IPA	American IPA
+Peak Organic IPA	American IPA
+Real Ale Brewing Lost Gold IPA	American IPA
+Butte Creek Organic India Pale Ale	American IPA
+Silver City Indianola IPA	American IPA
+Odell Brewing Odell IPA	American IPA
+Hale's Ales Supergoose DIPA	American IPA
+Short's Brewing Huma-Lupa-Licious IPA	American IPA
+Great Divide Rumble IPA	American IPA
+Marshall Brewing Atlas IPA	American IPA
+Caldera Hopportunity Knocks	American IPA
+Caldera IPA	American IPA
+Dark Horse Crooked Tree IPA	American IPA
+Brasserie Dieu du Ciel Corne Du Diable	American IPA
+Highland Kashmir IPA	American IPA
+Lancaster Hop Hog	American IPA
+Samuel Adams Latitude 48	American IPA
+Sweetwater IPA	American IPA
+Terrapin Hopsecutioner	American IPA
+Bristol Compass IPA	American IPA
+Captured by Porches Invasive Species IPA	American IPA
+Craftsman IPA	American IPA
+Evolution Lot #3 IPA	American IPA
+Four Peaks Hop Knot	American IPA
+Free State Copperhead Pale Ale	American IPA
+Lake Placid India Pale Ale	American IPA
+Michigan High Seas India Pale Ale	American IPA
+Oggi's Torrey Pines IPA	American IPA
+Pisgah India Pale Ale	American IPA
+Rush River Bubblejack India Pale Ale	American IPA
+Squatters IPA	American IPA
+Starr Hill Northern Lights IPA	American IPA
+Surly Wet	American IPA
+Tallgrass IPA	American IPA
+Rogue Dad's Little Helper	American Malt Liquor
+Schlitz Schlitz Bull Ice	American Malt Liquor
+Schlitz Schlitz High Gravity VSL	American Malt Liquor
+Schlitz Schlitz Malt Liquor	American Malt Liquor
+Schlitz Schlitz Red Bull XL	American Malt Liquor
+Miller Mickey's Fine Malt Liquor	American Malt Liquor
+Molson Molson XXX	American Malt Liquor
+Labatt Maximum Ice	American Malt Liquor
+Southern Tier Pale Ale	American Pale Ale
+Summit Extra Pale Ale	American Pale Ale
+Thomas Hooker American Pale Ale	American Pale Ale
+Anheuser-Busch Stone Mill Pale Ale	American Pale Ale
+Big Sky Scape Goat Pale Ale	American Pale Ale
+Boulevard Pale Ale	American Pale Ale
+Full Sail Pale Ale	American Pale Ale
+Southern Tier Phin & Matt's Extraordinary Ale	American Pale Ale
+Otter Creek Wolaver's Pale Ale	American Pale Ale
+Firestone Walker Pale 31	American Pale Ale
+Great Lakes Burning River	American Pale Ale
+Ithaca Pale Ale	American Pale Ale
+Left Hand Jackman's	American Pale Ale
+Southern Star Pine Belt Pale Ale	American Pale Ale
+Deschutes Mirror Pond	American Pale Ale
+Deschutes Twilight Ale	American Pale Ale
+Founders Pale Ale	American Pale Ale
+North Coast Acme California Pale Ale	American Pale Ale
+Oskar Blues Dale's Pale Ale	American Pale Ale (APA)
+Alaskan Alaskan Pale	American Pale Ale (APA)
+Bell's Pale Ale	American Pale Ale (APA)
+Cold Spring Cold Spring Pale Ale	American Pale Ale (APA)
+Flying Dog Doggie Style	American Pale Ale (APA)
+Great Divide Fresh Hop Pale Ale	American Pale Ale (APA)
+Harpoon Harpoon Ale	American Pale Ale (APA)
+Harpoon Glacier Harvest '08 Wet Hop	American Pale Ale (APA)
+Harpoon Glacier Harvest '09 Wet Hop	American Pale Ale (APA)
+Kona Fire Rock Pale Ale	American Pale Ale (APA)
+Mikkeller All Others Pale	American Pale Ale (APA)
+New Belgium Mighty Arrow	American Pale Ale (APA)
+Otter Creek Pale Ale	American Pale Ale (APA)
+Rogue Seahorse Pale Ale	American Pale Ale (APA)
+Saranac Pale Pale Ale	American Pale Ale (APA)
+Sierra Nevada Pale Ale	American Pale Ale (APA)
+Sly Fox Phoenix Pale Ale	American Pale Ale (APA)
+Samuel Adams Boston Ale	American Pale Ale (APA)
+Abita Restoration Pale Ale	American Pale Ale (APA)
+AleSmith AleSmith X	American Pale Ale (APA)
+Anderson Valley Poleeko Gold Pale Ale	American Pale Ale (APA)
+Anchor Anchor Liberty Ale	American Pale Ale (APA)
+Boulder Beer Hazed and Infused	American Pale Ale (APA)
+Boulder Beer Pass Time Pale Ale	American Pale Ale (APA)
+BridgePort Blue Heron	American Pale Ale (APA)
+Dogfish Head Shelter Pale Ale	American Pale Ale (APA)
+Drake's 1500 Pale Ale	American Pale Ale (APA)
+Genesee Dundee Pale Ale	American Pale Ale (APA)
+Erie Brewing Mad Anthony's APA	American Pale Ale (APA)
+Flying Fish Extra Pale Ale	American Pale Ale (APA)
+Stone Pale Ale	American Pale Ale (APA)
+Mad River Steelhead Extra Pale Ale	American Pale Ale (APA)
+Nogne O Pale Ale	American Pale Ale (APA)
+Stoudts American Pale Ale	American Pale Ale (APA)
+Lagunitas New Dogtown Pale Ale	American Pale Ale (APA)
+Two Brothers The Bitter End	American Pale Ale (APA)
+Smuttynose Shoals Pale Ale	American Pale Ale (APA)
+Speakeasy Untouchable	American Pale Ale (APA)
+Sweetwater 420 Extra Pale Ale	American Pale Ale (APA)
+Terrapin Rye Pale Ale	American Pale Ale (APA)
+Three Floyds Alpha King	American Pale Ale (APA)
+Three Floyds Pride and Joy	American Pale Ale (APA)
+Troegs Pale Ale	American Pale Ale (APA)
+Two Brothers The Bitter End	American Pale Ale (APA)
+Widmer Brothers Drifter Pale Ale	American Pale Ale (APA)
+Yuengling Lord Chesterfield Ale	American Pale Ale (APA)
+Half Acre Daisy Cutter	American Pale Ale (APA)
+Butternuts Porkslap Pale Ale	American Pale Ale (APA)
+Yards Philadelphia Pale Ale	American Pale Ale (APA)
+Boxcar Original Ale	American Pale Ale (APA)
+Moylans Tipperary Pale Ale	American Pale Ale (APA)
+New Belgium Mighty Arrow	American Pale Ale (APA)
+Mendocino Blue Heron	American Pale Ale (APA)
+Real Ale Brewing Rio Blanco Pale Ale	American Pale Ale (APA)
+Silver City Clear Creek Pale Ale	American Pale Ale (APA)
+Deschutes Red Chair NWPA	American Pale Ale (APA)
+Uinta Brewing Cutthroat Pale Ale	American Pale Ale (APA)
+Short's Brewing Pandemonium	American Pale Ale (APA)
+River Horse Brewing Hop Hazard	American Pale Ale (APA)
+Bear Republic XP Pale Ale	American Pale Ale (APA)
+Caldera Pale Ale	American Pale Ale (APA)
+Founders Harvest Ale	American Pale Ale (APA)
+Hair of the Dog Ruth	American Pale Ale (APA)
+Highland St. Terese's Pale Ale	American Pale Ale (APA)
+Bristol Mass Transit Ale	American Pale Ale (APA)
+Bristol Red Rocket	American Pale Ale (APA)
+Evolution Primal Pale Ale	American Pale Ale (APA)
+Goose Island Green Line Pale Ale	American Pale Ale (APA)
+Hill Farmstead Edward	American Pale Ale (APA)
+Little Creatures Pale Ale	American Pale Ale (APA)
+Michigan Mackinac Pale Ale	American Pale Ale (APA)
+Odell Brewing St. Lupulin	American Pale Ale (APA)
+Oggi's Paradise Pale Ale	American Pale Ale (APA)
+Pisgah Equinox	American Pale Ale (APA)
+Pisgah Pale Ale	American Pale Ale (APA)
+Starr Hill Pale Ale	American Pale Ale (APA)
+Tuckerman Pale Ale	American Pale Ale (APA)
+Bell's Lager Beer	American Pale Lager
+Full Sail Session Lager	American Pale Lager
+Kona Longboard Lager	American Pale Lager
+Michelob Lager	American Pale Lager
+Coney Island (Shmaltz) Albino Python	American Pale Lager
+Coney Island (Shmaltz) Sword Swallower	American Pale Lager
+Spoetzl Shiner Blonde	American Pale Lager
+Yuengling Premium Beer	American Pale Lager
+Pretty Things American Darling	American Pale Lager
+Michelob Original Lager	American Pale Lager
+Moosehead Lager	American Pale Lager
+United Breweries Kingfisher Premium Lager	American Pale Lager
+Craftsman 1903	American Pale Lager
+Henry Weinhard's Private Reserve	American Pale Lager
+Bell's Oberon	American Pale Wheat Ale
+Bell's Poolside Ale	American Pale Wheat Ale
+Coors Blue Moon Honey Moon	American Pale Wheat Ale
+Goose Island 312	American Pale Wheat Ale
+Harpoon Catamount Maple Wheat	American Pale Wheat Ale
+Harpoon Crystal Wheat	American Pale Wheat Ale
+Kona Wailua	American Pale Wheat Ale
+Leinenkugel's Honey Weisse	American Pale Wheat Ale
+Magic Hat Circus Boy	American Pale Wheat Ale
+New Belgium Sunshine Wheat	American Pale Wheat Ale
+Otter Creek Summer Ale	American Pale Wheat Ale
+Pyramid Crystal Wheat	American Pale Wheat Ale
+Pyramid Haywire Hefeweizen	American Pale Wheat Ale
+Samuel Adams Smoked Lager	American Pale Wheat Ale
+Saranac Pomegranate Wheat	American Pale Wheat Ale
+Saranac Summer Ale	American Pale Wheat Ale
+Southern Tier 422 Pale Wheat Ale	American Pale Wheat Ale
+Boulevard Unfiltered Wheat Beer	American Pale Wheat Ale
+Magic Hat Hocus Pocus	American Pale Wheat Ale
+Michelob Hop Hound Amber Wheat	American Pale Wheat Ale
+New Belgium Sunshine Wheat	American Pale Wheat Ale
+Southern Tier Hop Sun	American Pale Wheat Ale
+Michelob Honey Wheat	American Pale Wheat Ale
+North Coast Blue Star	American Pale Wheat Ale
+Boulder Beer Sweaty Betty Blonde	American Pale Wheat Ale
+Genesee Dundee Wheat Beer	American Pale Wheat Ale
+Harpoon UFO Hefeweizen	American Pale Wheat Ale
+Samuel Adams Hefeweizen	American Pale Wheat Ale
+Southern Tier Uber Sun	American Pale Wheat Ale
+Three Floyds Gumballhead	American Pale Wheat Ale
+Troegs Dreamweaver Wheat	American Pale Wheat Ale
+Widmer Brothers Hefeweizen	American Pale Wheat Ale
+Lagunitas A Little Sumpin' Sumpin' Ale	American Pale Wheat Ale
+Samuel Adams Coastal Wheat	American Pale Wheat Ale
+Samuel Adams Summer Ale	American Pale Wheat Ale
+Anchor Summer Beer	American Pale Wheat Ale
+Highland Cattail Peak Wheat	American Pale Wheat Ale
+Bristol Beehive	American Pale Wheat Ale
+Henry Weinhard's Hefeweizen	American Pale Wheat Ale
+Odell Brewing Easy Street Wheat	American Pale Wheat Ale
+Rush River Small Axe Golden Ale	American Pale Wheat Ale
+Smuttynose Summer Weizen	American Pale Wheat Ale
+Telegraph Golden Wheat Ale	American Pale Wheat Ale
+Bell's Porter	American Porter
+Captain Lawrence Smoke from the Oak	American Porter
+Flying Dog Road Dog	American Porter
+Full Sail Half Pipe Porter	American Porter
+Full Sail Top Sail	American Porter
+Great Divide St. Bridget's Porter	American Porter
+Harpoon Smoked Porter	American Porter
+Kona Pipeline Porter	American Porter
+Left Hand Smoke Jumper	American Porter
+Otter Creek Stovepipe Porter	American Porter
+Redhook Black Hook Porter	American Porter
+Samuel Adams Holiday Porter	American Porter
+Samuel Adams Honey Porter	American Porter
+Saranac Caramel Porter	American Porter
+Sierra Nevada Porter	American Porter
+Southern Tier Porter	American Porter
+Boulevard Bully! Porter	American Porter
+Cisco Brewers Moor Porter	American Porter
+Great Lakes Edmund Fitzgerald	American Porter
+Ithaca Gorges Smoked Porter	American Porter
+Michelob Porter	American Porter
+Midnight Sun Arctic Rhino Coffee Porter	American Porter
+Avery New World Porter	American Porter
+Ballast Point Black Marlin Porter	American Porter
+Founders Porter	American Porter
+Haandbryggeriet (Norway) Aqua Vita Porter	American Porter
+Haandbryggeriet (Norway) Nissefar	American Porter
+Haandbryggeriet (Norway) Norse Porter	American Porter
+Rogue Mocha Porter	American Porter
+Anderson Valley Deep Enders Dark Porter	American Porter
+Anchor Anchor Porter	American Porter
+Atlantic Bar Harbor Coal Porter	American Porter
+Boulder Beer Planet Porter	American Porter
+BridgePort BridgePort Porter	American Porter
+Genesee Dundee Porter	American Porter
+Eel River Porter	American Porter
+Elysian Brewing Perseus Porter	American Porter
+Flying Fish Imperial Espresso Porter	American Porter
+Stone Smoked Porter	American Porter
+Ska Brewing Ten Pin Porter	American Porter
+Smuttynose Robust Porter	American Porter
+Southampton Imperial Porter	American Porter
+Speakeasy Payback Porter	American Porter
+Summit Great Northern Porter	American Porter
+Thomas Hooker Imperial Porter	American Porter
+Yuengling Porter	American Porter
+Maui CoCoNut Porter	American Porter
+Deschutes Black Butte Porter	American Porter
+Breckenridge Vanilla Porter	American Porter
+Philadelphia Joe	American Porter
+Ballast Point Victory at Sea	American Porter
+Butte Creek Organic Porter	American Porter
+Silver City Panther Lake Porter	American Porter
+Marshall Brewing Big Jamoke	American Porter
+Highland Big Butte Smoked Porter	American Porter
+Highland Oatmeal Porter	American Porter
+Michelob Porter	American Porter
+Thirsty Dog Old Leghumper	American Porter
+Three Floyds Alpha Klaus	American Porter
+Troegs Dead Reckoning Porter	American Porter
+Alaskan Smoked Porter	American Porter
+Duck-Rabbit Porter	American Porter
+Evolution Lucky 7 Porter	American Porter
+Michigan Peninsula Porter	American Porter
+Odell Brewing Cutthroat Porter	American Porter
+Pisgah Porter	American Porter
+Rush River Lost Arrow Porter	American Porter
+Telegraph Stock Porter	American Porter
+Summit Horizon Red	American Red Ale
+Ithaca Cascazilla	American Red Ale
+Firestone Walker Red Nectar	American Red Ale
+Deschutes Cinder Cone Red Ale	American Red Ale
+Green Flash Hop Head Red	American Red Ale
+North Coast Red Seal Ale	American Red Ale
+Arcadia Cocoa Loco	American Stout
+Bell's Kalamazoo Stout	American Stout
+Bell's Smoked Stout	American Stout
+Harpoon Chocolate Stout	American Stout
+Saranac Vanilla Stout	American Stout
+Deschutes Obsidian Stout	American Stout
+North Coast Old Plowshare Stout	American Stout
+Rogue Chocolate Stout	American Stout
+BridgePort Black Strap Stout	American Stout
+Dogfish Head Chicory Stout	American Stout
+Old Dominion Dominion Oak Barrel Stout	American Stout
+Mad River Steelhead Extra Stout	American Stout
+Mendocino Black Hawk Stout	American Stout
+Sierra Nevada Stout	American Stout
+Lost Coast 8 Ball Stout	American Stout
+New Glarus Coffee Stout	American Stout
+Saint Arnold Winter Stout	American Stout
+Santa Cruz Mountain Devout Stout	American Stout
+Bell's Rye Stout	American Stout
+Dark Horse Tres Blueberry Stout	American Stout
+Brasserie Dieu du Ciel Aphrodisiaque	American Stout
+Highland Black Mocha Stout	American Stout
+Lakefront Fuel Cafe	American Stout
+Michigan Superior Stout	American Stout
+Tuckerman 6288 Stout	American Stout
+Bell's Eccentric Ale	American Strong Ale
+Lost Abbey The Angel's Share (Brandy Barrel-Aged)	American Strong Ale
+Lost Abbey The Angel's Share (Bourbon Barrel-Aged)	American Strong Ale
+Port / Pizza Port Old Viscosity	American Strong Ale
+Rogue Double Dead Guy	American Strong Ale
+Southern Tier Cuvee Series 1	American Strong Ale
+Southern Tier Cuvee Series 2	American Strong Ale
+Southern Tier Cuvee Series 3	American Strong Ale
+Stone Arrogant Bastard	American Strong Ale
+Great Lakes Nosferatu	American Strong Ale
+Hitachino XH	American Strong Ale
+Ithaca Ten	American Strong Ale
+Left Hand Chainsaw Ale (Double Sawtooth)	American Strong Ale
+Lagunitas Brown Shugga'	American Strong Ale
+Lagunitas The Hairy Eyeball Ale	American Strong Ale
+Lagunitas Undercover Investigation Shut-Down	American Strong Ale
+Rogue Double Dead Guy	American Strong Ale
+Dogfish Head Immort Ale	American Strong Ale
+He'Brew (Shmaltz) Jewbelation Bar Mitzvah 13	American Strong Ale
+He'Brew (Shmaltz) Origin	American Strong Ale
+He'Brew (Shmaltz) Rejewvenator	American Strong Ale
+Stone Double Bastard	American Strong Ale
+Stone Oaked Arrogant Bastard	American Strong Ale
+Stone Sublimely Self-Righteous	American Strong Ale
+Mendocino Eye of the Hawk	American Strong Ale
+Middle Ages Wailing Wench	American Strong Ale
+Wachusett Green Monsta	American Strong Ale
+Lagunitas Wilco Tango Foxtrot	American Strong Ale
+Coronado Red Devil	American Strong Ale
+Deschutes Jubel 2010	American Strong Ale
+Sierra Nevada Life & Limb	American Strong Ale
+Dark Horse Reserve Special Black Bier Ale	American Strong Ale
+Samuel Adams Utopias	American Strong Ale
+Sierra Nevada 30th Anniversary Grand Cru	American Strong Ale
+Lake Placid Ubu Ale	American Strong Ale
+Lost Abbey Deliverance	American Strong Ale
+Pisgah Vortex I	American Strong Ale
+Telegraph Robust Ale	American Strong Ale
+Russian River Temptation	American Wild Ale
+Russian River Deviation	American Wild Ale
+Russian River Consecration	American Wild Ale
+Captain Lawrence Cuvee de Castleton	American Wild Ale
+Captain Lawrence Flaming Fury	American Wild Ale
+Captain Lawrence Little Linda's Liquid	American Wild Ale
+Goose Island Juliet	American Wild Ale
+Jolly Pumpkin La Roja	American Wild Ale
+Port / Pizza Port Brouwer's Imagination	American Wild Ale
+Lost Abbey Cuvee De Tomme	American Wild Ale
+Port / Pizza Port Isabelle Proximus	American Wild Ale
+Allagash Interlude	American Wild Ale
+Ithaca Brute	American Wild Ale
+Nogne O Tyttebaer	American Wild Ale
+Russian River Supplication	American Wild Ale
+Ommegang Ommegeddon	American Wild Ale
+Cisco Brewers Cherry Woods	American Wild Ale
+Odell Brewing Saboteur	American Wild Ale
+Russian River Beatification	American Wild Ale
+New Belgium Eric's Ale	American Wild Ale
+New Belgium Biere De Mars	American Wild Ale
+New Belgium Dark Kriek	American Wild Ale
+New Belgium Vrienden Ale	American Wild Ale
+Telegraph Gypsy Ale	American Wild Ale
+Telegraph Reserve Wheat Ale	American Wild Ale
+Victory Baltic Thunder	Baltic Porter
+Alaskan Alaskan Baltic Porter	Baltic Porter
+Arcadia Shipwreck Porter	Baltic Porter
+Capital Capital Baltic Porter	Baltic Porter
+Flossmoor Station Killer Kapowski	Baltic Porter
+Flying Dog Gonzo	Baltic Porter
+Harpoon Leviathan Baltic Porter	Baltic Porter
+Mikkeller Fra Til (From To)	Baltic Porter
+Rogue Imperial Porter	Baltic Porter
+Ska Brewing Nefarious Ten Pin	Baltic Porter
+Sinebrychoff Koff Porter	Baltic Porter
+Beer Here Mørke	Baltic Porter
+Great Divide Smoked Baltic Porter	Baltic Porter
+Sinebrychoff Porter	Baltic Porter
+Smuttynose Baltic Porter	Baltic Porter
+Zywiec Breweries Zywiec Porter	Baltic Porter
+Baltika #6 Porter	Baltic Porter
+Duck-Rabbit Baltic Porter	Baltic Porter
+Surly Smoke	Baltic Porter
+Clipper City Heavy Seas Below Decks	Barley Wine
+Green Flash Barleywine	Barley Wine
+Schloss Eggenberg Samichlaus Bier	Bavarian Doppelbock
+Achel Trappist 5 Blonde	Belgian Blonde
+De Proef Troubadour Blond	Belgian Blonde
+De Ranke Noir de Dottignies	Belgian Dark Ale
+Magic Hat Odd Notion Fall '09	Belgian Dark Ale
+New Belgium 1554	Belgian Dark Ale
+Unibroue Chambly Noire	Belgian Dark Ale
+Anheuser-Busch InBev Leffe Brune	Belgian Dark Ale
+Nogne O Brun	Belgian Dark Ale
+Ommegang Chocolate Indulgence	Belgian Dark Ale
+Konigshoeven Tilburg's Dutch Brown Ale	Belgian Dark Ale
+Ommegang Rare Vos	Belgian Dark Ale
+Victory Wild Devil Ale	Belgian IPA
+Great Divide Belgica	Belgian IPA
+Urthel Hop-it	Belgian IPA
+De Ranke XX Bitter	Belgian IPA
+Achouffe Chouffe Houblon Dobbelen IPA Tripel	Belgian IPA
+Van den Bossche Buffalo Belgian Bitter	Belgian IPA
+Alvinne Gaspar	Belgian IPA
+Het Anker Gouden Carolus Hopsinjoor	Belgian IPA
+Stone Cali-Belgique	Belgian IPA
+Van Steenberge Piraat	Belgian IPA
+Flying Dog Raging Bitch Belgian IPA	Belgian IPA
+Brouwerij Contreras Valeir Extra	Belgian IPA
+Allagash Allagash Hugh Malone	Belgian IPA
+New Belgium Belgo IPA	Belgian IPA
+Russian River Redemption	Belgian Pale Ale
+Coors Blue Moon Pale Moon	Belgian Pale Ale
+De Blaugies Darbyste	Belgian Pale Ale
+Lost Abbey Devotion	Belgian Pale Ale
+Magic Hat Odd Notion Summer '09	Belgian Pale Ale
+New Belgium Springboard	Belgian Pale Ale
+Saranac Belgian Ale	Belgian Pale Ale
+Thiriez Blonde	Belgian Pale Ale
+Jolly Pumpkin Luciernaga (The Firefly)	Belgian Pale Ale
+Konigshoeven La Trappe Blond	Belgian Pale Ale
+Anheuser-Busch InBev Leffe Blonde	Belgian Pale Ale
+Brasserie La Binchoise La Binchoise Blonde Tradition	Belgian Pale Ale
+Abbaye du Val-Dieu Val-Dieu Blond	Belgian Pale Ale
+Moortgat Maredsous 6	Belgian Pale Ale
+Brasserie Lefebvre Floreffe Blonde	Belgian Pale Ale
+Ommegang BPA	Belgian Pale Ale
+Orval Orval	Belgian Pale Ale
+Saranac Belgian Ale	Belgian Pale Ale
+Smuttynose Star Island Single	Belgian Pale Ale
+Van Steenberge Bruegel	Belgian Pale Ale
+Alken-Maes Grimbergen Blonde	Belgian Pale Ale
+Palm Palm Speciale	Belgian Pale Ale
+Westvleteren Westvleteren Blond	Belgian Pale Ale
+New Glarus Stone Soup	Belgian Pale Ale
+Philadelphia Fleur de Lehigh	Belgian Pale Ale
+Unibroue Raftman	Belgian Pale Ale
+Avery Karma	Belgian Pale Ale
+Brasserie Dieu du Ciel Dernière Volonté	Belgian Pale Ale
+AleSmith Lil' Devil	Belgian Pale Ale
+Timmermans Bourgogne Des Flandres Blonde	Belgian Pale Ale
+Moortgat Duvel Green	Belgian Pale Ale
+Michigan Celis Pale Bock	Belgian Pale Ale
+New Belgium Le Fleur Misseur	Belgian Pale Ale
+De Ranke Cuvee De Ranke	Belgian Pale Ale/Wild Ale
+Russian River Salvation	Belgian Strong Dark Ale
+Allagash Black	Belgian Strong Dark Ale
+Affligem Affligem Noel	Belgian Strong Dark Ale
+Bell's Hell Hath No Fury	Belgian Strong Dark Ale
+Big Sky Biere de Noel	Belgian Strong Dark Ale
+Chimay Chimay Grande Reserve (Blue)	Belgian Strong Dark Ale
+Flossmoor Station Collaborative Evil	Belgian Strong Dark Ale
+St. Bernardus Brown Ale	Belgian Strong Dark Ale
+Van Steenberge Gulden Draak	Belgian Strong Dark Ale
+Lost Abbey 10 Commandments	Belgian Strong Dark Ale
+Midnight Sun Conspiracy	Belgian Strong Dark Ale
+Mikkeller Santa's Little Helper 2007	Belgian Strong Dark Ale
+Mikkeller Santa's Little Helper 2008	Belgian Strong Dark Ale
+St. Feuillien Cuvée De Noël	Belgian Strong Dark Ale
+Achel Trappist Bruin	Belgian Strong Dark Ale
+Unibroue 17	Belgian Strong Dark Ale
+De Proef Troubadour Obscura	Belgian Strong Dark Ale
+Fantome Black Ghost	Belgian Strong Dark Ale
+Unibroue Maudite	Belgian Strong Dark Ale
+Unibroue La Terrible	Belgian Strong Dark Ale
+Unibroue Trois Pistoles	Belgian Strong Dark Ale
+Jolly Pumpkin Maracaibo Especial (Special Brown Ale)	Belgian Strong Dark Ale
+Lost Abbey Cuvee De Tomme	Belgian Strong Dark Ale
+Avery The Beast Grand Cru	Belgian Strong Dark Ale
+Brooklyn Local 2	Belgian Strong Dark Ale
+Rochefort Trappistes Rochefort 8	Belgian Strong Dark Ale
+21st Amendment Monk's Blood	Belgian Strong Dark Ale
+Achouffe McChouffe	Belgian Strong Dark Ale
+Achouffe N'Ice Chouffe	Belgian Strong Dark Ale
+Brasserie a Vapeur Cochonne	Belgian Strong Dark Ale
+Brasserie La Binchoise La Binchoise Brune Tradition	Belgian Strong Dark Ale
+Brasserie Caracole Nostradamus	Belgian Strong Dark Ale
+Abbaye des Rocs Brasserie des Rocs Ambree	Belgian Strong Dark Ale
+Abbaye des Rocs Brasserie des Rocs Brune	Belgian Strong Dark Ale
+Abbaye des Rocs Brasserie des Rocs Grand Cru	Belgian Strong Dark Ale
+Abbaye des Rocs Brasserie des Rocs Triple Imperiale	Belgian Strong Dark Ale
+Van den Bossche Buffalo Belgian Stout	Belgian Strong Dark Ale
+The Bruery 2 Turtle Doves	Belgian Strong Dark Ale
+The Bruery Autumn Maple	Belgian Strong Dark Ale
+Corsendonk Corsendonk Christmas Ale	Belgian Strong Dark Ale
+De Dolle Oerbier	Belgian Strong Dark Ale
+De Dolle Stille Nacht	Belgian Strong Dark Ale
+Huyghe Delirium Nocturnum	Belgian Strong Dark Ale
+Huyghe Delirium Noel	Belgian Strong Dark Ale
+Dogfish Head Raison D'Etre	Belgian Strong Dark Ale
+Dubuisson Scaldis Noel	Belgian Strong Dark Ale
+Dupont Moinette Brune	Belgian Strong Dark Ale
+Brasserie Lefebvre Floreffe Prima Melior	Belgian Strong Dark Ale
+Alvinne Balthazar	Belgian Strong Dark Ale
+Het Anker Gouden Carolus Classic	Belgian Strong Dark Ale
+Het Anker Gouden Carolus Noel	Belgian Strong Dark Ale
+Het Anker Cuvee Van de Keizer Blue	Belgian Strong Dark Ale
+Ommegang Adoration	Belgian Strong Dark Ale
+St. Bernardus Christmas Ale	Belgian Strong Dark Ale
+Smisje Calva Reserva	Belgian Strong Dark Ale
+Smisje Guido	Belgian Strong Dark Ale
+Urthel Vlaemse Bock	Belgian Strong Dark Ale
+AleSmith Grand Cru	Belgian Strong Dark Ale
+Allagash Odyssey	Belgian Strong Dark Ale
+Avery Collaboration Not Litigation	Belgian Strong Dark Ale
+Dogfish Head Raison D'extra	Belgian Strong Dark Ale
+Troegs Mad Elf	Belgian Strong Dark Ale
+Pisgah Cosmos	Belgian Strong Dark Ale
+Russian River Damnation	Belgian Strong Pale Ale
+Affligem Affligem Blonde	Belgian Strong Pale Ale
+De Proef Signature Ale	Belgian Strong Pale Ale
+Goose Island Demolition	Belgian Strong Pale Ale
+Goose Island Matilda	Belgian Strong Pale Ale
+Great Divide Hades	Belgian Strong Pale Ale
+St. Bernardus Grotten Flemish Ale	Belgian Strong Pale Ale
+Lost Abbey Inferno Ale	Belgian Strong Pale Ale
+Mikkeller It's Alive	Belgian Strong Pale Ale
+Mikkeller USAlive!	Belgian Strong Pale Ale
+Sly Fox Renard D'Or	Belgian Strong Pale Ale
+Allagash Grand Cru	Belgian Strong Pale Ale
+Bosteels Deus Brut des Flandres	Belgian Strong Pale Ale
+Bosteels Pauwel Kwak	Belgian Strong Pale Ale
+De Blaugies La Moneuse Speciale Noel	Belgian Strong Pale Ale
+De Proef Flemish Primitive	Belgian Strong Pale Ale
+De Ranke Pere Noel	Belgian Strong Pale Ale
+Fantome BBB Dark White	Belgian Strong Pale Ale
+Fantome Strange Ghost	Belgian Strong Pale Ale
+Full Sail Vesuvius	Belgian Strong Pale Ale
+Unibroue Don de Dieu	Belgian Strong Pale Ale
+Unibroue Seigneuriale	Belgian Strong Pale Ale
+Hitachino Red Rice Ale	Belgian Strong Pale Ale
+Ithaca White Gold	Belgian Strong Pale Ale
+Brooklyn Local 1	Belgian Strong Pale Ale
+North Coast Pranqster	Belgian Strong Pale Ale
+Achouffe La Chouffe	Belgian Strong Pale Ale
+AleSmith Horny Devil	Belgian Strong Pale Ale
+Brasserie a Vapeur Vapeur en Folie	Belgian Strong Pale Ale
+Brasserie La Binchoise La Binchoise Reserve Speciale	Belgian Strong Pale Ale
+Brasserie Caracole Saxo	Belgian Strong Pale Ale
+Abbaye des Rocs Brasserie des Rocs Blonde	Belgian Strong Pale Ale
+Brasserie Grain d'Orge Belzebuth	Belgian Strong Pale Ale
+Brouwerij Oud Beersel Bersalis	Belgian Strong Pale Ale
+The Bruery Mischief	Belgian Strong Pale Ale
+Brasserie Caracole Caracole	Belgian Strong Pale Ale
+De Dolle Arabier	Belgian Strong Pale Ale
+De Dolle Boskeun	Belgian Strong Pale Ale
+Huyghe Delirium Tremens	Belgian Strong Pale Ale
+Dubuisson Scaldis Belgian Ale	Belgian Strong Pale Ale
+Dupont Moinette Blond	Belgian Strong Pale Ale
+Moortgat Duvel	Belgian Strong Pale Ale
+Flying Fish Grand Cru Winter Reserve	Belgian Strong Pale Ale
+Het Anker Gouden Carolus Ambrio	Belgian Strong Pale Ale
+Het Anker Cuvee Van de Keizer Red	Belgian Strong Pale Ale
+Green's Green's Quest	Belgian Strong Pale Ale
+Saint Somewhere Lectio Divina	Belgian Strong Pale Ale
+Ska Brewing True Blonde Dubbel	Belgian Strong Pale Ale
+Southampton Grand Cru	Belgian Strong Pale Ale
+St. Feuillien Blonde	Belgian Strong Pale Ale
+Brunehaut St. Martin Blonde	Belgian Strong Pale Ale
+Smisje Wostyntje	Belgian Strong Pale Ale
+Schlafly Grand Cru	Belgian Strong Pale Ale
+Avery Salvation	Belgian Strong Pale Ale
+Dogfish Head Pangaea	Belgian Strong Pale Ale
+Lagunitas Little Sumpin' Wild	Belgian Strong Pale Ale
+Alken-Maes Judas	Belgian Strong Pale Ale
+Brasserie de Silly La Divine Blond	Belgian Strong Pale Ale
+Michigan Celis Grand Cru	Belgian Strong Pale Ale
+New Belgium Belgian Style Blond	Belgian Strong Pale Ale
+Pisgah Baptista	Belgian Strong Pale Ale
+Stone 10.10.10 Vertical Epic Ale	Belgian Strong Pale Ale
+Stone 09.09.09 Vertical Epic Ale	Belgian Strong Pale Ale
+Stone 08.08.08 Vertical Epic Ale	Belgian Strong Pale Ale
+Stone 07.07.07 Vertical Epic Ale	Belgian Strong Pale Ale
+Tri-City Fortunato	Belgian Strong Pale Ale
+Van Honsebrouck Brigand	Belgian Strong Pale Ale
+Unibroue Éphémère Apple	Belgian-style Fruit Beer
+Bell's Oarsman Ale	Berliner Weissbier
+The Bruery Hottenroth Berliner Weisse	Berliner Weissbier
+Dogfish Head Festina Peche	Berliner Weissbier
+New Belgium Imperial Berliner Weisse	Berliner Weissbier
+Flying Dog Garde Dog	Biere de Garde
+Jolly Pumpkin Oro de Calabaza	Biere de Garde
+Lost Abbey Gift Of The Magi	Biere De Garde
+Thiriez Amber	Biere de Garde
+Voodoo Gran Met	Biere de Garde
+Lost Abbey Avant Garde	Biere de Garde
+Brasserie Castelain Blond Biere de Garde	Bière de Garde
+Brasserie Castelain St. Amand	Bière de Garde
+St. Sylvestre Gavroche	Bière de Garde
+St. Sylvestre 3 Monts	Bière de Garde
+Southampton Biere de Garde	Bière de Garde
+Two Brothers Domain DuPage	Bière de Garde
+Ommegang Biere de Mars	Bière de Garde
+Schlafly Bière de Garde	Bière de Garde
+Coniston Bluebird Bitter	Bitter
+Cold Spring Moonlight Ale	Black & Tan
+Matt Brewing Mississippi Mud Black & Tan	Black & Tan
+Saranac Black and Tan	Black & Tan
+Yuengling Black and Tan	Black & Tan
+Alaskan Double Black IPA	Black IPA / Cascadian Dark Ale
+BrewDog Bashah	Black IPA / Cascadian Dark Ale
+Victory Yakima Glory	Black IPA / Cascadian Dark Ale
+Hill Farmstead Jim	Black IPA / Cascadian Dark Ale
+Tyranena Three Beaches Honey Blonde	Blonde/Golden
+Big Sky Summer Honey	Blonde/Golden
+Michelob Beach Bum Blonde	Blonde/Golden
+Full Sail Full Sail LTD 01	Bock
+Leinenkugel's 1888 Bock	Bock
+Saranac Black Diamond Bock	Bock
+Saranac Bock	Bock
+Michelob Amber Bock	Bock
+Einbecker Brauhaus Ur-Bock Dunkel	Bock
+Spoetzl Shiner Bock	Bock
+Samuel Adams Chocolate Bock	Bock
+Saint Arnold Spring Bock	Bock
+Anchor Bock Beer	Bock
+Schell's Bock	Bock
+Sprecher Winter Brew	Bock
+Summit Pilsener	Bohemian Pilsner
+Atlantic Brother Adam's Bragget Ale	Braggot
+Anchor Anchor Steam	California Common / Steam Beer
+Furthermore Oscura	California Common / Steam Beer
+Telegraph California Ale	California Common / Steam Beer
+Rogue Chipotle Ale	Chile Beer
+Dogfish Head Theobroma	Chile Beer
+Thomas Hooker Blonde Ale	Cream Ale
+Genesee Genesee Cream Ale	Cream Ale
+Terrapin Golden Ale	Cream Ale
+New Glarus Spotted Cow	Cream Ale
+Sleeman Cream Ale	Cream Ale
+Lagunitas Sirius Ale	Cream Ale
+Henry Weinhard's Blue Boar Ale	Cream Ale
+Oggi's California Gold Blonde Ale	Cream Ale
+Hudepohl-Schoenling Little Kings Cream Ale	Cream Ale
+Oskar Blues Mamas Little Yella Pils	Czech Pilsener
+Harpoon Bohemian Pilsner	Czech Pilsener
+Mikkeller Czech-Style Pilsner	Czech Pilsener
+Otter Creek Vermont Lager	Czech Pilsener
+Saranac Bohemian Pilsener	Czech Pilsener
+Sierra Nevada Summerfest	Czech Pilsener
+Plzensky Prazdroj Pilsner Urquell	Czech Pilsener
+Staropramen (StarBev) Staropramen Lager	Czech Pilsener
+Uinta Brewing Blue Sky Pilsener	Czech Pilsener
+Pivovar Velké Popovice Kozel Premium	Czech Pilsener
+Pivovar Velké Popovice Kozel Svetly	Czech Pilsener
+Victory St. Victorious	Doppelbock
+Augustiner Maximator	Doppelbock
+Capital Autumnal Fire	Doppelbock
+Full Sail Full Sail 21	Doppelbock
+Left Hand Goosinator Doppelbock	Doppelbock
+Left Hand Rye Bock Lager	Doppelbock
+Leinenkugel's Big Butt Doppelbock	Doppelbock
+Otter Creek Mud Bock	Doppelbock
+Sly Fox Instigator Doppelbock	Doppelbock
+Boulevard Seeyoulater Doppelbock	Doppelbock
+Capital Blond Doppelbock	Doppelbock
+Left Hand Smoked Goosinator Doppelbock	Doppelbock
+Aying Celebrator Doppelbock	Doppelbock
+Paulaner Salvator	Doppelbock
+Heineken Birra Moretti La Rossa	Doppelbock
+Spaten-Franziskaner Optimator	Doppelbock
+Thomas Hooker Liberator	Doppelbock
+Troegs Troegenator	Doppelbock
+Weihenstephaner Korbinian	Doppelbock
+Weltenburger Asam Bock	Doppelbock
+Widmer Brothers Cherry Oak Doppelbock	Doppelbock
+Samuel Adams Double Bock	Doppelbock
+Dark Horse Perkulator	Doppelbock
+Bell's Consecrator Doppelbock	Doppelbock
+Schloss Eggenberg Urbock 23°	Doppelbock
+Smuttynose S'muttonator	Doppelbock
+Kulmbacher EKU 28	Doppelbock
+Tommyknocker Butt Head	Doppelbock
+Duck-Rabbit Duck-Rabbator	Doppelbock
+Sprecher Dopple Bock	Doppelbock
+Sprecher Bourbon Barrel Aged Dopple Bock	Doppelbock
+DAB Original	Dortmunder / Export Lager
+Baltika #7 Export Lager	Dortmunder / Export Lager
+Great Lakes Dortmunder Gold	Dortmunder/Export Lager
+Aying Jahrhundert	Dortmunder/Export Lager
+Southampton Double White	Double Wit
+Allagash Dubbel Reserve	Dubbel
+Affligem Affligem Dubbel	Dubbel
+Coors Blue Moon Full Moon	Dubbel
+Van Steenberge Bornem Double	Dubbel
+Chimay Chimay Première (Red)	Dubbel
+Goose Island Pere Jacques	Dubbel
+Lost Abbey Lost And Found	Dubbel
+Rochefort Trappistes 6	Dubbel
+Clipper City Heavy Seas Holy Sheet	Dubbel
+New Belgium Abbey Ale	Dubbel
+Abita Abbey Ale	Dubbel
+Midnight Sun La Mâitresse du Moine	Dubbel
+Konigshoeven La Trappe Dubbel	Dubbel
+North Coast Brother Thelonious	Dubbel
+North Coast Cru D'or	Dubbel
+Abbaye du Val-Dieu Val-Dieu Brune	Dubbel
+Corsendonk Abbey Brown Ale	Dubbel
+Moortgat Maredsous 8	Dubbel
+Flying Fish Belgian Style Dubbel	Dubbel
+Green's Green's Endeavor	Dubbel
+Ommegang Abbey Ale	Dubbel
+St. Bernardus Pater 6	Dubbel
+St. Bernardus Prior 8	Dubbel
+St. Feuillien Brune	Dubbel
+Brunehaut St. Martin Brune	Dubbel
+Westmalle Dubbel	Dubbel
+Alken-Maes Grimbergen Dubbel	Dubbel
+Westvleteren Westvleteren 8	Dubbel
+Highland Seven Sisters	Dubbel
+Smuttynose Winter Ale	Dubbel
+Great Divide Dunkel Weisse	Dunkelweizen
+Samuel Adams Dunkelweizen	Dunkelweizen
+Two Brothers Bonfire Dunkle Weisse	Dunkelweizen
+Weltenburger Hefe-Weissbier Dunkel	Dunkelweizen
+Boulevard Lunar Ale	Dunkelweizen
+Michelob Dunkel Weisse	Dunkelweizen
+Aying Altbairisch Dunkel	Dunkelweizen
+Spaten-Franziskaner Hefe-Weissbier Dunkel	Dunkelweizen
+Hacker-Pschorr Weisse Dark	Dunkelweizen
+Weihenstephaner Hefeweissbier Dunkel	Dunkelweizen
+Weltenburger Hefe-Weizen Dunkel	Dunkelweizen
+Aying Ur-Weisse	Dunkelweizen
+Erdinger Weissbier Dunkel	Dunkelweizen
+Bayern Dragon's Breath	Dunkelweizen
+Schell's Snowstorm 2010	Dunkelweizen
+Kulmbacher Eisbock	Eisbock
+Schneider Aventinus Weizen-Eisbock	Eisbock
+Cisco Brewers Baggywrinkle Barleywine	English Barley Wine
+BrewDog Devine Rebel	English Barleywine
+Flossmoor Station Wooden Hell	English Barleywine
+Flying Dog Horn Dog	English Barleywine
+Midnight Sun Arctic Devil	English Barleywine
+Brooklyn Monster Ale	English Barleywine
+AleSmith Old Numbskull	English Barleywine
+Old Dominion Dominion Millennium Ale	English Barleywine
+Alvinne Melchior	English Barleywine
+J.W. Lees Harvest Ale	English Barleywine
+Weyerbacher Blithering Idiot	English Barleywine
+Weyerbacher Insanity	English Barleywine
+Avery Samael's Ale	English Barleywine
+Young's Old Nick	English Barleywine
+Duck-Rabbit Barleywine Ale	English Barleywine
+Pisgah Hellbender Barleywine	English Barleywine
+Sprecher Barleywine	English Barleywine
+Full Sail Hopocity	English Bitter
+Goose Island Honker's Ale	English Bitter
+Nogne O Bitter	English Bitter
+Rogue Younger's Special Bitter	English Bitter
+Surly Bitter Brewer	English Bitter
+Marshall Brewing McNellie's Pub Ale	English Bitter
+Anchor Small Beer	English Bitter
+Greene King / Morland Wexford Irish Cream Ale	English Bitter
+Highland Black Mountain Bitter	English Bitter
+Bell's Best Brown Ale	English Brown Ale
+Saranac Nut Brown Ale	English Brown Ale
+Goose Island Nut Brown Ale	English Brown Ale
+Otter Creek Wolaver's Brown Ale	English Brown Ale
+Abita Turbodog	English Brown Ale
+Ithaca Nut Brown Ale	English Brown Ale
+Midnight Sun Kodiak Brown	English Brown Ale
+Avery Ellie's Brown	English Brown Ale
+Matt Brewing Pete's Wicked Ale	English Brown Ale
+AleSmith Nautical Nut Brown Ale	English Brown Ale
+Atlantic Bar Harbor Real Ale	English Brown Ale
+Black Sheep Riggwelter Yorkshire Ale	English Brown Ale
+Heineken Newcastle Brown Ale	English Brown Ale
+Nogne O Brown Ale	English Brown Ale
+Samuel Smith Nut Brown Ale	English Brown Ale
+Ska Brewing Buster Nut Brown	English Brown Ale
+Smuttynose Old Brown Dog	English Brown Ale
+Sweetwater Georgia Brown	English Brown Ale
+Troegs Rugged Trail	English Brown Ale
+Wychwood Hobgoblin	English Brown Ale
+Lost Coast Downtown Brown	English Brown Ale
+Lost Coast Winterbraun	English Brown Ale
+New Glarus Fat Squirrel Ale	English Brown Ale
+Saint Arnold Brown Ale	English Brown Ale
+Real Ale Brewing Brewhouse Brown	English Brown Ale
+Gordon Biersch Black Toad	English Brown Ale
+Lazy Magnolia Southern Pecan	English Brown Ale
+Michigan Nut Brown Ale	English Brown Ale
+Sprecher Pub Brown Ale	English Brown Ale
+Harpoon Brown	English Dark Mild Ale
+Yards Brawler	English Dark Mild Ale
+BrewDog Chaos Theory	English India Pale Ale (IPA)
+Harviestoun Bitter & Twisted	English India Pale Ale (IPA)
+Meantime IPA	English India Pale Ale (IPA)
+Belhaven Twisted Thistle IPA	English India Pale Ale (IPA)
+Boulder Beer Cold Hop	English India Pale Ale (IPA)
+Eel River I.P.A.	English India Pale Ale (IPA)
+Flying Fish HopFish	English India Pale Ale (IPA)
+Long Trail Long Trail IPA	English India Pale Ale (IPA)
+Middle Ages ImPaled Ale	English India Pale Ale (IPA)
+Samuel Smith India Ale	English India Pale Ale (IPA)
+Shipyard IPA	English India Pale Ale (IPA)
+Scottish and Newcastle McEwan's India Pale Ale	English India Pale Ale (IPA)
+Yards India Pale Ale	English India Pale Ale (IPA)
+New English Troopers Tipple	English India Pale Ale (IPA)
+Sierra Nevada India Pale Ale	English India Pale Ale (IPA)
+St. Peter's India Pale Ale	English India Pale Ale (IPA)
+Hitachino Japanese Classic Ale	English IPA
+Brooklyn East India Pale Ale	English IPA
+Cisco Whale's Tale Pale Ale	English Pale Ale
+Coopers Coopers Original Pale Ale	English Pale Ale
+Coopers Coopers Sparkling Ale	English Pale Ale
+Full Sail Rip Curl	English Pale Ale
+Great Divide Denver Pale Ale	English Pale Ale
+Otter Creek Otteroo	English Pale Ale
+Firestone Walker Double Barrel Ale	English Pale Ale
+Michelob Pale Ale	English Pale Ale
+Brooklyn Pennant Ale 55	English Pale Ale
+Brooklyn Summer Ale	English Pale Ale
+Fuller's London Pride	English Pale Ale
+Anheuser-Busch InBev Bass Pale Ale	English Pale Ale
+Black Sheep Monty Python's Holy Grail	English Pale Ale
+Black Sheep Black Sheep Ale	English Pale Ale
+Anheuser-Busch InBev Boddingtons Pub Ale	English Pale Ale
+Morland Old Speckled Hen	English Pale Ale
+Nethergate Augustinian Ale	English Pale Ale
+Long Trail Pale Ale	English Pale Ale
+Samuel Smith Old Brewery Pale Ale	English Pale Ale
+Samuel Smith Organic Best Ale	English Pale Ale
+Saranac Pale Ale	English Pale Ale
+Samuel Adams Pale Ale	English Pale Ale
+Wychwood Fiddler's Elbow	English Pale Ale
+Wychwood Scarecrow	English Pale Ale
+Wychwood WychCraft	English Pale Ale
+Youngs Waggledance	English Pale Ale
+Scottish and Newcastle John Courage	English Pale Ale
+Samuel Adams Pale Ale	English Pale Ale
+Rahr and Sons Blind Salamander	English Pale Ale
+Greene King / Morland Abbot Ale	English Pale Ale
+Michelob Pale Ale	English Pale Ale
+Innis and Gunn Oak Aged Beer	English Pale Ale
+St. Peter's Golden Ale	English Pale Ale
+Arcadia Angler's Ale	English Pale Ale
+Craftsman Poppyfields Pale Ale	English Pale Ale
+Four Peaks 8th Street Ale	English Pale Ale
+Lake Placid 46'er Pale Ale	English Pale Ale
+Odell Brewing 5 Barrel Pale Ale	English Pale Ale
+Shepherd Neame Spitfire	English Pale Ale
+Switchback Switchback Ale	English Pale Ale
+William Bull William's Pale Ale	English Pale Ale
+Inveralmond Ossian	English Pale Mild Ale
+Meantime Coffee Porter	English Porter
+Meantime London Porter	English Porter
+Arcadia London Porter	English Porter
+Left Hand Black Jack Porter	English Porter
+Fuller's London Porter	English Porter
+Darwin Brewery Original Flag Porter	English Porter
+Mad River Steelhead Scotch Porter	English Porter
+Nethergate Old Growler	English Porter
+Nogne O God Jul	English Porter
+Nogne O Porter	English Porter
+Samuel Smith Taddy Porter	English Porter
+Yards General Washington's Tavern Porter	English Porter
+Mayflower Porter	English Porter
+St. Peter's Old-Style Porter	English Porter
+Belhaven Scottish Stout	English Stout
+Meantime London Stout	English Stout
+Middle Ages Black Heart Stout	English Stout
+Yards Love Stout	English Stout
+Orkney Dragonhead Stout	English Stout
+Schell's Stout	English Stout
+Flying Dog K9 Cruiser	English Strong Ale
+New Holland Dragon's Milk	English Strong Ale
+Fuller's 1845	English Strong Ale
+Green's Green's Discovery	English Strong Ale
+Yards Thomas Jefferson's Tavern Ale	English Strong Ale
+Summit ESB	ESB
+BrewDog The Physics	ESB
+New Belgium 2° Below Winter Ale	ESB
+Great Lakes Moondog Ale	ESB
+Fuller's ESB	ESB
+Rogue Brutal Bitter	ESB
+Leinenkugel's Creamy Dark	Euro Dark Lager
+Leinenkugel's Fireside Nut Brown	Euro Dark Lager
+Saranac Season's Best Nut Brown Lager	Euro Dark Lager
+Saranac Chocolate Amber	Euro Dark Lager
+Sleeman Honey Brown Lager	Euro Dark Lager
+Baltika #4 Dark Lager	Euro Dark Lager
+Coopers Coopers Premium Lager	Euro Pale Lager
+Heineken Heineken	Euro Pale Lager
+Rogue Kells Irish-Style Lager	Euro Pale Lager
+Heineken Birra Moretti	Euro Pale Lager
+Grolsch Grolsch Premium Lager	Euro Pale Lager
+Guinness Harp Lager	Euro Pale Lager
+Peroni Peroni	Euro Pale Lager
+Samuel Smith Organic Lager	Euro Pale Lager
+Samuel Smith Pure Brewed Lager	Euro Pale Lager
+Stella Artois Stella Artois	Euro Pale Lager
+James Boag Premium Lager	Euro Pale Lager
+Luxembourg Diekirch Premium	Euro Pale Lager
+Boon Rawd Singha	Euro Pale Lager
+Kronenbourg 1664	Euro Pale Lager
+New Zealand Breweries Steinlager	Euro Pale Lager
+Zywiec Breweries Zywiec Beer	Euro Pale Lager
+Baltika Lite	Euro Pale Lager
+Baltika #2	Euro Pale Lager
+Baltika #3 Classic	Euro Pale Lager
+Baltika #5 Golden Lager	Euro Pale Lager
+Baltika Cooler	Euro Pale Lager
+Hite Hite	Euro Pale Lager
+Brasserie Piedboeuf Jupiler	Euro Pale Lager
+Mythos Mythos	Euro Pale Lager
+Turk Tuborg Skol Beer	Euro Pale Lager
+Tennent Caledonian Tennent's Lager	Euro Pale Lager
+Carlsberg Carlsberg Elephant	Euro Strong Lager
+Baltika #9 Extra Lager	Euro Strong Lager
+Green Flash Double Stout	Export/Imperial Stout
+Foster's Foster's Premium Ale	Extra Special / Strong Bitter (ESB)
+Full Sail Equinox	Extra Special / Strong Bitter (ESB)
+Left Hand Sawtooth	Extra Special / Strong Bitter (ESB)
+Otter Creek Equinox Ale	Extra Special / Strong Bitter (ESB)
+Redhook ESB	Extra Special / Strong Bitter (ESB)
+Rogue Imperial Youngers Special Ale	Extra Special / Strong Bitter (ESB)
+Saranac E.S.B.	Extra Special / Strong Bitter (ESB)
+AleSmith Anvil ESB	Extra Special / Strong Bitter (ESB)
+BridgePort BridgePort ESB	Extra Special / Strong Bitter (ESB)
+Elysian Brewing The Wise ESB	Extra Special / Strong Bitter (ESB)
+Flying Fish ESB Ale	Extra Special / Strong Bitter (ESB)
+Grand Teton Bitch Creek ESB	Extra Special / Strong Bitter (ESB)
+Lakefront E.S.B.	Extra Special / Strong Bitter (ESB)
+Middle Ages Beast Bitter	Extra Special / Strong Bitter (ESB)
+Shipyard Ringwood Old Thumper	Extra Special / Strong Bitter (ESB)
+Southern Tier Harvest Ale	Extra Special / Strong Bitter (ESB)
+Stoudts Scarlet Lady Ale	Extra Special / Strong Bitter (ESB)
+Youngs Special London Ale	Extra Special / Strong Bitter (ESB)
+Yards Extra Special Ale	Extra Special / Strong Bitter (ESB)
+Silver City Big Daddy's ESB	Extra Special / Strong Bitter (ESB)
+Goose Island Harvest Ale	Extra Special / Strong Bitter (ESB)
+Anderson Valley Boont ESB	Extra Special / Strong Bitter (ESB)
+Clipper City Heavy Seas Winter Storm	Extra Special / Strong Bitter (ESB)
+Adnams Broadside	Extra Special / Strong Bitter (ESB)
+Deschutes Bachelor ESB	Extra Special / Strong Bitter (ESB)
+Evolution Exile ESB	Extra Special / Strong Bitter (ESB)
+Shepherd Neame Bishops Finger	Extra Special / Strong Bitter (ESB)
+Wells Wells Bombardier	Extra Special / Strong Bitter (ESB)
+Lindemans Faro Lambic	Faro
+Captain Lawrence Rosso e Marrone	Flanders Oud Bruin
+Bockor Bellegems Bruin	Flanders Oud Bruin
+Deschutes The Dissident	Flanders Oud Bruin
+Ommegang Zuur	Flanders Oud Bruin
+Bavik Petrus Aged Pale	Flanders Oud Bruin
+Bavik Petrus Oud Bruin	Flanders Oud Bruin
+Van Steenberge Monk's Café	Flanders Oud Bruin
+Timmermans Bourgogne Des Flandres Brune	Flanders Oud Bruin
+Rodenbach Rodenbach Classic Ale	Flanders Red Ale
+De Proef Zoetzuur Flemish Ale	Flanders Red Ale
+De Proef Zoetzuur Flemish Ale	Flanders Red Ale
+New Belgium La Folie	Flanders Red Ale
+Rodenbach Grand Cru	Flanders Red Ale
+Bockor Cuvee des Jacobins Rouge	Flanders Red Ale
+Verhaeghe Duchesse de Bourgogne	Flanders Red Ale
+Verhaeghe Echt Kriekenbier	Flanders Red Ale
+Verhaeghe Vichtenaar	Flanders Red Ale
+Timmermans Bourgogne Des Flandres	Flanders Red Ale
+Van Honsebrouck Bacchus	Flanders Red Ale
+Coopers Coopers Best Extra Stout	Foreign / Export Stout
+Otter Creek Otter Mon	Foreign / Export Stout
+Smisje Catherine the Great	Foreign / Export Stout
+Left Hand Fade to Black	Foreign / Export Stout
+De Dolle Extra Export Stout	Foreign / Export Stout
+Oggi's Black Magic Stout	Foreign / Export Stout
+Cisco Brewers Captain Swain's Extra Stout	Foreign/Export Stout
+Deschutes Hop Trip	Fresh Hop Ale
+Bell's Cherry Ale	Fruit / Vegetable Beer
+Bell's Raspberry Ale	Fruit / Vegetable Beer
+Big Sky Smoove Cherry Ale	Fruit / Vegetable Beer
+Buffalo Bill's Orange Blossom Cream Ale	Fruit / Vegetable Beer
+Great Divide Wild Raspberry Ale	Fruit / Vegetable Beer
+Great Lakes Orange Peel Ale	Fruit / Vegetable Beer
+Harpoon Framboise	Fruit / Vegetable Beer
+Harpoon Peche	Fruit / Vegetable Beer
+Leinenkugel's Berry Weisse	Fruit / Vegetable Beer
+Leinenkugel's Summer Shandy	Fruit / Vegetable Beer
+Magic Hat #9	Fruit / Vegetable Beer
+Magic Hat Wacko	Fruit / Vegetable Beer
+New Belgium Old Cherry	Fruit / Vegetable Beer
+Pyramid Audacious Apricot Ale	Fruit / Vegetable Beer
+Samuel Adams Cherry Wheat	Fruit / Vegetable Beer
+Samuel Adams Cranberry Lambic	Fruit / Vegetable Beer
+Sly Fox Black Raspberry Reserve	Fruit / Vegetable Beer
+Abita Purple Haze	Fruit / Vegetable Beer
+Abita Strawberry Harvest Lager	Fruit / Vegetable Beer
+21st Amendment Hell or High Watermelon	Fruit / Vegetable Beer
+Atlantic Bar Harbor Blueberry Ale	Fruit / Vegetable Beer
+Blue Point Brewing Blue Point Blueberry	Fruit / Vegetable Beer
+Eel River Acai Berry Wheat	Fruit / Vegetable Beer
+Lakefront New Grist	Fruit / Vegetable Beer
+New Glarus Wisconsin Belgian Red	Fruit / Vegetable Beer
+Rogue Morimoto Black Obi	Fruit / Vegetable Beer
+Rogue Morimoto Soba Ale	Fruit / Vegetable Beer
+Sea Dog Apricot Wheat	Fruit / Vegetable Beer
+Sea Dog Blue Paw	Fruit / Vegetable Beer
+Sweetwater Sweetwater Blue	Fruit / Vegetable Beer
+Wachusett Blueberry	Fruit / Vegetable Beer
+Van Honsebrouck Kasteel Rouge	Fruit / Vegetable Beer
+New Glarus Raspberry Tart	Fruit / Vegetable Beer
+Skagway Spruce Tip Ale	Fruit / Vegetable Beer
+Dogfish Head Fort	Fruit / Vegetable Beer
+Wells Banana Bread Beer	Fruit / Vegetable Beer
+Samuel Smith Organic Raspberry Fruit Beer	Fruit / Vegetable Beer
+Dogfish Head Black & Blue	Fruit / Vegetable Beer
+Founders Cerise	Fruit / Vegetable Beer
+Craftsman Triple White Sage	Fruit / Vegetable Beer
+Long Trail Blackbeary Wheat	Fruit / Vegetable Beer
+New Glarus Unplugged Enigma	Fruit / Vegetable Beer
+Brasserie de Silly Pink Killer	Fruit / Vegetable Beer
+Craftsman Cabernale	Fruit / Vegetable Beer
+Michigan Celis Raspberry	Fruit / Vegetable Beer
+Thomas Hooker Watermelon Ale	Fruit Beer
+Unibroue Quelque Chose	Fruit Beer
+Ithaca Apricot Wheat	Fruit Beer
+Matt Brewing Pete's Wicked Strawberry Blonde	Fruit Beer
+Voodoo Love Child	Fruit Beer/Biere de Garde
+Cantillon Kriek	Fruit lambic
+Cantillon Rose De Gambrinus	Fruit lambic
+Southern Tier Raspberrry Porter	Fruit Porter
+Left Hand Juju Ginger	Fruit/Vegetable Beer
+Southern Tier Raspberry Wheat Beer	Fruit/Wheat Beer
+Victory Prima Pils	German Pilsener
+Boulevard Boulevard Pilsner	German Pilsener
+Capital Capital Pilsner	German Pilsener
+Full Sail Full Sail LTD 03	German Pilsener
+Saranac Golden Pilsener	German Pilsener
+Sly Fox Pikeland Pils	German Pilsener
+Bavik Bavik Premium Pils	German Pilsener
+Beck's Beck's	German Pilsener
+FEMSA Bohemia	German Pilsener
+Carlsberg Carlsberg Beer	German Pilsener
+Erie Brewing Presque Isle Pilsner	German Pilsener
+Saranac Adirondack Lager	German Pilsener
+Stoudts Pils	German Pilsener
+St. Pauli St. Pauli Girl	German Pilsener
+Warsteiner Premium Verum	German Pilsener
+Karl Strauss Woodie Gold	German Pilsener
+Samuel Adams Noble Pils	German Pilsener
+Metropolitan Flywheel	German Pilsener
+Minhas Simpler Times Pilsner	German Pilsener
+Real Ale Brewing Hans' Pils	German Pilsener
+Abita SOS	German Pilsener
+Silver City Gold Mountain Pilsner	German Pilsener
+Marshall Brewing Old Pavilion	German Pilsener
+Browar Okocim Okocim Beer	German Pilsener
+Radeberger Pilsner	German Pilsener
+New Belgium Blue Paddle Pilsner	German Pilsener
+Schell's Pils	German Pilsener
+Tallgrass Kold	German Pilsener
+Cantillon Cuvee des Champions	Gueuze
+Cantillon Gueuze Loerik	Gueuze
+Cantillon Classic Gueuze	Gueuze
+Brouwerij Boon Boon Oude Geuze	Gueuze
+Brouwerij Boon Boon Oude Geuze Mariage Parfait	Gueuze
+Brouwerij Girardin Girardin Gueuze Black Label	Gueuze
+Brouwerij Oud Beersel Oude Gueuze Vieille	Gueuze
+Lindemans Gueuze Cuvée René	Gueuze
+Lindemans Gueuze	Gueuze
+Van Honsebrouck St. Louis Gueuze Fond Tradition	Gueuze
+Flying Dog In Heat Wheat	Hefeweizen
+Harpoon UFO Raspberry Hefeweizen	Hefeweizen
+Paulaner Hefe-Weizen	Hefeweizen
+Pyramid Imperial Hefeweizen	Hefeweizen
+Sierra Nevada Kellerweis	Hefeweizen
+Sly Fox Royal Weisse	Hefeweizen
+Summit Hefe Weizen	Hefeweizen
+Hitachino Nest Weizen	Hefeweizen
+Left Hand Haystack Wheat	Hefeweizen
+Michelob Bavarian Style Wheat	Hefeweizen
+Aying Brau-Weisse	Hefeweizen
+Spaten-Franziskaner Hefe-Weissbier	Hefeweizen
+Hacker-Pschorr Weisse	Hefeweizen
+Drake's Hefe	Hefeweizen
+Mission Hefeweizen	Hefeweizen
+Schneider Weisse	Hefeweizen
+Spoetzl Shiner Hefeweizen	Hefeweizen
+Southern Tier Heavy Weizen	Hefeweizen
+Weihenstephaner Hefeweissbier	Hefeweizen
+Weltenburger Hefe-Weizen Hell	Hefeweizen
+Erdinger Weissbier	Hefeweizen
+New Glarus Crack'd Wheat	Hefeweizen
+New Glarus Dancing Man Wheat	Hefeweizen
+Butternuts Heinnieweisse	Hefeweizen
+Rahr and Sons Summertime Wheat	Hefeweizen
+Silver City Bavarian Style Hefeweizen	Hefeweizen
+Brooklyn Brooklyner Weisse	Hefeweizen
+Hofbräu München Münchner Weisse	Hefeweizen
+Schneider Wiesen Edel-Weisse	Hefeweizen
+Victory Sunrise Weiss	Hefeweizen
+Baltika #8 Wheat Ale	Hefeweizen
+Craftsman Heavenly Hefeweizen	Hefeweizen
+Sprecher Hefe Weiss	Hefeweizen
+Hitachino Real Ginger Brew	Herb/Spice Beer
+Hitachino New Year Celebration Ale	Herb/Spice Beer
+Arcadia Jaw-Jacker	Herbed / Spiced Beer
+BrewDog Dogma	Herbed / Spiced Beer
+Capital Capital Wild Rice	Herbed / Spiced Beer
+Magic Hat Odd Notion Spring '09	Herbed / Spiced Beer
+Dogfish Head Midas Touch	Herbed / Spiced Beer
+Anheuser-Busch InBev Bud Light Golden Wheat	Herbed / Spiced Beer
+Dogfish Head Chateau Jiahu	Herbed / Spiced Beer
+Stillwater Artisanal Of Love & Regret	Herbed / Spiced Beer
+Southern Tier Iniquity	Imperial Black IPA
+Tyranena High-Class Broad	Imperial Brown Ale
+Southern Tier Krampus	Imperial Helles
+Southern Tier Gemini	Imperial IPA
+Southern Tier Oak-Aged Un'earthly	Imperial IPA
+Arcadia Hopmouth Double IPA	Imperial IPA
+Boulevard Double Wide IPA	Imperial IPA
+BrewDog Hardcore IPA	Imperial IPA
+Clipper City Heavy Seas Big DIPA	imperial IPA
+Foothills Seeing Double IPA	Imperial IPA
+Full Sail Slipknot Imperial IPA	Imperial IPA
+Goose Island Imperial IPA	Imperial IPA
+Southern Tier Hoppe	Imperial IPA
+Southern Tier UnEarthly	Imperial IPA
+Ithaca Double IPA	Imperial IPA
+Left Hand Twin Sisters	Imperial IPA
+Ballast Point Dorado Double IPA	Imperial IPA
+Founders Devil Dancer Triple IPA	Imperial IPA
+Founders Double Trouble	Imperial IPA
+Green Flash Imperial IPA	Imperial IPA
+Lagunitas Maximus	Imperial IPA
+New Holland Existential Hopwine	Imperial IPA
+Two Brothers Red Eye Coffee Porter	Imperial Porter
+Tyranena Devil Over  A Barrel	Imperial Porter
+Tyranena Dirty Old Man	Imperial Porter
+Tyranena The Devil Made Me Do It	Imperial Porter
+38 Top Sail	Imperial Porter
+Southern Tier Big Red	Imperial Red Ale
+Lagunitas Lucky 13	Imperial Red Ale
+Southern Tier Imperial Choklat Stout	Imperial Stout
+Southern Tier Mokah	Imperial Stout
+Southern Tier Jah-va	Imperial Stout
+Voodoo Big Black Voodoo Daddy	Imperial Stout
+Arcadia Imperial Stout	Imperial Stout
+BrewDog Riptide	Imperial Stout
+BrewDog Tokyo	Imperial Stout
+Clipper City Heavy Seas Peg Leg	Imperial Stout
+Foothills Total Eclipse Stout	Imperial Stout
+Southern Tier Creme Brulee Stout	Imperial Stout
+Southern Tier Oat	Imperial Stout
+Great Lakes Barrel-Aged Blackout Stout	Imperial Stout
+Great Lakes Blackout Stout	Imperial Stout
+Hitachino Espresso Stout	Imperial Stout
+Jolly Pumpkin Madrugada Obscura (Dark Dawn Stout)	Imperial Stout
+Left Hand Imperial Stout	Imperial Stout
+Mikkeller Beer Geek Breakfast	Imperial Stout
+Mikkeller Beer Geek Brunch Weasel	Imperial Stout
+Mikkeller Black	Imperial Stout
+Avery The Czar	Imperial Stout
+Avery Mephistopheles	Imperial Stout
+Brooklyn Black Chocolate Stout	Imperial Stout
+Deschutes The Abyss	Imperial Stout
+Founders Breakfast Stout	Imperial Stout
+Founders Imperial Stout	Imperial Stout
+Founders Kentucky Breakfast Stout	Imperial Stout
+Lagunitas Cappuccino Stout	Imperial Stout
+New Holland Night Tripper	Imperial Stout
+Southern Tier IPA	IPA
+Summit India Pale Ale	IPA
+Thomas Hooker Hop Meadow IPA	IPA
+Tyranena Scurvy	IPA
+Tyranena Stickin' It To The Man	IPA
+Arcadia India Pale Ale	IPA
+Big Sky IPA	IPA
+Cisco Brewers Indie Pale Ale	IPA
+Clipper City Heavy Seas Loose Cannon (Hop3)	IPA
+Foothills Hoppyum	IPA
+Full Sail Sun Of Spot	IPA
+Full Sail Wreck The Halls	IPA
+Magic Hat Blind Faith	IPA
+Otter Creek Wolaver's India Pale Ale	IPA
+Anheuser-Busch Bare Knuckle Stout	Irish Dry Stout
+Boulevard Dry Stout	Irish Dry Stout
+Avery Out Of Bounds Stout	Irish Dry Stout
+North Coast Old No. 38 Stout	Irish Dry Stout
+Guinness Guinness Draught	Irish Dry Stout
+Guinness Guinness Extra Stout	Irish Dry Stout
+Murphy Murphy's Irish Stout	Irish Dry Stout
+Sly Fox O'Reilly's Stout	Irish Dry Stout
+Carlow Brewing O'Hara's Celtic Stout	Irish Dry Stout
+Moylans Dragoons	Irish Dry Stout
+Beamish & Crawford Beamish Irish Stout	Irish Dry Stout
+Guinness 250th Anniversary Stout	Irish Dry Stout
+Three Floyds Black Sun Stout	Irish Dry Stout
+Sprecher Irish Style Stout	Irish Dry Stout
+Starr Hill Dark Starr Stout	Irish Dry Stout
+Foothills Foothills Red	Irish Red Ale
+Harpoon Celtic Ale	Irish Red Ale
+Samuel Adams Irish Red	Irish Red Ale
+Saranac Irish Red	Irish Red Ale
+Thomas Hooker Irish Red	Irish Red Ale
+Great Lakes Conway's irish Ale	Irish Red Ale
+Guinness Smithwick's	Irish Red Ale
+Guinness Kilkenny	Irish Red Ale
+Carlow Brewing O'Hara's Irish Red	Irish Red Ale
+Murphy Murphy's Irish Red	Irish Red Ale
+Three Floyds Brian Boru	Irish Red Ale
+Starr Hill Amber Ale	Irish Red Ale
+Asahi Breweries Asahi Super Dry	Japanese Rice Lager
+Sapporo Sapporo Premium Beer	Japanese Rice Lager
+Kirin Kirin Ichiban	Japanese Rice Lager
+Harpoon Kellerbier	Keller Bier / Zwickel Bier
+Voodoo Pilzilla	Keller Bier / Zwickel Bier
+Alaskan Alaskan Summer	Kölsch
+Flying Dog Tire Bite	Kölsch
+Goose Island Summertime	Kolsch
+Harpoon Summer Beer	Kolsch
+New Holland Full Circle	Kolsch
+Pyramid Curve Ball Blonde Ale	Kolsch
+Ballast Point Yellowtail Pale Ale	Kolsch
+Drake's Blonde	Kölsch
+Mission Blonde Ale	Kölsch
+Sunner Sünner Kölsch	Kölsch
+Metropolitan Krankshaft	Kölsch
+Beau's Lug Tread	Kölsch
+Philadelphia Kenzinger	Kölsch
+Gaffel Gaffel Kölsch	Kölsch
+Saint Arnold Fancy Lawnmower	Kölsch
+Uinta Brewing Summer Solstice Ale	Kölsch
+Schlafly Kölsch	Kölsch
+Heinrich Reissdorf Reissdorf Kölsch	Kölsch
+Schell's Zommerfest	Kölsch
+De Ranke Kriek	Kriek
+Weihenstephaner Kristallweissbier	Kristalweizen
+Saint Arnold Texas Wheat	Kristalweizen
+Cantillon Fou' Foune	Lambic - Fruit
+Cantillon Saint Lamvinus	Lambic - Fruit
+Cantillon Vigneronne	Lambic - Fruit
+Brouwerij Boon Boon Oude Kriek	Lambic - Fruit
+Brouwerij Oud Beersel Oud Beersel Framboise	Lambic - Fruit
+Brouwerij Oud Beersel Oud Beersel Kriek	Lambic - Fruit
+Brouwerij Oud Beersel Oude Kriek Vieille	Lambic - Fruit
+Lindemans Cassis	Lambic - Fruit
+Lindemans Framboise	Lambic - Fruit
+Lindemans Kriek	Lambic - Fruit
+Lindemans Pêche	Lambic - Fruit
+Lindemans Pomme	Lambic - Fruit
+Van Steenberge Bios Kriek	Lambic - Fruit
+New Belgium Transatlantique Kriek	Lambic - Fruit
+Van Honsebrouck St. Louis Premium Framboise	Lambic - Fruit
+Van Honsebrouck St. Louis Kriek	Lambic - Fruit
+Van Honsebrouck St. Louis Pêche	Lambic - Fruit
+Van Honsebrouck St. Louis Premium Kriek	Lambic - Fruit
+Cantillon 50°N-4°E	Lambic - Unblended
+Cantillon Bruocsella 1900 Grand Cru	Lambic - Unblended
+Amstel Amstel Light	Light Lager
+Anheuser-Busch Bud Ice Light	Light Lager
+Anheuser-Busch Budweiser Select	Light Lager
+Cisco Sankaty Light	Light Lager
+Leinenkugel's Light	Light Lager
+Michelob Ultra	Light Lager
+Michelob Ultra Amber	Light Lager
+Miller Miller High Life Light	Light Lager
+Heineken Heineken Premium Light	Light Lager
+Samuel Adams Sam Adams Light	Light Lager
+Abita Abita Light	Light Lager
+Iron City I.C. Light	Light Lager
+Michelob Light	Light Lager
+Grupo Modelo Corona Light	Light Lager
+Yuengling Light Lager	Light Lager
+Labatt Labatt Blue Light	Light Lager
+Pabst Old Style Light	Light Lager
+Hometown Light	Light Lager
+Anheuser-Busch InBev Busch Light	Light Lager
+Genesee Genny Light	Light Lager
+Carlton & United Pure Blonde	Light Lager
+Straub Straub Light	Light Lager
+Baltika Non-Alcoholic	Low Alcohol Beer
+Summit Maibock	Maibock
+Victory St. Boisterous	Maibock / Helles Bock
+Harpoon Helles Blond Bock	Maibock / Helles Bock
+Otter Creek Cuckoo Bock	Maibock / Helles Bock
+Abita Andygator	Maibock / Helles Bock
+Abita Mardi Gras Bock	Maibock / Helles Bock
+Rogue Dead Guy	Maibock / Helles Bock
+Genesee Dundee Pale Bock Lager	Maibock / Helles Bock
+Einbecker Brauhaus Ur-Bock Hell	Maibock / Helles Bock
+Einbecker Brauhaus Mai-Ur-Bock	Maibock / Helles Bock
+Sierra Nevada Glissade	Maibock / Helles Bock
+Rahr and Sons Bucking Bock	Maibock / Helles Bock
+Rogue John John Dead Guy Ale	Maibock / Helles Bock
+Sierra Nevada 30th Anniversary Charlie Fred And Ken's Bock	Maibock / Helles Bock
+Smuttynose Maibock	Maibock / Helles Bock
+Schell's Maifest	Maibock / Helles Bock
+Sprecher Mai Bock	Maibock / Helles Bock
+Capital Maibock	Maibock/Helles Bock
+Miller Steel Reserve	Malt Liquor
+Michelob Marzen	Marzen
+Bell's Octoberfest	Märzen / Oktoberfest
+Capital Capital Oktoberfest	Märzen / Oktoberfest
+Clipper City MärzHon	Märzen / Oktoberfest
+Flying Dog Dogtoberfest	Märzen / Oktoberfest
+Foothills Foothills Oktoberfest	Märzen / Oktoberfest
+Great Divide Hoss	Märzen / Oktoberfest
+Harpoon Frankenfest	Märzen / Oktoberfest
+Leinenkugel's Oktoberfest	Märzen / Oktoberfest
+Paulaner Oktoberfest Marzen	Märzen / Oktoberfest
+Port / Pizza Port Moon Lit Sessions	Märzen / Oktoberfest
+Samuel Adams Octoberfest	Märzen / Oktoberfest
+Sly Fox Oktoberfest	Märzen / Oktoberfest
+Abita Fall Fest	Märzen / Oktoberfest
+Spaten-Franziskaner Oktoberfest Ur-Märzen	Märzen / Oktoberfest
+Victory Festbier	Märzen / Oktoberfest
+Weltenburger Winter-Traum	Märzen / Oktoberfest
+Saint Arnold Oktoberfest	Märzen / Oktoberfest
+Rahr and Sons Oktoberfest	Märzen / Oktoberfest
+Real Ale Brewing Oktoberfest	Märzen / Oktoberfest
+Silver City Oktoberfest	Märzen / Oktoberfest
+Marshall Brewing Oktoberfest	Märzen / Oktoberfest
+Abita Amber	Märzen / Oktoberfest
+Avery The Kaiser	Märzen / Oktoberfest
+Beck's Beck's Oktoberfest	Märzen / Oktoberfest
+Hacker-Pschorr Oktoberfest-Märzen	Märzen / Oktoberfest
+Highland Clawhammer Oktoberfest	Märzen / Oktoberfest
+Hofbräu München Oktoberfestbier	Märzen / Oktoberfest
+Weihenstephaner Festbier	Märzen / Oktoberfest
+Duck-Rabbit Märzen	Märzen / Oktoberfest
+Schell's Oktoberfest	Märzen / Oktoberfest
+Sprecher Oktoberfest	Märzen / Oktoberfest
+Clipper City Heavy Seas Prosit!	Marzen/Oktoberfest
+Bell's Special Double Cream Stout	Milk / Sweet Stout
+Ithaca Eleven	Milk / Sweet Stout
+Samuel Adams Cream Stout	Milk / Sweet Stout
+Ska Brewing Steel Toe Milk Stout	Milk / Sweet Stout
+Left Hand Milk Stout	Milk / Sweet Stout
+Ska Brewing Steel Toe Stout	Milk / Sweet Stout
+Widmer Brothers Snow Plow	Milk / Sweet Stout
+Youngs Double Chocolate Stout	Milk / Sweet Stout
+Butternuts Moo Thunder	Milk / Sweet Stout
+Lancaster Milk Stout	Milk / Sweet Stout
+St. Peter's Cream Stout	Milk / Sweet Stout
+Duck-Rabbit Milk Stout	Milk / Sweet Stout
+Surly Four	Milk / Sweet Stout
+Tallgrass Buffalo Sweat	Milk / Sweet Stout
+Hitachino Lacto Sweet Stout	Milk/Sweet Stout
+Harpoon Munich Dark Beer	Munich Dunkel Lager
+Sly Fox Dunkel Lager	Munich Dunkel Lager
+Capital Munich Dark	Munich Dunkel Lager
+Grupo Modelo Negra Modelo	Munich Dunkel Lager
+Warsteiner Premium Dunkel	Munich Dunkel Lager
+Weltenburger Barock Dunkel	Munich Dunkel Lager
+Beck's Beck's Dark	Munich Dunkel Lager
+Pivovar Velké Popovice Kozel Cerny	Munich Dunkel Lager
+Schell's Dark	Munich Dunkel Lager
+Victory V Lager	Munich Helles Lager
+Augustiner Edelstoff	Munich Helles Lager
+Paulaner Original Munich Lager	Munich Helles Lager
+Saranac Helles Lager	Munich Helles Lager
+Schlenkerla Helles Lagerbier	Munich Helles Lager
+Weltenburger Urtyp Hell	Munich Helles Lager
+Lowenbrau Munich Löwenbräu Original	Munich Helles Lager
+Spaten-Franziskaner Premium	Munich Helles Lager
+Stoudts Gold Lager	Munich Helles Lager
+Weihenstephaner Original Premium	Munich Helles Lager
+Weltenburger Barock Hell	Munich Helles Lager
+Rahr and Sons Blonde	Munich Helles Lager
+Hofbräu München Hofbräu Original	Munich Helles Lager
+Spaten-Franziskaner Spaten Premium Lager	Munich Helles Lager
+Surly Hell	Munich Helles Lager
+Alaskan Alaskan Stout	Oatmeal Stout
+Bell's Oatmeal Stout	Oatmeal Stout
+Harpoon Oatmeal Stout	Oatmeal Stout
+Saranac Oatmeal Stout	Oatmeal Stout
+Goose Island Oatmeal Stout	Oatmeal Stout
+Otter Wolaver's Oatmeal Stout	Oatmeal Stout
+New Holland The Poet	Oatmeal Stout
+Anderson Valley Barney Flats Oatmeal Stout	Oatmeal Stout
+Hopworks (HUB) Survival 7-Grain Stout	Oatmeal Stout
+Ninkasi Oatis	Oatmeal Stout
+Rogue Shakespeare Stout	Oatmeal Stout
+Samuel Smith Oatmeal Stout	Oatmeal Stout
+Schlafly Oatmeal Stout	Oatmeal Stout
+McAuslan St. Ambroise Oatmeal Stout	Oatmeal Stout
+Troegs JavaHead Stout	Oatmeal Stout
+Breckenridge Oatmeal Stout	Oatmeal Stout
+Young's Oatmeal Stout	Oatmeal Stout
+Bristol Winter Warlock	Oatmeal Stout
+Free State Oatmeal Stout	Oatmeal Stout
+Summit Oatmeal Stout	Oatmeal Stout
+Telegraph Oatmeal Stout	Oatmeal Stout
+Summit Oktoberfest	Oktoberfest
+Surly SurlyFest	Oktoberfest
+Thomas Hooker Octoberfest Lager	Oktoberfest
+Weltenburger Anno 1050	Oktoberfest
+Great Lakes Oktoberfest	Oktoberfest
+Harpoon Octoberfest Bier	Oktoberfest
+Left Hand Oktoberfest	Oktoberfest
+Aying Oktober Fest-Märzen	Oktoberfest
+Brooklyn Oktoberfest	Oktoberfest
+Coniston Old Man Ale	Old Ale
+Harpoon English Style Old Ale	Old Ale
+Harviestoun Ola Dubh (30 Year)	Old Ale
+Harviestoun Ola Dubh 16 Year Old	Old Ale
+Harviestoun Ola Dubh 30 Year Old	Old Ale
+Harviestoun Old Engine Oil	Old Ale
+Founders Curmudgeon Old Ale	Old Ale
+Haandbryggeriet (Norway) Nissemor	Old Ale
+North Coast Old Stock Ale	Old Ale
+Eel River Triple Exultation	Old Ale
+Hair of the Dog Adam	Old Ale
+Southern Tier Old Man	Old Ale
+Theakston Old Peculier	Old Ale
+Bell's Third Coast Old Ale	Old Ale
+Fuller's Vintage Ale	Old Ale
+Greene King / Morland Olde Suffolk English Ale	Old Ale
+Highland Auld Asheville Vintage Ale	Old Ale
+Left Hand Polestar Pilsner	Pilsner
+Bitburger Bitburger Premium Pils	Pilsner
+Brooklyn Pilsner	Pilsner
+Budvar Czechvar (Budvar)	Pilsner
+Lagunitas Pils	Pilsner
+North Coast Scrimshaw Pilsner	Pilsner
+Paulaner Premium Pils	Pilsner
+Coors Blue Moon Harvest Moon	Pumpkin Ale
+Buffalo Bill's Pumpkin Ale	Pumpkin Ale
+New Holland Ichabod	Pumpkin Ale
+Saranac Pumpkin Ale	Pumpkin Ale
+Dogfish Head Punkin Ale	Pumpkin Ale
+Elysian Brewing Night Owl Pumpkin Ale	Pumpkin Ale
+Schlafly Pumpkin Ale	Pumpkin Ale
+Shipyard Pumpkinhead	Pumpkin Ale
+Smuttynose Pumpkin Ale	Pumpkin Ale
+Weyerbacher Imperial Pumpkin Ale	Pumpkin Ale
+Brooklyn Post Road Pumpkin Ale	Pumpkin Ale
+Michigan Screamin' Pumpkin Spiced Ale	Pumpkin Ale
+Southampton Pumpkin Ale	Pumpkin Beer
+Southern Tier Pumking	Pumpkin Beer
+Otter Creek Wolaver's Will Steven's Pumpkin Ale	Pumpkin Beer
+Michelob Jack's Pumpkin Spice	Pumpkin Beer
+Achel Trappist Extra	Quad
+Urthel Samaranth	Quad
+Allagash Four	Quad
+Boulevard The Sixth Glass	Quad
+Avery The Reverend	Quad
+Konigshoeven La Trappe Quadrupel	Quad
+Rochefort Trappistes Rochefort 10	Quad
+Boulevard Bourbon Barrel Quad	Quadrupel (Quad)
+Harpoon Leviathan Quad	Quadrupel (Quad)
+Lost Abbey Judgment Day	Quadrupel (Quad)
+Sly Fox Ichor	Quadrupel (Quad)
+Abbaye du Val-Dieu Val-Dieu Grand Cru	Quadrupel (Quad)
+Ommegang Three Philosophers	Quadrupel (Quad)
+Southampton Abbot 12	Quadrupel (Quad)
+St. Bernardus Abt 12	Quadrupel (Quad)
+Smisje BBBourgondier	Quadrupel (Quad)
+Victory V Twelve	Quadrupel (Quad)
+Van Honsebrouck Kasteel Bruin	Quadrupel (Quad)
+Westvleteren Westvleteren 12	Quadrupel (Quad)
+Pretty Things Baby Tree	Quadrupel (Quad)
+De Struise Pannepot	Quadrupel (Quad)
+Weyerbacher Quad	Quadrupel (Quad)
+Flying Dog Dog Schwarz	Rauchbier
+Schlenkerla Rauchbier Marzen	Rauchbier
+Schlenkerla Rauchbier Weizen	Rauchbier
+Oskar Blues Ten Fidy	Russian Imperial Stout
+Bell's Barrel Aged Expedition Stout	Russian Imperial Stout
+Bell's Expedition Stout	Russian Imperial Stout
+Big Sky Ivan the Terrible	Russian Imperial Stout
+Coast Blackbeerd	Russian Imperial Stout
+Foothills Sexual Chocolate	Russian Imperial Stout
+Full Sail Black Gold Imperial Stout	Russian Imperial Stout
+Great Divide Oak-Aged Yeti	Russian Imperial Stout
+Great Divide Yeti Imperial Stout	Russian Imperial Stout
+Mikkeller Black Hole	Russian Imperial Stout
+Otter Creek Russian Imperial Stout	Russian Imperial Stout
+Port / Pizza Port Santa's Little Helper	Russian Imperial Stout
+Rogue Imperial Stout	Russian Imperial Stout
+Bear Republic Big Bear Black Stout	Russian Imperial Stout
+Boulder Beer Obovoid	Russian Imperial Stout
+Drake's Imperial Stout	Russian Imperial Stout
+Eel River Raven's Eye Imperial Stout	Russian Imperial Stout
+Alvinne Podge Belgian Imperial Stout	Russian Imperial Stout
+Hoppin' Frog B.O.R.I.S. The Crusher	Russian Imperial Stout
+Stone Imperial Russian Stout	Russian Imperial Stout
+Middle Ages Dragonslayer	Russian Imperial Stout
+North Coast Old Rasputin	Russian Imperial Stout
+Nogne O Imperial Stout	Russian Imperial Stout
+Rogue XS Imperial Stout	Russian Imperial Stout
+Samuel Adams Imperial Stout	Russian Imperial Stout
+Samuel Smith Imperial Stout	Russian Imperial Stout
+Schlafly Reserve Imperial Stout	Russian Imperial Stout
+Smuttynose Imperial Stout	Russian Imperial Stout
+Surly Darkness	Russian Imperial Stout
+Thirsty Dog Siberian Night	Russian Imperial Stout
+Three Floyds Dark Lord	Russian Imperial Stout
+Two Brothers Northwind	Russian Imperial Stout
+Victory Storm King	Russian Imperial Stout
+Weyerbacher Heresy	Russian Imperial Stout
+Weyerbacher Old Heathen	Russian Imperial Stout
+Samuel Adams Imperial Stout	Russian Imperial Stout
+Haandbryggeriet Odin's Tipple	Russian Imperial Stout
+De Struise Black Albert	Russian Imperial Stout
+Brooklyn Black OpS	Russian Imperial Stout
+Dark Horse Plead The 5th	Russian Imperial Stout
+Dogfish Head Bitches Brew	Russian Imperial Stout
+Lagunitas Imperial Stout	Russian Imperial Stout
+Moylans Ryan Sullivan's Imperial Stout	Russian Imperial Stout
+Craftsman Edgar's Ale	Russian Imperial Stout
+Duck-Rabbit Rabid Duck	Russian Imperial Stout
+Pisgah Vortex II	Russian Imperial Stout
+Sprecher Czar Brew	Russian Imperial Stout
+Sprecher Russian Imperial Stout	Russian Imperial Stout
+Tri-City Giant Slayer	Russian Imperial Stout
+Founders Red's Rye P.A.	Rye Ale
+Bell's Golden Rye	Rye Beer
+Harpoon Old Rusty's Red Rye Ale	Rye Beer
+Ithaca Old Habit	Rye Beer
+Left Hand Terra-Rye'zd	Rye Beer
+Redhook Sunrye	Rye Beer
+Saranac Roggen Bock	Rye Beer
+Saranac Rye Pilsener	Rye Beer
+Two Brothers Cane and Ebel	Rye Beer
+He'Brew (Shmaltz) R.I.P.A. on Rye	Rye Beer
+Real Ale Brewing Full Moon Pale Rye Ale	Rye Beer
+Brasserie Dieu du Ciel Route Des Épices	Rye Beer
+Lake Placid Honey Rye	Rye Beer
+Dogfish Head Sah'tea	Sahti
+New Belgium Sahti	Sahti
+St. Feuillen Saison	Saison
+Thiriez Extra	Saison
+Clipper City Heavy Seas Red Sky At Night	Saison
+De Blaugies La Moneuse	Saison
+De Blaugies Saison De L'Epeautre	Saison
+Fantome Brise-BonBons	Saison
+Fantome De Noel	Saison
+Fantome Hiver	Saison
+Fantome Printemps	Saison
+Fantome Saison	Saison
+Southern Tier Cherry Saison	Saison
+Great Lakes Grassroots Ale	Saison
+Jolly Pumpkin Bam Biere	Saison
+Jolly Pumpkin Bam Noire	Saison
+Haandbryggeriet (Norway) Ardenne Blond	Saison
+North Coast Le Merle	Saison
+Victory Helios	Saison / Farmhouse Ale
+Fantome Chocolat	Saison / Farmhouse Ale
+Fantome La Dalmatienne	Saison / Farmhouse Ale
+Goose Island Sofie	Saison / Farmhouse Ale
+Great Divide Saison Farmhouse Ale	Saison / Farmhouse Ale
+Harpoon Saison	Saison / Farmhouse Ale
+Port / Pizza Port Brother Levonian	Saison / Farmhouse Ale
+Lost Abbey Carnevale 2009	Saison / Farmhouse Ale
+Lost Abbey Ne Goeien	Saison / Farmhouse Ale
+Lost Abbey Red Barn	Saison / Farmhouse Ale
+New Holland Golden Cap	Saison / Farmhouse Ale
+Sly Fox Saison VOS	Saison / Farmhouse Ale
+Brasserie a Vapeur Saison de Pipaix	Saison / Farmhouse Ale
+Brasserie des Geants Saison Voisin	Saison / Farmhouse Ale
+Dupont Avril	Saison / Farmhouse Ale
+Dupont Biere de Miel	Saison / Farmhouse Ale
+Dupont Foret	Saison / Farmhouse Ale
+Dupont Saison Dupont	Saison / Farmhouse Ale
+Dupont Avec Les Bons Voeux	Saison / Farmhouse Ale
+Flying Fish Farmhouse Summer Ale	Saison / Farmhouse Ale
+Saint Somewhere Saison Athene	Saison / Farmhouse Ale
+Surly CynicAle	Saison / Farmhouse Ale
+Urthel Saisonnière	Saison / Farmhouse Ale
+Ommegang Hennepin	Saison / Farmhouse Ale
+Yards Saison	Saison / Farmhouse Ale
+Philadelphia Rowhouse Red	Saison / Farmhouse Ale
+Pretty Things Jack D'Or	Saison / Farmhouse Ale
+Great Divide Colette Farmhouse Ale	Saison / Farmhouse Ale
+Boulevard Saison - Brett	Saison / Farmhouse Ale
+Smuttynose Farmhouse Ale	Saison / Farmhouse Ale
+Stone Saison Du BUFF	Saison / Farmhouse Ale
+The Bruery Saison Rue	Saison / Farmhouse Ale
+Three Floyds Rabbid Rabbit	Saison / Farmhouse Ale
+Brasserie de Silly Saison Silly	Saison / Farmhouse Ale
+Ithaca Ground Break	Saison / Farmhouse Ale
+Stillwater Artisanal Cellar Door	Saison / Farmhouse Ale
+Stillwater Artisanal Stateside Saison	Saison / Farmhouse Ale
+Dixie Blackened Voodoo	Schwarzbier
+Samuel Adams Black Lager	Schwarzbier
+Einbecker Brauhaus Schwarzbier	Schwarzbier
+Saranac Black Forest	Schwarzbier
+Spoetzl Shiner Bohemian Black Lager	Schwarzbier
+FEMSA Xingu Black Beer	Schwarzbier
+Full Sail Session Black	Schwarzbier
+Rahr and Sons Ugly Pug	Schwarzbier
+Rogue Dirtoir Black Lager	Schwarzbier
+Kulmbacher Mönchshof Schwarzbier	Schwarzbier
+Köstritzer Köstritzer Schwarzbier	Schwarzbier
+Avery Seventeen	Schwarzbier
+Duck-Rabbit Schwarzbier	Schwarzbier
+Sprecher Black Bavarian	Schwarzbier
+Tyranena Sheep Shagger Scotch Ale	Scotch Ale
+Magic Hat Jinx	Scotch Ale
+Founders Dirty Bastard	Scotch Ale
+Great Divide Claymore Scotch Ale	Scotch Ale / Wee Heavy
+Meantime Scotch Ale	Scotch Ale / Wee Heavy
+Otter Creek Otter Kilter	Scotch Ale / Wee Heavy
+Saranac Scotch Ale	Scotch Ale / Wee Heavy
+Sly Fox Gang Aft Agley	Scotch Ale / Wee Heavy
+AleSmith Wee Heavy	Scotch Ale / Wee Heavy
+Belhaven Wee Heavy	Scotch Ale / Wee Heavy
+Erie Brewing Ol' Red Cease and Desist	Scotch Ale / Wee Heavy
+Middle Ages Kilt Tilter	Scotch Ale / Wee Heavy
+Orkney SkullSplitter	Scotch Ale / Wee Heavy
+Traquair Jacobite Ale	Scotch Ale / Wee Heavy
+Traquair House Ale	Scotch Ale / Wee Heavy
+Samuel Adams Scotch Ale	Scotch Ale / Wee Heavy
+Moylans Kilt Lifter	Scotch Ale / Wee Heavy
+Saint Arnold Divine Reserve #8	Scotch Ale / Wee Heavy
+Rahr and Sons Iron Thistle	Scotch Ale / Wee Heavy
+Silver City Fat Scotch Ale	Scotch Ale / Wee Heavy
+Silver City Macfarlanes Scotch Ale	Scotch Ale / Wee Heavy
+Kettlehouse Cold Smoke Scotch Ale	Scotch Ale / Wee Heavy
+Dark Horse Scotty Karate	Scotch Ale / Wee Heavy
+Founders Backwoods Bastard	Scotch Ale / Wee Heavy
+Highland Tasgall Ale	Scotch Ale / Wee Heavy
+Brasserie de Silly Scotch Silly	Scotch Ale / Wee Heavy
+Duck-Rabbit Wee Heavy Scotch Style Ale	Scotch Ale / Wee Heavy
+Rush River Winter Warmer	Scotch Ale / Wee Heavy
+Sprecher Pipers Scotch-Style Ale	Scotch Ale / Wee Heavy
+Oskar Blues Old Chub	Scottish Ale
+Bell's Christmas Ale	Scottish Ale
+Full Sail Keelhauler	Scottish Ale
+Harpoon Steve Stewart's Firth Of Forth Ale	Scottish Ale
+Inveralmond Blackfriar	Scottish Ale
+Inveralmond Lia Fail	Scottish Ale
+Brooklyn Winter Ale	Scottish Ale
+Belhaven Scottish Ale	Scottish Ale
+Belhaven St. Andrews Ale	Scottish Ale
+Erie Brewing Railbender Ale	Scottish Ale
+Three Floyds Robert the Bruce	Scottish Ale
+Orkney Dark Island	Scottish Ale
+Bristol Laughing Lab	Scottish Ale
+Four Peaks Kiltlifter	Scottish Ale
+Oggi's McGarvey's Scottish Ale	Scottish Ale
+Williams Brothers Alba Scots Pine Ale	Scottish Gruit / Ancient Herbed Ale
+Harpoon Rauchfetzen	Smoked Beer
+Rogue Smoke Ale	Smoked Beer
+Saranac Rauchbier	Smoked Beer
+Schlenkerla Rauchbier Urbock	Smoked Beer
+Craftsman Smoked Black Lager	Smoked Beer
+Spoetzl Shiner Smokehaus	Smoked Helles
+Rogue Juniper Pale Ale	Spiced Beer
+Allagash Tripel Reserve	Tripel
+Victory Golden Monkey	Tripel
+Affligem Affligem Tripel	Tripel
+Bell's Sparkling Ale	Tripel
+Van Steenberge Bornem Triple	Tripel
+Captain Lawrence Golden Delicious	Tripel
+Captain Lawrence Xtra Gold	Tripel
+Chimay Chimay Tripel (White)	Tripel
+Flying Dog Kerberos Tripel	Tripel
+Left Hand St. Vrain Tripel	Tripel
+New Belgium Trippel	Tripel
+Otter Creek Holy Otter	Tripel
+Redhook Tripel	Tripel
+Sly Fox Incubus	Tripel
+Bosteels Tripel Karmeliet	Tripel
+Urthel Hibernus Quentum	Tripel
+Allagash Curieux	Tripel
+Unibroue La Fin Du Monde	Tripel
+Midnight Sun Épluche-Culotte	Tripel
+Konigshoeven La Trappe Tripel	Tripel
+New Holland Dark Tulip	Tripel
+Abbaye du Val-Dieu Val-Dieu Triple	Tripel
+Van den Bossche Pater Lieven Tripel	Tripel
+Corsendonk Abbey Pale Ale	Tripel
+De Dolle De Dulle Teve	Tripel
+Moortgat Maredsous 10	Tripel
+Brasserie Lefebvre Floreffe Triple	Tripel
+Het Anker Gouden Carolus Triple	Tripel
+De Ranke Guldenberg	Tripel
+Ommegang Tripel Perfection	Tripel
+Southern Tier Tripel	Tripel
+St. Bernardus Tripel	Tripel
+St. Bernardus Watou Tripel	Tripel
+St. Feuillien Tripel	Tripel
+Van Steenberge Augustijn	Tripel
+Westmalle Tripel	Tripel
+Weyerbacher Merry Monks' Ale	Tripel
+Van Honsebrouck Kasteel Blonde	Tripel
+Schlafly Tripel	Tripel
+Great Divide Tripel	Tripel
+Anderson Valley Brother David's Triple	Tripel
+Stoudts Triple	Tripel
+Brasserie de Silly La Divine Triple	Tripel
+Pisgah Solstice	Tripel
+Sprecher Abbey Triple	Tripel
+Green Flash Le Freak	Tripel/Belgian IPA
+Cantillon Iris	Unblended lambic
+Iron City Augustiner Lager	Vienna Lager
+Leinenkugel's Red Lager	Vienna Lager
+Samuel Adams Boston Lager	Vienna Lager
+Great Lakes Eliot Ness	Vienna Lager
+Brooklyn Brooklyn Lager	Vienna Lager
+FEMSA Dos Equis Amber	Vienna Lager
+Metropolitan Dynamo	Vienna Lager
+Michigan Sunset Amber	Vienna Lager
+Schell's FireBrick	Vienna Lager
+Sprecher Special Amber	Vienna Lager
+Starr Hill Jomo Lager	Vienna Lager
+Harpoon Weizenbock	Weizenbock
+Otter Creek Otterbahn	Weizenbock
+Samuel Adams Winter Lager	Weizenbock
+Aying Weizen-Bock	Weizenbock
+Clipper City Heavy Seas Hang Ten	Weizenbock
+Great Lakes Glockenspiel	Weizenbock
+Schneider Aventinus	Weizenbock
+Victory Moonglow Weizenbock	Weizenbock
+Erdinger Pikantus	Weizenbock
+Grand Teton Howling Wolf	Weizenbock
+Schneider Hopfen-Weisse	Weizenbock
+Brooklyn Brooklyner-Schneider Hopfen-Weisse	Weizenbock
+Weihenstephaner Vitus	Weizenbock
+New Holland Pilgrim's Dole	Wheatwine
+Harpoon Leviathan Triticus	Wheatwine
+Founders Nemesis 2009	Wheatwine
+Smuttynose Wheat Wine Ale	Wheatwine
+Terrapin Gamma Ray	Wheatwine
+Alaskan Alaskan Winter	Winter Warmer
+Captain Lawrence Nor' Easter	Winter Warmer
+Goose Island Christmas Ale	Winter Warmer
+Goose Island Mild Winter	Winter Warmer
+Great Divide Hibernation Ale	Winter Warmer
+Great Lakes Winter Ale	Winter Warmer
+Harpoon Winter Warmer	Winter Warmer
+Left Hand Snow Bound Winter Ale	Winter Warmer
+Pyramid Snow Cap	Winter Warmer
+Redhook Winter Hook	Winter Warmer
+Samuel Adams Old Fezziwig Ale	Winter Warmer
+Saranac Winter Wassail	Winter Warmer
+Summit Winter Ale	Winter Warmer
+Thiriez Biere De Noel	Winter Warmer
+Big Sky Powder Hound Winter Ale	Winter Warmer
+Full Sail Wassail	Winter Warmer
+Great Lakes Christmas Ale	Winter Warmer
+Left Hand Snowbound	Winter Warmer
+Michelob Winter's Bourbon Cask Ale	Winter Warmer
+Avery Old Jubilation	Winter Warmer
+Deschutes Jubelale	Winter Warmer
+Anderson Valley Winter Solstice	Winter Warmer
+Boulder Beer Never Summer	Winter Warmer
+BridgePort Ebenezer	Winter Warmer
+Genesee Dundee Festive Ale	Winter Warmer
+Samuel Smith Winter Welcome	Winter Warmer
+Sly Fox Christmas Ale	Winter Warmer
+Widmer Brothers Brrr	Winter Warmer
+Saint Arnold Christmas Ale	Winter Warmer
+Rahr and Sons Winter Warmer	Winter Warmer
+21st Amendment Fireside Chat	Winter Warmer
+Anchor Christmas Ale 2009	Winter Warmer
+Highland Cold Mountain Winter Ale	Winter Warmer
+Weyerbacher Winter Ale	Winter Warmer
+Breckenridge Christmas Ale	Winter Warmer
+Craftsman Holiday Spruce	Winter Warmer
+Odell Brewing Isolation Ale	Winter Warmer
+Telegraph Winter Ale	Winter Warmer
+Summit Scandia Ale	Wit
+Two Brothers Monarch White Beer	Wit
+Voodoo White Magick Of The Sun	Wit
+Boulevard Zon	Wit
+Cisco Brewers Grey Lady	Wit
+Unibroue Blanche De Chambly	Wit
+Otter Creek Wolaver's Ben Gleason's White Ale	Wit
+Otter Creek Wolaver's Wit Bier	Wit
+Great Lakes Holy Moses White Ale	Wit
+Harpoon UFO White	Wit
+Hitachino White Ale	Wit
+Avery White Rascal	Wit
+Ballast Point Wahoo Wheat	Wit
+Rogue MoM (Half-E-Weizen)	Wit
+Victory Whirlwind	Witbier
+Alaskan Alaskan White	Witbier
+Bell's Batch 8,000	Witbier
+Bell's Winter White	Witbier
+Coors Blue Moon	Witbier
+Coors Blue Moon Grand Cru	Witbier
+Boulevard Two Jokers Double-Wit	Witbier
+Flying Dog Woody Creek White	Witbier
+Great Divide Double Wit	Witbier
+Jolly Pumpkin Calabaza Blanca	Witbier
+Leinenkugel's Sunset Wheat	Witbier
+Lost Abbey Witch's Wit	Witbier
+Mikkeller Not Just Another Wit	Witbier
+New Belgium Mothership Wit	Witbier
+Otter Creek White Sail	Witbier
+Samuel Adams White Ale	Witbier
+Allagash White	Witbier
+Michelob Shock Top	Witbier
+Abita Satsuma Harvest Wit	Witbier
+Anheuser-Busch InBev Hoegaarden	Witbier
+Brasserie Lefebvre Blanche de Bruxelles	Witbier
+Brasserie Caracole Troublette	Witbier
+Abbaye des Rocs Brasserie des Rocs Blanche Double	Witbier
+The Bruery Orchard White	Witbier
+Konigshoeven Witte Trappist	Witbier
+Ommegang Witte	Witbier
+Samuel Adams Blackberry Witbier	Witbier
+Saranac Belgian White	Witbier
+St. Bernardus Wit	Witbier
+Smisje Vuuve	Witbier
+Anheuser-Busch InBev Shock Top	Witbier
+Lost Coast Great White	Witbier
+Philadelphia Walt Wit	Witbier
+Samuel Adams Imperial White	Witbier
+Marshall Brewing Sundown Wheat	Witbier
+Bavik Wittekerke	Witbier
+Dogfish Head Red & White	Witbier
+Michigan Celis White	Witbier
+Telegraph White Ale	Witbier
