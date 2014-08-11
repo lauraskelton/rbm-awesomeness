@@ -1,6 +1,14 @@
 import math
 import operator
 import numpy as np
+import random
+
+def shuffle_all(*args):
+    idx = range(len(args[0]))
+    random.shuffle(idx)
+    for arg in args:
+        assert(len(arg) == len(args[0]))
+    return [[arg[i] for i in idx] for arg in args]
 
 def loadBeerChooser(path='data'):
     
