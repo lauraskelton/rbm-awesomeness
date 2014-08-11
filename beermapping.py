@@ -560,319 +560,272 @@ def findBeerCenterFour(beer1,beer2,beer3,beer4):
     
     beerMapYourPrefs(loc,itemPrefs,style,center=locCenter,highlights=highlightBeers)
 
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+# Universal create and upload new beer map to server
+def loadFTPCredentials():
+    site = ''
+    username = ''
+    password = ''
+    for line in open('data/ftp.txt'):
+        (asite,ausername,apassword)=line.split('\t')
+        site=str(asite.rstrip())
+        username=str(ausername.rstrip())
+        password=str(apassword.rstrip())
+    return site, username, password
+
+def makeBeerMap(beerPrefs, loc, style, textColor, backgroundColor, filename="beergmap", showCenter=False, center=None, highlights=None):
+    out=open("data/%s.html" % (filename),'w')
+    out.write(generateGoogleJavascript(beerPrefs, loc, style, textColor, backgroundColor, showCenter=showCenter, center=center, highlights=highlights))
+    out.close()
+    site,username,password = loadFTPCredentials()
+    session = ftplib.FTP(site,username,password)
+    file = open("data/%s.html" % (filename),'rb')                  # file to send
+    session.storbinary("STOR beermap/%s.html" % (filename), file)     # send the file
+    file.close()                                    # close file and FTP
+    session.quit()
+    print 'gmap uploaded'
+
+def writeBeerMapData(beerPrefs, loc, style, textColor, backgroundColor, showCenter=False, center=None, highlights=None):
+    output = []
+    for beer in beerPrefs:
+        if highlights!=None and highlights.has_key(beer):
+            # skip this beer so we can add it last to be on top
+            print beer
+        else:
+            output.append(outputBeer(loc[beer],beer,style[beer],textColor[beer],backgroundColor[beer]))
+
+    if highlights!=None:
+        # add this beer last so it shows up on top
+        for beer in highlights:
+            output.append(outputBeer(loc[beer],beer,style[beer],textColor[beer],backgroundColor[beer]))
+        
+        if showCenter==True and center != None:
+            output.append(outputBeer(center,"YOU","Center of Preference","#000000","rgb(255,46,46)"))
+    return ''.join(output)
+
+def rgbMix(colorValue, maxColorValue, minColorValue, red=255, green=109, blue=87):
+    r=red
+    g=green
+    b=blue
+    if colorValue < maxColorValue and colorValue > minColorValue:
+        scaling = (maxColorValue - colorValue)/(maxColorValue - minColorValue)
+        r=scaleColor(r, scaling)
+        g=scaleColor(g, scaling)
+        b=scaleColor(b, scaling)
+    elif colorValue <= minColorValue:
+        r=255
+        g=255
+        b=255
+    return r, g, b
+
+def scaleColor(colorInput, scaling):
+    return int(scaling * (255-colorInput) + colorInput)
+
+def outputBeer(coords,beer,style,textColor,backgroundColor):
+    
+    return '\t{latitude: '+str(float((coords[0])*15))+', '\
+        +'longitude: '+str(float((coords[1])*15))+', '\
+            +'title: "'+str(beer)+'", '\
+            +'description: "'+str(style.replace("&","and"))+'",'\
+            +'textColor: "'+str(textColor)+'", '\
+            +'color: "'+str(backgroundColor)+'"},\n'
+
+def generateGoogleJavascript(beerPrefs, loc, style, textColor, backgroundColor, showCenter=False, center=None, highlights=None):
+    out = []
+    out.append('<!DOCTYPE html>\n')
+    out.append('<html>\n')
+    out.append('\t<head>\n')
+    out.append('\t\t<title>Beer Map</title>\n')
+    out.append('\t\t<style>\n')
+    out.append('\t\t\thtml, body, #map-canvas {\n')
+    out.append('\t\t\t\theight: 100%;\n')
+    out.append('\t\t\t\tmargin: 0px;\n')
+    out.append('\t\t\t\tpadding: 0px\n')
+    out.append('\t\t\t}\n')
+    out.append('\t\t</style>\n')
+    out.append('\t\t<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>\n')
+    out.append('\t\t<script type="text/javascript" src="../beermap/infobox.js"></script>\n')
+    out.append('\t\t<script>\n')
+    out.append('\n')
+    out.append('function CoordMapType() {\n')
+    out.append('}\n')
+    out.append('\n')
+    out.append('CoordMapType.prototype.tileSize = new google.maps.Size(256,256);\n')
+    out.append('CoordMapType.prototype.maxZoom = 11;\n')
+    out.append('CoordMapType.prototype.minZoom = 5;\n')
+    out.append('\n')
+    out.append('CoordMapType.prototype.getTile = function(coord, zoom, ownerDocument) {\n')
+    out.append('\tvar div = ownerDocument.createElement(\'div\');\n')
+    out.append('\tdiv.innerHTML = \'\';\n')
+    out.append('\tdiv.style.width = this.tileSize.width + \'px\';\n')
+    out.append('\tdiv.style.height = this.tileSize.height + \'px\';\n')
+    out.append('\tdiv.style.fontSize = \'10\';\n')
+    out.append('\tdiv.style.borderStyle = \'none\';\n')
+    out.append('\tdiv.style.backgroundColor = \'#E5E3DF\';\n')
+    out.append('\treturn div;\n')
+    out.append('};\n')
+    out.append('\n')
+    out.append('CoordMapType.prototype.name = \'Beer\';\n')
+    out.append('CoordMapType.prototype.alt = \'Beer Map Type\';\n')
+    out.append('\n')
+    out.append('var map;\n')
+    out.append('var coordinateMapType = new CoordMapType();\n')
+    out.append('\n')
+    
+    out.append('var beerMapData = [\n')
+    out.append(writeBeerMapData(beerPrefs, loc, style, textColor, backgroundColor, showCenter=showCenter, center=center, highlights=highlights))
+    out.append('];\n')
+    
+    out.append('\n')
+    if center==None:
+        out.append('var mapCenter = new google.maps.LatLng(11.9807276122, 4.99151301465);\n')
+        out.append('var zoomStart = 5;\n')
+    else:
+        out.append('var mapCenter = new google.maps.LatLng('+str(float((center[0])*15))+', '+str(float((center[1])*15))+');\n')
+        out.append('var zoomStart = 6;\n')
+    out.append('\n')
+    out.append('function initialize() {\n')
+    out.append('\tvar mapOptions = {\n')
+    out.append('\t\tzoom: zoomStart,\n')
+    out.append('\t\tcenter: mapCenter,\n')
+    out.append('\t\tstreetViewControl: false,\n')
+    out.append('\t\tmapTypeId: \'coordinate\',\n')
+    out.append('\t\tmapTypeControlOptions: {\n')
+    out.append('\t\t\tmapTypeIds: [\'coordinate\'],\n')
+    out.append('\t\t\tstyle: google.maps.MapTypeControlStyle.DROPDOWN_MENU\n')
+    out.append('\t\t}\n')
+    out.append('\t};\n')
+    out.append('\tmap = new google.maps.Map(document.getElementById(\'map-canvas\'),mapOptions);\n')
+    out.append('\n')
+    out.append('\tfor (var i=0;i<beerMapData.length;i++)\n')
+    out.append('\t{\n')
+    out.append('\t\tvar myOptions = {\n')
+    out.append('\t\t\tcontent: beerMapData[i][\'title\']+"<br/>("+beerMapData[i][\'description\']+")"\n')
+    out.append('\t\t\t,boxStyle: {\n')
+    out.append('\t\t\t\tborder: "1px solid black"\n')
+    out.append('\t\t\t\t,textAlign: "center"\n')
+    out.append('\t\t\t\t,fontSize: "6pt"\n')
+    out.append('\t\t\t\t,width: "60px"\n')
+    out.append('\t\t\t\t,color: beerMapData[i][\'textColor\']\n')
+    out.append('\t\t\t\t,backgroundColor: beerMapData[i][\'color\']\n')
+    out.append('\t\t\t}\n')
+    out.append('\t\t\t,disableAutoPan: true\n')
+    out.append('\t\t\t,pixelOffset: new google.maps.Size(-25, 0)\n')
+    out.append('\t\t\t,position: new google.maps.LatLng(beerMapData[i][\'latitude\'], beerMapData[i][\'longitude\'])\n')
+    out.append('\t\t\t,closeBoxURL: ""\n')
+    out.append('\t\t\t,isHidden: false\n')
+    out.append('\t\t\t,pane: "mapPane"\n')
+    out.append('\t\t\t,enableEventPropagation: true\n')
+    out.append('\t\t};\n')
+    out.append('\t\tvar ibLabel = new InfoBox(myOptions);\n')
+    out.append('\t\tibLabel.open(map);\n')
+    out.append('\t}\n')
+    out.append('\n')
+    out.append('map.mapTypes.set(\'coordinate\', coordinateMapType);\n')
+    out.append('}\n')
+    out.append('\n')
+    out.append('google.maps.event.addDomListener(window, \'load\', initialize);\n')
+    out.append('\n')
+    out.append('\t\t</script>\n')
+    out.append('\t</head>\n')
+    out.append('\t<body>\n')
+    out.append('\t\t<div id="map-canvas"></div>\n')
+    out.append('\t</body>\n')
+    out.append('</html>\n')
+
+    return ''.join(out)
+
 # Create and upload new beer map to server with optional ABV and IBU coloring
 def saveAndPushGoogleBeerMap(loc,seedPrefs,style,abv=None,ibu=None):
-    out=open('data/beergmap.html','w')
-    out.write('<!DOCTYPE html>\n')
-    out.write('<html>\n')
-    out.write('\t<head>\n')
-    out.write('\t\t<title>Beer Map</title>\n')
-    out.write('\t\t<style>\n')
-    out.write('\t\t\thtml, body, #map-canvas {\n')
-    out.write('\t\t\t\theight: 100%;\n')
-    out.write('\t\t\t\tmargin: 0px;\n')
-    out.write('\t\t\t\tpadding: 0px\n')
-    out.write('\t\t\t}\n')
-    out.write('\t\t</style>\n')
-    out.write('\t\t<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>\n')
-    out.write('\t\t<script type="text/javascript" src="../beermap/infobox.js"></script>\n')
-    out.write('\t\t<script>\n')
-    out.write('\n')
-    out.write('function CoordMapType() {\n')
-    out.write('}\n')
-    out.write('\n')
-    out.write('CoordMapType.prototype.tileSize = new google.maps.Size(256,256);\n')
-    out.write('CoordMapType.prototype.maxZoom = 11;\n')
-    out.write('CoordMapType.prototype.minZoom = 5;\n')
-    out.write('\n')
-    out.write('CoordMapType.prototype.getTile = function(coord, zoom, ownerDocument) {\n')
-    out.write('\tvar div = ownerDocument.createElement(\'div\');\n')
-    out.write('\tdiv.innerHTML = \'\';\n')
-    out.write('\tdiv.style.width = this.tileSize.width + \'px\';\n')
-    out.write('\tdiv.style.height = this.tileSize.height + \'px\';\n')
-    out.write('\tdiv.style.fontSize = \'10\';\n')
-    out.write('\tdiv.style.borderStyle = \'none\';\n')
-    out.write('\tdiv.style.backgroundColor = \'#E5E3DF\';\n')
-    out.write('\treturn div;\n')
-    out.write('};\n')
-    out.write('\n')
-    out.write('CoordMapType.prototype.name = \'Beer\';\n')
-    out.write('CoordMapType.prototype.alt = \'Beer Map Type\';\n')
-    out.write('\n')
-    out.write('var map;\n')
-    out.write('var coordinateMapType = new CoordMapType();\n')
-    out.write('\n')
-    out.write('var beerMapData = [\n')
+    
+    backgroundColor = {}
+    textColor = {}
+    
     for beer in seedPrefs:
-        out.write('\t{latitude: '+str(float((loc[beer][0])*15))+', ')
-        out.write('longitude: '+str(float((loc[beer][1])*15))+', ')
-        out.write('title: "'+str(beer)+'", ')
-        out.write('description: "'+str(style[beer].replace("&","and"))+'",')
         
-        rA=255
-        gA=255
-        bA=255
-        if abv!=None:
-            rA=126
-            gA=200
-            bA=252
-            if abv[beer] < 10 and abv[beer] > 4:
-                rA=int(((6-(abv[beer]-4))/6)*(255-rA)+rA)
-                gA=int(((6-(abv[beer]-4))/6)*(255-gA)+gA)
-                bA=int(((6-(abv[beer]-4))/6)*(255-bA)+bA)
-            elif abv[beer] <= 4:
-                rA=255
-                gA=255
-                bA=255
-        
-        rI=255
-        gI=255
-        bI=255
-        if ibu!=None:
-            rI=231
-            gI=252
-            bI=126
-            if ibu[beer] < 80 and ibu[beer] > 10:
-                rI=int(((70-(ibu[beer]-10))/70)*(255-rI)+rI)
-                gI=int(((70-(ibu[beer]-10))/70)*(255-gI)+gI)
-                bI=int(((70-(ibu[beer]-10))/70)*(255-bI)+bI)
-            elif ibu[beer] <= 10:
-                rI=255
-                gI=255
-                bI=255
+        rA, gA, bA = rgbMix(abv[beer], 10, 4, red=126, green=200, blue=252)
+        rI, gI, bI = rgbMix(ibu[beer], 80, 10, red=231, green=252, blue=126)
         
         r=(rA+rI)-255
         g=(gA+gI)-255
         b=(bA+bI)-255
         
-        out.write('color: "rgb('+str(r)+','+str(g)+','+str(b)+')"},')
-        out.write('\n')
+        backgroundColor[beer] = 'rgb('+str(r)+','+str(g)+','+str(b)+')'
+        textColor[beer] = '#000000'
     
-    out.write('];\n')
-    out.write('\n')
-    out.write('var mapCenter = new google.maps.LatLng(11.9807276122, 4.99151301465);\n')
-    out.write('\n')
-    out.write('function initialize() {\n')
-    out.write('\tvar mapOptions = {\n')
-    out.write('\t\tzoom: 5,\n')
-    out.write('\t\tcenter: mapCenter,\n')
-    out.write('\t\tstreetViewControl: false,\n')
-    out.write('\t\tmapTypeId: \'coordinate\',\n')
-    out.write('\t\tmapTypeControlOptions: {\n')
-    out.write('\t\t\tmapTypeIds: [\'coordinate\'],\n')
-    out.write('\t\t\tstyle: google.maps.MapTypeControlStyle.DROPDOWN_MENU\n')
-    out.write('\t\t}\n')
-    out.write('\t};\n')
-    out.write('\tmap = new google.maps.Map(document.getElementById(\'map-canvas\'),mapOptions);\n')
-    out.write('\n')
-    out.write('\tfor (var i=0;i<beerMapData.length;i++)\n')
-    out.write('\t{\n')
-    out.write('\t\tvar myOptions = {\n')
-    out.write('\t\t\tcontent: beerMapData[i][\'title\']+"<br/>("+beerMapData[i][\'description\']+")"\n')
-    out.write('\t\t\t,boxStyle: {\n')
-    out.write('\t\t\t\tborder: "1px solid black"\n')
-    out.write('\t\t\t\t,textAlign: "center"\n')
-    out.write('\t\t\t\t,fontSize: "6pt"\n')
-    out.write('\t\t\t\t,width: "60px"\n')
-    out.write('\t\t\t\t,backgroundColor: beerMapData[i][\'color\']\n')
-    out.write('\t\t\t}\n')
-    out.write('\t\t\t,disableAutoPan: true\n')
-    out.write('\t\t\t,pixelOffset: new google.maps.Size(-25, 0)\n')
-    out.write('\t\t\t,position: new google.maps.LatLng(beerMapData[i][\'latitude\'], beerMapData[i][\'longitude\'])\n')
-    out.write('\t\t\t,closeBoxURL: ""\n')
-    out.write('\t\t\t,isHidden: false\n')
-    out.write('\t\t\t,pane: "mapPane"\n')
-    out.write('\t\t\t,enableEventPropagation: true\n')
-    out.write('\t\t};\n')
-    out.write('\t\tvar ibLabel = new InfoBox(myOptions);\n')
-    out.write('\t\tibLabel.open(map);\n')
-    out.write('\t}\n')
-    out.write('\n')
-    out.write('map.mapTypes.set(\'coordinate\', coordinateMapType);\n')
-    out.write('}\n')
-    out.write('\n')
-    out.write('google.maps.event.addDomListener(window, \'load\', initialize);\n')
-    out.write('\n')
-    out.write('\t\t</script>\n')
-    out.write('\t</head>\n')
-    out.write('\t<body>\n')
-    out.write('\t\t<div id="map-canvas"></div>\n')
-    out.write('\t</body>\n')
-    out.write('</html>\n')
-    
-    out.close()
-    
-    session = ftplib.FTP('www.beerchooser.com','les2018','Z0f%Mrb31Ioj')
-    file = open('data/beergmap.html','rb')                  # file to send
-    session.storbinary('STOR beermap/beergmap.html', file)     # send the file
-    file.close()                                    # close file and FTP
-    session.quit()
-    print 'gmap uploaded'
+    makeBeerMap(seedPrefs, loc, style, textColor, backgroundColor, filename="beergmapabvibu", showCenter=False, center=None, highlights=None)
+
+
+#
+#
+#
+#
+#
+#
+#
+#
+
+##
+
+#
+#
+#
+#
+#
+
+
+
 
 # Create and upload new beer map to server with your beer preferences based on 3 beers
 def beerMapYourPrefs(loc,seedPrefs,style,center=None,highlights=None):
-    out=open('data/beergmap.html','w')
-    out.write('<!DOCTYPE html>\n')
-    out.write('<html>\n')
-    out.write('\t<head>\n')
-    out.write('\t\t<title>Your Beer Map</title>\n')
-    out.write('\t\t<style>\n')
-    out.write('\t\t\thtml, body, #map-canvas {\n')
-    out.write('\t\t\t\theight: 100%;\n')
-    out.write('\t\t\t\tmargin: 0px;\n')
-    out.write('\t\t\t\tpadding: 0px\n')
-    out.write('\t\t\t}\n')
-    out.write('\t\t</style>\n')
-    out.write('\t\t<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>\n')
-    out.write('\t\t<script type="text/javascript" src="../beermap/infobox.js"></script>\n')
-    out.write('\t\t<script>\n')
-    out.write('\n')
-    out.write('function CoordMapType() {\n')
-    out.write('}\n')
-    out.write('\n')
-    out.write('CoordMapType.prototype.tileSize = new google.maps.Size(256,256);\n')
-    out.write('CoordMapType.prototype.maxZoom = 11;\n')
-    out.write('CoordMapType.prototype.minZoom = 5;\n')
-    out.write('\n')
-    out.write('CoordMapType.prototype.getTile = function(coord, zoom, ownerDocument) {\n')
-    out.write('\tvar div = ownerDocument.createElement(\'div\');\n')
-    out.write('\tdiv.innerHTML = \'\';\n')
-    out.write('\tdiv.style.width = this.tileSize.width + \'px\';\n')
-    out.write('\tdiv.style.height = this.tileSize.height + \'px\';\n')
-    out.write('\tdiv.style.fontSize = \'10\';\n')
-    out.write('\tdiv.style.borderStyle = \'none\';\n')
-    out.write('\tdiv.style.backgroundColor = \'#E5E3DF\';\n')
-    out.write('\treturn div;\n')
-    out.write('};\n')
-    out.write('\n')
-    out.write('CoordMapType.prototype.name = \'Beer\';\n')
-    out.write('CoordMapType.prototype.alt = \'Beer Map Type\';\n')
-    out.write('\n')
-    out.write('var map;\n')
-    out.write('var coordinateMapType = new CoordMapType();\n')
-    out.write('\n')
-    out.write('var beerMapData = [\n')
-    for beer in seedPrefs:
     
+    backgroundColor = {}
+    textColor = {}
+    
+    for beer in seedPrefs:
         if highlights!=None and highlights.has_key(beer):
-            # skip this beer so we can add it last to be on top
-            print beer
+            # color this beer red to highlight it
+            backgroundColor[beer] = 'rgb(255,46,46)'
         else:
-            
-            out.write('\t{latitude: '+str(float((loc[beer][0])*15))+', ')
-            out.write('longitude: '+str(float((loc[beer][1])*15))+', ')
-            out.write('title: "'+str(beer)+'", ')
-            out.write('description: "'+str(style[beer].replace("&","and"))+'",')
-            
             if highlights!=None:
                 gravity = 0
                 for otherBeer in highlights:
                     distance = sqrt(sum([pow(loc[beer][x]-loc[otherBeer][x],2) for x in range(len(loc[beer]))]))
                     gravity += 1/(pow(distance,2))
                 gravity = gravity/len(highlights)
-                
-                r=255
-                g=109
-                b=87
-                if gravity < 16 and gravity > 1:
-                    r=int(((15-(gravity-1))/15)*(255-r)+r)
-                    g=int(((15-(gravity-1))/15)*(255-g)+g)
-                    b=int(((15-(gravity-1))/15)*(255-b)+b)
-                elif gravity <= 1:
-                    r=255
-                    g=255
-                    b=255
-
-                out.write('color: "rgb('+str(r)+','+str(g)+','+str(b)+')"},')
+                r, g, b = rgbMix(gravity, 16, 1, red=255, green=109, blue=87)
+                backgroundColor[beer] = 'rgb('+str(r)+','+str(g)+','+str(b)+')'
             else:
-                out.write('color: "rgb(255,255,255)"},')
-        out.write('\n')
-
-    if highlights!=None:
-        for beer in highlights:
-            
-            out.write('\t{latitude: '+str(float((loc[beer][0])*15))+', ')
-            out.write('longitude: '+str(float((loc[beer][1])*15))+', ')
-            out.write('title: "'+str(beer)+'", ')
-            out.write('description: "'+str(style[beer].replace("&","and"))+'",')
-            
-            # color this beer red on the map to highlight it
-            out.write('color: "rgb(255,46,46)"},')
-            out.write('\n')
-            print beer
+                backgroundColor[beer] = 'rgb(255,255,255)'
+        textColor[beer] = '#000000'
     
-    if center!=None:
-        out.write('\t{latitude: '+str(float((center[0])*15))+', ')
-        out.write('longitude: '+str(float((center[1])*15))+', ')
-        out.write('title: "YOU", ')
-        out.write('description: "Center of Preference",')
-        out.write('color: "rgb(255,46,46)"},')
-        out.write('\n')
-        print center
-
-    out.write('];\n')
-    out.write('\n')
-    if center==None:
-        out.write('var mapCenter = new google.maps.LatLng(11.9807276122, 4.99151301465);\n')
-        out.write('var zoomStart = 5;\n')
+    if center != None:
+        makeBeerMap(seedPrefs, loc, style, textColor, backgroundColor, filename="beergmapuser", showCenter=True, center=center, highlights=highlights)
     else:
-        out.write('var mapCenter = new google.maps.LatLng('+str(float((center[0])*15))+', '+str(float((center[1])*15))+');\n')
-        out.write('var zoomStart = 6;\n')
-    out.write('\n')
-    out.write('function initialize() {\n')
-    out.write('\tvar mapOptions = {\n')
-    out.write('\t\tzoom: zoomStart,\n')
-    out.write('\t\tcenter: mapCenter,\n')
-    out.write('\t\tstreetViewControl: false,\n')
-    out.write('\t\tmapTypeId: \'coordinate\',\n')
-    out.write('\t\tmapTypeControlOptions: {\n')
-    out.write('\t\t\tmapTypeIds: [\'coordinate\'],\n')
-    out.write('\t\t\tstyle: google.maps.MapTypeControlStyle.DROPDOWN_MENU\n')
-    out.write('\t\t}\n')
-    out.write('\t};\n')
-    out.write('\tmap = new google.maps.Map(document.getElementById(\'map-canvas\'),mapOptions);\n')
-    out.write('\n')
-    out.write('\tfor (var i=0;i<beerMapData.length;i++)\n')
-    out.write('\t{\n')
-    out.write('\t\tvar myOptions = {\n')
-    out.write('\t\t\tcontent: beerMapData[i][\'title\']+"<br/>("+beerMapData[i][\'description\']+")"\n')
-    out.write('\t\t\t,boxStyle: {\n')
-    out.write('\t\t\t\tborder: "1px solid black"\n')
-    out.write('\t\t\t\t,textAlign: "center"\n')
-    out.write('\t\t\t\t,fontSize: "6pt"\n')
-    out.write('\t\t\t\t,width: "60px"\n')
-    out.write('\t\t\t\t,backgroundColor: beerMapData[i][\'color\']\n')
-    out.write('\t\t\t}\n')
-    out.write('\t\t\t,disableAutoPan: true\n')
-    out.write('\t\t\t,pixelOffset: new google.maps.Size(-25, 0)\n')
-    out.write('\t\t\t,position: new google.maps.LatLng(beerMapData[i][\'latitude\'], beerMapData[i][\'longitude\'])\n')
-    out.write('\t\t\t,closeBoxURL: ""\n')
-    out.write('\t\t\t,isHidden: false\n')
-    out.write('\t\t\t,pane: "mapPane"\n')
-    out.write('\t\t\t,enableEventPropagation: true\n')
-    out.write('\t\t};\n')
-    out.write('\t\tvar ibLabel = new InfoBox(myOptions);\n')
-    out.write('\t\tibLabel.open(map);\n')
-    out.write('\t}\n')
-    out.write('\n')
-    out.write('map.mapTypes.set(\'coordinate\', coordinateMapType);\n')
-    out.write('}\n')
-    out.write('\n')
-    out.write('google.maps.event.addDomListener(window, \'load\', initialize);\n')
-    out.write('\n')
-    out.write('\t\t</script>\n')
-    out.write('\t</head>\n')
-    out.write('\t<body>\n')
-    out.write('\t\t<div id="map-canvas"></div>\n')
-    out.write('\t</body>\n')
-    out.write('</html>\n')
-    
-    out.close()
-    
-    session = ftplib.FTP('www.beerchooser.com','les2018','Z0f%Mrb31Ioj')
-    file = open('data/beergmap.html','rb')                  # file to send
-    session.storbinary('STOR beermap/beergmap.html', file)     # send the file
-    file.close()                                    # close file and FTP
-    session.quit()
-    print 'gmap uploaded'
+        makeBeerMap(seedPrefs, loc, style, textColor, backgroundColor, filename="beergmapuser", showCenter=False, center=center, highlights=highlights)
+
+
+
+
+
+
+
+
+
+
 

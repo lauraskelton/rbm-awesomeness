@@ -51,6 +51,10 @@ class Network():
         network will be evaluated against the test data after each
         epoch, and partial progress printed out.  This is useful for
         tracking progress, but slows things down substantially."""
+        
+        if test_data:
+            print "Start: {}".format(self.evaluate(test_data))
+        
         if test_data: n_test = len(test_data)
         n = len(training_data)
         for j in xrange(epochs):
@@ -61,8 +65,8 @@ class Network():
             for mini_batch in mini_batches:
                 self.update_mini_batch(mini_batch, eta)
             if test_data:
-                print "Epoch {}: {} / {}".format(
-                    j, self.evaluate(test_data), n_test)
+                print "Epoch {}: {}".format(
+                    j, self.evaluate(test_data))
             else:
                 print "Epoch %s complete" % j
 
@@ -122,9 +126,30 @@ class Network():
         network outputs the correct result. Note that the neural
         network's output is assumed to be the index of whichever
         neuron in the final layer has the highest activation."""
-        test_results = [(np.argmax(self.feedforward(x)), y) 
-                        for (x, y) in test_data]
-        return sum(int(x == y) for (x, y) in test_results)
+        
+        #test_results = [(np.argmax(self.feedforward(x)), y)
+        #                for (x, y) in test_data]
+    #return sum(int(x == y) for (x, y) in test_results)
+        #return sum(np.linalg.norm(x-y) for (x,y) in test_results)
+        
+        test_results = [(self.feedforward(x), y) for (x,y) in test_data]
+    
+        errorterm = 0
+        m = 0.000
+        for j in range (0,900):
+            for k in range (0,100):
+                if test_results[k][1][j] != 0.5:
+                    m += 0.5
+                if pow((test_results[k][0][j] - test_results[k][1][j]),2) >= 0.05:
+                    # guess was incorrect by more than one star
+                    errorterm += 1
+        #m += 1
+        if m > 0:
+            errorterm = errorterm/m
+            errorterm = 1-errorterm
+        
+        return errorterm
+    
         
     def cost_derivative(self, output_activations, y):
         """Return the vector of partial derivatives \partial C_x /
