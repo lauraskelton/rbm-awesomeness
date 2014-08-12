@@ -13,20 +13,19 @@ data, mask, names = dm.createNDArray()
 
 dm.shuffle_all(data, mask)
 
-sixty = int(len(data) * 0.6)
 eighty = int(len(data) * 0.8)
 hundo = len(data)
 
-train = data[:sixty]
-train_mask = mask[:sixty]
+train = data[:eighty]
+train_mask = mask[:eighty]
 
-valid = data[sixty:eighty]
 test = data[eighty:]
 
 shared_train = theano.shared(train, "train_set")
 shared_mask = theano.shared(train_mask, "train_mask")
 
 nn = ae.CFAutoencoder(shared_train, shared_mask, data.shape[1], N_HIDDEN, LEARNING_RATE)
+
 
 def epoch(batch_size_to_use, n_train, theano_function):
     i=0
@@ -57,7 +56,7 @@ def run_epochs(nn, n_epochs, batch_size, n_train):
     elapsed = (time.time() - start)
     print "ELAPSED TIME: {}".format(elapsed)
 
-run_epochs(nn, 1000, 256, sixty)
+run_epochs(nn, 1000, 256, eighty)
 
 def neuron_idx_to_beer_name(names, n):
 	return names[n/5]
