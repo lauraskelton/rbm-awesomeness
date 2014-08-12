@@ -68,6 +68,7 @@ class CFAutoencoder(object):
 
 
     def get_activation_function(self):
+        i, batch_size = T.iscalars('i', 'batch_size')
         self.clean_hidden = T.nnet.sigmoid(T.dot(self.x, self.W) + self.b_in)
         self.clean_output = T.nnet.sigmoid(T.dot(self.clean_hidden, self.W.T) + self.b_out)
         self.clean_activation_function = theano.function([self.x], self.clean_output)
@@ -75,6 +76,7 @@ class CFAutoencoder(object):
         return self.clean_activation_function
 
     def get_testing_function(self, test_data, test_mask, pct_blackout=0.5):
+        i, batch_size = T.iscalars('i', 'batch_size')
         self.test_noise = T.shared_randomstreams.RandomStreams(1234).binomial(
                             (self.x.shape), n=1, p=1-pct_blackout, 
                             dtype=theano.config.floatX)
