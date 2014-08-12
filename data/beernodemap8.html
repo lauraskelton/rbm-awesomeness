@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Beer Map</title>
+		<style>
+			html, body, #map-canvas {
+				height: 100%;
+				margin: 0px;
+				padding: 0px
+			}
+		</style>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script type="text/javascript" src="../beermap/infobox.js"></script>
+		<script>
+
+function CoordMapType() {
+}
+
+CoordMapType.prototype.tileSize = new google.maps.Size(256,256);
+CoordMapType.prototype.maxZoom = 11;
+CoordMapType.prototype.minZoom = 5;
+
+CoordMapType.prototype.getTile = function(coord, zoom, ownerDocument) {
+	var div = ownerDocument.createElement('div');
+	div.innerHTML = '';
+	div.style.width = this.tileSize.width + 'px';
+	div.style.height = this.tileSize.height + 'px';
+	div.style.fontSize = '10';
+	div.style.borderStyle = 'none';
+	div.style.backgroundColor = '#E5E3DF';
+	return div;
+};
+
+CoordMapType.prototype.name = 'Beer';
+CoordMapType.prototype.alt = 'Beer Map Type';
+
+var map;
+var coordinateMapType = new CoordMapType();
+
+var beerMapData = [
+	{latitude: 0.0, longitude: 0.0, title: "Summit Extra Pale Ale", description: "American Pale Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.0, longitude: 0.15, title: "Surly CynicAle", description: "Saison / Farmhouse Ale",textColor: "#000000", color: "rgb(219,99,34)"},
+	{latitude: 0.0, longitude: 0.3, title: "Metropolitan Flywheel", description: "German Pilsener",textColor: "#000000", color: "rgb(219,99,34)"},
+	{latitude: 0.0, longitude: 0.45, title: "Summit Maibock", description: "Maibock",textColor: "#000000", color: "rgb(221,104,42)"},
+	{latitude: 0.0, longitude: 0.6, title: "Surly Bender", description: "American Brown Ale",textColor: "#000000", color: "rgb(221,104,42)"},
+	{latitude: 0.0, longitude: 0.75, title: "Bell's Octoberfest", description: "Märzen / Oktoberfest",textColor: "#000000", color: "rgb(221,105,43)"},
+	{latitude: 0.0, longitude: 0.9, title: "Summit Oktoberfest", description: "Oktoberfest",textColor: "#000000", color: "rgb(221,106,44)"},
+	{latitude: 0.0, longitude: 1.05, title: "Schell's Grain Belt Premium", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(221,106,44)"},
+	{latitude: 0.0, longitude: 1.2, title: "Jolly Pumpkin Oro de Calabaza", description: "Biere de Garde",textColor: "#000000", color: "rgb(221,106,45)"},
+	{latitude: 0.0, longitude: 1.35, title: "Meantime IPA", description: "English India Pale Ale (IPA)",textColor: "#000000", color: "rgb(221,108,46)"},
+	{latitude: 0.0, longitude: 1.5, title: "Summit Horizon Red", description: "American Red Ale",textColor: "#000000", color: "rgb(222,110,50)"},
+	{latitude: 0.0, longitude: 1.65, title: "Surly Coffee Bender", description: "American Brown Ale",textColor: "#000000", color: "rgb(222,111,51)"},
+	{latitude: 0.0, longitude: 1.8, title: "Dupont Avec Les Bons Voeux", description: "Saison / Farmhouse Ale",textColor: "#000000", color: "rgb(222,112,52)"},
+	{latitude: 0.0, longitude: 1.95, title: "Bockor Cuvee des Jacobins Rouge", description: "Flanders Red Ale",textColor: "#000000", color: "rgb(222,112,53)"},
+	{latitude: 0.0, longitude: 2.1, title: "Caldera Hopportunity Knocks", description: "American IPA",textColor: "#000000", color: "rgb(223,114,55)"},
+	{latitude: 0.0, longitude: 2.25, title: "Summit Hefe Weizen", description: "Hefeweizen",textColor: "#000000", color: "rgb(223,117,60)"},
+	{latitude: 0.0, longitude: 2.4, title: "Leinenkugel's Original", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(224,119,62)"},
+	{latitude: 0.0, longitude: 2.55, title: "Odell Brewing St. Lupulin", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(224,119,63)"},
+	{latitude: 0.0, longitude: 2.7, title: "AleSmith Yulesmith (Summer)", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(224,119,63)"},
+	{latitude: 0.0, longitude: 2.85, title: "Three Floyds Brian Boru", description: "Irish Red Ale",textColor: "#000000", color: "rgb(224,120,64)"},
+	{latitude: 0.0, longitude: 3.0, title: "AleSmith Anvil ESB", description: "Extra Special / Strong Bitter (ESB)",textColor: "#000000", color: "rgb(224,121,65)"},
+	{latitude: 0.0, longitude: 3.15, title: "Surly Smoke", description: "Baltic Porter",textColor: "#000000", color: "rgb(224,121,66)"},
+	{latitude: 0.0, longitude: 3.3, title: "Metropolitan Dynamo", description: "Vienna Lager",textColor: "#000000", color: "rgb(224,121,66)"},
+	{latitude: 0.0, longitude: 3.45, title: "Smisje Wostyntje", description: "Belgian Strong Pale Ale",textColor: "#000000", color: "rgb(224,122,66)"},
+	{latitude: 0.0, longitude: 3.6, title: "Jolly Pumpkin Calabaza Blanca", description: "Witbier",textColor: "#000000", color: "rgb(225,122,67)"},
+	{latitude: 0.0, longitude: 3.75, title: "Magic Hat Jinx", description: "Scotch Ale",textColor: "#000000", color: "rgb(225,122,67)"},
+	{latitude: 0.0, longitude: 3.9, title: "AleSmith Yulesmith (Winter)", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(225,123,68)"},
+	{latitude: 0.0, longitude: 4.05, title: "Surly Bitter Brewer", description: "English Bitter",textColor: "#000000", color: "rgb(225,123,68)"},
+	{latitude: 0.0, longitude: 4.2, title: "Ska Brewing Nefarious Ten Pin", description: "Baltic Porter",textColor: "#000000", color: "rgb(225,123,68)"},
+	{latitude: 0.0, longitude: 4.35, title: "Port / Pizza Port Santa's Little Helper", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(225,123,68)"},
+	{latitude: 0.0, longitude: 4.5, title: "Chimay Chimay Tripel (White)", description: "Tripel",textColor: "#000000", color: "rgb(114,232,185)"},
+	{latitude: 0.0, longitude: 4.65, title: "Dogfish Head Midas Touch", description: "Herbed / Spiced Beer",textColor: "#000000", color: "rgb(112,232,184)"},
+	{latitude: 0.0, longitude: 4.8, title: "North Coast Old Rasputin", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(111,232,184)"},
+	{latitude: 0.0, longitude: 4.95, title: "Samuel Smith Oatmeal Stout", description: "Oatmeal Stout",textColor: "#000000", color: "rgb(109,231,182)"},
+	{latitude: 0.0, longitude: 5.1, title: "Spaten-Franziskaner Optimator", description: "Doppelbock",textColor: "#000000", color: "rgb(105,231,180)"},
+	{latitude: 0.0, longitude: 5.25, title: "Mikkeller Beer Geek Brunch Weasel", description: "Imperial Stout",textColor: "#000000", color: "rgb(102,230,179)"},
+	{latitude: 0.0, longitude: 5.4, title: "Dogfish Head Shelter Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(102,230,179)"},
+	{latitude: 0.0, longitude: 5.55, title: "Chimay Chimay Grande Reserve (Blue)", description: "Belgian Strong Dark Ale",textColor: "#000000", color: "rgb(100,230,178)"},
+	{latitude: 0.0, longitude: 5.7, title: "Samuel Smith Imperial Stout", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(97,229,176)"},
+	{latitude: 0.0, longitude: 5.85, title: "Southern Tier Jah-va", description: "Imperial Stout",textColor: "#000000", color: "rgb(96,229,176)"},
+	{latitude: 0.0, longitude: 6.0, title: "Allagash Tripel Reserve", description: "Tripel",textColor: "#000000", color: "rgb(95,229,175)"},
+	{latitude: 0.0, longitude: 6.15, title: "Stone Sublimely Self-Righteous", description: "American Strong Ale",textColor: "#000000", color: "rgb(95,229,175)"},
+	{latitude: 0.0, longitude: 6.3, title: "Dogfish Head Chicory Stout", description: "American Stout",textColor: "#000000", color: "rgb(94,229,175)"},
+	{latitude: 0.0, longitude: 6.45, title: "Mikkeller Beer Geek Breakfast", description: "Imperial Stout",textColor: "#000000", color: "rgb(92,229,174)"},
+	{latitude: 0.0, longitude: 6.6, title: "Dogfish Head Raison D'Etre", description: "Belgian Strong Dark Ale",textColor: "#000000", color: "rgb(91,228,174)"},
+	{latitude: 0.0, longitude: 6.75, title: "Moortgat Maredsous 10", description: "Tripel",textColor: "#000000", color: "rgb(90,228,173)"},
+	{latitude: 0.0, longitude: 6.9, title: "Dogfish Head Burton Baton", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(87,228,172)"},
+	{latitude: 0.0, longitude: 7.05, title: "Dogfish Head 90 Minute IPA", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(87,228,171)"},
+	{latitude: 0.0, longitude: 7.2, title: "Flying Dog Gonzo", description: "Baltic Porter",textColor: "#000000", color: "rgb(79,226,168)"},
+	{latitude: 0.0, longitude: 7.35, title: "Stone Imperial Russian Stout", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(78,226,167)"},
+	{latitude: 0.0, longitude: 7.5, title: "Dogfish Head 60 Minute IPA", description: "American IPA",textColor: "#000000", color: "rgb(75,226,165)"},
+	{latitude: 0.0, longitude: 7.65, title: "Dogfish Head 120 Minute IPA", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(73,226,165)"},
+	{latitude: 0.0, longitude: 7.8, title: "Youngs Double Chocolate Stout", description: "Milk / Sweet Stout",textColor: "#000000", color: "rgb(72,225,164)"},
+	{latitude: 0.0, longitude: 7.95, title: "Southern Tier Creme Brulee Stout", description: "Imperial Stout",textColor: "#000000", color: "rgb(71,225,164)"},
+	{latitude: 0.0, longitude: 8.1, title: "Smuttynose Big A IPA", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(63,224,159)"},
+	{latitude: 0.0, longitude: 8.25, title: "Great Divide Chocolate Oak-Aged Yeti Imperial Stout", description: "American Double / Imperial Stout",textColor: "#000000", color: "rgb(62,224,159)"},
+	{latitude: 0.0, longitude: 8.4, title: "Victory V Twelve", description: "Quadrupel (Quad)",textColor: "#000000", color: "rgb(44,221,150)"},
+	{latitude: 0.0, longitude: 8.55, title: "Clipper City Heavy Seas Loose Cannon (Hop3)", description: "IPA",textColor: "#000000", color: "rgb(41,220,149)"},
+	{latitude: 0.0, longitude: 8.7, title: "Hacker-Pschorr Weisse Dark", description: "Dunkelweizen",textColor: "#000000", color: "rgb(23,218,140)"},
+	{latitude: 0.0, longitude: 8.85, title: "Boulder Beer Mojo Risin", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(17,217,137)"},
+];
+
+var mapCenter = new google.maps.LatLng(11.9807276122, 4.99151301465);
+var zoomStart = 5;
+
+function initialize() {
+	var mapOptions = {
+		zoom: zoomStart,
+		center: mapCenter,
+		streetViewControl: false,
+		mapTypeId: 'coordinate',
+		mapTypeControlOptions: {
+			mapTypeIds: ['coordinate'],
+			style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+		}
+	};
+	map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+
+	for (var i=0;i<beerMapData.length;i++)
+	{
+		var myOptions = {
+			content: beerMapData[i]['title']+"<br/>("+beerMapData[i]['description']+")"
+			,boxStyle: {
+				border: "1px solid black"
+				,textAlign: "center"
+				,fontSize: "6pt"
+				,width: "60px"
+				,color: beerMapData[i]['textColor']
+				,backgroundColor: beerMapData[i]['color']
+			}
+			,disableAutoPan: true
+			,pixelOffset: new google.maps.Size(-25, 0)
+			,position: new google.maps.LatLng(beerMapData[i]['latitude'], beerMapData[i]['longitude'])
+			,closeBoxURL: ""
+			,isHidden: false
+			,pane: "mapPane"
+			,enableEventPropagation: true
+		};
+		var ibLabel = new InfoBox(myOptions);
+		ibLabel.open(map);
+	}
+
+map.mapTypes.set('coordinate', coordinateMapType);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+		</script>
+	</head>
+	<body>
+		<div id="map-canvas"></div>
+	</body>
+</html>

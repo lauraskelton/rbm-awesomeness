@@ -16,16 +16,24 @@ def loadStyle(path='data'):
 			styleData[beer]=str(style.rstrip())
 	return styleData
 
-def writeBeerMapData(beerWeights):
+def writeBeerMapData(allBeerWeights):
 	style = loadStyle()
 	output = []
-	newBeersArray = sorted(beerWeights.iteritems(), key=operator.itemgetter(1))
-	hOffset = 0
-	for beer, ratingWeight in newBeersArray[-50:]:
-		loc = [vOffset * 0.01, hOffset * 0.01]
-		(r,g,b) = getBackgroundColor(ratingWeight, np.max(beerWeights.values()), np.min(beerWeights.values()))
-		output.append(outputBeer(loc,beer,style[beer],'#000000','rgb('+str(r)+','+str(g)+','+str(b)+')'))
-		hOffset += 1
+	vOffset = 0
+	for beerWeights in allBeerWeights:
+		newBeersArray = sorted(beerWeights.iteritems(), key=operator.itemgetter(1))
+		hOffset = 0
+		for beer, ratingWeight in newBeersArray[:30]:
+			loc = [vOffset * 0.20, hOffset * 0.01]
+			(r,g,b) = getBackgroundColor(ratingWeight, np.max(beerWeights.values()), np.min(beerWeights.values()))
+			output.append(outputBeer(loc,beer,style[beer],'#000000','rgb('+str(r)+','+str(g)+','+str(b)+')'))
+			hOffset += 1
+		for beer, ratingWeight in newBeersArray[-30:]:
+			loc = [vOffset * 0.20, hOffset * 0.01]
+			(r,g,b) = getBackgroundColor(ratingWeight, np.max(beerWeights.values()), np.min(beerWeights.values()))
+			output.append(outputBeer(loc,beer,style[beer],'#000000','rgb('+str(r)+','+str(g)+','+str(b)+')'))
+			hOffset += 1
+		vOffset += 1
 	return ''.join(output)
 
 def rgbMix(colorValue, maxColorValue, minColorValue, red=255, green=109, blue=87):
@@ -63,7 +71,7 @@ def outputBeer(coords,beer,style,textColor,backgroundColor):
 			+'textColor: "'+str(textColor)+'", '\
 			+'color: "'+str(backgroundColor)+'"},\n'
 
-def generateGoogleJavascript(beerWeights):
+def generateGoogleJavascript(allBeerWeights):
 	out = []
 	out.append('<!DOCTYPE html>\n')
 	out.append('<html>\n')
@@ -106,7 +114,7 @@ def generateGoogleJavascript(beerWeights):
 	out.append('\n')
 	
 	out.append('var beerMapData = [\n')
-	out.append(writeBeerMapData(beerWeights))
+	out.append(writeBeerMapData(allBeerWeights))
 	out.append('];\n')
 	
 	out.append('\n')
@@ -176,9 +184,9 @@ def loadFTPCredentials():
 		password=str(apassword.rstrip())
 	return site, username, password
 
-def makeBeerMap(beerWeights, filename="beernodemap"):
+def makeBeerMap(allBeerWeights, filename="beernodemap"):
 	out=open("data/%s.html" % (filename),'w')
-	out.write(generateGoogleJavascript(beerWeights))
+	out.write(generateGoogleJavascript(allBeerWeights))
 	out.close()
 	site,username,password = loadFTPCredentials()
 	session = ftplib.FTP(site,username,password)
@@ -191,10 +199,7 @@ def makeBeerMap(beerWeights, filename="beernodemap"):
 
 # This is the function we actually call!!!
 def makeAllBeerMaps(allBeerWeights, filename="beernodemap"):
-	i = 0
-	for beerWeights in allBeerWeights:
-		makeBeerMap(beerWeights, filename="{}{}".format(filename,i))
-		i += 1
+	makeBeerMap(allBeerWeights, filename=filename)
 
 
 # Create and upload new beer map to server with optional ABV and IBU coloring

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Beer Map</title>
+		<style>
+			html, body, #map-canvas {
+				height: 100%;
+				margin: 0px;
+				padding: 0px
+			}
+		</style>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script type="text/javascript" src="../beermap/infobox.js"></script>
+		<script>
+
+function CoordMapType() {
+}
+
+CoordMapType.prototype.tileSize = new google.maps.Size(256,256);
+CoordMapType.prototype.maxZoom = 11;
+CoordMapType.prototype.minZoom = 5;
+
+CoordMapType.prototype.getTile = function(coord, zoom, ownerDocument) {
+	var div = ownerDocument.createElement('div');
+	div.innerHTML = '';
+	div.style.width = this.tileSize.width + 'px';
+	div.style.height = this.tileSize.height + 'px';
+	div.style.fontSize = '10';
+	div.style.borderStyle = 'none';
+	div.style.backgroundColor = '#E5E3DF';
+	return div;
+};
+
+CoordMapType.prototype.name = 'Beer';
+CoordMapType.prototype.alt = 'Beer Map Type';
+
+var map;
+var coordinateMapType = new CoordMapType();
+
+var beerMapData = [
+	{latitude: 0.0, longitude: 0.0, title: "Chimay Chimay Première (Red)", description: "Dubbel",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.0, longitude: 0.15, title: "Chimay Chimay Tripel (White)", description: "Tripel",textColor: "#000000", color: "rgb(217,89,19)"},
+	{latitude: 0.0, longitude: 0.3, title: "Chimay Chimay Grande Reserve (Blue)", description: "Belgian Strong Dark Ale",textColor: "#000000", color: "rgb(223,115,57)"},
+	{latitude: 0.0, longitude: 0.45, title: "Rochefort Trappistes Rochefort 8", description: "Belgian Strong Dark Ale",textColor: "#000000", color: "rgb(225,123,68)"},
+	{latitude: 0.0, longitude: 0.6, title: "Rochefort Trappistes Rochefort 10", description: "Quad",textColor: "#000000", color: "rgb(227,133,83)"},
+	{latitude: 0.0, longitude: 0.75, title: "Moortgat Duvel", description: "Belgian Strong Pale Ale",textColor: "#000000", color: "rgb(228,136,87)"},
+	{latitude: 0.0, longitude: 0.9, title: "St. Bernardus Abt 12", description: "Quadrupel (Quad)",textColor: "#000000", color: "rgb(229,141,94)"},
+	{latitude: 0.0, longitude: 1.05, title: "Anheuser-Busch InBev Leffe Blonde", description: "Belgian Pale Ale",textColor: "#000000", color: "rgb(231,151,108)"},
+	{latitude: 0.0, longitude: 1.2, title: "Huyghe Delirium Nocturnum", description: "Belgian Strong Dark Ale",textColor: "#000000", color: "rgb(231,152,110)"},
+	{latitude: 0.0, longitude: 1.35, title: "Spaten-Franziskaner Hefe-Weissbier", description: "Hefeweizen",textColor: "#000000", color: "rgb(232,156,114)"},
+	{latitude: 0.0, longitude: 1.5, title: "Westmalle Tripel", description: "Tripel",textColor: "#000000", color: "rgb(232,156,115)"},
+	{latitude: 0.0, longitude: 1.65, title: "Weihenstephaner Hefeweissbier", description: "Hefeweizen",textColor: "#000000", color: "rgb(233,160,120)"},
+	{latitude: 0.0, longitude: 1.8, title: "Ommegang Witte", description: "Witbier",textColor: "#000000", color: "rgb(234,162,123)"},
+	{latitude: 0.0, longitude: 1.95, title: "Ommegang Three Philosophers", description: "Quadrupel (Quad)",textColor: "#000000", color: "rgb(234,163,125)"},
+	{latitude: 0.0, longitude: 2.1, title: "Van Steenberge Gulden Draak", description: "Belgian Strong Dark Ale",textColor: "#000000", color: "rgb(234,164,127)"},
+	{latitude: 0.0, longitude: 2.25, title: "Ommegang Hennepin", description: "Saison / Farmhouse Ale",textColor: "#000000", color: "rgb(234,165,127)"},
+	{latitude: 0.0, longitude: 2.4, title: "Westmalle Dubbel", description: "Dubbel",textColor: "#000000", color: "rgb(234,165,128)"},
+	{latitude: 0.0, longitude: 2.55, title: "Unibroue Maudite", description: "Belgian Strong Dark Ale",textColor: "#000000", color: "rgb(235,168,132)"},
+	{latitude: 0.0, longitude: 2.7, title: "Ommegang Abbey Ale", description: "Dubbel",textColor: "#000000", color: "rgb(235,169,133)"},
+	{latitude: 0.0, longitude: 2.85, title: "Bosteels Pauwel Kwak", description: "Belgian Strong Pale Ale",textColor: "#000000", color: "rgb(235,169,134)"},
+	{latitude: 0.0, longitude: 3.0, title: "Anheuser-Busch InBev Leffe Brune", description: "Belgian Dark Ale",textColor: "#000000", color: "rgb(235,170,135)"},
+	{latitude: 0.0, longitude: 3.15, title: "Samuel Smith Oatmeal Stout", description: "Oatmeal Stout",textColor: "#000000", color: "rgb(236,171,137)"},
+	{latitude: 0.0, longitude: 3.3, title: "Allagash Dubbel Reserve", description: "Dubbel",textColor: "#000000", color: "rgb(236,173,139)"},
+	{latitude: 0.0, longitude: 3.45, title: "Van Honsebrouck Kasteel Rouge", description: "Fruit / Vegetable Beer",textColor: "#000000", color: "rgb(236,173,139)"},
+	{latitude: 0.0, longitude: 3.6, title: "Lindemans Framboise", description: "Lambic - Fruit",textColor: "#000000", color: "rgb(237,175,142)"},
+	{latitude: 0.0, longitude: 3.75, title: "Ommegang Rare Vos", description: "Belgian Dark Ale",textColor: "#000000", color: "rgb(237,175,142)"},
+	{latitude: 0.0, longitude: 3.9, title: "Unibroue La Fin Du Monde", description: "Tripel",textColor: "#000000", color: "rgb(237,177,145)"},
+	{latitude: 0.0, longitude: 4.05, title: "Verhaeghe Duchesse de Bourgogne", description: "Flanders Red Ale",textColor: "#000000", color: "rgb(237,178,146)"},
+	{latitude: 0.0, longitude: 4.2, title: "Konigshoeven La Trappe Quadrupel", description: "Quad",textColor: "#000000", color: "rgb(237,178,147)"},
+	{latitude: 0.0, longitude: 4.35, title: "Ommegang Chocolate Indulgence", description: "Belgian Dark Ale",textColor: "#000000", color: "rgb(237,179,147)"},
+	{latitude: 0.0, longitude: 4.5, title: "Bell's Expedition Stout", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(131,235,193)"},
+	{latitude: 0.0, longitude: 4.65, title: "Three Floyds Robert the Bruce", description: "Scottish Ale",textColor: "#000000", color: "rgb(130,235,193)"},
+	{latitude: 0.0, longitude: 4.8, title: "Two Brothers Cane and Ebel", description: "Rye Beer",textColor: "#000000", color: "rgb(129,234,192)"},
+	{latitude: 0.0, longitude: 4.95, title: "Big Sky IPA", description: "IPA",textColor: "#000000", color: "rgb(124,234,190)"},
+	{latitude: 0.0, longitude: 5.1, title: "Rogue Yellow Snow IPA", description: "American IPA",textColor: "#000000", color: "rgb(117,233,186)"},
+	{latitude: 0.0, longitude: 5.25, title: "Summit India Pale Ale", description: "IPA",textColor: "#000000", color: "rgb(116,232,186)"},
+	{latitude: 0.0, longitude: 5.4, title: "Great Lakes Eliot Ness", description: "Vienna Lager",textColor: "#000000", color: "rgb(110,231,183)"},
+	{latitude: 0.0, longitude: 5.55, title: "Lost Abbey The Angel's Share (Brandy Barrel-Aged)", description: "American Strong Ale",textColor: "#000000", color: "rgb(106,231,181)"},
+	{latitude: 0.0, longitude: 5.7, title: "Three Floyds Dreadnaught", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(105,231,180)"},
+	{latitude: 0.0, longitude: 5.85, title: "Summit Winter Ale", description: "Winter Warmer",textColor: "#000000", color: "rgb(104,231,180)"},
+	{latitude: 0.0, longitude: 6.0, title: "Great Lakes Christmas Ale", description: "Winter Warmer",textColor: "#000000", color: "rgb(100,230,178)"},
+	{latitude: 0.0, longitude: 6.15, title: "Three Floyds Alpha Klaus", description: "American Porter",textColor: "#000000", color: "rgb(100,230,178)"},
+	{latitude: 0.0, longitude: 6.3, title: "Goose Island Bourbon County Stout", description: "American Double / Imperial Stout",textColor: "#000000", color: "rgb(99,230,177)"},
+	{latitude: 0.0, longitude: 6.45, title: "Green Flash Le Freak", description: "Tripel/Belgian IPA",textColor: "#000000", color: "rgb(98,229,177)"},
+	{latitude: 0.0, longitude: 6.6, title: "AleSmith Yulesmith (Summer)", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(97,229,177)"},
+	{latitude: 0.0, longitude: 6.75, title: "Ballast Point Big Eye IPA", description: "American IPA",textColor: "#000000", color: "rgb(93,229,174)"},
+	{latitude: 0.0, longitude: 6.9, title: "Founders Centennial IPA", description: "American IPA",textColor: "#000000", color: "rgb(90,228,173)"},
+	{latitude: 0.0, longitude: 7.05, title: "Founders Double Trouble", description: "Imperial IPA",textColor: "#000000", color: "rgb(88,228,172)"},
+	{latitude: 0.0, longitude: 7.2, title: "Founders Pale Ale", description: "American Pale Ale",textColor: "#000000", color: "rgb(82,227,169)"},
+	{latitude: 0.0, longitude: 7.35, title: "Founders Kentucky Breakfast Stout", description: "Imperial Stout",textColor: "#000000", color: "rgb(79,226,167)"},
+	{latitude: 0.0, longitude: 7.5, title: "Port / Pizza Port Shark Attack", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(70,225,163)"},
+	{latitude: 0.0, longitude: 7.65, title: "AleSmith AleSmith X", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(65,224,160)"},
+	{latitude: 0.0, longitude: 7.8, title: "Green Flash Hop Head Red", description: "American Red Ale",textColor: "#000000", color: "rgb(63,224,159)"},
+	{latitude: 0.0, longitude: 7.95, title: "Two Brothers The Bitter End", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(62,224,159)"},
+	{latitude: 0.0, longitude: 8.1, title: "Ballast Point Yellowtail Pale Ale", description: "Kolsch",textColor: "#000000", color: "rgb(57,223,156)"},
+	{latitude: 0.0, longitude: 8.25, title: "New Holland Mad Hatter", description: "American IPA",textColor: "#000000", color: "rgb(48,221,152)"},
+	{latitude: 0.0, longitude: 8.4, title: "Ballast Point Sculpin IPA", description: "American IPA",textColor: "#000000", color: "rgb(41,220,149)"},
+	{latitude: 0.0, longitude: 8.55, title: "Goose Island Oatmeal Stout", description: "Oatmeal Stout",textColor: "#000000", color: "rgb(37,220,147)"},
+	{latitude: 0.0, longitude: 8.7, title: "Great Lakes Commodore Perry", description: "American IPA",textColor: "#000000", color: "rgb(31,219,144)"},
+	{latitude: 0.0, longitude: 8.85, title: "Three Floyds Behemoth", description: "American Barleywine",textColor: "#000000", color: "rgb(17,217,137)"},
+];
+
+var mapCenter = new google.maps.LatLng(11.9807276122, 4.99151301465);
+var zoomStart = 5;
+
+function initialize() {
+	var mapOptions = {
+		zoom: zoomStart,
+		center: mapCenter,
+		streetViewControl: false,
+		mapTypeId: 'coordinate',
+		mapTypeControlOptions: {
+			mapTypeIds: ['coordinate'],
+			style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+		}
+	};
+	map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+
+	for (var i=0;i<beerMapData.length;i++)
+	{
+		var myOptions = {
+			content: beerMapData[i]['title']+"<br/>("+beerMapData[i]['description']+")"
+			,boxStyle: {
+				border: "1px solid black"
+				,textAlign: "center"
+				,fontSize: "6pt"
+				,width: "60px"
+				,color: beerMapData[i]['textColor']
+				,backgroundColor: beerMapData[i]['color']
+			}
+			,disableAutoPan: true
+			,pixelOffset: new google.maps.Size(-25, 0)
+			,position: new google.maps.LatLng(beerMapData[i]['latitude'], beerMapData[i]['longitude'])
+			,closeBoxURL: ""
+			,isHidden: false
+			,pane: "mapPane"
+			,enableEventPropagation: true
+		};
+		var ibLabel = new InfoBox(myOptions);
+		ibLabel.open(map);
+	}
+
+map.mapTypes.set('coordinate', coordinateMapType);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+		</script>
+	</head>
+	<body>
+		<div id="map-canvas"></div>
+	</body>
+</html>
