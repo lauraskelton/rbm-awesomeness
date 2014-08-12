@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Beer Map</title>
+		<style>
+			html, body, #map-canvas {
+				height: 100%;
+				margin: 0px;
+				padding: 0px
+			}
+		</style>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script type="text/javascript" src="../beermap/infobox.js"></script>
+		<script>
+
+function CoordMapType() {
+}
+
+CoordMapType.prototype.tileSize = new google.maps.Size(256,256);
+CoordMapType.prototype.maxZoom = 11;
+CoordMapType.prototype.minZoom = 5;
+
+CoordMapType.prototype.getTile = function(coord, zoom, ownerDocument) {
+	var div = ownerDocument.createElement('div');
+	div.innerHTML = '';
+	div.style.width = this.tileSize.width + 'px';
+	div.style.height = this.tileSize.height + 'px';
+	div.style.fontSize = '10';
+	div.style.borderStyle = 'none';
+	div.style.backgroundColor = '#E5E3DF';
+	return div;
+};
+
+CoordMapType.prototype.name = 'Beer';
+CoordMapType.prototype.alt = 'Beer Map Type';
+
+var map;
+var coordinateMapType = new CoordMapType();
+
+var beerMapData = [
+	{latitude: 0.0, longitude: 0.0, title: "Anheuser-Busch InBev Bass Pale Ale", description: "English Pale Ale",textColor: "#000000", color: "rgb(244,208,188)"},
+	{latitude: 0.15, longitude: 0.0, title: "Anheuser-Busch InBev Bass Pale Ale", description: "English Pale Ale",textColor: "#000000", color: "rgb(242,198,174)"},
+	{latitude: 0.3, longitude: 0.0, title: "Anheuser-Busch InBev Bass Pale Ale", description: "English Pale Ale",textColor: "#000000", color: "rgb(186,244,221)"},
+	{latitude: 0.45, longitude: 0.0, title: "Anheuser-Busch InBev Bass Pale Ale", description: "English Pale Ale",textColor: "#000000", color: "rgb(228,250,241)"},
+	{latitude: 0.6, longitude: 0.0, title: "Anheuser-Busch InBev Bass Pale Ale", description: "English Pale Ale",textColor: "#000000", color: "rgb(242,201,179)"},
+	{latitude: 0.0, longitude: 0.15, title: "Stone Arrogant Bastard", description: "American Strong Ale",textColor: "#000000", color: "rgb(245,213,196)"},
+	{latitude: 0.15, longitude: 0.15, title: "Stone Arrogant Bastard", description: "American Strong Ale",textColor: "#000000", color: "rgb(110,231,183)"},
+	{latitude: 0.3, longitude: 0.15, title: "Stone Arrogant Bastard", description: "American Strong Ale",textColor: "#000000", color: "rgb(153,238,204)"},
+	{latitude: 0.45, longitude: 0.15, title: "Stone Arrogant Bastard", description: "American Strong Ale",textColor: "#000000", color: "rgb(247,222,208)"},
+	{latitude: 0.6, longitude: 0.15, title: "Stone Arrogant Bastard", description: "American Strong Ale",textColor: "#000000", color: "rgb(254,252,251)"},
+	{latitude: 0.0, longitude: 0.3, title: "Coors Blue Moon Full Moon", description: "Dubbel",textColor: "#000000", color: "rgb(241,197,173)"},
+	{latitude: 0.15, longitude: 0.3, title: "Coors Blue Moon Full Moon", description: "Dubbel",textColor: "#000000", color: "rgb(236,171,136)"},
+	{latitude: 0.3, longitude: 0.3, title: "Coors Blue Moon Full Moon", description: "Dubbel",textColor: "#000000", color: "rgb(244,206,186)"},
+	{latitude: 0.45, longitude: 0.3, title: "Coors Blue Moon Full Moon", description: "Dubbel",textColor: "#000000", color: "rgb(254,254,254)"},
+	{latitude: 0.6, longitude: 0.3, title: "Coors Blue Moon Full Moon", description: "Dubbel",textColor: "#000000", color: "rgb(221,249,238)"},
+	{latitude: 0.0, longitude: 0.45, title: "Magic Hat Lucky Kat", description: "American IPA",textColor: "#000000", color: "rgb(248,228,216)"},
+	{latitude: 0.15, longitude: 0.45, title: "Magic Hat Lucky Kat", description: "American IPA",textColor: "#000000", color: "rgb(199,246,227)"},
+	{latitude: 0.3, longitude: 0.45, title: "Magic Hat Lucky Kat", description: "American IPA",textColor: "#000000", color: "rgb(192,245,224)"},
+	{latitude: 0.45, longitude: 0.45, title: "Magic Hat Lucky Kat", description: "American IPA",textColor: "#000000", color: "rgb(236,175,142)"},
+	{latitude: 0.6, longitude: 0.45, title: "Magic Hat Lucky Kat", description: "American IPA",textColor: "#000000", color: "rgb(245,211,193)"},
+	{latitude: 0.0, longitude: 0.6, title: "Michelob Ultra", description: "Light Lager",textColor: "#000000", color: "rgb(239,187,159)"},
+	{latitude: 0.15, longitude: 0.6, title: "Michelob Ultra", description: "Light Lager",textColor: "#000000", color: "rgb(243,205,185)"},
+	{latitude: 0.3, longitude: 0.6, title: "Michelob Ultra", description: "Light Lager",textColor: "#000000", color: "rgb(237,178,147)"},
+	{latitude: 0.45, longitude: 0.6, title: "Michelob Ultra", description: "Light Lager",textColor: "#000000", color: "rgb(253,249,247)"},
+	{latitude: 0.6, longitude: 0.6, title: "Michelob Ultra", description: "Light Lager",textColor: "#000000", color: "rgb(226,250,240)"},
+	{latitude: 0.0, longitude: 0.75, title: "Magic Hat Roxy Rolles", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(247,221,208)"},
+	{latitude: 0.15, longitude: 0.75, title: "Magic Hat Roxy Rolles", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(245,212,194)"},
+	{latitude: 0.3, longitude: 0.75, title: "Magic Hat Roxy Rolles", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(246,218,202)"},
+	{latitude: 0.45, longitude: 0.75, title: "Magic Hat Roxy Rolles", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(240,190,163)"},
+	{latitude: 0.6, longitude: 0.75, title: "Magic Hat Roxy Rolles", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(246,218,203)"},
+	{latitude: 0.0, longitude: 0.9, title: "Anheuser-Busch Budweiser American Ale", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(236,173,139)"},
+	{latitude: 0.15, longitude: 0.9, title: "Anheuser-Busch Budweiser American Ale", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(252,241,236)"},
+	{latitude: 0.3, longitude: 0.9, title: "Anheuser-Busch Budweiser American Ale", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(232,154,112)"},
+	{latitude: 0.45, longitude: 0.9, title: "Anheuser-Busch Budweiser American Ale", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(252,245,241)"},
+	{latitude: 0.6, longitude: 0.9, title: "Anheuser-Busch Budweiser American Ale", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(252,244,239)"},
+	{latitude: 0.0, longitude: 1.05, title: "Stone IPA", description: "American IPA",textColor: "#000000", color: "rgb(244,208,189)"},
+	{latitude: 0.15, longitude: 1.05, title: "Stone IPA", description: "American IPA",textColor: "#000000", color: "rgb(238,252,246)"},
+	{latitude: 0.3, longitude: 1.05, title: "Stone IPA", description: "American IPA",textColor: "#000000", color: "rgb(45,221,151)"},
+	{latitude: 0.45, longitude: 1.05, title: "Stone IPA", description: "American IPA",textColor: "#000000", color: "rgb(245,210,192)"},
+	{latitude: 0.6, longitude: 1.05, title: "Stone IPA", description: "American IPA",textColor: "#000000", color: "rgb(244,253,249)"},
+	{latitude: 0.0, longitude: 1.2, title: "Surly Furious", description: "American IPA",textColor: "#000000", color: "rgb(253,248,245)"},
+	{latitude: 0.15, longitude: 1.2, title: "Surly Furious", description: "American IPA",textColor: "#000000", color: "rgb(250,233,224)"},
+	{latitude: 0.3, longitude: 1.2, title: "Surly Furious", description: "American IPA",textColor: "#000000", color: "rgb(251,237,230)"},
+	{latitude: 0.45, longitude: 1.2, title: "Surly Furious", description: "American IPA",textColor: "#000000", color: "rgb(130,235,193)"},
+	{latitude: 0.6, longitude: 1.2, title: "Surly Furious", description: "American IPA",textColor: "#000000", color: "rgb(58,223,157)"},
+	{latitude: 0.0, longitude: 1.35, title: "Rogue Hazelnut Brown Nectar", description: "American Brown Ale",textColor: "#000000", color: "rgb(250,233,224)"},
+	{latitude: 0.15, longitude: 1.35, title: "Rogue Hazelnut Brown Nectar", description: "American Brown Ale",textColor: "#000000", color: "rgb(246,219,204)"},
+	{latitude: 0.3, longitude: 1.35, title: "Rogue Hazelnut Brown Nectar", description: "American Brown Ale",textColor: "#000000", color: "rgb(253,246,243)"},
+	{latitude: 0.45, longitude: 1.35, title: "Rogue Hazelnut Brown Nectar", description: "American Brown Ale",textColor: "#000000", color: "rgb(239,187,158)"},
+	{latitude: 0.6, longitude: 1.35, title: "Rogue Hazelnut Brown Nectar", description: "American Brown Ale",textColor: "#000000", color: "rgb(236,171,136)"},
+	{latitude: 0.0, longitude: 1.5, title: "Michelob Light", description: "Light Lager",textColor: "#000000", color: "rgb(228,138,90)"},
+	{latitude: 0.15, longitude: 1.5, title: "Michelob Light", description: "Light Lager",textColor: "#000000", color: "rgb(251,240,233)"},
+	{latitude: 0.3, longitude: 1.5, title: "Michelob Light", description: "Light Lager",textColor: "#000000", color: "rgb(247,222,208)"},
+	{latitude: 0.45, longitude: 1.5, title: "Michelob Light", description: "Light Lager",textColor: "#000000", color: "rgb(243,204,183)"},
+	{latitude: 0.6, longitude: 1.5, title: "Michelob Light", description: "Light Lager",textColor: "#000000", color: "rgb(243,253,249)"},
+	{latitude: 0.0, longitude: 1.65, title: "Lagunitas Wilco Tango Foxtrot", description: "American Strong Ale",textColor: "#000000", color: "rgb(253,246,243)"},
+	{latitude: 0.15, longitude: 1.65, title: "Lagunitas Wilco Tango Foxtrot", description: "American Strong Ale",textColor: "#000000", color: "rgb(254,252,251)"},
+	{latitude: 0.3, longitude: 1.65, title: "Lagunitas Wilco Tango Foxtrot", description: "American Strong Ale",textColor: "#000000", color: "rgb(245,214,197)"},
+	{latitude: 0.45, longitude: 1.65, title: "Lagunitas Wilco Tango Foxtrot", description: "American Strong Ale",textColor: "#000000", color: "rgb(42,221,149)"},
+	{latitude: 0.6, longitude: 1.65, title: "Lagunitas Wilco Tango Foxtrot", description: "American Strong Ale",textColor: "#000000", color: "rgb(147,237,201)"},
+	{latitude: 0.0, longitude: 1.8, title: "Coors Blue Moon Honey Moon", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(236,174,140)"},
+	{latitude: 0.15, longitude: 1.8, title: "Coors Blue Moon Honey Moon", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(241,195,171)"},
+	{latitude: 0.3, longitude: 1.8, title: "Coors Blue Moon Honey Moon", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(188,244,222)"},
+	{latitude: 0.45, longitude: 1.8, title: "Coors Blue Moon Honey Moon", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(248,224,211)"},
+	{latitude: 0.6, longitude: 1.8, title: "Coors Blue Moon Honey Moon", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(250,237,229)"},
+	{latitude: 0.0, longitude: 1.95, title: "Redhook Long Hammer IPA", description: "American IPA",textColor: "#000000", color: "rgb(245,212,194)"},
+	{latitude: 0.15, longitude: 1.95, title: "Redhook Long Hammer IPA", description: "American IPA",textColor: "#000000", color: "rgb(237,178,146)"},
+	{latitude: 0.3, longitude: 1.95, title: "Redhook Long Hammer IPA", description: "American IPA",textColor: "#000000", color: "rgb(248,224,212)"},
+	{latitude: 0.45, longitude: 1.95, title: "Redhook Long Hammer IPA", description: "American IPA",textColor: "#000000", color: "rgb(238,183,153)"},
+	{latitude: 0.6, longitude: 1.95, title: "Redhook Long Hammer IPA", description: "American IPA",textColor: "#000000", color: "rgb(248,253,251)"},
+	{latitude: 0.0, longitude: 2.1, title: "Goose Island Bourbon County Stout", description: "American Double / Imperial Stout",textColor: "#000000", color: "rgb(251,241,235)"},
+	{latitude: 0.15, longitude: 2.1, title: "Goose Island Bourbon County Stout", description: "American Double / Imperial Stout",textColor: "#000000", color: "rgb(230,251,242)"},
+	{latitude: 0.3, longitude: 2.1, title: "Goose Island Bourbon County Stout", description: "American Double / Imperial Stout",textColor: "#000000", color: "rgb(246,216,201)"},
+	{latitude: 0.45, longitude: 2.1, title: "Goose Island Bourbon County Stout", description: "American Double / Imperial Stout",textColor: "#000000", color: "rgb(138,236,197)"},
+	{latitude: 0.6, longitude: 2.1, title: "Goose Island Bourbon County Stout", description: "American Double / Imperial Stout",textColor: "#000000", color: "rgb(70,225,163)"},
+	{latitude: 0.0, longitude: 2.25, title: "Dogfish Head 90 Minute IPA", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(251,239,232)"},
+	{latitude: 0.15, longitude: 2.25, title: "Dogfish Head 90 Minute IPA", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(248,224,211)"},
+	{latitude: 0.3, longitude: 2.25, title: "Dogfish Head 90 Minute IPA", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(134,235,195)"},
+	{latitude: 0.45, longitude: 2.25, title: "Dogfish Head 90 Minute IPA", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(242,199,175)"},
+	{latitude: 0.6, longitude: 2.25, title: "Dogfish Head 90 Minute IPA", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(142,236,199)"},
+	{latitude: 0.0, longitude: 2.4, title: "Beck's Beck's", description: "German Pilsener",textColor: "#000000", color: "rgb(143,237,199)"},
+	{latitude: 0.15, longitude: 2.4, title: "Beck's Beck's", description: "German Pilsener",textColor: "#000000", color: "rgb(233,157,117)"},
+	{latitude: 0.3, longitude: 2.4, title: "Beck's Beck's", description: "German Pilsener",textColor: "#000000", color: "rgb(162,240,209)"},
+	{latitude: 0.45, longitude: 2.4, title: "Beck's Beck's", description: "German Pilsener",textColor: "#000000", color: "rgb(250,236,228)"},
+	{latitude: 0.6, longitude: 2.4, title: "Beck's Beck's", description: "German Pilsener",textColor: "#000000", color: "rgb(249,254,252)"},
+	{latitude: 0.0, longitude: 2.55, title: "Lagunitas IPA", description: "American IPA",textColor: "#000000", color: "rgb(243,204,183)"},
+	{latitude: 0.15, longitude: 2.55, title: "Lagunitas IPA", description: "American IPA",textColor: "#000000", color: "rgb(241,194,169)"},
+	{latitude: 0.3, longitude: 2.55, title: "Lagunitas IPA", description: "American IPA",textColor: "#000000", color: "rgb(114,232,185)"},
+	{latitude: 0.45, longitude: 2.55, title: "Lagunitas IPA", description: "American IPA",textColor: "#000000", color: "rgb(254,252,251)"},
+	{latitude: 0.6, longitude: 2.55, title: "Lagunitas IPA", description: "American IPA",textColor: "#000000", color: "rgb(178,242,217)"},
+	{latitude: 0.0, longitude: 2.7, title: "Goose Island Honker's Ale", description: "English Bitter",textColor: "#000000", color: "rgb(242,201,179)"},
+	{latitude: 0.15, longitude: 2.7, title: "Goose Island Honker's Ale", description: "English Bitter",textColor: "#000000", color: "rgb(245,214,197)"},
+	{latitude: 0.3, longitude: 2.7, title: "Goose Island Honker's Ale", description: "English Bitter",textColor: "#000000", color: "rgb(89,228,172)"},
+	{latitude: 0.45, longitude: 2.7, title: "Goose Island Honker's Ale", description: "English Bitter",textColor: "#000000", color: "rgb(190,244,223)"},
+	{latitude: 0.6, longitude: 2.7, title: "Goose Island Honker's Ale", description: "English Bitter",textColor: "#000000", color: "rgb(226,250,241)"},
+	{latitude: 0.0, longitude: 2.85, title: "Dogfish Head Midas Touch", description: "Herbed / Spiced Beer",textColor: "#000000", color: "rgb(244,207,187)"},
+	{latitude: 0.15, longitude: 2.85, title: "Dogfish Head Midas Touch", description: "Herbed / Spiced Beer",textColor: "#000000", color: "rgb(248,225,213)"},
+	{latitude: 0.3, longitude: 2.85, title: "Dogfish Head Midas Touch", description: "Herbed / Spiced Beer",textColor: "#000000", color: "rgb(192,245,224)"},
+	{latitude: 0.45, longitude: 2.85, title: "Dogfish Head Midas Touch", description: "Herbed / Spiced Beer",textColor: "#000000", color: "rgb(211,248,233)"},
+	{latitude: 0.6, longitude: 2.85, title: "Dogfish Head Midas Touch", description: "Herbed / Spiced Beer",textColor: "#000000", color: "rgb(231,151,108)"},
+	{latitude: 0.0, longitude: 3.0, title: "Miller Milwaukee's Best Ice", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.15, longitude: 3.0, title: "Miller Milwaukee's Best Ice", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(187,244,221)"},
+	{latitude: 0.3, longitude: 3.0, title: "Miller Milwaukee's Best Ice", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(254,250,249)"},
+	{latitude: 0.45, longitude: 3.0, title: "Miller Milwaukee's Best Ice", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(251,238,232)"},
+	{latitude: 0.6, longitude: 3.0, title: "Miller Milwaukee's Best Ice", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(252,242,236)"},
+	{latitude: 0.0, longitude: 3.15, title: "Miller Miller Genuine Draft Light 64", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(234,164,126)"},
+	{latitude: 0.15, longitude: 3.15, title: "Miller Miller Genuine Draft Light 64", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(239,188,160)"},
+	{latitude: 0.3, longitude: 3.15, title: "Miller Miller Genuine Draft Light 64", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(242,201,179)"},
+	{latitude: 0.45, longitude: 3.15, title: "Miller Miller Genuine Draft Light 64", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(250,234,226)"},
+	{latitude: 0.6, longitude: 3.15, title: "Miller Miller Genuine Draft Light 64", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(253,248,245)"},
+	{latitude: 0.0, longitude: 3.3, title: "Miller Miller High Life Light", description: "Light Lager",textColor: "#000000", color: "rgb(234,166,128)"},
+	{latitude: 0.15, longitude: 3.3, title: "Miller Miller High Life Light", description: "Light Lager",textColor: "#000000", color: "rgb(233,161,122)"},
+	{latitude: 0.3, longitude: 3.3, title: "Miller Miller High Life Light", description: "Light Lager",textColor: "#000000", color: "rgb(246,216,200)"},
+	{latitude: 0.45, longitude: 3.3, title: "Miller Miller High Life Light", description: "Light Lager",textColor: "#000000", color: "rgb(253,246,243)"},
+	{latitude: 0.6, longitude: 3.3, title: "Miller Miller High Life Light", description: "Light Lager",textColor: "#000000", color: "rgb(253,246,242)"},
+	{latitude: 0.0, longitude: 3.45, title: "Stone Oaked Arrogant Bastard", description: "American Strong Ale",textColor: "#000000", color: "rgb(254,254,253)"},
+	{latitude: 0.15, longitude: 3.45, title: "Stone Oaked Arrogant Bastard", description: "American Strong Ale",textColor: "#000000", color: "rgb(163,240,209)"},
+	{latitude: 0.3, longitude: 3.45, title: "Stone Oaked Arrogant Bastard", description: "American Strong Ale",textColor: "#000000", color: "rgb(219,249,237)"},
+	{latitude: 0.45, longitude: 3.45, title: "Stone Oaked Arrogant Bastard", description: "American Strong Ale",textColor: "#000000", color: "rgb(231,151,108)"},
+	{latitude: 0.6, longitude: 3.45, title: "Stone Oaked Arrogant Bastard", description: "American Strong Ale",textColor: "#000000", color: "rgb(240,190,162)"},
+	{latitude: 0.0, longitude: 3.6, title: "FEMSA Dos Equis Special Lager", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(238,181,151)"},
+	{latitude: 0.15, longitude: 3.6, title: "FEMSA Dos Equis Special Lager", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(241,195,171)"},
+	{latitude: 0.3, longitude: 3.6, title: "FEMSA Dos Equis Special Lager", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(159,239,207)"},
+	{latitude: 0.45, longitude: 3.6, title: "FEMSA Dos Equis Special Lager", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(246,217,201)"},
+	{latitude: 0.6, longitude: 3.6, title: "FEMSA Dos Equis Special Lager", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(223,249,239)"},
+	{latitude: 0.0, longitude: 3.75, title: "Redhook ESB", description: "Extra Special / Strong Bitter (ESB)",textColor: "#000000", color: "rgb(245,213,195)"},
+	{latitude: 0.15, longitude: 3.75, title: "Redhook ESB", description: "Extra Special / Strong Bitter (ESB)",textColor: "#000000", color: "rgb(250,235,228)"},
+	{latitude: 0.3, longitude: 3.75, title: "Redhook ESB", description: "Extra Special / Strong Bitter (ESB)",textColor: "#000000", color: "rgb(236,171,136)"},
+	{latitude: 0.45, longitude: 3.75, title: "Redhook ESB", description: "Extra Special / Strong Bitter (ESB)",textColor: "#000000", color: "rgb(143,237,199)"},
+	{latitude: 0.6, longitude: 3.75, title: "Redhook ESB", description: "Extra Special / Strong Bitter (ESB)",textColor: "#000000", color: "rgb(246,219,204)"},
+	{latitude: 0.0, longitude: 3.9, title: "Samuel Adams Sam Adams Light", description: "Light Lager",textColor: "#000000", color: "rgb(228,136,86)"},
+	{latitude: 0.15, longitude: 3.9, title: "Samuel Adams Sam Adams Light", description: "Light Lager",textColor: "#000000", color: "rgb(250,233,224)"},
+	{latitude: 0.3, longitude: 3.9, title: "Samuel Adams Sam Adams Light", description: "Light Lager",textColor: "#000000", color: "rgb(164,240,210)"},
+	{latitude: 0.45, longitude: 3.9, title: "Samuel Adams Sam Adams Light", description: "Light Lager",textColor: "#000000", color: "rgb(246,219,204)"},
+	{latitude: 0.6, longitude: 3.9, title: "Samuel Adams Sam Adams Light", description: "Light Lager",textColor: "#000000", color: "rgb(251,237,230)"},
+	{latitude: 0.0, longitude: 4.05, title: "Samuel Smith Oatmeal Stout", description: "Oatmeal Stout",textColor: "#000000", color: "rgb(236,174,141)"},
+	{latitude: 0.15, longitude: 4.05, title: "Samuel Smith Oatmeal Stout", description: "Oatmeal Stout",textColor: "#000000", color: "rgb(249,229,219)"},
+	{latitude: 0.3, longitude: 4.05, title: "Samuel Smith Oatmeal Stout", description: "Oatmeal Stout",textColor: "#000000", color: "rgb(229,141,93)"},
+	{latitude: 0.45, longitude: 4.05, title: "Samuel Smith Oatmeal Stout", description: "Oatmeal Stout",textColor: "#000000", color: "rgb(249,232,223)"},
+	{latitude: 0.6, longitude: 4.05, title: "Samuel Smith Oatmeal Stout", description: "Oatmeal Stout",textColor: "#000000", color: "rgb(254,254,254)"},
+	{latitude: 0.0, longitude: 4.2, title: "Samuel Adams Octoberfest", description: "Märzen / Oktoberfest",textColor: "#000000", color: "rgb(241,196,171)"},
+	{latitude: 0.15, longitude: 4.2, title: "Samuel Adams Octoberfest", description: "Märzen / Oktoberfest",textColor: "#000000", color: "rgb(248,224,212)"},
+	{latitude: 0.3, longitude: 4.2, title: "Samuel Adams Octoberfest", description: "Märzen / Oktoberfest",textColor: "#000000", color: "rgb(193,245,224)"},
+	{latitude: 0.45, longitude: 4.2, title: "Samuel Adams Octoberfest", description: "Märzen / Oktoberfest",textColor: "#000000", color: "rgb(203,246,229)"},
+	{latitude: 0.6, longitude: 4.2, title: "Samuel Adams Octoberfest", description: "Märzen / Oktoberfest",textColor: "#000000", color: "rgb(233,161,121)"},
+	{latitude: 0.0, longitude: 4.35, title: "Spoetzl Shiner Bock", description: "Bock",textColor: "#000000", color: "rgb(235,166,130)"},
+	{latitude: 0.15, longitude: 4.35, title: "Spoetzl Shiner Bock", description: "Bock",textColor: "#000000", color: "rgb(194,245,224)"},
+	{latitude: 0.3, longitude: 4.35, title: "Spoetzl Shiner Bock", description: "Bock",textColor: "#000000", color: "rgb(240,252,248)"},
+	{latitude: 0.45, longitude: 4.35, title: "Spoetzl Shiner Bock", description: "Bock",textColor: "#000000", color: "rgb(212,248,233)"},
+	{latitude: 0.6, longitude: 4.35, title: "Spoetzl Shiner Bock", description: "Bock",textColor: "#000000", color: "rgb(233,161,122)"},
+	{latitude: 0.0, longitude: 4.5, title: "Samuel Adams Blackberry Witbier", description: "Witbier",textColor: "#000000", color: "rgb(233,160,120)"},
+	{latitude: 0.15, longitude: 4.5, title: "Samuel Adams Blackberry Witbier", description: "Witbier",textColor: "#000000", color: "rgb(216,248,236)"},
+	{latitude: 0.3, longitude: 4.5, title: "Samuel Adams Blackberry Witbier", description: "Witbier",textColor: "#000000", color: "rgb(115,232,185)"},
+	{latitude: 0.45, longitude: 4.5, title: "Samuel Adams Blackberry Witbier", description: "Witbier",textColor: "#000000", color: "rgb(246,215,199)"},
+	{latitude: 0.6, longitude: 4.5, title: "Samuel Adams Blackberry Witbier", description: "Witbier",textColor: "#000000", color: "rgb(250,236,229)"},
+	{latitude: 0.0, longitude: 4.65, title: "Three Floyds Gumballhead", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(249,229,219)"},
+	{latitude: 0.15, longitude: 4.65, title: "Three Floyds Gumballhead", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(250,233,224)"},
+	{latitude: 0.3, longitude: 4.65, title: "Three Floyds Gumballhead", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(243,204,183)"},
+	{latitude: 0.45, longitude: 4.65, title: "Three Floyds Gumballhead", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(247,222,208)"},
+	{latitude: 0.6, longitude: 4.65, title: "Three Floyds Gumballhead", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(25,218,141)"},
+	{latitude: 0.0, longitude: 4.8, title: "Desnoes and Geddes Red Stripe", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(137,236,196)"},
+	{latitude: 0.15, longitude: 4.8, title: "Desnoes and Geddes Red Stripe", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(247,220,206)"},
+	{latitude: 0.3, longitude: 4.8, title: "Desnoes and Geddes Red Stripe", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(96,229,176)"},
+	{latitude: 0.45, longitude: 4.8, title: "Desnoes and Geddes Red Stripe", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(239,188,160)"},
+	{latitude: 0.6, longitude: 4.8, title: "Desnoes and Geddes Red Stripe", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(253,247,244)"},
+	{latitude: 0.0, longitude: 4.95, title: "Samuel Adams Boston Lager", description: "Vienna Lager",textColor: "#000000", color: "rgb(254,254,254)"},
+	{latitude: 0.15, longitude: 4.95, title: "Samuel Adams Boston Lager", description: "Vienna Lager",textColor: "#000000", color: "rgb(226,129,76)"},
+	{latitude: 0.3, longitude: 4.95, title: "Samuel Adams Boston Lager", description: "Vienna Lager",textColor: "#000000", color: "rgb(179,242,217)"},
+	{latitude: 0.45, longitude: 4.95, title: "Samuel Adams Boston Lager", description: "Vienna Lager",textColor: "#000000", color: "rgb(174,242,215)"},
+	{latitude: 0.6, longitude: 4.95, title: "Samuel Adams Boston Lager", description: "Vienna Lager",textColor: "#000000", color: "rgb(244,206,186)"},
+	{latitude: 0.0, longitude: 5.1, title: "Anheuser-Busch Budweiser", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(188,244,221)"},
+	{latitude: 0.15, longitude: 5.1, title: "Anheuser-Busch Budweiser", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(248,226,215)"},
+	{latitude: 0.3, longitude: 5.1, title: "Anheuser-Busch Budweiser", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(227,132,81)"},
+	{latitude: 0.45, longitude: 5.1, title: "Anheuser-Busch Budweiser", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(191,244,223)"},
+	{latitude: 0.6, longitude: 5.1, title: "Anheuser-Busch Budweiser", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(182,243,218)"},
+	{latitude: 0.0, longitude: 5.25, title: "Michelob Ultra Amber", description: "Light Lager",textColor: "#000000", color: "rgb(232,157,116)"},
+	{latitude: 0.15, longitude: 5.25, title: "Michelob Ultra Amber", description: "Light Lager",textColor: "#000000", color: "rgb(240,191,165)"},
+	{latitude: 0.3, longitude: 5.25, title: "Michelob Ultra Amber", description: "Light Lager",textColor: "#000000", color: "rgb(242,199,176)"},
+	{latitude: 0.45, longitude: 5.25, title: "Michelob Ultra Amber", description: "Light Lager",textColor: "#000000", color: "rgb(245,214,197)"},
+	{latitude: 0.6, longitude: 5.25, title: "Michelob Ultra Amber", description: "Light Lager",textColor: "#000000", color: "rgb(253,246,243)"},
+	{latitude: 0.0, longitude: 5.4, title: "New Belgium Ranger IPA", description: "American IPA",textColor: "#000000", color: "rgb(248,224,211)"},
+	{latitude: 0.15, longitude: 5.4, title: "New Belgium Ranger IPA", description: "American IPA",textColor: "#000000", color: "rgb(114,232,185)"},
+	{latitude: 0.3, longitude: 5.4, title: "New Belgium Ranger IPA", description: "American IPA",textColor: "#000000", color: "rgb(124,234,190)"},
+	{latitude: 0.45, longitude: 5.4, title: "New Belgium Ranger IPA", description: "American IPA",textColor: "#000000", color: "rgb(237,179,148)"},
+	{latitude: 0.6, longitude: 5.4, title: "New Belgium Ranger IPA", description: "American IPA",textColor: "#000000", color: "rgb(224,250,240)"},
+	{latitude: 0.0, longitude: 5.55, title: "Rogue Dead Guy", description: "Maibock / Helles Bock",textColor: "#000000", color: "rgb(253,248,246)"},
+	{latitude: 0.15, longitude: 5.55, title: "Rogue Dead Guy", description: "Maibock / Helles Bock",textColor: "#000000", color: "rgb(71,225,163)"},
+	{latitude: 0.3, longitude: 5.55, title: "Rogue Dead Guy", description: "Maibock / Helles Bock",textColor: "#000000", color: "rgb(112,232,184)"},
+	{latitude: 0.45, longitude: 5.55, title: "Rogue Dead Guy", description: "Maibock / Helles Bock",textColor: "#000000", color: "rgb(240,189,162)"},
+	{latitude: 0.6, longitude: 5.55, title: "Rogue Dead Guy", description: "Maibock / Helles Bock",textColor: "#000000", color: "rgb(249,231,221)"},
+	{latitude: 0.0, longitude: 5.7, title: "Guinness Guinness Draught", description: "Irish Dry Stout",textColor: "#000000", color: "rgb(240,252,247)"},
+	{latitude: 0.15, longitude: 5.7, title: "Guinness Guinness Draught", description: "Irish Dry Stout",textColor: "#000000", color: "rgb(252,244,239)"},
+	{latitude: 0.3, longitude: 5.7, title: "Guinness Guinness Draught", description: "Irish Dry Stout",textColor: "#000000", color: "rgb(234,163,125)"},
+	{latitude: 0.45, longitude: 5.7, title: "Guinness Guinness Draught", description: "Irish Dry Stout",textColor: "#000000", color: "rgb(52,222,154)"},
+	{latitude: 0.6, longitude: 5.7, title: "Guinness Guinness Draught", description: "Irish Dry Stout",textColor: "#000000", color: "rgb(242,200,177)"},
+	{latitude: 0.0, longitude: 5.85, title: "Michelob Lager", description: "American Pale Lager",textColor: "#000000", color: "rgb(220,104,41)"},
+	{latitude: 0.15, longitude: 5.85, title: "Michelob Lager", description: "American Pale Lager",textColor: "#000000", color: "rgb(240,190,164)"},
+	{latitude: 0.3, longitude: 5.85, title: "Michelob Lager", description: "American Pale Lager",textColor: "#000000", color: "rgb(245,211,193)"},
+	{latitude: 0.45, longitude: 5.85, title: "Michelob Lager", description: "American Pale Lager",textColor: "#000000", color: "rgb(251,238,230)"},
+	{latitude: 0.6, longitude: 5.85, title: "Michelob Lager", description: "American Pale Lager",textColor: "#000000", color: "rgb(254,253,253)"},
+	{latitude: 0.0, longitude: 6.0, title: "Deschutes Black Butte Porter", description: "American Porter",textColor: "#000000", color: "rgb(248,227,216)"},
+	{latitude: 0.15, longitude: 6.0, title: "Deschutes Black Butte Porter", description: "American Porter",textColor: "#000000", color: "rgb(254,252,250)"},
+	{latitude: 0.3, longitude: 6.0, title: "Deschutes Black Butte Porter", description: "American Porter",textColor: "#000000", color: "rgb(231,153,110)"},
+	{latitude: 0.45, longitude: 6.0, title: "Deschutes Black Butte Porter", description: "American Porter",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 0.6, longitude: 6.0, title: "Deschutes Black Butte Porter", description: "American Porter",textColor: "#000000", color: "rgb(250,236,229)"},
+	{latitude: 0.0, longitude: 6.15, title: "Coors Blue Moon Harvest Moon", description: "Pumpkin Ale",textColor: "#000000", color: "rgb(232,155,114)"},
+	{latitude: 0.15, longitude: 6.15, title: "Coors Blue Moon Harvest Moon", description: "Pumpkin Ale",textColor: "#000000", color: "rgb(237,178,146)"},
+	{latitude: 0.3, longitude: 6.15, title: "Coors Blue Moon Harvest Moon", description: "Pumpkin Ale",textColor: "#000000", color: "rgb(164,240,210)"},
+	{latitude: 0.45, longitude: 6.15, title: "Coors Blue Moon Harvest Moon", description: "Pumpkin Ale",textColor: "#000000", color: "rgb(248,225,212)"},
+	{latitude: 0.6, longitude: 6.15, title: "Coors Blue Moon Harvest Moon", description: "Pumpkin Ale",textColor: "#000000", color: "rgb(248,225,212)"},
+	{latitude: 0.0, longitude: 6.3, title: "Yuengling Black and Tan", description: "Black and Tan",textColor: "#000000", color: "rgb(231,152,109)"},
+	{latitude: 0.15, longitude: 6.3, title: "Yuengling Black and Tan", description: "Black and Tan",textColor: "#000000", color: "rgb(237,178,147)"},
+	{latitude: 0.3, longitude: 6.3, title: "Yuengling Black and Tan", description: "Black and Tan",textColor: "#000000", color: "rgb(240,189,162)"},
+	{latitude: 0.45, longitude: 6.3, title: "Yuengling Black and Tan", description: "Black and Tan",textColor: "#000000", color: "rgb(218,249,236)"},
+	{latitude: 0.6, longitude: 6.3, title: "Yuengling Black and Tan", description: "Black and Tan",textColor: "#000000", color: "rgb(249,230,220)"},
+	{latitude: 0.0, longitude: 6.45, title: "Yuengling Traditional Lager", description: "American Amber / Red Lager",textColor: "#000000", color: "rgb(240,191,164)"},
+	{latitude: 0.15, longitude: 6.45, title: "Yuengling Traditional Lager", description: "American Amber / Red Lager",textColor: "#000000", color: "rgb(248,226,214)"},
+	{latitude: 0.3, longitude: 6.45, title: "Yuengling Traditional Lager", description: "American Amber / Red Lager",textColor: "#000000", color: "rgb(247,223,210)"},
+	{latitude: 0.45, longitude: 6.45, title: "Yuengling Traditional Lager", description: "American Amber / Red Lager",textColor: "#000000", color: "rgb(71,225,164)"},
+	{latitude: 0.6, longitude: 6.45, title: "Yuengling Traditional Lager", description: "American Amber / Red Lager",textColor: "#000000", color: "rgb(238,183,153)"},
+	{latitude: 0.0, longitude: 6.6, title: "Stone Smoked Porter", description: "American Porter",textColor: "#000000", color: "rgb(248,228,216)"},
+	{latitude: 0.15, longitude: 6.6, title: "Stone Smoked Porter", description: "American Porter",textColor: "#000000", color: "rgb(239,185,156)"},
+	{latitude: 0.3, longitude: 6.6, title: "Stone Smoked Porter", description: "American Porter",textColor: "#000000", color: "rgb(226,131,79)"},
+	{latitude: 0.45, longitude: 6.6, title: "Stone Smoked Porter", description: "American Porter",textColor: "#000000", color: "rgb(254,254,254)"},
+	{latitude: 0.6, longitude: 6.6, title: "Stone Smoked Porter", description: "American Porter",textColor: "#000000", color: "rgb(237,179,147)"},
+	{latitude: 0.0, longitude: 6.75, title: "Samuel Adams Boston Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(241,194,169)"},
+	{latitude: 0.15, longitude: 6.75, title: "Samuel Adams Boston Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(242,197,173)"},
+	{latitude: 0.3, longitude: 6.75, title: "Samuel Adams Boston Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(103,230,179)"},
+	{latitude: 0.45, longitude: 6.75, title: "Samuel Adams Boston Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(244,208,189)"},
+	{latitude: 0.6, longitude: 6.75, title: "Samuel Adams Boston Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(240,189,162)"},
+	{latitude: 0.0, longitude: 6.9, title: "Samuel Adams Noble Pils", description: "German Pilsener",textColor: "#000000", color: "rgb(229,142,94)"},
+	{latitude: 0.15, longitude: 6.9, title: "Samuel Adams Noble Pils", description: "German Pilsener",textColor: "#000000", color: "rgb(203,246,229)"},
+	{latitude: 0.3, longitude: 6.9, title: "Samuel Adams Noble Pils", description: "German Pilsener",textColor: "#000000", color: "rgb(181,243,218)"},
+	{latitude: 0.45, longitude: 6.9, title: "Samuel Adams Noble Pils", description: "German Pilsener",textColor: "#000000", color: "rgb(138,236,197)"},
+	{latitude: 0.6, longitude: 6.9, title: "Samuel Adams Noble Pils", description: "German Pilsener",textColor: "#000000", color: "rgb(236,174,141)"},
+	{latitude: 0.0, longitude: 7.05, title: "New Belgium Fat Tire", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(209,247,232)"},
+	{latitude: 0.15, longitude: 7.05, title: "New Belgium Fat Tire", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(46,221,151)"},
+	{latitude: 0.3, longitude: 7.05, title: "New Belgium Fat Tire", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(240,191,164)"},
+	{latitude: 0.45, longitude: 7.05, title: "New Belgium Fat Tire", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(104,231,180)"},
+	{latitude: 0.6, longitude: 7.05, title: "New Belgium Fat Tire", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(243,205,184)"},
+	{latitude: 0.0, longitude: 7.2, title: "Stella Artois Stella Artois", description: "Euro Pale Lager",textColor: "#000000", color: "rgb(244,209,190)"},
+	{latitude: 0.15, longitude: 7.2, title: "Stella Artois Stella Artois", description: "Euro Pale Lager",textColor: "#000000", color: "rgb(249,229,219)"},
+	{latitude: 0.3, longitude: 7.2, title: "Stella Artois Stella Artois", description: "Euro Pale Lager",textColor: "#000000", color: "rgb(21,217,139)"},
+	{latitude: 0.45, longitude: 7.2, title: "Stella Artois Stella Artois", description: "Euro Pale Lager",textColor: "#000000", color: "rgb(222,110,50)"},
+	{latitude: 0.6, longitude: 7.2, title: "Stella Artois Stella Artois", description: "Euro Pale Lager",textColor: "#000000", color: "rgb(214,248,234)"},
+	{latitude: 0.0, longitude: 7.35, title: "Sierra Nevada Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(238,183,153)"},
+	{latitude: 0.15, longitude: 7.35, title: "Sierra Nevada Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(237,175,142)"},
+	{latitude: 0.3, longitude: 7.35, title: "Sierra Nevada Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(75,226,165)"},
+	{latitude: 0.45, longitude: 7.35, title: "Sierra Nevada Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(234,166,129)"},
+	{latitude: 0.6, longitude: 7.35, title: "Sierra Nevada Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(169,241,212)"},
+];
+
+var mapCenter = new google.maps.LatLng(11.9807276122, 4.99151301465);
+var zoomStart = 5;
+
+function initialize() {
+	var mapOptions = {
+		zoom: zoomStart,
+		center: mapCenter,
+		streetViewControl: false,
+		mapTypeId: 'coordinate',
+		mapTypeControlOptions: {
+			mapTypeIds: ['coordinate'],
+			style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+		}
+	};
+	map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+
+	for (var i=0;i<beerMapData.length;i++)
+	{
+		var myOptions = {
+			content: beerMapData[i]['title']+"<br/>("+beerMapData[i]['description']+")"
+			,boxStyle: {
+				border: "1px solid black"
+				,textAlign: "center"
+				,fontSize: "6pt"
+				,width: "60px"
+				,color: beerMapData[i]['textColor']
+				,backgroundColor: beerMapData[i]['color']
+			}
+			,disableAutoPan: true
+			,pixelOffset: new google.maps.Size(-25, 0)
+			,position: new google.maps.LatLng(beerMapData[i]['latitude'], beerMapData[i]['longitude'])
+			,closeBoxURL: ""
+			,isHidden: false
+			,pane: "mapPane"
+			,enableEventPropagation: true
+		};
+		var ibLabel = new InfoBox(myOptions);
+		ibLabel.open(map);
+	}
+
+map.mapTypes.set('coordinate', coordinateMapType);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+		</script>
+	</head>
+	<body>
+		<div id="map-canvas"></div>
+	</body>
+</html>
