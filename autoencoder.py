@@ -3,7 +3,7 @@ import theano.tensor as T
 import numpy as np
 
 class CFAutoencoder(object):
-    def __init__(self, input_tensor, n_in, n_hidden, learning_rate, prior_self=None, mask_tensor=None, pct_blackout=0.2, 
+    def __init__(self, n_in, n_hidden, learning_rate, prior_self=None, input_tensor=None, mask_tensor=None, pct_blackout=0.2, 
                     W=None, b_in=None, b_out=None):
         if W == None:
             # initialization of weights as suggested in theano tutorials
@@ -114,7 +114,7 @@ class CFAutoencoder(object):
             # here we are setting the actual values of all of those theano scalar and matrix placeholders
             self.train_step2 = theano.function([i, batch_size], self.cost2, 
                                             updates=self.updates2, 
-                                            givens={self.x2:         get_activation_function(self.prior_self.inputs[i:i+batch_size])
+                                            givens={self.x2:         get_activation_function(self.prior_self)[i:i+batch_size]
 
 
     def get_activation_function(self):

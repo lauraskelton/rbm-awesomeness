@@ -27,10 +27,16 @@ shared_mask = theano.shared(train_mask, "train_mask")
 shared_test = theano.shared(test_set, "test_set")
 shared_test_mask = theano.shared(test_mask, "test_mask")
 
-nn10 = ae.CFAutoencoder(shared_train, shared_mask, data.shape[1], 
-                        10, LEARNING_RATE)
-nn50 = ae.CFAutoencoder(shared_train, shared_mask, data.shape[1], 
-                        50, LEARNING_RATE)
+#(self, n_in, n_hidden, learning_rate, prior_self=None, input_tensor=None, mask_tensor=None, pct_blackout=0.2, W=None, b_in=None, b_out=None):
+nn10 = ae.CFAutoencoder(data.shape[1], 
+                        10, LEARNING_RATE, prior_self=None, input_tensor=shared_train, mask_tensor=shared_mask)
+nn50 = ae.CFAutoencoder(data.shape[1], 
+                        50, LEARNING_RATE, prior_self=None, input_tensor=shared_train, mask_tensor=shared_mask)
+
+nn10_2 = ae.CFAutoencoder(nn10.n_hidden, 
+                        5, LEARNING_RATE, prior_self=nn10)
+nn50_2 = ae.CFAutoencoder(nn50.n_hidden, 
+                        25, LEARNING_RATE, prior_self=nn50)
 
 def epoch(batch_size_to_use, n_train, theano_function):
     i=0
@@ -74,6 +80,11 @@ print "\n\t[Training] 10-hidden node autoencoder:"
 run_epochs(nn10, 1000, 256, eighty)
 print "\n\t[Training] 50-hidden node autoencoder:"
 run_epochs(nn50, 1000, 256, eighty)
+
+print "\n\t[Training] 10-hidden node autoencoder 2nd Layer:"
+run_epochs(nn10_2, 1000, 256, eighty)
+print "\n\t[Training] 50-hidden node autoencoder 2nd Layer:"
+run_epochs(nn50_2, 1000, 256, eighty)
 
 def make_readable(weights):
 	return {names[i] : weight for i, weight in enumerate(weights)}
