@@ -94,6 +94,14 @@ class CFAutoencoder(object):
 
 
     def save(self, f):
-        with open(f, "wb") as f:
-            cPickle.dump([thing.get_value() for thing in self.parameters], f)
+        params = {thing.name : thing.get_value() for thing in nn.parameters}
+        params['n_in'] = self.n_in
+        params['n_hidden'] = self.n_hidden
+        params['learning_rate'] = self.learning_rate
+        params['pct_blackout'] = self.pct_blackout
+        np.savez_compressed(f, **params)
+
+    def load(f):
+        stuff = np.load(f)
+        return stuff
 

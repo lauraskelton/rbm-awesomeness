@@ -62,3 +62,4 @@ def make_readable(weights):
 	return {names[i] : weight for i, weight in enumerate(weights)}
 
 dicts = [make_readable(row) for row in nn.W.get_value().T]
+
