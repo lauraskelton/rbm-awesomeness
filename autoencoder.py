@@ -67,6 +67,32 @@ class CFAutoencoder(object):
                                                     self.x_mask:   self.mask[i:i+batch_size]})
 
 
+    def get_activation_function(self):
+        self.clean_hidden = T.nnet.sigmoid(T.dot(self.x, self.W) + self.b_in)
+        self.clean_output = T.nnet.sigmoid(T.dot(self.clean_hidden, self.W.T) + self.b_out)
+        self.clean_activation_function = theano.function([self.x], self.clean_output)
+
+        return self.clean_activation_function
+
+    def get_testing_function(self, test_data, test_mask, pct_blackout=0.5):
+        self.test_noise = T.shared_randomstreams.RandomStreams(1234).binomial(
+                            (self.x.shape), n=1, p=1-pct_blackout, 
+                            dtype=theano.config.floatX)
+        self.test_noisy = self.test_noise * self.x
+        self.test_active_hidden = T.nnet.sigmoid(T.dot(self.test_noisy, self.W) + self.b_in)
+        self.test_output = T.nnet.sigmoid(T.dot(self.test_active_hidden, self.W.T) + self.b_out)
+
+        # root mean squared error of unknowns only
+        self.only_originally_unknown = T.dot(1-self.test_noise, T.dot(self.x_mask, self.test_output))
+        self.test_error = T.pow(T.mean(T.pow(T.dot(self.x_mask, self.test_output) - self.x), 2)), 0.5)
+
+        self.testing_function = theano.function([i, batch_size], self.test_error, 
+                                                givens={self.x:        test_data[i:i+batch_size],
+                                                        self.x_mask:   test_mask[i:i+batch_size]})
+
+        return self.testing_function
+
+
     def save(self, f):
         with open(f, "wb") as f:
             cPickle.dump([thing.get_value() for thing in self.parameters], f)
