@@ -63,7 +63,7 @@ class CFAutoencoder(object):
         i, batch_size = T.iscalars('i', 'batch_size')
         self.train_step = theano.function([i, batch_size], self.cost, 
                                             updates=self.updates, 
-                                            givens={self.x:         self.inputs[i:i+batch_size],
+                                            givens={self.x:        self.inputs[i:i+batch_size],
                                                     self.x_mask:   self.mask[i:i+batch_size]})
 
 
@@ -84,7 +84,7 @@ class CFAutoencoder(object):
 
         # root mean squared error of unknowns only
         self.only_originally_unknown = T.dot(1-self.test_noise, T.dot(self.x_mask, self.test_output))
-        self.test_error = T.pow(T.mean(T.pow(T.dot(self.x_mask, self.test_output) - self.x), 2)), 0.5)
+        self.test_error = T.pow(T.mean(T.pow(T.dot(self.x_mask, self.test_output) - self.x, 2)), 0.5)
 
         self.testing_function = theano.function([i, batch_size], self.test_error, 
                                                 givens={self.x:        test_data[i:i+batch_size],

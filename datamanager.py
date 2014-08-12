@@ -54,7 +54,7 @@ def createNDArray():
 	for j in range(0,len(usersArray)):
 		for k in range(0,len(beersArray)):
 			if beersArray[k][0] in userPrefs[usersArray[j][0]]:
-				rating = userPrefs[usersArray[j][0]][beersArray[k][0]]
+				rating = (userPrefs[usersArray[j][0]][beersArray[k][0]] * 5 - 1) / 4
 				trainingArray[j][k] = rating
 				bitMaskArray[j][k] = 1
 
