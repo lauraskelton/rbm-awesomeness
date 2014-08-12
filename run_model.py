@@ -58,10 +58,7 @@ def run_epochs(nn, n_epochs, batch_size, n_train):
 
 run_epochs(nn, 1000, 256, eighty)
 
-def neuron_idx_to_beer_name(names, n):
-	return names[n/5]
-
 def make_readable(weights):
-	return {neuron_idx_to_beer_name(names, i) : weights[i:i+5] for i in xrange(0, len(weights), 5)}
+	return {names[i] : weight for i, weight in enumerate(weights)}
 
 dicts = [make_readable(row) for row in nn.W.get_value().T]
