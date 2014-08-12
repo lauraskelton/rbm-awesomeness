@@ -6,7 +6,7 @@ import theano.tensor as T
 import time
 
 
-N_HIDDEN = 50
+N_HIDDEN = 10
 LEARNING_RATE = 0.05
 
 data, mask, names = dm.createNDArray()
