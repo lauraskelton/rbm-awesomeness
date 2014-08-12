@@ -19,15 +19,12 @@ def loadStyle(path='data'):
 def writeBeerMapData(beerWeights):
 	style = loadStyle()
 	output = []
-	newBeersArray = sorted(beerWeights.iteritems(), key=lambda thing:sum([abs(i) for i in thing[1]]))
+	newBeersArray = sorted(beerWeights.iteritems(), key=operator.itemgetter(1))
 	hOffset = 0
-	for beer, ratingWeights in newBeersArray[-50:]:
-		vOffset = 0
-		for ratingWeight in ratingWeights:
-			loc = [vOffset * 0.01, hOffset * 0.01]
-			(r,g,b) = getBackgroundColor(ratingWeight, np.max(beerWeights.values()), np.min(beerWeights.values()))
-			output.append(outputBeer(loc,beer,style[beer],'#000000','rgb('+str(r)+','+str(g)+','+str(b)+')'))
-			vOffset += 1
+	for beer, ratingWeight in newBeersArray[-50:]:
+		loc = [vOffset * 0.01, hOffset * 0.01]
+		(r,g,b) = getBackgroundColor(ratingWeight, np.max(beerWeights.values()), np.min(beerWeights.values()))
+		output.append(outputBeer(loc,beer,style[beer],'#000000','rgb('+str(r)+','+str(g)+','+str(b)+')'))
 		hOffset += 1
 	return ''.join(output)
 
