@@ -3,8 +3,8 @@ import theano.tensor as T
 import numpy as np
 
 class CFAutoencoder(object):
-    def __init__(self, n_in, n_hidden, learning_rate, prior_self=None, input_tensor=None, mask_tensor=None, pct_blackout=0.2, 
-                    W=None, b_in=None, b_out=None):
+    def __init__(self, n_in, n_hidden, learning_rate, prior_self=None, input_tensor=None, mask_tensor=None, 
+                    pct_blackout=0.2, W=None, b_in=None, b_out=None):
         if W == None:
             # initialization of weights as suggested in theano tutorials
 
