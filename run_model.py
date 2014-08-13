@@ -156,3 +156,48 @@ run_epochs(layer4_tune, 256, eighty)
 
 # let's get this thing trained!
 
+######################
+# test the network
+
+# need to start with real input data at the input layer, but corrupted
+# we already did this in nn64... it should be just nn64_1.noisy. done.
+
+# save mask of how data was corrupted, as well as mask of missing/meaningless input data
+# again, we already did this in nn64... it is nn64_1.noise.
+# but wait! we called set_noise(0) above, so we need to reset the noise to re-corrupt the inputs.
+nn64_1.set_noise(0.5)
+
+# run it through the network to the first hidden layer
+# didn't we already do this as well with the exact same data? hmm... this should be nn64_1.active_hidden (= the activations of the first hidden layer)
+# no. we have to re-run it through with the noisy input data. (or this happens at the end?? I think? so nn64_1.active_hidden should update automatically to the new noisy inputs.)
+
+# send the activations of the first hidden layer to the second hidden layer
+# make sure we are sending the original, uncorrupted activations at this layer, not the noisy ones
+# this will happen if we call nn64_2.set_noise(0). which we already did, above.
+
+# send the activations of the second hidden layer to the third hidden layer (nn64_2.active_hidden)
+# this should be ok... we already made the third hidden layer dependent on the second one, and set_noise(0) on it 
+
+# send the activations (nn64_3.active_hidden) of the third hidden layer back down through the output function to the second hidden layer
+# nn64_4.output - the third layer's output activations (going downward in the stack of autoencoders)
+# how do we run the next layer backwards? do we take the output as the input for nn64_3 now?
+# maybe we need to run it first to get the activations at the top layer?
+nn64_3.input = nn64_4.output # ???
+
+# use the output function to send the (new) activations of the second hidden layer down to the first hidden layer
+
+nn64_2.input = nn64_3.output # ???
+# use the output function to send the (new) activations of the first hidden layer down to the input layer
+# nn64_2.output should be the predictions of the input data after going through our neural network
+
+# mask out the meaningless data from the neural network's output matrix
+# mask out the values we input (the uncorrupted values) from the output matrix (so we are only measuring error on beers that were predicted)
+nn64_prediction = T.dot(T.dot(nn64_2.output, nn64_1.mask), 1 - nn64_1.noise)
+
+# use root mean squared error to check how accurate our predictions were when using the entire neural network
+nn64_test_error = T.pow(T.mean(T.pow(nn64_prediction - nn64_1.inputs, 2)), 0.5)
+
+print "\n\t[Testing] 64-hidden node autoencoder error: {}".format(nn64_test_error)
+
+
+
