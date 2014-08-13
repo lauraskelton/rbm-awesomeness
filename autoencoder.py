@@ -6,7 +6,7 @@ matrixType = T.TensorType(theano.config.floatX, (False,)*2)
 
 class CFAutoencoder(object):
     def __init__(self, n_in, n_hidden, inputs, mask=None, learning_rate=0.05, 
-                    pct_noise=0.0, W=None, b_in=None, b_out=None):
+                    pct_noise=0.5, W=None, b_in=None, b_out=None):
         if W == None:
             # initialization of weights as suggested in theano tutorials
 
@@ -83,7 +83,7 @@ class CFAutoencoder(object):
 
 
 
-    def set_mask(self, mask):
+    def set_cost_and_updates(self, mask=None):
         self.mask = mask
 
         # entropy is our cost function. it represents how much information was lost.
@@ -158,4 +158,5 @@ class CFAutoencoder(object):
     def load(f):
         stuff = np.load(f)
         return stuff
+
 

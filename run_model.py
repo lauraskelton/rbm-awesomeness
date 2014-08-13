@@ -94,6 +94,16 @@ layer1_train = theano.function([i, batch_size], nn64_1.cost, updates=nn64_1.upda
 
 run_epochs(layer1_train, 256, eighty)
 
+nn64_1.set_noise(0)
+layer1_tune = theano.function([i, batch_size], nn64_1.cost, updates=nn64_1.updates,
+                                        givens={x:      shared_train[i:i+batch_size],
+                                                x_mask: shared_mask[i:i+batch_size]})
+
+run_epochs(layer1_tune, 256, eighty)
+
+# do this for each layer...
+# ... profit!
+
 # training_function = theano.function([i, batch_size], nn64_1.cost, updates=nn64_1.updates,
 #                                         givens={x:      ?})
 
