@@ -102,30 +102,3 @@ layer1_tune = theano.function([i, batch_size], nn64_1.cost, updates=nn64_1.updat
 run_epochs(layer1_tune, 256, eighty)
 
 # do this for each layer...
-# ... profit!
-
-# training_function = theano.function([i, batch_size], nn64_1.cost, updates=nn64_1.updates,
-#                                         givens={x:      ?})
-
-# run_epochs(nn64_1, 256, eighty)
-
-
-# print "\n\t[Training] 64-hidden node autoencoder 2nd Layer:"
-# run_epochs(nn64_2, 1000, 256, eighty)
-
-# print "\n\t[Training] 64-hidden node autoencoder 3rd Layer:"
-# run_epochs(nn64_3, 1000, 256, eighty)
-
-# print "\n\t[Training] 64-hidden node autoencoder 4th Layer:"
-# run_epochs(nn64_4, 1000, 256, eighty)
-
-# def make_readable(weights):
-# 	return {names[i] : weight for i, weight in enumerate(weights)}
-
-# # dicts = [make_readable(row) for row in nn.W.get_value().T]
-
-# test_size = len(test_set)
-# test64 = nn64.get_testing_function(shared_test, shared_test_mask)
-
-# print "Test error with 64-node network:"
-# print np.mean(test64(0,test_size))
