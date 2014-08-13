@@ -75,11 +75,11 @@ x_mask = ae.matrixType('mask')
 
 nn64_1 = ae.CFAutoencoder(data.shape[1], 64, inputs=x, mask=x_mask)
 
-nn64_2 = ae.CFAutoencoder(nn64_1.n_hidden, 32, inputs=nn64_1.output, mask=x_mask)
+nn64_2 = ae.CFAutoencoder(nn64_1.n_hidden, 32, inputs=nn64_1.active_hidden, mask=x_mask)
 
-nn64_3 = ae.CFAutoencoder(nn64_2.n_hidden, 16, inputs=nn64_2.output, mask=x_mask)
+nn64_3 = ae.CFAutoencoder(nn64_2.n_hidden, 16, inputs=nn64_2.active_hidden, mask=x_mask)
 
-nn64_4 = ae.CFAutoencoder(nn64_3.n_hidden, 8, inputs=nn64_3.output, mask=x_mask)
+nn64_4 = ae.CFAutoencoder(nn64_3.n_hidden, 8, inputs=nn64_3.active_hidden, mask=x_mask)
 
 
 ######################
