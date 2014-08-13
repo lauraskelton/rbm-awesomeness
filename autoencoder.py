@@ -43,7 +43,7 @@ class CFAutoencoder(object):
         self.mask = mask
 
         self.set_noise(self.pct_noise)
-        self.set_mask(self.mask)
+        self.set_cost_and_updates(self.mask)
 
     def set_noise(self, pct_noise):
         self.pct_noise = pct_noise

@@ -101,4 +101,50 @@ layer1_tune = theano.function([i, batch_size], nn64_1.cost, updates=nn64_1.updat
 
 run_epochs(layer1_tune, 256, eighty)
 
-# do this for each layer...
+
+
+layer2_train = theano.function([i, batch_size], nn64_2.cost, updates=nn64_2.updates,
+                                        givens={x:      shared_train[i:i+batch_size],
+                                                x_mask: shared_mask[i:i+batch_size]})
+
+run_epochs(layer2_train, 256, eighty)
+
+nn64_2.set_noise(0)
+layer2_tune = theano.function([i, batch_size], nn64_2.cost, updates=nn64_2.updates,
+                                        givens={x:      shared_train[i:i+batch_size],
+                                                x_mask: shared_mask[i:i+batch_size]})
+
+run_epochs(layer2_tune, 256, eighty)
+
+
+
+layer3_train = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
+                                        givens={x:      shared_train[i:i+batch_size],
+                                                x_mask: shared_mask[i:i+batch_size]})
+
+run_epochs(layer3_train, 256, eighty)
+
+nn64_3.set_noise(0)
+layer3_tune = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
+                                        givens={x:      shared_train[i:i+batch_size],
+                                                x_mask: shared_mask[i:i+batch_size]})
+
+run_epochs(layer3_tune, 256, eighty)
+
+
+
+layer4_train = theano.function([i, batch_size], nn64_4.cost, updates=nn64_4.updates,
+                                        givens={x:      shared_train[i:i+batch_size],
+                                                x_mask: shared_mask[i:i+batch_size]})
+
+run_epochs(layer4_train, 256, eighty)
+
+nn64_4.set_noise(0)
+layer4_tune = theano.function([i, batch_size], nn64_4.cost, updates=nn64_4.updates,
+                                        givens={x:      shared_train[i:i+batch_size],
+                                                x_mask: shared_mask[i:i+batch_size]})
+
+run_epochs(layer4_tune, 256, eighty)
+
+# let's get this thing trained!
+
