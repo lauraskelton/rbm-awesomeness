@@ -144,16 +144,18 @@ run_epochs(layer3_tune, 256, eighty)
 
 # self.parameters = [self.W, self.b_in, self.b_out]
 
-# set parameters of final layer to update every single layer's weights and biases... because the cost function already depends on all of these
-n64_3.parameters = [n64_3.W, n64_3.b_in, n64_3.b_out, n64_2.W, n64_2.b_in, n64_2.b_out, n64_1.W, n64_1.b_in, n64_1.b_out]
-
 # set gradient to depend on all of the parameters we set above, so that "updates" will update all of the layers' weights and biases
-n64_3.gradients = T.grad(n64_3.cost, n64_3.parameters)
+entire_network_params = [thing.parameters for thing in [n64_3, n64_2, n64_1]]
+entire_network_gradients = T.grad(n64_3.cost, entire_network_params)
 
+# make a vector of the new values of each parameter by descending slightly along the gradient (opposite direction of gradient, to move towards lower cost)
 nn64_3.learning_rate = 0.05
+entire_network_updates = []
+for param, grad in zip(entire_network_params, entire_network_gradients):
+    self.updates.append((param, param - nn64_3.learning_rate * grad))
 
 print "\n\t[Training] Entire Network:"
-entire_network_train = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
+entire_network_train = theano.function([i, batch_size], nn64_3.cost, updates=entire_network_updates,
                                         givens={x:      shared_train[i:i+batch_size],
                                                 x_mask: shared_mask[i:i+batch_size]})
 
@@ -162,7 +164,7 @@ run_epochs(entire_network_train, 256, eighty)
 nn64_3.set_noise(0)
 nn64_3.learning_rate = 0.01
 print "\n\t[Tuning] Entire Network:"
-entire_network_tune = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
+entire_network_tune = theano.function([i, batch_size], nn64_3.cost, updates=entire_network_updates,
                                         givens={x:      shared_train[i:i+batch_size],
                                                 x_mask: shared_mask[i:i+batch_size]})
 
