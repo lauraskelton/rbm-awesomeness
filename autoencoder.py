@@ -113,7 +113,11 @@ class CFAutoencoder(object):
         
 
         # now we save the current version of the weights matrix, the input biases, and the output biases to represent this state of the neural network
-        self.parameters = [self.W, self.b_in, self.b_out]
+        if self.original_input:
+            self.parameters = [self.W, self.b_in]
+        else:
+            self.parameters = [self.W, self.b_in, self.b_out]
+
         # calculate the gradient (direction of greatest change of the cost vector) so we can step towards a lower cost in the next iteration
         self.gradients = T.grad(self.cost, self.parameters)
 
