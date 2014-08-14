@@ -7,7 +7,7 @@ matrixType = T.TensorType(theano.config.floatX, (False,)*2)
 class CFAutoencoder(object):
     def __init__(self, n_in, n_hidden, inputs, mask=None, learning_rate=0.05, 
                     pct_noise=0.5, W=None, b_in=None, b_out=None, original_input=None):
-        if W == None:
+        if W is None:
             # initialization of weights as suggested in theano tutorials
 
             # initialize random starting weights in an intelligent way
@@ -19,13 +19,13 @@ class CFAutoencoder(object):
 
         self.W = theano.shared(W, 'W')
 
-        if b_in == None:
+        if b_in is None:
             # initialize input biases as zeros
             self.b_in = theano.shared(np.zeros(n_hidden, dtype=theano.config.floatX), 'b_in')
         else:
             self.b_in = theano.shared(b_in, 'b_in')
 
-        if b_out == None:
+        if b_out is None:
             # initialize output biases as zeros
             self.b_out = theano.shared(np.zeros(n_in, dtype=theano.config.floatX), 'b_out')
         else:
