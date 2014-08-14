@@ -8,7 +8,7 @@ import time
 def epoch(batch_size_to_use, n_train, theano_function):
     i=0
     costs = []
-    while i + batch_size_to_use < n_train:
+    while i + batch_size_to_use <= n_train:
         costs.append(theano_function(i, batch_size_to_use))
         i += batch_size_to_use
 
@@ -77,15 +77,8 @@ nn64_1 = ae.CFAutoencoder(data.shape[1], 64, inputs=x, mask=x_mask)
 
 nn64_2 = ae.CFAutoencoder(nn64_1.n_hidden, 32, inputs=nn64_1.active_hidden)
 
-<<<<<<< HEAD
-nn64_3 = ae.CFAutoencoder(nn64_2.n_hidden, 16, inputs=nn64_2.active_hidden)
-
-nn64_4 = ae.CFAutoencoder(nn64_3.n_hidden, 8, inputs=nn64_3.active_hidden)
-=======
 # final output layer
 nn64_3 = ae.CFAutoencoder(nn64_2.n_hidden, data.shape[1], inputs=nn64_2.active_hidden, mask=x_mask, original_input=x)
->>>>>>> Added final output layer
-
 
 ######################
 # train the network
@@ -141,6 +134,40 @@ layer3_tune = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updat
 run_epochs(layer3_tune, 256, eighty)
 
 
+######################
+# train the entire network
+
+
+# the cost function is the same as the final output layer cost
+# the only difference is that we need to use updates to update the weights and biases of the ENTIRE NETWORK,
+# not just the current layer... so the gradient function might be different? and the updates function is different... or extended at least...
+
+# self.parameters = [self.W, self.b_in, self.b_out]
+
+# set parameters of final layer to update every single layer's weights and biases... because the cost function already depends on all of these
+n64_3.parameters = [n64_3.W, n64_3.b_in, n64_3.b_out, n64_2.W, n64_2.b_in, n64_2.b_out, n64_1.W, n64_1.b_in, n64_1.b_out]
+
+# set gradient to depend on all of the parameters we set above, so that "updates" will update all of the layers' weights and biases
+n64_3.gradients = T.grad(n64_3.cost, n64_3.parameters)
+
+nn64_3.learning_rate = 0.05
+
+print "\n\t[Training] Entire Network:"
+entire_network_train = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
+                                        givens={x:      shared_train[i:i+batch_size],
+                                                x_mask: shared_mask[i:i+batch_size]})
+
+run_epochs(entire_network_train, 256, eighty)
+
+nn64_3.set_noise(0)
+nn64_3.learning_rate = 0.01
+print "\n\t[Tuning] Entire Network:"
+entire_network_tune = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
+                                        givens={x:      shared_train[i:i+batch_size],
+                                                x_mask: shared_mask[i:i+batch_size]})
+
+run_epochs(entire_network_tune, 256, eighty)
+
 # let's get this thing trained!
 
 ######################
@@ -172,11 +199,17 @@ nn64_1.set_noise(0.5)
 nn64_prediction = T.dot(T.dot(nn64_3.active_hidden, nn64_1.mask), 1 - nn64_1.noise)
 
 # use root mean squared error to check how accurate our predictions were when using the entire neural network
-nn64_test_error = T.pow(T.mean(T.pow(nn64_prediction - nn64_1.inputs, 2)), 0.5)
-
-print "\n\t[Testing] 64-hidden node autoencoder error: {}".format(nn64_test_error)
+nn64_test_error = T.mean(T.pow(T.mean(T.pow(nn64_prediction - nn64_1.inputs, 2)), 0.5))
 
 ######## How do I actually call the testing function with Theano?
+
+n64_testing_function = theano.function([x,x_mask], nn64_test_error)
+
+cost = []
+for i in xrange(0,10):
+    cost.append(theano_function(shared_train,shared_mask))
+
+print "\n\t[Testing] 64-hidden node autoencoder error: {}".format(T.mean(cost))
 
 
 

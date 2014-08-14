@@ -123,6 +123,10 @@ class CFAutoencoder(object):
         for param, grad in zip(self.parameters, self.gradients):
             self.updates.append((param, param - self.learning_rate * grad))
 
+        # the cost function is the same as the final output layer cost
+        # the only difference is that we need to use updates to update the weights and biases of the ENTIRE NETWORK,
+        # not just the current layer... so the gradient function might be different? and the updates function is different... or extended at least...
+
 
 
     def get_output_function(self):
