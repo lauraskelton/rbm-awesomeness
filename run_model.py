@@ -145,7 +145,7 @@ run_epochs(layer3_tune, 256, eighty)
 # self.parameters = [self.W, self.b_in, self.b_out]
 
 # set gradient to depend on all of the parameters we set above, so that "updates" will update all of the layers' weights and biases
-entire_network_params = [thing.parameters for thing in [n64_3, n64_2, n64_1]]
+entire_network_params = [thing.W, thing.b_in for thing in [n64_3, n64_2, n64_1]]
 entire_network_gradients = T.grad(n64_3.cost, entire_network_params)
 
 # make a vector of the new values of each parameter by descending slightly along the gradient (opposite direction of gradient, to move towards lower cost)
@@ -209,7 +209,7 @@ n64_testing_function = theano.function([x,x_mask], nn64_test_error)
 
 cost = []
 for i in xrange(0,10):
-    cost.append(theano_function(shared_train,shared_mask))
+    cost.append(n64_testing_function(shared_train,shared_mask))
 
 print "\n\t[Testing] 64-hidden node autoencoder error: {}".format(T.mean(cost))
 
