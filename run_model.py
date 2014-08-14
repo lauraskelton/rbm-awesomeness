@@ -77,9 +77,14 @@ nn64_1 = ae.CFAutoencoder(data.shape[1], 64, inputs=x, mask=x_mask)
 
 nn64_2 = ae.CFAutoencoder(nn64_1.n_hidden, 32, inputs=nn64_1.active_hidden)
 
+<<<<<<< HEAD
 nn64_3 = ae.CFAutoencoder(nn64_2.n_hidden, 16, inputs=nn64_2.active_hidden)
 
 nn64_4 = ae.CFAutoencoder(nn64_3.n_hidden, 8, inputs=nn64_3.active_hidden)
+=======
+# final output layer
+nn64_3 = ae.CFAutoencoder(nn64_2.n_hidden, data.shape[1], inputs=nn64_2.active_hidden, mask=x_mask, original_input=x)
+>>>>>>> Added final output layer
 
 
 ######################
@@ -106,8 +111,7 @@ run_epochs(layer1_tune, 256, eighty)
 
 print "\n\t[Training] Layer 2:"
 layer2_train = theano.function([i, batch_size], nn64_2.cost, updates=nn64_2.updates,
-                                        givens={x:      shared_train[i:i+batch_size],
-                                                x_mask: shared_mask[i:i+batch_size]})
+                                        givens={x:      shared_train[i:i+batch_size]})
 
 run_epochs(layer2_train, 256, eighty)
 
@@ -115,13 +119,12 @@ nn64_2.set_noise(0)
 nn64_2.learning_rate = 0.01
 print "\n\t[Tuning] Layer 2:"
 layer2_tune = theano.function([i, batch_size], nn64_2.cost, updates=nn64_2.updates,
-                                        givens={x:      shared_train[i:i+batch_size],
-                                                x_mask: shared_mask[i:i+batch_size]})
+                                        givens={x:      shared_train[i:i+batch_size]})
 
 run_epochs(layer2_tune, 256, eighty)
 
 
-print "\n\t[Training] Layer 3:"
+print "\n\t[Training] Output Layer:"
 layer3_train = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
                                         givens={x:      shared_train[i:i+batch_size],
                                                 x_mask: shared_mask[i:i+batch_size]})
@@ -130,29 +133,13 @@ run_epochs(layer3_train, 256, eighty)
 
 nn64_3.set_noise(0)
 nn64_3.learning_rate = 0.01
-print "\n\t[Tuning] Layer 3:"
+print "\n\t[Tuning] Output Layer:"
 layer3_tune = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
                                         givens={x:      shared_train[i:i+batch_size],
                                                 x_mask: shared_mask[i:i+batch_size]})
 
 run_epochs(layer3_tune, 256, eighty)
 
-
-print "\n\t[Training] Layer 4:"
-layer4_train = theano.function([i, batch_size], nn64_4.cost, updates=nn64_4.updates,
-                                        givens={x:      shared_train[i:i+batch_size],
-                                                x_mask: shared_mask[i:i+batch_size]})
-
-run_epochs(layer4_train, 256, eighty)
-
-nn64_4.set_noise(0)
-nn64_4.learning_rate = 0.01
-print "\n\t[Tuning] Layer 4:"
-layer4_tune = theano.function([i, batch_size], nn64_4.cost, updates=nn64_4.updates,
-                                        givens={x:      shared_train[i:i+batch_size],
-                                                x_mask: shared_mask[i:i+batch_size]})
-
-run_epochs(layer4_tune, 256, eighty)
 
 # let's get this thing trained!
 
@@ -178,26 +165,19 @@ nn64_1.set_noise(0.5)
 # send the activations of the second hidden layer to the third hidden layer (nn64_2.active_hidden)
 # this should be ok... we already made the third hidden layer dependent on the second one, and set_noise(0) on it 
 
-# send the activations (nn64_3.active_hidden) of the third hidden layer back down through the output function to the second hidden layer
-# nn64_4.output - the third layer's output activations (going downward in the stack of autoencoders)
-# how do we run the next layer backwards? do we take the output as the input for nn64_3 now?
-# maybe we need to run it first to get the activations at the top layer?
-nn64_3.input = nn64_4.output # ???
-
-# use the output function to send the (new) activations of the second hidden layer down to the first hidden layer
-
-nn64_2.input = nn64_3.output # ???
-# use the output function to send the (new) activations of the first hidden layer down to the input layer
-# nn64_2.output should be the predictions of the input data after going through our neural network
+# nn64_3.active_hidden should be the predictions of the input data after going through our neural network
 
 # mask out the meaningless data from the neural network's output matrix
 # mask out the values we input (the uncorrupted values) from the output matrix (so we are only measuring error on beers that were predicted)
-nn64_prediction = T.dot(T.dot(nn64_2.output, nn64_1.mask), 1 - nn64_1.noise)
+nn64_prediction = T.dot(T.dot(nn64_3.active_hidden, nn64_1.mask), 1 - nn64_1.noise)
 
 # use root mean squared error to check how accurate our predictions were when using the entire neural network
 nn64_test_error = T.pow(T.mean(T.pow(nn64_prediction - nn64_1.inputs, 2)), 0.5)
 
 print "\n\t[Testing] 64-hidden node autoencoder error: {}".format(nn64_test_error)
+
+######## How do I actually call the testing function with Theano?
+
 
 
 

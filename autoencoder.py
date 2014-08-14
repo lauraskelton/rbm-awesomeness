@@ -6,7 +6,7 @@ matrixType = T.TensorType(theano.config.floatX, (False,)*2)
 
 class CFAutoencoder(object):
     def __init__(self, n_in, n_hidden, inputs, mask=None, learning_rate=0.05, 
-                    pct_noise=0.5, W=None, b_in=None, b_out=None):
+                    pct_noise=0.5, W=None, b_in=None, b_out=None, original_input=None):
         if W == None:
             # initialization of weights as suggested in theano tutorials
 
@@ -41,6 +41,7 @@ class CFAutoencoder(object):
 
         self.inputs = inputs
         self.mask = mask
+        self.original_input = original_input
 
         self.set_noise(self.pct_noise)
         self.set_cost_and_updates(self.mask)
@@ -79,8 +80,11 @@ class CFAutoencoder(object):
         # (is this true? should we rescale the sigmoid in some way to map to the ratings better?)
         # or does the stochastic gradient descent take care of remapping things to the original values of 0.2 to 1.0 well enough on its own?
         # my mental image is worried that the sigmoid is sending too many things to 0.5, which is biasing the predicted ratings to be lower (3 rating maps to 0.6 in input vector)
+        
+        # need to change the output to go "up" if it is the final output layer
+        # then compare the error of the output to the original input layer somehow...
+        # but we can worry about that in the cost function
         self.output = T.nnet.sigmoid(T.dot(self.active_hidden, self.W.T) + self.b_out)
-
 
 
     def set_cost_and_updates(self, mask=None):
@@ -88,11 +92,18 @@ class CFAutoencoder(object):
 
         # entropy is our cost function. it represents how much information was lost.
         # this is applying the entropy cost function to each value of output relative to each value of the uncorrupted original input matrix
-        self.entropy = -T.sum(self.inputs * T.log(self.output) + 
-                                (1 - self.inputs) * T.log(1 - self.output), axis=1)
+        if self.originalInput == None:
+            self.entropy = -T.sum(self.inputs * T.log(self.output) + (1 - self.inputs) * T.log(1 - self.output), axis=1)
+        else:
+            # then compare the error of the output to the original input layer somehow...
+            # so instead of inputs vs output, we need to compare active_hidden to originalInput
+            # active_hidden here is referring to the next "hidden" layer, which is really the output layer (all of the beers)
+            self.entropy = -T.sum(self.original_input * T.log(self.active_hidden) + (1 - self.original_input) * T.log(1-self.active_hidden), axis=1)
 
 
         # return a cost function, with gradient updates
+        # we need to make sure when this is the final output layer that we are passing in the original input mask,
+        # to mask out meaningless data
         if self.mask:
             # we're taking (entropy * mask) to ignore the cost where the input data was unknown/meaningless
             self.cost = T.mean(T.dot(self.entropy, self.mask))
