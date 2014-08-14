@@ -92,11 +92,11 @@ class CFAutoencoder(object):
 
         # entropy is our cost function. it represents how much information was lost.
         # this is applying the entropy cost function to each value of output relative to each value of the uncorrupted original input matrix
-        if self.originalInput == None:
+        if self.original_input == None:
             self.entropy = -T.sum(self.inputs * T.log(self.output) + (1 - self.inputs) * T.log(1 - self.output), axis=1)
         else:
             # then compare the error of the output to the original input layer somehow...
-            # so instead of inputs vs output, we need to compare active_hidden to originalInput
+            # so instead of inputs vs output, we need to compare active_hidden to original_input
             # active_hidden here is referring to the next "hidden" layer, which is really the output layer (all of the beers)
             self.entropy = -T.sum(self.original_input * T.log(self.active_hidden) + (1 - self.original_input) * T.log(1-self.active_hidden), axis=1)
 
