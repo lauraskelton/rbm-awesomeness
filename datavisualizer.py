@@ -198,12 +198,12 @@ def makeBeerMap(allBeerWeights, filename="beernodemap"):
 	print 'gmap uploaded'
 
 def beer_dict_from_weights(names, weight_matrix):
-    dicts = {names[i]:weight for i, weight in enumerate(line) for line in weight_matrix}
+    return [{names[i]:weight for i, weight in enumerate(line)} for line in weight_matrix.T]
 
 
 # This is the function we actually call!!!
 def makeAllBeerMaps(filename="beernodemap"):
-	trainedWeights = np.load("tuned_12.npz")
+	trainedWeights = np.load("tuned_12.npz")['W']
 	trainingArray, bitMaskArray, filteredBeerNamesArray = createNDArray()
 	allBeerWeights = beer_dict_from_weights(filteredBeerNamesArray, trainedWeights)
 	makeBeerMap(allBeerWeights, filename=filename)

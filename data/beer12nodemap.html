@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Beer Map</title>
+		<style>
+			html, body, #map-canvas {
+				height: 100%;
+				margin: 0px;
+				padding: 0px
+			}
+		</style>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script type="text/javascript" src="../beermap/infobox.js"></script>
+		<script>
+
+function CoordMapType() {
+}
+
+CoordMapType.prototype.tileSize = new google.maps.Size(256,256);
+CoordMapType.prototype.maxZoom = 11;
+CoordMapType.prototype.minZoom = 5;
+
+CoordMapType.prototype.getTile = function(coord, zoom, ownerDocument) {
+	var div = ownerDocument.createElement('div');
+	div.innerHTML = '';
+	div.style.width = this.tileSize.width + 'px';
+	div.style.height = this.tileSize.height + 'px';
+	div.style.fontSize = '10';
+	div.style.borderStyle = 'none';
+	div.style.backgroundColor = '#E5E3DF';
+	return div;
+};
+
+CoordMapType.prototype.name = 'Beer';
+CoordMapType.prototype.alt = 'Beer Map Type';
+
+var map;
+var coordinateMapType = new CoordMapType();
+
+var beerMapData = [
+	{latitude: 0.0, longitude: 0.0, title: "Lakefront New Grist", description: "Fruit / Vegetable Beer",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.0, longitude: 0.6, title: "Middle Ages Wailing Wench", description: "American Strong Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.0, longitude: 1.2, title: "Four Peaks Hop Knot", description: "American IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.0, longitude: 1.8, title: "Flying Dog In Heat Wheat", description: "Hefeweizen",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.0, longitude: 2.4, title: "North Coast Old Stock Ale", description: "Old Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.0, longitude: 3.0, title: "Abita SOS", description: "German Pilsener",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.0, longitude: 3.6, title: "Ithaca Alphalpha", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.0, longitude: 4.2, title: "Sea Dog Blue Paw", description: "Fruit / Vegetable Beer",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.0, longitude: 4.8, title: "Full Sail Slipknot Imperial IPA", description: "Imperial IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.0, longitude: 5.4, title: "Lagunitas Hop Stoopid", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 0.0, longitude: 6.0, title: "Haandbryggeriet Odin's Tipple", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 0.0, longitude: 6.6, title: "Genesee Dundee Honey Brown", description: "American Amber / Red Lager",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 0.0, longitude: 7.2, title: "Great Divide St. Bridget's Porter", description: "American Porter",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 0.0, longitude: 7.8, title: "Iron City I.C. Light", description: "Light Lager",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 0.0, longitude: 8.4, title: "North Coast Old Rasputin", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 0.0, longitude: 9.0, title: "Sly Fox Incubus", description: "Tripel",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 0.0, longitude: 9.6, title: "Founders Nemesis 2009", description: "Wheatwine",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 0.0, longitude: 10.2, title: "Samuel Smith Old Brewery Pale Ale", description: "English Pale Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 0.0, longitude: 10.8, title: "Sierra Nevada 30th Anniversary Grand Cru", description: "American Strong Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 0.0, longitude: 11.4, title: "Sly Fox Oktoberfest", description: "Märzen / Oktoberfest",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 0.75, longitude: 0.0, title: "21st Amendment Brew Free or Die IPA", description: "American IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.75, longitude: 0.6, title: "Lost Abbey Judgment Day", description: "Quadrupel (Quad)",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.75, longitude: 1.2, title: "Rahr and Sons Winter Warmer", description: "Winter Warmer",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.75, longitude: 1.8, title: "Middle Ages ImPaled Ale", description: "English India Pale Ale (IPA)",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.75, longitude: 2.4, title: "Southern Tier Tripel", description: "Tripel",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.75, longitude: 3.0, title: "Victory Golden Monkey", description: "Tripel",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.75, longitude: 3.6, title: "Rogue XS Imperial Stout", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.75, longitude: 4.2, title: "Elysian Brewing Perseus Porter", description: "American Porter",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.75, longitude: 4.8, title: "Ska Brewing Buster Nut Brown", description: "English Brown Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 0.75, longitude: 5.4, title: "Coors Coors Light", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 0.75, longitude: 6.0, title: "Sinebrychoff Koff Porter", description: "Baltic Porter",textColor: "#000000", color: "rgb(20,217,138)"},
+	{latitude: 0.75, longitude: 6.6, title: "Stillwater Artisanal Cellar Door", description: "Saison / Farmhouse Ale",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 0.75, longitude: 7.2, title: "Ithaca White Gold", description: "Belgian Strong Pale Ale",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 0.75, longitude: 7.8, title: "Orkney Dragonhead Stout", description: "English Stout",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 0.75, longitude: 8.4, title: "Het Anker Cuvee Van de Keizer Red", description: "Belgian Strong Pale Ale",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 0.75, longitude: 9.0, title: "Sierra Nevada Glissade", description: "Maibock / Helles Bock",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 0.75, longitude: 9.6, title: "Surly Abrasive Ale", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 0.75, longitude: 10.2, title: "Lost Abbey Deliverance", description: "American Strong Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 0.75, longitude: 10.8, title: "Corsendonk Abbey Pale Ale", description: "Tripel",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 0.75, longitude: 11.4, title: "Anderson Valley Hop Ottin IPA", description: "American IPA",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 1.5, longitude: 0.0, title: "North Coast Acme California Pale Ale", description: "American Pale Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 1.5, longitude: 0.6, title: "Great Lakes Lake Erie Monster", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 1.5, longitude: 1.2, title: "Pyramid Haywire Hefeweizen", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 1.5, longitude: 1.8, title: "Stoudts Pils", description: "German Pilsener",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 1.5, longitude: 2.4, title: "Dark Horse Perkulator", description: "Doppelbock",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 1.5, longitude: 3.0, title: "Hacker-Pschorr Weisse", description: "Hefeweizen",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 1.5, longitude: 3.6, title: "Weihenstephaner Vitus", description: "Weizenbock",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 1.5, longitude: 4.2, title: "Stone Cali-Belgique", description: "Belgian IPA",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 1.5, longitude: 4.8, title: "Butternuts Heinnieweisse", description: "Hefeweizen",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 1.5, longitude: 5.4, title: "Thirsty Dog Old Leghumper", description: "American Porter",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 1.5, longitude: 6.0, title: "Green Flash Barleywine", description: "Barley Wine",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 1.5, longitude: 6.6, title: "Urthel Samaranth", description: "Quad",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 1.5, longitude: 7.2, title: "Peak Organic IPA", description: "American IPA",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 1.5, longitude: 7.8, title: "Green Flash Double Stout", description: "Export/Imperial Stout",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 1.5, longitude: 8.4, title: "Goose Island Summertime", description: "Kolsch",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 1.5, longitude: 9.0, title: "Mikkeller It's Alive", description: "Belgian Strong Pale Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 1.5, longitude: 9.6, title: "Spaten-Franziskaner Premium", description: "Munich Helles Lager",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 1.5, longitude: 10.2, title: "Port / Pizza Port 2nd Anniversary", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 1.5, longitude: 10.8, title: "Leinenkugel's Summer Shandy", description: "Fruit / Vegetable Beer",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 1.5, longitude: 11.4, title: "Abbaye du Val-Dieu Val-Dieu Triple", description: "Tripel",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 2.25, longitude: 0.0, title: "Cisco Brewers Bailey's Ale", description: "American Blonde Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 2.25, longitude: 0.6, title: "Bell's Octoberfest", description: "Märzen / Oktoberfest",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 2.25, longitude: 1.2, title: "Great Divide St. Bridget's Porter", description: "American Porter",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 2.25, longitude: 1.8, title: "Brasserie Grain d'Orge Belzebuth", description: "Belgian Strong Pale Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 2.25, longitude: 2.4, title: "Brooklyn Post Road Pumpkin Ale", description: "Pumpkin Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 2.25, longitude: 3.0, title: "Coney Island (Shmaltz) Sword Swallower", description: "American Pale Lager",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 2.25, longitude: 3.6, title: "Rogue Chipotle Ale", description: "Chile Beer",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 2.25, longitude: 4.2, title: "Leinenkugel's Creamy Dark", description: "Euro Dark Lager",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 2.25, longitude: 4.8, title: "Three Floyds Black Sun Stout", description: "Irish Dry Stout",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 2.25, longitude: 5.4, title: "Bell's Lager Beer", description: "American Pale Lager",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 2.25, longitude: 6.0, title: "Schlitz Schlitz High Gravity VSL", description: "American Malt Liquor",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 2.25, longitude: 6.6, title: "Port / Pizza Port High Tide", description: "American IPA",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 2.25, longitude: 7.2, title: "St. Bernardus Watou Tripel", description: "Tripel",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 2.25, longitude: 7.8, title: "21st Amendment Hell or High Watermelon", description: "Fruit / Vegetable Beer",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 2.25, longitude: 8.4, title: "St. Peter's Old-Style Porter", description: "English Porter",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 2.25, longitude: 9.0, title: "Rochefort Trappistes Rochefort 8", description: "Belgian Strong Dark Ale",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 2.25, longitude: 9.6, title: "Breckenridge Vanilla Porter", description: "American Porter",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 2.25, longitude: 10.2, title: "Spaten-Franziskaner Spaten Premium Lager", description: "Munich Helles Lager",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 2.25, longitude: 10.8, title: "Lindemans Faro Lambic", description: "Faro",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 2.25, longitude: 11.4, title: "Duck-Rabbit Barleywine Ale", description: "English Barleywine",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 3.0, longitude: 0.0, title: "Affligem Affligem Noel", description: "Belgian Strong Dark Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 3.0, longitude: 0.6, title: "Tommyknocker Imperial Nut Brown Ale", description: "American Brown Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 3.0, longitude: 1.2, title: "Odell Brewing St. Lupulin", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 3.0, longitude: 1.8, title: "Elysian Brewing The Immortal IPA", description: "American IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 3.0, longitude: 2.4, title: "Stone Imperial Russian Stout", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 3.0, longitude: 3.0, title: "Old Dominion Dominion Millennium Ale", description: "English Barleywine",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 3.0, longitude: 3.6, title: "BrewDog Paradox Smokehead", description: "American Double / Imperial Stout",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 3.0, longitude: 4.2, title: "Bell's Hopslam", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 3.0, longitude: 4.8, title: "Samuel Adams Dunkelweizen", description: "Dunkelweizen",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 3.0, longitude: 5.4, title: "Hometown Pennsylvania Lager", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 3.0, longitude: 6.0, title: "Hale's Ales Supergoose DIPA", description: "American IPA",textColor: "#000000", color: "rgb(20,217,138)"},
+	{latitude: 3.0, longitude: 6.6, title: "BrewDog Riptide", description: "Imperial Stout",textColor: "#000000", color: "rgb(20,217,138)"},
+	{latitude: 3.0, longitude: 7.2, title: "Anheuser-Busch InBev Hoegaarden", description: "Witbier",textColor: "#000000", color: "rgb(20,217,138)"},
+	{latitude: 3.0, longitude: 7.8, title: "Great Divide Colette Farmhouse Ale", description: "Saison / Farmhouse Ale",textColor: "#000000", color: "rgb(20,217,138)"},
+	{latitude: 3.0, longitude: 8.4, title: "Anheuser-Busch Budweiser American Ale", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(19,217,137)"},
+	{latitude: 3.0, longitude: 9.0, title: "Goose Island Nut Brown Ale", description: "English Brown Ale",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 3.0, longitude: 9.6, title: "Weihenstephaner Festbier", description: "Märzen / Oktoberfest",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 3.0, longitude: 10.2, title: "Great Lakes Glockenspiel", description: "Weizenbock",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 3.0, longitude: 10.8, title: "Rogue Dad's Little Helper", description: "American Malt Liquor",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 3.0, longitude: 11.4, title: "New Holland Pilgrim's Dole", description: "Wheatwine",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 3.75, longitude: 0.0, title: "Abita Amber", description: "Märzen / Oktoberfest",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 3.75, longitude: 0.6, title: "Rogue St. Rogue Red Ale", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 3.75, longitude: 1.2, title: "Clipper City Heavy Seas Big DIPA", description: "imperial IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 3.75, longitude: 1.8, title: "Allagash Curieux", description: "Tripel",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 3.75, longitude: 2.4, title: "Rogue Captain Sig's Deadliest Ale", description: "American Amber / Red Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 3.75, longitude: 3.0, title: "Yards Love Stout", description: "English Stout",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 3.75, longitude: 3.6, title: "Moortgat Maredsous 6", description: "Belgian Pale Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 3.75, longitude: 4.2, title: "Flying Dog Road Dog", description: "American Porter",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 3.75, longitude: 4.8, title: "Dogfish Head Chateau Jiahu", description: "Herbed / Spiced Beer",textColor: "#000000", color: "rgb(217,88,19)"},
+	{latitude: 3.75, longitude: 5.4, title: "Moylans Hopsickle", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(217,88,19)"},
+	{latitude: 3.75, longitude: 6.0, title: "Southern Tier Pumking", description: "Pumpkin Beer",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 3.75, longitude: 6.6, title: "Mendocino Eye of the Hawk", description: "American Strong Ale",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 3.75, longitude: 7.2, title: "Het Anker Gouden Carolus Classic", description: "Belgian Strong Dark Ale",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 3.75, longitude: 7.8, title: "Southern Tier Old Man", description: "Old Ale",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 3.75, longitude: 8.4, title: "Smuttynose Star Island Single", description: "Belgian Pale Ale",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 3.75, longitude: 9.0, title: "Heinrich Reissdorf Reissdorf Kölsch", description: "Kölsch",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 3.75, longitude: 9.6, title: "Michigan Celis Raspberry", description: "Fruit / Vegetable Beer",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 3.75, longitude: 10.2, title: "Sierra Nevada 30th Anniversary Grand Cru", description: "American Strong Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 3.75, longitude: 10.8, title: "Deschutes The Dissident", description: "Flanders Oud Bruin",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 3.75, longitude: 11.4, title: "Arcadia Hopmouth Double IPA", description: "Imperial IPA",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 4.5, longitude: 0.0, title: "Elysian Brewing The Immortal IPA", description: "American IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 4.5, longitude: 0.6, title: "Heineken Birra Moretti La Rossa", description: "Doppelbock",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 4.5, longitude: 1.2, title: "Butternuts Snapperhead IPA", description: "American IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 4.5, longitude: 1.8, title: "Pretty Things American Darling", description: "American Pale Lager",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 4.5, longitude: 2.4, title: "Minhas Simpler Times Lager", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 4.5, longitude: 3.0, title: "Surly Four", description: "Milk / Sweet Stout",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 4.5, longitude: 3.6, title: "Foothills Foothills Red", description: "Irish Red Ale",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 4.5, longitude: 4.2, title: "Rogue XS Imperial Stout", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 4.5, longitude: 4.8, title: "Dogfish Head Shelter Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(217,88,19)"},
+	{latitude: 4.5, longitude: 5.4, title: "Southern Tier Chautauqua Brew", description: "Amber Ale",textColor: "#000000", color: "rgb(217,88,19)"},
+	{latitude: 4.5, longitude: 6.0, title: "Ska Brewing Steel Toe Stout", description: "Milk / Sweet Stout",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 4.5, longitude: 6.6, title: "Samuel Smith Oatmeal Stout", description: "Oatmeal Stout",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 4.5, longitude: 7.2, title: "Abita Jockamo IPA", description: "American IPA",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 4.5, longitude: 7.8, title: "Arcadia London Porter", description: "English Porter",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 4.5, longitude: 8.4, title: "Schlenkerla Rauchbier Urbock", description: "Smoked Beer",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 4.5, longitude: 9.0, title: "De Dolle De Dulle Teve", description: "Tripel",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 4.5, longitude: 9.6, title: "Coors Keystone Light", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 4.5, longitude: 10.2, title: "Stone Oaked Arrogant Bastard", description: "American Strong Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 4.5, longitude: 10.8, title: "Foothills Total Eclipse Stout", description: "Imperial Stout",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 4.5, longitude: 11.4, title: "Mission Hefeweizen", description: "Hefeweizen",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 5.25, longitude: 0.0, title: "Michelob Bavarian Style Wheat", description: "Hefeweizen",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 5.25, longitude: 0.6, title: "Weihenstephaner Korbinian", description: "Doppelbock",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 5.25, longitude: 1.2, title: "Southern Tier Pale Ale", description: "American Pale Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 5.25, longitude: 1.8, title: "Rogue Mocha Porter", description: "American Porter",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 5.25, longitude: 2.4, title: "Lake Placid Ubu Ale", description: "American Strong Ale",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 5.25, longitude: 3.0, title: "Young's Oatmeal Stout", description: "Oatmeal Stout",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 5.25, longitude: 3.6, title: "Brasserie Dieu du Ciel Corne Du Diable", description: "American IPA",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 5.25, longitude: 4.2, title: "Pyramid Crystal Wheat", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 5.25, longitude: 4.8, title: "Spoetzl Shiner Bock", description: "Bock",textColor: "#000000", color: "rgb(217,88,19)"},
+	{latitude: 5.25, longitude: 5.4, title: "Samuel Adams Imperial Pilsner", description: "American Double / Imperial Pilsner",textColor: "#000000", color: "rgb(217,88,19)"},
+	{latitude: 5.25, longitude: 6.0, title: "Weihenstephaner Vitus", description: "Weizenbock",textColor: "#000000", color: "rgb(20,217,138)"},
+	{latitude: 5.25, longitude: 6.6, title: "Port / Pizza Port Panzer Imperial Pilsner", description: "American Double / Imperial Pilsner",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 5.25, longitude: 7.2, title: "Weyerbacher Heresy", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 5.25, longitude: 7.8, title: "Hitachino White Ale", description: "Wit",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 5.25, longitude: 8.4, title: "Heinrich Reissdorf Reissdorf Kölsch", description: "Kölsch",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 5.25, longitude: 9.0, title: "Spoetzl Shiner Blonde", description: "American Pale Lager",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 5.25, longitude: 9.6, title: "Otter Creek Copper Ale", description: "Altbier",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 5.25, longitude: 10.2, title: "Brooklyn Winter Ale", description: "Scottish Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 5.25, longitude: 10.8, title: "Blue Point Brewing Hoptical Illusion", description: "American IPA",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 5.25, longitude: 11.4, title: "Oskar Blues Dale's Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 6.0, longitude: 0.0, title: "Spoetzl Shiner Hefeweizen", description: "Hefeweizen",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.0, longitude: 0.6, title: "Goose Island Nut Brown Ale", description: "English Brown Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.0, longitude: 1.2, title: "Schlenkerla Rauchbier Weizen", description: "Rauchbier",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.0, longitude: 1.8, title: "Sprecher Abbey Triple", description: "Tripel",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.0, longitude: 2.4, title: "Samuel Adams Honey Porter", description: "American Porter",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.0, longitude: 3.0, title: "Oskar Blues Old Chub", description: "Scottish Ale",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 6.0, longitude: 3.6, title: "Abita Strawberry Harvest Lager", description: "Fruit / Vegetable Beer",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 6.0, longitude: 4.2, title: "Lancaster Milk Stout", description: "Milk / Sweet Stout",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 6.0, longitude: 4.8, title: "Saint Arnold Christmas Ale", description: "Winter Warmer",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 6.0, longitude: 5.4, title: "Goose Island India Pale Ale", description: "American IPA",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 6.0, longitude: 6.0, title: "Speakeasy Big Daddy IPA", description: "American IPA",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 6.0, longitude: 6.6, title: "Verhaeghe Duchesse de Bourgogne", description: "Flanders Red Ale",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 6.0, longitude: 7.2, title: "Mikkeller Jackie Brown", description: "American Brown Ale",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 6.0, longitude: 7.8, title: "Molson Molson Canadian", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 6.0, longitude: 8.4, title: "Southern Tier Hop Sun", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(19,217,138)"},
+	{latitude: 6.0, longitude: 9.0, title: "Drake's 1500 Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 6.0, longitude: 9.6, title: "Flying Dog Old Scratch", description: "American Amber / Red Lager",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 6.0, longitude: 10.2, title: "Dogfish Head Chicory Stout", description: "American Stout",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 6.0, longitude: 10.8, title: "Harpoon Leviathan Triticus", description: "Wheatwine",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 6.0, longitude: 11.4, title: "Deschutes The Dissident", description: "Flanders Oud Bruin",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 6.75, longitude: 0.0, title: "Goose Island Matilda", description: "Belgian Strong Pale Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.75, longitude: 0.6, title: "Hair of the Dog Blue Dot", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.75, longitude: 1.2, title: "Lagunitas Censored (Kronik)", description: "American Amber Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.75, longitude: 1.8, title: "Stillwater Artisanal Stateside Saison", description: "Saison / Farmhouse Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.75, longitude: 2.4, title: "Anheuser-Busch Rolling Rock Red", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.75, longitude: 3.0, title: "Genesee Dundee Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.75, longitude: 3.6, title: "Van Steenberge Gulden Draak", description: "Belgian Strong Dark Ale",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 6.75, longitude: 4.2, title: "Van Honsebrouck Kasteel Bruin", description: "Quadrupel (Quad)",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 6.75, longitude: 4.8, title: "Castlemaine Perkins XXXX Bitter", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 6.75, longitude: 5.4, title: "Brooklyn Monster Ale", description: "English Barleywine",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 6.75, longitude: 6.0, title: "Stone Saison Du BUFF", description: "Saison / Farmhouse Ale",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 6.75, longitude: 6.6, title: "Samuel Adams Smoked Lager", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 6.75, longitude: 7.2, title: "St. Pauli St. Pauli Girl", description: "German Pilsener",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 6.75, longitude: 7.8, title: "Stone Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 6.75, longitude: 8.4, title: "Coney Island (Shmaltz) Coney Island Lager", description: "American Amber / Red Lager",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 6.75, longitude: 9.0, title: "Grupo Modelo Pacifico", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 6.75, longitude: 9.6, title: "Guinness Kilkenny", description: "Irish Red Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 6.75, longitude: 10.2, title: "Atlantic Bar Harbor Coal Porter", description: "American Porter",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 6.75, longitude: 10.8, title: "Harpoon Octoberfest Bier", description: "Oktoberfest",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 6.75, longitude: 11.4, title: "Samuel Adams Pale Ale", description: "English Pale Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 7.5, longitude: 0.0, title: "Tyranena Hop Whore", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 7.5, longitude: 0.6, title: "Dark Horse Plead The 5th", description: "Russian Imperial Stout",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 7.5, longitude: 1.2, title: "Van Steenberge Augustijn", description: "Tripel",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 7.5, longitude: 1.8, title: "Alken-Maes Grimbergen Dubbel", description: "Dubbel",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 7.5, longitude: 2.4, title: "Otter Creek Summer Ale", description: "American Pale Wheat Ale",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 7.5, longitude: 3.0, title: "Weihenstephaner Vitus", description: "Weizenbock",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 7.5, longitude: 3.6, title: "Bear Republic Racer 5", description: "American IPA",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 7.5, longitude: 4.2, title: "Hofbräu München Hofbräu Original", description: "Munich Helles Lager",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 7.5, longitude: 4.8, title: "Coors Blue Moon Harvest Moon", description: "Pumpkin Ale",textColor: "#000000", color: "rgb(217,88,19)"},
+	{latitude: 7.5, longitude: 5.4, title: "Brooklyn Pennant Ale 55", description: "English Pale Ale",textColor: "#000000", color: "rgb(217,89,19)"},
+	{latitude: 7.5, longitude: 6.0, title: "Great Divide Saison Farmhouse Ale", description: "Saison / Farmhouse Ale",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 7.5, longitude: 6.6, title: "Captain Lawrence Golden Delicious", description: "Tripel",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 7.5, longitude: 7.2, title: "Het Anker Gouden Carolus Hopsinjoor", description: "Belgian IPA",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 7.5, longitude: 7.8, title: "Victory Moonglow Weizenbock", description: "Weizenbock",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 7.5, longitude: 8.4, title: "Bell's Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 7.5, longitude: 9.0, title: "Brasserie Dieu du Ciel Route Des Épices", description: "Rye Beer",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 7.5, longitude: 9.6, title: "Genesee Dundee Pale Bock Lager", description: "Maibock / Helles Bock",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 7.5, longitude: 10.2, title: "Williams Brothers Alba Scots Pine Ale", description: "Scottish Gruit / Ancient Herbed Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 7.5, longitude: 10.8, title: "Four Peaks 8th Street Ale", description: "English Pale Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 7.5, longitude: 11.4, title: "Rogue MoM (Half-E-Weizen)", description: "Wit",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 8.25, longitude: 0.0, title: "Paulaner Premium Pils", description: "Pilsner",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 8.25, longitude: 0.6, title: "Butternuts Heinnieweisse", description: "Hefeweizen",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 8.25, longitude: 1.2, title: "Warsteiner Premium Verum", description: "German Pilsener",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 8.25, longitude: 1.8, title: "McAuslan St. Ambroise Oatmeal Stout", description: "Oatmeal Stout",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 8.25, longitude: 2.4, title: "Banks Banks Beer", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 8.25, longitude: 3.0, title: "Boulder Beer Mojo Risin", description: "American Double / Imperial IPA",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 8.25, longitude: 3.6, title: "Lindemans Pomme", description: "Lambic - Fruit",textColor: "#000000", color: "rgb(217,87,17)"},
+	{latitude: 8.25, longitude: 4.2, title: "Harpoon Leviathan Big Bohemian", description: "American Double / Imperial Pilsner",textColor: "#000000", color: "rgb(217,87,18)"},
+	{latitude: 8.25, longitude: 4.8, title: "Flying Dog Horn Dog", description: "English Barleywine",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 8.25, longitude: 5.4, title: "Cantillon Iris", description: "Unblended lambic",textColor: "#000000", color: "rgb(217,88,18)"},
+	{latitude: 8.25, longitude: 6.0, title: "Molson Molson Ice", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 8.25, longitude: 6.6, title: "Genesee Narragansett Lager", description: "American Adjunct Lager",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 8.25, longitude: 7.2, title: "Nogne O Pale Ale", description: "American Pale Ale (APA)",textColor: "#000000", color: "rgb(18,217,137)"},
+	{latitude: 8.25, longitude: 7.8, title: "New Holland Night Tripper", description: "Imperial Stout",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 8.25, longitude: 8.4, title: "Foothills Hoppyum", description: "IPA",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 8.25, longitude: 9.0, title: "Sierra Nevada 30th Anniversary Fritz & Ken's Ale", description: "American Double / Imperial Stout",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 8.25, longitude: 9.6, title: "Goose Island Nut Brown Ale", description: "English Brown Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 8.25, longitude: 10.2, title: "Einbecker Brauhaus Mai-Ur-Bock", description: "Maibock / Helles Bock",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 8.25, longitude: 10.8, title: "New Belgium 1554", description: "Belgian Dark Ale",textColor: "#000000", color: "rgb(17,217,137)"},
+	{latitude: 8.25, longitude: 11.4, title: "Harpoon Leviathan Quad", description: "Quadrupel (Quad)",textColor: "#000000", color: "rgb(17,217,137)"},
+
+];
+
+var mapCenter = new google.maps.LatLng(11.9807276122, 4.99151301465);
+var zoomStart = 5;
+
+function initialize() {
+	var mapOptions = {
+		zoom: zoomStart,
+		center: mapCenter,
+		streetViewControl: false,
+		mapTypeId: 'coordinate',
+		mapTypeControlOptions: {
+			mapTypeIds: ['coordinate'],
+			style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+		}
+	};
+	map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+
+	for (var i=0;i<beerMapData.length;i++)
+	{
+		var myOptions = {
+			content: beerMapData[i]['title']+"<br/>("+beerMapData[i]['description']+")"
+			,boxStyle: {
+				border: "1px solid black"
+				,textAlign: "center"
+				,fontSize: "6pt"
+				,width: "60px"
+				,color: beerMapData[i]['textColor']
+				,backgroundColor: beerMapData[i]['color']
+			}
+			,disableAutoPan: true
+			,pixelOffset: new google.maps.Size(-25, 0)
+			,position: new google.maps.LatLng(beerMapData[i]['latitude'], beerMapData[i]['longitude'])
+			,closeBoxURL: ""
+			,isHidden: false
+			,pane: "mapPane"
+			,enableEventPropagation: true
+		};
+		var ibLabel = new InfoBox(myOptions);
+		ibLabel.open(map);
+	}
+
+map.mapTypes.set('coordinate', coordinateMapType);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+		</script>
+	</head>
+	<body>
+		<div id="map-canvas"></div>
+	</body>
+</html>
+	
