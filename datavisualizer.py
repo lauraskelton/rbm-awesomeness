@@ -3,6 +3,7 @@ import ftplib
 import numpy as np
 import operator
 import cPickle as pickle
+from datamanager import createNDArray
 
 # Load beer style information for each beer
 def loadStyle(path='data'):
@@ -196,10 +197,15 @@ def makeBeerMap(allBeerWeights, filename="beernodemap"):
 	session.quit()
 	print 'gmap uploaded'
 
+def beer_dict_from_weights(names, weight_matrix):
+    dicts = {names[i]:weight for i, weight in enumerate(line) for line in weight_matrix}
+
 
 # This is the function we actually call!!!
 def makeAllBeerMaps(filename="beernodemap"):
-	allBeerWeights = pickle.load(open("try1.pkl", "rb"))
+	trainedWeights = np.load("tuned_12.npz")
+	trainingArray, bitMaskArray, filteredBeerNamesArray = createNDArray()
+	allBeerWeights = beer_dict_from_weights(filteredBeerNamesArray, trainedWeights)
 	makeBeerMap(allBeerWeights, filename=filename)
 
 
