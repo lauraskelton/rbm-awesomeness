@@ -167,11 +167,11 @@ class CFAutoencoder(object):
 
 
     def save(self, f):
-        params = {thing.name : thing.get_value() for thing in nn.parameters}
+        params = {thing.name : thing.get_value() for thing in self.parameters}
         params['n_in'] = self.n_in
         params['n_hidden'] = self.n_hidden
         params['learning_rate'] = self.learning_rate
-        params['pct_blackout'] = self.pct_blackout
+        params['pct_noise'] = self.pct_noise
         np.savez_compressed(f, **params)
 
     def load(f):

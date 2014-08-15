@@ -199,9 +199,7 @@ nn64_1.set_noise(0.5)
 
 # mask out the meaningless data from the neural network's output matrix
 # mask out the values we input (the uncorrupted values) from the output matrix (so we are only measuring error on beers that were predicted)
-nn64_prediction = T.dot(T.dot(nn64_3.active_hidden, x_mask), 1 - nn64_1.noise)
-
-p = theano.function([x,x_mask], nn64_prediction)
+nn64_prediction = T.dot(T.dot(x_mask, T.transpose(nn64_3.active_hidden)), 1 - nn64_1.noise)
 
 # use root mean squared error to check how accurate our predictions were when using the entire neural network
 nn64_test_error = T.mean(T.pow(T.mean(T.pow(nn64_prediction - nn64_1.inputs, 2)), 0.5))
@@ -212,7 +210,7 @@ n64_testing_function = theano.function([x,x_mask], nn64_test_error)
 
 cost = []
 for i in xrange(0,10):
-    cost.append(n64_testing_function(shared_train.get_value(), shared_mask.get_value().T))
+    cost.append(n64_testing_function(shared_train.get_value(), shared_mask.get_value()))
 
 print "\n\t[Testing] 64-hidden node autoencoder error: {}".format(T.mean(cost))
 
