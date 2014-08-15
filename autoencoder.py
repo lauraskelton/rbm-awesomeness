@@ -180,4 +180,4 @@ class CFAutoencoder(object):
 
 
 def beer_dict_from_weights(names, weight_matrix):
-    dicts = {names[i]:weight for i, weight in enumerate(line) for line in weight_matrix}
+    return [{names[i]:weight for i, weight in enumerate(line)} for line in weight_matrix.T]
