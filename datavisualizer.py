@@ -2,6 +2,7 @@ from PIL import Image,ImageDraw,ImageFilter
 import ftplib
 import numpy as np
 import operator
+import cPickle as pickle
 
 # Load beer style information for each beer
 def loadStyle(path='data'):
@@ -23,13 +24,13 @@ def writeBeerMapData(allBeerWeights):
 	for beerWeights in allBeerWeights:
 		newBeersArray = sorted(beerWeights.iteritems(), key=operator.itemgetter(1))
 		hOffset = 0
-		for beer, ratingWeight in newBeersArray[:30]:
-			loc = [vOffset * 0.20, hOffset * 0.01]
+		for beer, ratingWeight in newBeersArray[:10]:
+			loc = [vOffset * 0.05, hOffset * 0.04]
 			(r,g,b) = getBackgroundColor(ratingWeight, np.max(beerWeights.values()), np.min(beerWeights.values()))
 			output.append(outputBeer(loc,beer,style[beer],'#000000','rgb('+str(r)+','+str(g)+','+str(b)+')'))
 			hOffset += 1
-		for beer, ratingWeight in newBeersArray[-30:]:
-			loc = [vOffset * 0.20, hOffset * 0.01]
+		for beer, ratingWeight in newBeersArray[-10:]:
+			loc = [vOffset * 0.05, hOffset * 0.04]
 			(r,g,b) = getBackgroundColor(ratingWeight, np.max(beerWeights.values()), np.min(beerWeights.values()))
 			output.append(outputBeer(loc,beer,style[beer],'#000000','rgb('+str(r)+','+str(g)+','+str(b)+')'))
 			hOffset += 1
@@ -72,106 +73,105 @@ def outputBeer(coords,beer,style,textColor,backgroundColor):
 			+'color: "'+str(backgroundColor)+'"},\n'
 
 def generateGoogleJavascript(allBeerWeights):
-	out = []
-	out.append('<!DOCTYPE html>\n')
-	out.append('<html>\n')
-	out.append('\t<head>\n')
-	out.append('\t\t<title>Beer Map</title>\n')
-	out.append('\t\t<style>\n')
-	out.append('\t\t\thtml, body, #map-canvas {\n')
-	out.append('\t\t\t\theight: 100%;\n')
-	out.append('\t\t\t\tmargin: 0px;\n')
-	out.append('\t\t\t\tpadding: 0px\n')
-	out.append('\t\t\t}\n')
-	out.append('\t\t</style>\n')
-	out.append('\t\t<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>\n')
-	out.append('\t\t<script type="text/javascript" src="../beermap/infobox.js"></script>\n')
-	out.append('\t\t<script>\n')
-	out.append('\n')
-	out.append('function CoordMapType() {\n')
-	out.append('}\n')
-	out.append('\n')
-	out.append('CoordMapType.prototype.tileSize = new google.maps.Size(256,256);\n')
-	out.append('CoordMapType.prototype.maxZoom = 11;\n')
-	out.append('CoordMapType.prototype.minZoom = 5;\n')
-	out.append('\n')
-	out.append('CoordMapType.prototype.getTile = function(coord, zoom, ownerDocument) {\n')
-	out.append('\tvar div = ownerDocument.createElement(\'div\');\n')
-	out.append('\tdiv.innerHTML = \'\';\n')
-	out.append('\tdiv.style.width = this.tileSize.width + \'px\';\n')
-	out.append('\tdiv.style.height = this.tileSize.height + \'px\';\n')
-	out.append('\tdiv.style.fontSize = \'10\';\n')
-	out.append('\tdiv.style.borderStyle = \'none\';\n')
-	out.append('\tdiv.style.backgroundColor = \'#E5E3DF\';\n')
-	out.append('\treturn div;\n')
-	out.append('};\n')
-	out.append('\n')
-	out.append('CoordMapType.prototype.name = \'Beer\';\n')
-	out.append('CoordMapType.prototype.alt = \'Beer Map Type\';\n')
-	out.append('\n')
-	out.append('var map;\n')
-	out.append('var coordinateMapType = new CoordMapType();\n')
-	out.append('\n')
-	
-	out.append('var beerMapData = [\n')
-	out.append(writeBeerMapData(allBeerWeights))
-	out.append('];\n')
-	
-	out.append('\n')
-	out.append('var mapCenter = new google.maps.LatLng(11.9807276122, 4.99151301465);\n')
-	out.append('var zoomStart = 5;\n')
+	return_string = '''
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Beer Map</title>
+		<style>
+			html, body, #map-canvas {
+				height: 100%;
+				margin: 0px;
+				padding: 0px
+			}
+		</style>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script type="text/javascript" src="../beermap/infobox.js"></script>
+		<script>
 
-	out.append('\n')
-	out.append('function initialize() {\n')
-	out.append('\tvar mapOptions = {\n')
-	out.append('\t\tzoom: zoomStart,\n')
-	out.append('\t\tcenter: mapCenter,\n')
-	out.append('\t\tstreetViewControl: false,\n')
-	out.append('\t\tmapTypeId: \'coordinate\',\n')
-	out.append('\t\tmapTypeControlOptions: {\n')
-	out.append('\t\t\tmapTypeIds: [\'coordinate\'],\n')
-	out.append('\t\t\tstyle: google.maps.MapTypeControlStyle.DROPDOWN_MENU\n')
-	out.append('\t\t}\n')
-	out.append('\t};\n')
-	out.append('\tmap = new google.maps.Map(document.getElementById(\'map-canvas\'),mapOptions);\n')
-	out.append('\n')
-	out.append('\tfor (var i=0;i<beerMapData.length;i++)\n')
-	out.append('\t{\n')
-	out.append('\t\tvar myOptions = {\n')
-	out.append('\t\t\tcontent: beerMapData[i][\'title\']+"<br/>("+beerMapData[i][\'description\']+")"\n')
-	out.append('\t\t\t,boxStyle: {\n')
-	out.append('\t\t\t\tborder: "1px solid black"\n')
-	out.append('\t\t\t\t,textAlign: "center"\n')
-	out.append('\t\t\t\t,fontSize: "6pt"\n')
-	out.append('\t\t\t\t,width: "60px"\n')
-	out.append('\t\t\t\t,color: beerMapData[i][\'textColor\']\n')
-	out.append('\t\t\t\t,backgroundColor: beerMapData[i][\'color\']\n')
-	out.append('\t\t\t}\n')
-	out.append('\t\t\t,disableAutoPan: true\n')
-	out.append('\t\t\t,pixelOffset: new google.maps.Size(-25, 0)\n')
-	out.append('\t\t\t,position: new google.maps.LatLng(beerMapData[i][\'latitude\'], beerMapData[i][\'longitude\'])\n')
-	out.append('\t\t\t,closeBoxURL: ""\n')
-	out.append('\t\t\t,isHidden: false\n')
-	out.append('\t\t\t,pane: "mapPane"\n')
-	out.append('\t\t\t,enableEventPropagation: true\n')
-	out.append('\t\t};\n')
-	out.append('\t\tvar ibLabel = new InfoBox(myOptions);\n')
-	out.append('\t\tibLabel.open(map);\n')
-	out.append('\t}\n')
-	out.append('\n')
-	out.append('map.mapTypes.set(\'coordinate\', coordinateMapType);\n')
-	out.append('}\n')
-	out.append('\n')
-	out.append('google.maps.event.addDomListener(window, \'load\', initialize);\n')
-	out.append('\n')
-	out.append('\t\t</script>\n')
-	out.append('\t</head>\n')
-	out.append('\t<body>\n')
-	out.append('\t\t<div id="map-canvas"></div>\n')
-	out.append('\t</body>\n')
-	out.append('</html>\n')
+function CoordMapType() {
+}
 
-	return ''.join(out)
+CoordMapType.prototype.tileSize = new google.maps.Size(256,256);
+CoordMapType.prototype.maxZoom = 11;
+CoordMapType.prototype.minZoom = 5;
+
+CoordMapType.prototype.getTile = function(coord, zoom, ownerDocument) {
+	var div = ownerDocument.createElement('div');
+	div.innerHTML = '';
+	div.style.width = this.tileSize.width + 'px';
+	div.style.height = this.tileSize.height + 'px';
+	div.style.fontSize = '10';
+	div.style.borderStyle = 'none';
+	div.style.backgroundColor = '#E5E3DF';
+	return div;
+};
+
+CoordMapType.prototype.name = 'Beer';
+CoordMapType.prototype.alt = 'Beer Map Type';
+
+var map;
+var coordinateMapType = new CoordMapType();
+
+var beerMapData = [
+'''
+	return_string += writeBeerMapData(allBeerWeights)
+	return_string += '''
+];
+
+var mapCenter = new google.maps.LatLng(11.9807276122, 4.99151301465);
+var zoomStart = 5;
+
+function initialize() {
+	var mapOptions = {
+		zoom: zoomStart,
+		center: mapCenter,
+		streetViewControl: false,
+		mapTypeId: 'coordinate',
+		mapTypeControlOptions: {
+			mapTypeIds: ['coordinate'],
+			style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+		}
+	};
+	map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+
+	for (var i=0;i<beerMapData.length;i++)
+	{
+		var myOptions = {
+			content: beerMapData[i]['title']+"<br/>("+beerMapData[i]['description']+")"
+			,boxStyle: {
+				border: "1px solid black"
+				,textAlign: "center"
+				,fontSize: "6pt"
+				,width: "60px"
+				,color: beerMapData[i]['textColor']
+				,backgroundColor: beerMapData[i]['color']
+			}
+			,disableAutoPan: true
+			,pixelOffset: new google.maps.Size(-25, 0)
+			,position: new google.maps.LatLng(beerMapData[i]['latitude'], beerMapData[i]['longitude'])
+			,closeBoxURL: ""
+			,isHidden: false
+			,pane: "mapPane"
+			,enableEventPropagation: true
+		};
+		var ibLabel = new InfoBox(myOptions);
+		ibLabel.open(map);
+	}
+
+map.mapTypes.set('coordinate', coordinateMapType);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+		</script>
+	</head>
+	<body>
+		<div id="map-canvas"></div>
+	</body>
+</html>
+	'''
+	return return_string
 
 def loadFTPCredentials():
 	site = ''
@@ -198,7 +198,8 @@ def makeBeerMap(allBeerWeights, filename="beernodemap"):
 
 
 # This is the function we actually call!!!
-def makeAllBeerMaps(allBeerWeights, filename="beernodemap"):
+def makeAllBeerMaps(filename="beernodemap"):
+	allBeerWeights = pickle.load(open("try1.pkl", "rb"))
 	makeBeerMap(allBeerWeights, filename=filename)
 
 
