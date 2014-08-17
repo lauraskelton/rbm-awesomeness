@@ -14,7 +14,8 @@ def epoch(batch_size_to_use, n_train, theano_function):
 
     return costs
 
-def run_epochs(training_function, batch_size, n_train, min_epochs=50, new_training=True):
+def run_epochs(training_function, batch_size, n_train, min_epochs=50, 
+                min_improvement=1.002, new_training=True):
     if 'n' not in dir(run_epochs) or new_training:
         run_epochs.n = 0
 
@@ -102,36 +103,36 @@ layer1_tune = theano.function([i, batch_size], nn64_1.cost, updates=nn64_1.updat
 run_epochs(layer1_tune, 256, eighty)
 
 
-print "\n\t[Training] Layer 2:"
-layer2_train = theano.function([i, batch_size], nn64_2.cost, updates=nn64_2.updates,
-                                        givens={x:      shared_train[i:i+batch_size]})
+# print "\n\t[Training] Layer 2:"
+# layer2_train = theano.function([i, batch_size], nn64_2.cost, updates=nn64_2.updates,
+#                                         givens={x:      shared_train[i:i+batch_size]})
 
-run_epochs(layer2_train, 256, eighty)
+# run_epochs(layer2_train, 256, eighty)
 
-nn64_2.set_noise(0)
-nn64_2.learning_rate = 0.01
-print "\n\t[Tuning] Layer 2:"
-layer2_tune = theano.function([i, batch_size], nn64_2.cost, updates=nn64_2.updates,
-                                        givens={x:      shared_train[i:i+batch_size]})
+# nn64_2.set_noise(0)
+# nn64_2.learning_rate = 0.01
+# print "\n\t[Tuning] Layer 2:"
+# layer2_tune = theano.function([i, batch_size], nn64_2.cost, updates=nn64_2.updates,
+#                                         givens={x:      shared_train[i:i+batch_size]})
 
-run_epochs(layer2_tune, 256, eighty)
+# run_epochs(layer2_tune, 256, eighty)
 
 
-print "\n\t[Training] Output Layer:"
-layer3_train = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
-                                        givens={x:      shared_train[i:i+batch_size],
-                                                x_mask: shared_mask[i:i+batch_size]})
+# print "\n\t[Training] Output Layer:"
+# layer3_train = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
+#                                         givens={x:      shared_train[i:i+batch_size],
+#                                                 x_mask: shared_mask[i:i+batch_size]})
 
-run_epochs(layer3_train, 256, eighty)
+# run_epochs(layer3_train, 256, eighty)
 
-nn64_3.set_noise(0)
-nn64_3.learning_rate = 0.01
-print "\n\t[Tuning] Output Layer:"
-layer3_tune = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
-                                        givens={x:      shared_train[i:i+batch_size],
-                                                x_mask: shared_mask[i:i+batch_size]})
+# nn64_3.set_noise(0)
+# nn64_3.learning_rate = 0.01
+# print "\n\t[Tuning] Output Layer:"
+# layer3_tune = theano.function([i, batch_size], nn64_3.cost, updates=nn64_3.updates,
+#                                         givens={x:      shared_train[i:i+batch_size],
+#                                                 x_mask: shared_mask[i:i+batch_size]})
 
-run_epochs(layer3_tune, 256, eighty)
+# run_epochs(layer3_tune, 256, eighty)
 
 
 ######################
@@ -146,30 +147,30 @@ run_epochs(layer3_tune, 256, eighty)
 
 # set gradient to depend on all of the parameters we set above, so that "updates" will update all of the layers' weights and biases
 
-entire_network_params = [nn64_1.W, nn64_1.b_in, nn64_2.W, nn64_2.b_in, nn64_3.W, nn64_3.b_in]
-entire_network_gradients = T.grad(nn64_3.cost, entire_network_params)
+# entire_network_params = [nn64_1.W, nn64_1.b_in, nn64_2.W, nn64_2.b_in, nn64_3.W, nn64_3.b_in]
+# entire_network_gradients = T.grad(nn64_3.cost, entire_network_params)
 
-# make a vector of the new values of each parameter by descending slightly along the gradient (opposite direction of gradient, to move towards lower cost)
-nn64_3.learning_rate = 0.05
-entire_network_updates = []
-for param, grad in zip(entire_network_params, entire_network_gradients):
-    entire_network_updates.append((param, param - nn64_3.learning_rate * grad))
+# # make a vector of the new values of each parameter by descending slightly along the gradient (opposite direction of gradient, to move towards lower cost)
+# nn64_3.learning_rate = 0.05
+# entire_network_updates = []
+# for param, grad in zip(entire_network_params, entire_network_gradients):
+#     entire_network_updates.append((param, param - nn64_3.learning_rate * grad))
 
-print "\n\t[Training] Entire Network:"
-entire_network_train = theano.function([i, batch_size], nn64_3.cost, updates=entire_network_updates,
-                                        givens={x:      shared_train[i:i+batch_size],
-                                                x_mask: shared_mask[i:i+batch_size]})
+# print "\n\t[Training] Entire Network:"
+# entire_network_train = theano.function([i, batch_size], nn64_3.cost, updates=entire_network_updates,
+#                                         givens={x:      shared_train[i:i+batch_size],
+#                                                 x_mask: shared_mask[i:i+batch_size]})
 
-run_epochs(entire_network_train, 256, eighty)
+# run_epochs(entire_network_train, 256, eighty)
 
-nn64_3.set_noise(0)
-nn64_3.learning_rate = 0.01
-print "\n\t[Tuning] Entire Network:"
-entire_network_tune = theano.function([i, batch_size], nn64_3.cost, updates=entire_network_updates,
-                                        givens={x:      shared_train[i:i+batch_size],
-                                                x_mask: shared_mask[i:i+batch_size]})
+# nn64_3.set_noise(0)
+# nn64_3.learning_rate = 0.01
+# print "\n\t[Tuning] Entire Network:"
+# entire_network_tune = theano.function([i, batch_size], nn64_3.cost, updates=entire_network_updates,
+#                                         givens={x:      shared_train[i:i+batch_size],
+#                                                 x_mask: shared_mask[i:i+batch_size]})
 
-run_epochs(entire_network_tune, 256, eighty)
+# run_epochs(entire_network_tune, 256, eighty)
 
 # let's get this thing trained!
 
@@ -204,6 +205,13 @@ nn64_prediction = T.dot(T.dot(x_mask, T.transpose(nn64_3.active_hidden)), 1 - nn
 # use root mean squared error to check how accurate our predictions were when using the entire neural network
 nn64_test_error = T.mean(T.pow(T.mean(T.pow(nn64_prediction - nn64_1.inputs, 2)), 0.5))
 
+
+
+
+layer1_pred = T.dot(T.dot(x_mask, T.transpose(nn64_1.output)), 1-nn64_1.noise)
+
+
+
 ######## How do I actually call the testing function with Theano?
 
 n64_testing_function = theano.function([x,x_mask], nn64_test_error)
@@ -217,3 +225,15 @@ print "\n\t[Testing] 64-hidden node autoencoder error: {}".format(T.mean(cost))
 
 
 
+####################
+# TRAINING WITH WEIGHT DECAY
+
+decay_layer = ae.CFAutoencoder(data.shape[1], 12, inputs=x, mask=x_mask, weight_decay=0.0001)
+
+i, batch_size = T.iscalars('i', 'batch_size')
+
+print "\n\t[Training] a network with weight decay!"
+decay_training = theano.function([i, batch_size], decay_layer.cost, updates=decay_layer.updates,
+                                        givens={x:      shared_train[i:i+batch_size],
+                                                x_mask: shared_mask[i:i+batch_size]})
+run_epochs(decay_training, 256, eighty, min_epochs=200, min_improvement=1.001)

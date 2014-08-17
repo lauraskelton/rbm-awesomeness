@@ -6,7 +6,7 @@ matrixType = T.TensorType(theano.config.floatX, (False,)*2)
 
 class CFAutoencoder(object):
     def __init__(self, n_in, n_hidden, inputs, mask=None, learning_rate=0.05, 
-                    pct_noise=0.5, W=None, b_in=None, b_out=None, original_input=None):
+                pct_noise=0.5, W=None, b_in=None, b_out=None, original_input=None, weight_decay=0.0):
         if W is None:
             # initialization of weights as suggested in theano tutorials
 
@@ -35,8 +35,10 @@ class CFAutoencoder(object):
         self.n_in = n_in
         self.n_hidden = n_hidden
 
-        # we only want to take a tiny step in the direction of lower cost so we can slowly follow the curve down to the point of lowest cost (local min)
+        # we only want to take a tiny step in the direction of lower cost so we can slowly follow 
+        #   the curve down to the point of lowest cost (local min)
         self.learning_rate = learning_rate
+        self.weight_decay = weight_decay
         self.pct_noise = pct_noise
 
         self.inputs = inputs
@@ -125,7 +127,7 @@ class CFAutoencoder(object):
         self.updates = []
         # zip is confusing... tuples?
         for param, grad in zip(self.parameters, self.gradients):
-            self.updates.append((param, param - self.learning_rate * grad))
+            self.updates.append((param, param - self.learning_rate * grad * (1-self.weight_decay)))
 
         # the cost function is the same as the final output layer cost
         # the only difference is that we need to use updates to update the weights and biases of the ENTIRE NETWORK,
