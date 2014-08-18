@@ -203,7 +203,7 @@ def beer_dict_from_weights(names, weight_matrix):
 
 # This is the function we actually call!!!
 def makeAllBeerMaps(filename="beernodemap"):
-	trainedWeights = np.load("tuned_12.npz")['W']
+	trainedWeights = np.load("untuned_12.npz")['W']
 	trainingArray, bitMaskArray, filteredBeerNamesArray = createNDArray()
 	allBeerWeights = beer_dict_from_weights(filteredBeerNamesArray, trainedWeights)
 	makeBeerMap(allBeerWeights, filename=filename)

@@ -1,0 +1,124 @@
+{
+  "axes": [
+    {
+      "scale": "x",
+      "title": "Data 1",
+      "type": "x"
+    },
+    {
+      "scale": "y",
+      "title": "Data 2",
+      "type": "y"
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "col": "Data 2",
+          "idx": 15,
+          "val": 42
+        },
+        {
+          "col": "Data 2",
+          "idx": 29,
+          "val": 27
+        },
+        {
+          "col": "Data 2",
+          "idx": 63,
+          "val": 52
+        },
+        {
+          "col": "Data 2",
+          "idx": 28,
+          "val": 18
+        },
+        {
+          "col": "Data 2",
+          "idx": 45,
+          "val": 61
+        },
+        {
+          "col": "Data 2",
+          "idx": 73,
+          "val": 19
+        },
+        {
+          "col": "Data 2",
+          "idx": 15,
+          "val": 62
+        },
+        {
+          "col": "Data 2",
+          "idx": 62,
+          "val": 33
+        }
+      ]
+    }
+  ],
+  "height": 300,
+  "legends": [],
+  "marks": [
+    {
+      "from": {
+        "data": "table"
+      },
+      "properties": {
+        "enter": {
+          "width": {
+            "band": true,
+            "offset": -1,
+            "scale": "x"
+          },
+          "x": {
+            "field": "data.idx",
+            "scale": "x"
+          },
+          "y": {
+            "field": "data.val",
+            "scale": "y"
+          },
+          "y2": {
+            "scale": "y",
+            "value": 0
+          }
+        },
+        "update": {
+          "fill": {
+            "value": "steelblue"
+          }
+        }
+      },
+      "type": "rect"
+    }
+  ],
+  "padding": {
+    "bottom": 50,
+    "left": 50,
+    "right": 100,
+    "top": 10
+  },
+  "scales": [
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.idx"
+      },
+      "name": "x",
+      "range": "width",
+      "type": "ordinal"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.val"
+      },
+      "name": "y",
+      "nice": true,
+      "range": "height"
+    }
+  ],
+  "width": 500
+}
