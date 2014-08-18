@@ -15,7 +15,7 @@ def epoch(batch_size_to_use, n_train, theano_function):
     return costs
 
 def run_epochs(training_function, batch_size, n_train, min_epochs=50, 
-                min_improvement=1.002, new_training=True):
+                min_improvement=1.002, new_training=True, lr_to_decrease=None):
     if 'n' not in dir(run_epochs) or new_training:
         run_epochs.n = 0
 
@@ -35,8 +35,10 @@ def run_epochs(training_function, batch_size, n_train, min_epochs=50,
         print "avg: {}".format(np.mean(costs))
         
         # keep training as long as we are improving enough
-        if (np.mean(costs) * 1.002) < run_epochs.costs[-1][1]:
+        if (np.mean(costs) * min_improvement) < run_epochs.costs[-1][1]:
             epoch_stop += 1
+        elif lr_to_decrease:
+            lr_to_decrease *= 0.9
 
         run_epochs.costs.append((run_epochs.n, np.mean(costs)))
 
@@ -236,4 +238,5 @@ print "\n\t[Training] a network with weight decay!"
 decay_training = theano.function([i, batch_size], decay_layer.cost, updates=decay_layer.updates,
                                         givens={x:      shared_train[i:i+batch_size],
                                                 x_mask: shared_mask[i:i+batch_size]})
-run_epochs(decay_training, 256, eighty, min_epochs=200, min_improvement=1.001)
+run_epochs(decay_training, 256, eighty, min_epochs=200, 
+            min_improvement=1.001, lr_to_decrease=decay_layer.learning_rate)
