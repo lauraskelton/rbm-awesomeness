@@ -61,6 +61,7 @@ class AETrainer(object):
 		# train for at least this many epochs
 		epoch_stop = min_epochs
 		n_train = len(self.inputs.get_value())
+		since_last_decay = 0
 
 		while self.steps < epoch_stop:
 			self.steps += 1
@@ -72,8 +73,9 @@ class AETrainer(object):
 			# keep training as long as we are improving enough
 			if (np.mean(costs) * min_improvement) < self.costs[-1][1]:
 				epoch_stop += 1
-			elif lr_decay and self.steps % decay_modulo == 0:
+			elif lr_decay and since_last_decay - decay_modulo == 0:
 				self.model.learning_rate *= (1 - lr_decay)
+				since_last_decay = 0
 				print "min improvement not seen; decreasing learning rate to {}".format(
 																self.model.learning_rate)
 				print "epochs left: {}".format(epoch_stop)
