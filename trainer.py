@@ -73,7 +73,8 @@ class AETrainer(object):
 			# keep training as long as we are improving enough
 			if (np.mean(costs) * min_improvement) < self.costs[-1][1]:
 				epoch_stop += 1
-			elif lr_decay and since_last_decay - decay_modulo == 0:
+				since_last_decay += 1
+			elif lr_decay and since_last_decay - decay_modulo > 0:
 				self.model.learning_rate *= (1 - lr_decay)
 				since_last_decay = 0
 				print "min improvement not seen; decreasing learning rate to {}".format(
