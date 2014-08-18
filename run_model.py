@@ -41,11 +41,12 @@ x_mask = ae.matrixType('mask')
 ####################
 # TRAINING WITH WEIGHT DECAY
 
-decay_layer = ae.CFAutoencoder(data.shape[1], 12, inputs=x, mask=x_mask, weight_decay=0.0001)
+decay_layer = ae.CFAutoencoder(data.shape[1], 15, inputs=x, mask=x_mask, 
+                                weight_decay=0.0001)
 
 print "\n\t[Training] a network with weight decay!"
 
-aet = trainer.AETrainer(decay_layer, shared_train, shared_mask)
+aet = trainer.AETrainer(decay_layer, shared_train, shared_mask, momentum=0.9)
 
 aet.run_epochs(min_epochs=200, lr_decay=0.1)
 
