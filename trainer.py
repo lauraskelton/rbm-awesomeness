@@ -56,7 +56,7 @@ class AETrainer(object):
 				epoch_stop += 1
 			elif lr_decay and self.steps % decay_modulo == 0:
 				self.model.learning_rate *= (1 - lr_decay)
-				print "min improvement not seen; decreasing learning rate to {}".format(network.learning_rate)
+				print "min improvement not seen; decreasing learning rate to {}".format(self.model.learning_rate)
 				print "epochs left: {}".format(epoch_stop)
 				# recompile training function with new learning rate
 				training_function = self.get_training_function()
