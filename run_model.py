@@ -47,7 +47,7 @@ print "\n\t[Training] a network with weight decay!"
 
 aet = trainer.AETrainer(decay_layer, shared_train, shared_mask)
 
-aet.run_epochs()
+aet.run_epochs(min_epochs=200, lr_decay=0.1)
 
 
 
