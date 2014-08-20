@@ -206,9 +206,10 @@ def load_all_beer_weight_ids(toLoad="weight_decay_15.npz"):
 	trainingArray, bitMaskArray, filteredBeerNamesArray = createNDArray()
 	beer_ids_dict = dm.loadBeerIDs()
 	beer_ids_array = []
-	for i in range(len(filteredBeerNamesArray)):
-		beer_ids_array.append(i)
-	return [{beer_ids_array[i]:weight for i, weight in enumerate(line)} for line in trainedWeights]
+	for beerName in filteredBeerNamesArray:
+		beer_ids_array.append(beer_ids_dict[beerName])
+	return {beer_ids_array[i]:[weight for weight in weightArray] for i,weightArray in enumerate(trainedWeights)}
+
 
 def load_all_beer_weights(toLoad="weight_decay_15.npz"):
 	trainedWeights = np.load(toLoad)['W']
