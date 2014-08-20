@@ -10,13 +10,19 @@ def shuffle_all(*args):
 		assert(len(arg) == len(args[0]))
 	return [[arg[i] for i in idx] for arg in args]
 
-def loadBeerChooser(path='data'):
+def loadBeerIDs(path='data'):
 	
-	# Get beer names
-	beers={}
+	# Get beer IDs
+	beer_ids={}
 	for line in open(path+'/u.item'):
 		(id,name)=line.split('\t')
-		beers[id]=name.rstrip()
+		beer_ids[id]=name.rstrip()
+	
+	return beer_ids
+
+def loadBeerChooser(path='data'):
+	
+	beers = loadBeerIDs()
 	
 	# Load data
 	userPrefs={}

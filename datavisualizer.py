@@ -4,6 +4,7 @@ import numpy as np
 import operator
 import cPickle as pickle
 from datamanager import createNDArray
+import datamanager as dm
 
 # Load beer style information for each beer
 def loadStyle(path='data'):
@@ -200,12 +201,24 @@ def makeBeerMap(allBeerWeights, filename="beernodemap"):
 def beer_dict_from_weights(names, weight_matrix):
     return [{names[i]:weight for i, weight in enumerate(line)} for line in weight_matrix.T]
 
+def load_all_beer_weight_ids(toLoad="weight_decay_15.npz"):
+	trainedWeights = np.load(toLoad)['W']
+	trainingArray, bitMaskArray, filteredBeerNamesArray = createNDArray()
+	beer_ids_dict = dm.loadBeerIDs()
+	beer_ids_array = []
+	for i in range(len(filteredBeerNamesArray)):
+		beer_ids_array.append(i)
+	return [{beer_ids_array[i]:weight for i, weight in enumerate(line)} for line in trainedWeights]
 
-# This is the function we actually call!!!
-def makeAllBeerMaps(filename="beernodemap"):
-	trainedWeights = np.load("untuned_12.npz")['W']
+def load_all_beer_weights(toLoad="weight_decay_15.npz"):
+	trainedWeights = np.load(toLoad)['W']
 	trainingArray, bitMaskArray, filteredBeerNamesArray = createNDArray()
 	allBeerWeights = beer_dict_from_weights(filteredBeerNamesArray, trainedWeights)
+	return allBeerWeights
+
+# This is the function we actually call!!!
+def makeAllBeerMaps(filename="beernodemap", toLoad="weight_decay_15.npz"):
+	allBeerWeights = load_all_beer_weights(toLoad=toLoad)
 	makeBeerMap(allBeerWeights, filename=filename)
 
 

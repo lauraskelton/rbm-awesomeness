@@ -1,0 +1,2271 @@
+BEER_ID	BEER	ABV	IBU	GRAVITY	COLOR	CATEGORY_ID	CATEGORY_NAME	STYLE_ID	STYLE_NAME
+1016	21st Amendment Brew Free or Die IPA	7	50	1.014	11	10	India Pale Ale	8	American IPA
+1859	21st Amendment Fireside Chat	7.9	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1017	21st Amendment Hell or High Watermelon	4.9	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1018	21st Amendment Monk's Blood	8.3	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1099	Abbaye des Rocs Brasserie des Rocs Ambree	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1100	Abbaye des Rocs Brasserie des Rocs Blanche Double	6	15	1.01	3	26	Wheat Beer	38	Witbier
+1101	Abbaye des Rocs Brasserie des Rocs Blonde	7.5	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1102	Abbaye des Rocs Brasserie des Rocs Brune	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1103	Abbaye des Rocs Brasserie des Rocs Grand Cru	9.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1104	Abbaye des Rocs Brasserie des Rocs Triple Imperiale	10	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1094	Abbaye du Val-Dieu Val-Dieu Blond	6	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+1095	Abbaye du Val-Dieu Val-Dieu Brune	8	20	1.013	13	33	Dubbel	28	Dubbel
+1096	Abbaye du Val-Dieu Val-Dieu Grand Cru	10.5	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+1097	Abbaye du Val-Dieu Val-Dieu Triple	9	30	1.011	6	9	Tripel	37	Tripel
+776	Abita Abbey Ale	8	20	1.013	13	33	Dubbel	28	Dubbel
+781	Abita Abita Light	4	10	1.001	3	20	Lager	80	Light Lager
+1852	Abita Amber	4.5	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+777	Abita Andygator	8	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+778	Abita Christmas Ale	6.13	NULL	NULL	NULL	29	Amber	NULL	NULL
+779	Abita Fall Fest	5.4	NULL	NULL	NULL	42	Marzen	NULL	NULL
+780	Abita Jockamo IPA	6.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+782	Abita Mardi Gras Bock	6.5	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+783	Abita Pecan Harvest	5	32	1.012	27	13	Brown Ale	4	American Brown Ale
+784	Abita Purple Haze	4.2	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+785	Abita Restoration Pale Ale	5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+786	Abita Satsuma Harvest Wit	5.1	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+1793	Abita SOS	7	35	1.01	4	12	Pilsner	90	German Pilsener
+787	Abita Strawberry Harvest Lager	4.2	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+788	Abita Turbodog	6.13	20	1.011	22	13	Brown Ale	43	English Brown Ale
+598	Achel Trappist 5 Blonde	5	NULL	NULL	NULL	30	Blonde	NULL	NULL
+599	Achel Trappist Bruin	8	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+600	Achel Trappist Extra	9.5	NULL	NULL	NULL	34	Quad	NULL	NULL
+1019	Achouffe Chouffe Houblon Dobbelen IPA Tripel	9	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+1020	Achouffe La Chouffe	8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1021	Achouffe McChouffe	8	28	1.017	17	25	Scottish Style Ale	24	Belgian Strong Dark Ale
+1022	Achouffe N'Ice Chouffe	10	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+2041	Adnams Broadside	6.3	NULL	NULL	NULL	28	Bitter	NULL	NULL
+44	Affligem Affligem Blonde	6.8	28	1.011	4	30	Blonde	25	Belgian Strong Pale Ale
+45	Affligem Affligem Dubbel	7	20	1.013	13	33	Dubbel	28	Dubbel
+46	Affligem Affligem Noel	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+47	Affligem Affligem Tripel	8.5	30	1.011	6	9	Tripel	37	Tripel
+48	Alaskan Alaskan Amber	5	38	1.013	16	38	Old Ale	59	Altbier
+49	Alaskan Alaskan Baltic Porter	9.9	30	1.02	23	23	Porter	39	Baltic Porter
+50	Alaskan Alaskan Barley Wine	10.4	85	1.022	14	14	Barley Wine	2	American Barleywine
+51	Alaskan Alaskan IPA	6.2	50	1.014	11	10	India Pale Ale	8	American IPA
+52	Alaskan Alaskan Pale	4.65	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+53	Alaskan Alaskan Stout	5.65	33	1.015	32	11	Stout	54	Oatmeal Stout
+54	Alaskan Alaskan Summer	5.3	25	1.009	4	39	Kolsch	65	Kölsch
+55	Alaskan Alaskan White	8.3	15	1.01	3	26	Wheat Beer	38	Witbier
+56	Alaskan Alaskan Winter	6.4	25	1.016	17	38	Old Ale	57	Winter Warmer
+1849	Alaskan Double Black IPA	8.5	55	1.014	25	8	Misc	104	Black IPA / Cascadian Dark Ale
+2042	Alaskan Smoked Porter	6.5	NULL	NULL	NULL	23	Porter	NULL	NULL
+1026	AleSmith AleSmith IPA	7.25	50	1.014	11	10	India Pale Ale	8	American IPA
+1030	AleSmith AleSmith X	5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1024	AleSmith Anvil ESB	5.5	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1862	AleSmith Grand Cru	10.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1025	AleSmith Horny Devil	11	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+2043	AleSmith Lil' Devil	5.5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1023	AleSmith Nautical Nut Brown Ale	4.8	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1027	AleSmith Old Numbskull	11	52	1.024	15	14	Barley Wine	41	English Barleywine
+1028	AleSmith Speedway Stout	12	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+1029	AleSmith Wee Heavy	10	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1031	AleSmith Yulesmith (Summer)	8.8	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1032	AleSmith Yulesmith (Winter)	9.5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1600	Alken-Maes Grimbergen Blonde	6.7	25	1.012	11	30	Blonde	23	Belgian Pale Ale
+1601	Alken-Maes Grimbergen Dubbel	6.5	20	1.013	13	33	Dubbel	28	Dubbel
+2044	Alken-Maes Judas	8.5	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+1861	Allagash Allagash Hugh Malone	8.5	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+28	Allagash Black	7.5	28	1.017	17	11	Stout	24	Belgian Strong Dark Ale
+627	Allagash Curieux	11	30	1.011	6	9	Tripel	37	Tripel
+628	Allagash Dubbel Reserve	7	20	1.013	13	33	Dubbel	28	Dubbel
+1756	Allagash Fluxus 2010	10.3	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+629	Allagash Four	10	NULL	NULL	NULL	34	Quad	NULL	NULL
+630	Allagash Grand Cru	7.2	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+631	Allagash Interlude	9.5	17	1.01	8	32	Wild Ale	14	American Wild Ale
+1863	Allagash Odyssey	10	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+27	Allagash Tripel Reserve	9	30	1.011	6	9	Tripel	37	Tripel
+632	Allagash White	5.2	15	1.01	3	26	Wheat Beer	38	Witbier
+1610	Alpine Duet	6.75	50	1.014	11	10	India Pale Ale	8	American IPA
+1611	Alpine Exponential Hoppiness	10.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1612	Alpine Nelson	7.1	50	1.014	11	10	India Pale Ale	8	American IPA
+1613	Alpine Pure Hoppiness	8	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1235	Alvinne Balthazar	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1234	Alvinne Gaspar	8	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+1236	Alvinne Melchior	11	52	1.024	15	14	Barley Wine	41	English Barleywine
+1237	Alvinne Podge Belgian Imperial Stout	10.5	70	1.024	35	11	Stout	56	Russian Imperial Stout
+57	Amstel Amstel Light	3.5	10	1.001	3	20	Lager	80	Light Lager
+1040	Anchor Anchor Liberty Ale	6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1041	Anchor Anchor Porter	5.6	35	1.014	29	23	Porter	11	American Porter
+832	Anchor Anchor Steam	4.9	38	1.013	12	15	Steam Beer	79	California Common / Steam Beer
+1864	Anchor Bock Beer	5.5	22	1.016	17	16	Bock Beer	86	Bock
+1865	Anchor Christmas Ale 2009	5.5	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1866	Anchor Small Beer	3.3	30	1.009	9	28	Bitter	42	English Bitter
+1867	Anchor Summer Beer	4.6	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+1033	Anderson Valley Barney Flats Oatmeal Stout	5.7	33	1.015	32	11	Stout	54	Oatmeal Stout
+1034	Anderson Valley Boont Amber Ale	5.8	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1868	Anderson Valley Boont ESB	6.8	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1869	Anderson Valley Brother David's Triple	10	30	1.011	6	9	Tripel	37	Tripel
+1035	Anderson Valley Deep Enders Dark Porter	5.5	35	1.014	29	23	Porter	11	American Porter
+1036	Anderson Valley Hop Ottin IPA	7	50	1.014	11	10	India Pale Ale	8	American IPA
+1037	Anderson Valley Poleeko Gold Pale Ale	5.5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1038	Anderson Valley Winter Solstice	6.9	25	1.016	17	36	Strong Ale	57	Winter Warmer
+633	Anheuser-Busch Bare Knuckle Stout	4.2	37	1.009	32	11	Stout	68	Irish Dry Stout
+125	Anheuser-Busch Bud Ice Light	4.1	10	1.001	3	20	Lager	80	Light Lager
+123	Anheuser-Busch Budweiser	5	10	1.006	3	20	Lager	74	American Adjunct Lager
+124	Anheuser-Busch Budweiser American Ale	5.3	32	1.012	13	29	Amber	1	American Amber / Red Ale
+126	Anheuser-Busch Budweiser Select	4.3	10	1.001	3	20	Lager	80	Light Lager
+1045	Anheuser-Busch InBev Bass Pale Ale	5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1070	Anheuser-Busch InBev Boddingtons Pub Ale	4.7	30	1.01	9	31	Pale Ale	46	English Pale Ale
+634	Anheuser-Busch InBev Bud Light	4.2	10	1.006	3	20	Lager	74	American Adjunct Lager
+1870	Anheuser-Busch InBev Bud Light Golden Wheat	4.1	20	1.013	8	8	Misc	102	Herbed / Spiced Beer
+635	Anheuser-Busch InBev Bud Light Lime	4	10	1.006	3	44	Fruit/Vegetable	74	American Adjunct Lager
+1893	Anheuser-Busch InBev Busch Beer	4.6	10	1.006	3	20	Lager	74	American Adjunct Lager
+1894	Anheuser-Busch InBev Busch Light	4.1	10	1.001	3	20	Lager	80	Light Lager
+956	Anheuser-Busch InBev Hoegaarden	5	15	1.01	3	26	Wheat Beer	38	Witbier
+1598	Anheuser-Busch InBev LandShark Lager	4.7	10	1.006	3	20	Lager	74	American Adjunct Lager
+972	Anheuser-Busch InBev Leffe Blonde	6.6	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+973	Anheuser-Busch InBev Leffe Brune	6.5	25	1.015	16	13	Brown Ale	21	Belgian Dark Ale
+451	Anheuser-Busch InBev Redbridge	4.8	32	1.01	17	45	Specialty Grain	75	American Amber / Red Lager
+1599	Anheuser-Busch InBev Shock Top	5.2	15	1.01	3	26	Wheat Beer	38	Witbier
+636	Anheuser-Busch LandShark Lager	4.7	10	1.006	3	20	Lager	74	American Adjunct Lager
+637	Anheuser-Busch Natural Light	4.2	10	1.006	3	20	Lager	74	American Adjunct Lager
+638	Anheuser-Busch Rolling Rock	4.5	10	1.006	3	20	Lager	74	American Adjunct Lager
+639	Anheuser-Busch Rolling Rock Light	3.59	10	1.006	3	20	Lager	74	American Adjunct Lager
+640	Anheuser-Busch Rolling Rock Red	5	10	1.006	3	20	Lager	74	American Adjunct Lager
+641	Anheuser-Busch Stone Mill Pale Ale	5.3	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+642	Anheuser-Busch Wild Blue Blueberry Lager	8	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+643	Anheuser-Busch Wild Hop Lager	5	NULL	NULL	NULL	20	Lager	NULL	NULL
+2045	Arcadia Angler's Ale	5.4	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+58	Arcadia Cocoa Loco	7	55	1.016	35	11	Stout	12	American Stout
+59	Arcadia Hop Rocket	9	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+644	Arcadia Hopmouth Double IPA	8.1	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+645	Arcadia Imperial Stout	8.4	NULL	NULL	NULL	11	Stout	NULL	NULL
+646	Arcadia India Pale Ale	5.9	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+60	Arcadia Jaw-Jacker	6	20	1.013	8	44	Fruit/Vegetable	102	Herbed / Spiced Beer
+647	Arcadia London Porter	7.2	27	1.011	25	23	Porter	48	English Porter
+61	Arcadia Shipwreck Porter	7	30	1.02	23	23	Porter	39	Baltic Porter
+1039	Asahi Breweries Asahi Super Dry	5	12	1.006	3	20	Lager	100	Japanese Rice Lager
+1504	Asia Pacific Tiger Beer	5	10	1.006	3	20	Lager	74	American Adjunct Lager
+1042	Atlantic Bar Harbor Blueberry Ale	5.2	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1043	Atlantic Bar Harbor Coal Porter	6.5	35	1.014	29	23	Porter	11	American Porter
+1044	Atlantic Bar Harbor Real Ale	5.2	20	1.011	22	13	Brown Ale	43	English Brown Ale
+2077	Atlantic Brother Adam's Bragget Ale	11.8	NULL	NULL	NULL	8	Misc	NULL	NULL
+62	Augustiner Edelstoff	5.6	19	1.01	4	20	Lager	94	Munich Helles Lager
+63	Augustiner Maximator	7.5	21	1.02	16	16	Bock Beer	87	Doppelbock
+1871	Avery Collaboration Not Litigation	8.72	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1872	Avery DuganA IPA	8.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+886	Avery Ellie's Brown	5.55	20	1.011	22	13	Brown Ale	43	English Brown Ale
+887	Avery Hog Heaven	9.2	NULL	NULL	NULL	14	Barley Wine	NULL	NULL
+888	Avery India Pale Ale	6	50	1.014	11	10	India Pale Ale	8	American IPA
+1874	Avery Karma	5.2	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+889	Avery Maharaja	10.3	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+890	Avery Mephistopheles	15.92	NULL	NULL	NULL	11	Stout	NULL	NULL
+891	Avery New World Porter	6.7	35	1.014	29	23	Porter	11	American Porter
+892	Avery Old Jubilation	8	25	1.016	17	36	Strong Ale	57	Winter Warmer
+893	Avery Out Of Bounds Stout	5.1	37	1.009	32	11	Stout	68	Irish Dry Stout
+1875	Avery Salvation	9	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1876	Avery Samael's Ale	14.5	52	1.024	15	14	Barley Wine	41	English Barleywine
+2046	Avery Seventeen	7.69	NULL	NULL	NULL	43	Schwarzbier	NULL	NULL
+894	Avery The Beast Grand Cru	16.31	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+885	Avery The Czar	10.77	NULL	NULL	NULL	11	Stout	NULL	NULL
+1873	Avery The Kaiser	10.03	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+895	Avery The Reverend	10	NULL	NULL	NULL	34	Quad	NULL	NULL
+896	Avery White Rascal	5.5	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+897	Aying Altbairisch Dunkel	5	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+898	Aying Brau-Weisse	5.1	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+899	Aying Celebrator Doppelbock	6.7	21	1.02	16	16	Bock Beer	87	Doppelbock
+900	Aying Jahrhundert	5.5	NULL	NULL	NULL	20	Lager	NULL	NULL
+901	Aying Oktober Fest-Märzen	5.8	NULL	NULL	NULL	42	Marzen	NULL	NULL
+1609	Aying Ur-Weisse	5.8	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+1792	Aying Weizen-Bock	7.1	22	1.019	19	26	Wheat Beer	67	Weizenbock
+902	Ballast Point Big Eye IPA	6	50	1.014	11	10	India Pale Ale	8	American IPA
+903	Ballast Point Black Marlin Porter	5.9	35	1.014	29	23	Porter	11	American Porter
+904	Ballast Point Calico Amber Ale	5	NULL	NULL	NULL	29	Amber	NULL	NULL
+905	Ballast Point Dorado Double IPA	9.6	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+906	Ballast Point Sculpin IPA	7	50	1.014	11	10	India Pale Ale	8	American IPA
+1735	Ballast Point Victory at Sea	10	35	1.014	29	23	Porter	11	American Porter
+907	Ballast Point Wahoo Wheat	4	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+908	Ballast Point Yellowtail Pale Ale	4.6	25	1.009	4	39	Kolsch	65	Kölsch
+2049	Baltika #2	4.7	NULL	NULL	NULL	20	Lager	NULL	NULL
+2050	Baltika #3 Classic	4.8	NULL	NULL	NULL	20	Lager	NULL	NULL
+2051	Baltika #4 Dark Lager	5.6	NULL	NULL	NULL	20	Lager	NULL	NULL
+2052	Baltika #5 Golden Lager	5.3	NULL	NULL	NULL	20	Lager	NULL	NULL
+2053	Baltika #6 Porter	7	NULL	NULL	NULL	23	Porter	NULL	NULL
+2054	Baltika #7 Export Lager	5.4	NULL	NULL	NULL	20	Lager	NULL	NULL
+2055	Baltika #8 Wheat Ale	5	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+2056	Baltika #9 Extra Lager	8	NULL	NULL	NULL	20	Lager	NULL	NULL
+2057	Baltika Cooler	4.7	NULL	NULL	NULL	20	Lager	NULL	NULL
+2048	Baltika Lite	4.4	NULL	NULL	NULL	20	Lager	NULL	NULL
+2047	Baltika Non-Alcoholic	0.5	NULL	NULL	NULL	8	Misc	NULL	NULL
+2058	Banks Banks Beer	4.7	NULL	NULL	NULL	20	Lager	NULL	NULL
+1047	Bavik Bavik Premium Pils	5.2	35	1.01	4	12	Pilsner	90	German Pilsener
+1877	Bavik Petrus Aged Pale	7.3	15	1.015	19	32	Wild Ale	30	Flanders Oud Bruin
+1878	Bavik Petrus Oud Bruin	5.5	15	1.015	19	32	Wild Ale	30	Flanders Oud Bruin
+1879	Bavik Wittekerke	5	15	1.01	3	26	Wheat Beer	38	Witbier
+1794	Bayern Dragon's Breath	5.6	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+1880	Beamish & Crawford Beamish Irish Stout	4.1	37	1.009	32	11	Stout	68	Irish Dry Stout
+1048	Bear Republic Big Bear Black Stout	8.1	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1049	Bear Republic Hop Rod Rye	8	50	1.014	11	10	India Pale Ale	8	American IPA
+1881	Bear Republic Peter Brown Tribute Ale	6.3	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1050	Bear Republic Racer 5	7	50	1.014	11	10	India Pale Ale	8	American IPA
+1882	Bear Republic Racer X	9	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1051	Bear Republic Red Rocket Ale	6.8	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1883	Bear Republic XP Pale Ale	5.5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1682	Beau's Lug Tread	5.2	25	1.009	4	39	Kolsch	65	Kölsch
+1052	Beck's Beck's	4.9	35	1.01	4	12	Pilsner	90	German Pilsener
+1884	Beck's Beck's Dark	4.8	23	1.013	21	20	Lager	93	Munich Dunkel Lager
+1885	Beck's Beck's Oktoberfest	5	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+1757	Beer Here Mørke	7.5	30	1.02	23	23	Porter	39	Baltic Porter
+1053	Belhaven Scottish Ale	5.2	18	1.012	13	25	Scottish Style Ale	72	Scottish Ale
+1054	Belhaven Scottish Stout	7	38	1.01	33	11	Stout	49	English Stout
+1055	Belhaven St. Andrews Ale	4.6	18	1.012	13	25	Scottish Style Ale	72	Scottish Ale
+1056	Belhaven Twisted Thistle IPA	6.1	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+1057	Belhaven Wee Heavy	6.5	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+65	Bell's Amber Ale	6	32	1.012	13	29	Amber	1	American Amber / Red Ale
+70	Bell's Barrel Aged Cherry Stout	8.5	70	1.024	35	44	Fruit/Vegetable	7	American Double / Imperial Stout
+73	Bell's Barrel Aged Double Cream Stout	10	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+71	Bell's Barrel Aged Expedition Stout	12	70	1.024	35	11	Stout	56	Russian Imperial Stout
+72	Bell's Barrel Aged Java Stout		70	1.024	35	11	Stout	7	American Double / Imperial Stout
+66	Bell's Batch 6,000	10.5	85	1.022	14	14	Barley Wine	2	American Barleywine
+67	Bell's Batch 8,000	9	15	1.01	3	26	Wheat Beer	38	Witbier
+68	Bell's Best Brown Ale	5.8	20	1.011	22	13	Brown Ale	43	English Brown Ale
+69	Bell's Big Head	11.07	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+74	Bell's Cherry Ale	6	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+75	Bell's Christmas Ale	5.8	18	1.012	13	25	Scottish Style Ale	72	Scottish Ale
+1886	Bell's Consecrator Doppelbock	8	21	1.02	16	16	Bock Beer	87	Doppelbock
+76	Bell's Eccentric Ale	11	85	1.02	13	36	Strong Ale	13	American Strong Ale
+77	Bell's Expedition Stout	10.5	70	1.024	35	11	Stout	56	Russian Imperial Stout
+78	Bell's Golden Rye	6.5	22	1.012	17	45	Specialty Grain	19	Rye Beer
+79	Bell's Harry Magill's Spiced Stout	7.9	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+80	Bell's Hell Hath No Fury	7.7	28	1.017	17	33	Dubbel	24	Belgian Strong Dark Ale
+81	Bell's Hopslam	10	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+82	Bell's Kalamazoo Stout	6	55	1.016	35	11	Stout	12	American Stout
+83	Bell's Lager Beer	4.5	10	1.006	3	20	Lager	78	American Pale Lager
+84	Bell's Oarsman Ale	4.5	7	1.004	3	26	Wheat Beer	60	Berliner Weissbier
+85	Bell's Oatmeal Stout	5.7	33	1.015	32	11	Stout	54	Oatmeal Stout
+86	Bell's Oberon	6	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+87	Bell's Octoberfest	5.8	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+88	Bell's Pale Ale	5.3	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+89	Bell's Poolside Ale	5.5	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+90	Bell's Porter	5.6	35	1.014	29	23	Porter	11	American Porter
+91	Bell's Raspberry Ale	6	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1887	Bell's Rye Stout	6.7	55	1.016	35	11	Stout	12	American Stout
+92	Bell's Smoked Stout	6	55	1.016	35	41	Smoked Beer	12	American Stout
+93	Bell's Sparkling Ale	9	30	1.011	6	9	Tripel	37	Tripel
+94	Bell's Special Double Cream Stout	6.1	30	1.019	35	11	Stout	53	Milk / Sweet Stout
+95	Bell's The Oracle		90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1668	Bell's Third Coast Beer	4.8	20	1.011	4	30	Blonde	3	American Blonde Ale
+1667	Bell's Third Coast Old Ale	10.2	45	1.019	16	38	Old Ale	55	Old Ale
+96	Bell's Time Capsule Ale	10.5	85	1.022	14	14	Barley Wine	2	American Barleywine
+648	Bell's Two Hearted Ale	7.1	50	1.014	11	10	India Pale Ale	8	American IPA
+97	Bell's Winter White	5	15	1.01	3	26	Wheat Beer	38	Witbier
+98	Big Sky Biere de Noel	8.75	28	1.017	17	34	Quad	24	Belgian Strong Dark Ale
+649	Big Sky IPA	6.2	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+99	Big Sky Ivan the Terrible	8.75	70	1.024	35	11	Stout	56	Russian Imperial Stout
+650	Big Sky Moose Drool	5.3	32	1.012	27	13	Brown Ale	4	American Brown Ale
+100	Big Sky Olde Bluehair	8.75	85	1.022	14	14	Barley Wine	2	American Barleywine
+651	Big Sky Powder Hound Winter Ale	6.2	25	1.016	17	29	Amber	57	Winter Warmer
+652	Big Sky Scape Goat Pale Ale	4.7	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+101	Big Sky Smoove Cherry Ale	8.75	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+653	Big Sky Summer Honey	4.7	NULL	NULL	NULL	30	Blonde	NULL	NULL
+909	Bitburger Bitburger Premium Pils	4.8	NULL	NULL	NULL	20	Lager	NULL	NULL
+1062	Black Sheep Black Sheep Ale	4.4	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1060	Black Sheep Monty Python's Holy Grail	4.7	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1061	Black Sheep Riggwelter Yorkshire Ale	5.7	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1064	Blue Point Brewing Blue Point Blueberry	4.6	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1065	Blue Point Brewing Hoptical Illusion	6.8	50	1.014	11	10	India Pale Ale	8	American IPA
+1066	Blue Point Brewing Old Howling Bastard	10	85	1.022	14	14	Barley Wine	2	American Barleywine
+1067	Blue Point Brewing Toasted Lager	5.3	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1068	Bockor Bellegems Bruin	5.5	15	1.015	19	32	Wild Ale	30	Flanders Oud Bruin
+1069	Bockor Cuvee des Jacobins Rouge	5.5	18	1.007	13	32	Wild Ale	31	Flanders Red Ale
+1847	Boon Rawd Singha	5	12	1.006	3	20	Lager	84	Euro Pale Lager
+654	Bosteels Deus Brut des Flandres	11.5	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+655	Bosteels Pauwel Kwak	8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+602	Bosteels Tripel Karmeliet	8	30	1.011	6	9	Tripel	37	Tripel
+1075	Boulder Beer Cold Hop	6.5	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+1076	Boulder Beer Hazed and Infused	4.85	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1077	Boulder Beer Killer Penguin	10	85	1.022	14	14	Barley Wine	2	American Barleywine
+1079	Boulder Beer Mojo IPA	7.2	50	1.014	11	10	India Pale Ale	8	American IPA
+1078	Boulder Beer Mojo Risin	10.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1080	Boulder Beer Never Summer	5.94	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1081	Boulder Beer Obovoid	8	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1082	Boulder Beer Pass Time Pale Ale	4.96	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1083	Boulder Beer Planet Porter	5.51	35	1.014	29	23	Porter	11	American Porter
+1084	Boulder Beer Sweaty Betty Blonde	5.9	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+112	Boulevard Boulevard Pilsner		35	1.01	4	12	Pilsner	90	German Pilsener
+111	Boulevard Bourbon Barrel Quad	11.8	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+656	Boulevard Bully! Porter	5.4	35	1.014	29	23	Porter	11	American Porter
+657	Boulevard Double Wide IPA	8.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+658	Boulevard Dry Stout	4.9	37	1.009	32	11	Stout	68	Irish Dry Stout
+659	Boulevard Lunar Ale	5.1	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+660	Boulevard Pale Ale	5.1	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1888	Boulevard Saison - Brett	8.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+661	Boulevard Seeyoulater Doppelbock		21	1.02	16	16	Bock Beer	87	Doppelbock
+662	Boulevard The Sixth Glass	10.5	NULL	NULL	NULL	34	Quad	NULL	NULL
+113	Boulevard Two Jokers Double-Wit	8	15	1.01	3	26	Wheat Beer	38	Witbier
+663	Boulevard Unfiltered Wheat Beer	4.4	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+664	Boulevard Zon	4.4	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+1699	Boxcar Original Ale	5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+2062	Brahma Brahma	4.8	NULL	NULL	NULL	20	Lager	NULL	NULL
+1085	Brasserie a Vapeur Cochonne	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1087	Brasserie a Vapeur Saison de Pipaix	6	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1086	Brasserie a Vapeur Vapeur en Folie	8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1133	Brasserie Caracole Caracole	8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1091	Brasserie Caracole Nostradamus	9.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1092	Brasserie Caracole Saxo	8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1093	Brasserie Caracole Troublette	5	15	1.01	3	26	Wheat Beer	38	Witbier
+1136	Brasserie Castelain Blond Biere de Garde	6.4	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+1137	Brasserie Castelain St. Amand	5.9	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+2063	Brasserie de Silly La Divine Blond	7.5	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2064	Brasserie de Silly La Divine Triple	9.5	NULL	NULL	NULL	9	Tripel	NULL	NULL
+2065	Brasserie de Silly Pink Killer	5	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+2066	Brasserie de Silly Saison Silly	5.3	NULL	NULL	NULL	24	Saison	NULL	NULL
+2067	Brasserie de Silly Scotch Silly	8	NULL	NULL	NULL	25	Scottish Style Ale	NULL	NULL
+1098	Brasserie des Geants Saison Voisin	5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1905	Brasserie Dieu du Ciel Aphrodisiaque	6.5	55	1.016	35	11	Stout	12	American Stout
+1906	Brasserie Dieu du Ciel Corne Du Diable	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+1908	Brasserie Dieu du Ciel Dernière Volonté	6.5	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+1105	Brasserie Dieu du Ciel Péché Mortel	9.5	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+1907	Brasserie Dieu du Ciel Route Des Épices	5	22	1.012	17	45	Specialty Grain	19	Rye Beer
+1106	Brasserie Grain d'Orge Belzebuth	13	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1088	Brasserie La Binchoise La Binchoise Blonde Tradition	6.5	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+1089	Brasserie La Binchoise La Binchoise Brune Tradition	8.2	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1090	Brasserie La Binchoise La Binchoise Reserve Speciale	9	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1063	Brasserie Lefebvre Blanche de Bruxelles	4.5	15	1.01	3	26	Wheat Beer	38	Witbier
+1224	Brasserie Lefebvre Floreffe Blonde	6.3	25	1.012	11	30	Blonde	23	Belgian Pale Ale
+1225	Brasserie Lefebvre Floreffe Prima Melior	8	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1226	Brasserie Lefebvre Floreffe Triple	7.5	30	1.011	6	9	Tripel	37	Tripel
+2129	Brasserie Piedboeuf Jupiler	5.2	NULL	NULL	NULL	20	Lager	NULL	NULL
+1677	Breckenridge 471 Small Batch IPA	9.2	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1678	Breckenridge Avalanche	5.41	32	1.012	13	29	Amber	1	American Amber / Red Ale
+2068	Breckenridge Christmas Ale	7.4	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+1679	Breckenridge Oatmeal Stout	4.95	33	1.015	32	11	Stout	54	Oatmeal Stout
+1676	Breckenridge Vanilla Porter	4.7	35	1.014	29	23	Porter	11	American Porter
+1889	BrewDog Bashah	8.6	55	1.014	25	8	Misc	104	Black IPA / Cascadian Dark Ale
+114	BrewDog Chaos Theory	7.1	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+115	BrewDog Devine Rebel	12.5	52	1.024	15	14	Barley Wine	41	English Barleywine
+116	BrewDog Dogma	7.8	20	1.013	8	36	Strong Ale	102	Herbed / Spiced Beer
+665	BrewDog Hardcore IPA	9	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+117	BrewDog Paradox Glen Grant	10	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+118	BrewDog Paradox Islay	10	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+119	BrewDog Paradox Smokehead	10	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+120	BrewDog Paradox Springbank	10	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+121	BrewDog Punk IPA	6.1	50	1.014	11	10	India Pale Ale	8	American IPA
+666	BrewDog Riptide	8	NULL	NULL	NULL	11	Stout	NULL	NULL
+667	BrewDog The Physics	5	NULL	NULL	NULL	28	Bitter	NULL	NULL
+668	BrewDog Tokyo	12	NULL	NULL	NULL	11	Stout	NULL	NULL
+122	BrewDog Zephyr	13	90	1.017	12	44	Fruit/Vegetable	6	American Double / Imperial IPA
+1107	BridgePort Black Strap Stout	6	55	1.016	35	11	Stout	12	American Stout
+1108	BridgePort Blue Heron	4.9	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1110	BridgePort BridgePort ESB	6.1	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1113	BridgePort BridgePort IPA	5.5	50	1.014	11	10	India Pale Ale	8	American IPA
+1114	BridgePort BridgePort Porter	5.5	35	1.014	29	23	Porter	11	American Porter
+1109	BridgePort Ebenezer	6.4	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1111	BridgePort Haymaker	5.3	20	1.011	4	30	Blonde	3	American Blonde Ale
+1112	BridgePort Hop Czar	7.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1115	BridgePort Ropewalk Amber Ale	5.6	32	1.012	13	29	Amber	1	American Amber / Red Ale
+2069	Bristol Beehive	5	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+2070	Bristol Cheyenne Canon	6.3	NULL	NULL	NULL	13	Brown Ale	NULL	NULL
+2071	Bristol Compass IPA	6.7	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2072	Bristol Laughing Lab	5.3	NULL	NULL	NULL	25	Scottish Style Ale	NULL	NULL
+2073	Bristol Mass Transit Ale	5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2074	Bristol Old No. 23	11.25	NULL	NULL	NULL	14	Barley Wine	NULL	NULL
+2075	Bristol Red Rocket	5.2	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2076	Bristol Winter Warlock	6.5	NULL	NULL	NULL	11	Stout	NULL	NULL
+911	Brooklyn Black Chocolate Stout	10.6	NULL	NULL	NULL	11	Stout	NULL	NULL
+1890	Brooklyn Black OpS	11.6	70	1.024	35	11	Stout	56	Russian Imperial Stout
+914	Brooklyn Brooklyn Lager	5.2	24	1.012	13	20	Lager	98	Vienna Lager
+1891	Brooklyn Brooklyner Weisse	5	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1892	Brooklyn Brooklyner-Schneider Hopfen-Weisse	8.5	22	1.019	19	16	Bock Beer	67	Weizenbock
+912	Brooklyn Brown Ale	5.6	32	1.012	27	13	Brown Ale	4	American Brown Ale
+913	Brooklyn East India Pale Ale	6.8	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+915	Brooklyn Local 1	9	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+916	Brooklyn Local 2	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+917	Brooklyn Monster Ale	10.8	52	1.024	15	14	Barley Wine	41	English Barleywine
+918	Brooklyn Oktoberfest	5.5	NULL	NULL	NULL	42	Marzen	NULL	NULL
+910	Brooklyn Pennant Ale 55	5.1	30	1.01	9	31	Pale Ale	46	English Pale Ale
+919	Brooklyn Pilsner	5	NULL	NULL	NULL	12	Pilsner	NULL	NULL
+1854	Brooklyn Post Road Pumpkin Ale	5	20	1.015	15	44	Fruit/Vegetable	18	Pumpkin Ale
+920	Brooklyn Summer Ale	4.5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+921	Brooklyn Winter Ale	6	18	1.012	13	25	Scottish Style Ale	72	Scottish Ale
+1072	Brouwerij Boon Boon Oude Geuze	7	5	1.003	5	32	Wild Ale	32	Gueuze
+1073	Brouwerij Boon Boon Oude Geuze Mariage Parfait	8	5	1.003	5	32	Wild Ale	32	Gueuze
+1074	Brouwerij Boon Boon Oude Kriek	6.5	5	1.005	5	32	Wild Ale	33	Lambic - Fruit
+1858	Brouwerij Contreras Valeir Extra	6.5	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+1116	Brouwerij Girardin Girardin Gueuze Black Label	5	5	1.003	5	32	Wild Ale	32	Gueuze
+1117	Brouwerij Oud Beersel Bersalis	9.5	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1118	Brouwerij Oud Beersel Oud Beersel Framboise	6	5	1.005	5	32	Wild Ale	33	Lambic - Fruit
+1119	Brouwerij Oud Beersel Oud Beersel Kriek	4	5	1.005	5	32	Wild Ale	33	Lambic - Fruit
+1120	Brouwerij Oud Beersel Oude Gueuze Vieille	6	5	1.003	5	32	Wild Ale	32	Gueuze
+1121	Brouwerij Oud Beersel Oude Kriek Vieille	6.5	5	1.005	5	32	Wild Ale	33	Lambic - Fruit
+2026	Browar Okocim Okocim Beer	7	35	1.01	4	12	Pilsner	90	German Pilsener
+1470	Brunehaut St. Martin Blonde	7	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1471	Brunehaut St. Martin Brune	8	20	1.013	13	33	Dubbel	28	Dubbel
+922	Budvar Czechvar (Budvar)	5	NULL	NULL	NULL	20	Lager	NULL	NULL
+127	Buffalo Bill's Blueberry Oatmeal Stout	7.5	70	1.024	35	44	Fruit/Vegetable	7	American Double / Imperial Stout
+128	Buffalo Bill's Orange Blossom Cream Ale	5	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+129	Buffalo Bill's Pumpkin Ale	5	20	1.015	15	44	Fruit/Vegetable	18	Pumpkin Ale
+1797	Butte Creek Organic India Pale Ale	6.7	50	1.014	11	10	India Pale Ale	8	American IPA
+1796	Butte Creek Organic Porter	5.9	35	1.014	29	23	Porter	11	American Porter
+1672	Butternuts Heinnieweisse	4.9	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1673	Butternuts Moo Thunder	4.9	30	1.019	35	11	Stout	53	Milk / Sweet Stout
+1671	Butternuts Porkslap Pale Ale	4.3	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1674	Butternuts Snapperhead IPA	6.8	50	1.014	11	10	India Pale Ale	8	American IPA
+1895	Caldera Hopportunity Knocks	6.8	50	1.014	11	10	India Pale Ale	8	American IPA
+1896	Caldera IPA	6.1	50	1.014	11	10	India Pale Ale	8	American IPA
+1897	Caldera Pale Ale	5.6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+130	Cantillon 50°N-4°E	7	5	1.006	5	32	Wild Ale	34	Lambic - Unblended
+131	Cantillon Bruocsella 1900 Grand Cru	5	5	1.006	5	32	Wild Ale	34	Lambic - Unblended
+669	Cantillon Classic Gueuze	5	5	1.003	5	32	Wild Ale	32	Gueuze
+132	Cantillon Cuvee des Champions	5	5	1.003	5	32	Wild Ale	32	Gueuze
+133	Cantillon Fou' Foune	5	5	1.005	5	32	Wild Ale	33	Lambic - Fruit
+134	Cantillon Gueuze Loerik	5	5	1.003	5	32	Wild Ale	32	Gueuze
+670	Cantillon Iris	5	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+671	Cantillon Kriek	5	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+672	Cantillon Rose De Gambrinus	5	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+135	Cantillon Saint Lamvinus	5	5	1.005	5	32	Wild Ale	33	Lambic - Fruit
+136	Cantillon Vigneronne	5	5	1.005	5	32	Wild Ale	33	Lambic - Fruit
+137	Capital Autumnal Fire	8.5	21	1.02	16	16	Bock Beer	87	Doppelbock
+673	Capital Blond Doppelbock	8	21	1.02	16	16	Bock Beer	87	Doppelbock
+138	Capital Capital Baltic Porter	8.5	30	1.02	23	23	Porter	39	Baltic Porter
+139	Capital Capital Oktoberfest	5.5	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+140	Capital Capital Pilsner	4.8	35	1.01	4	12	Pilsner	90	German Pilsener
+141	Capital Capital Wild Rice	5	20	1.013	8	45	Specialty Grain	102	Herbed / Spiced Beer
+674	Capital Maibock	6.2	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+675	Capital Munich Dark	5.5	23	1.013	21	20	Lager	93	Munich Dunkel Lager
+142	Capital Winter Skål	5.4	32	1.01	17	29	Amber	75	American Amber / Red Lager
+143	Capital Wisconsin Amber	5.1	32	1.01	17	29	Amber	75	American Amber / Red Lager
+144	Captain Lawrence Captain's Reserve	8	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+145	Captain Lawrence Cuvee de Castleton	6	17	1.01	8	32	Wild Ale	14	American Wild Ale
+146	Captain Lawrence Flaming Fury		17	1.01	8	32	Wild Ale	14	American Wild Ale
+147	Captain Lawrence Golden Delicious	10	30	1.011	6	9	Tripel	37	Tripel
+148	Captain Lawrence Little Linda's Liquid	8.5	17	1.01	8	32	Wild Ale	14	American Wild Ale
+149	Captain Lawrence Nor' Easter	12	25	1.016	17	36	Strong Ale	57	Winter Warmer
+150	Captain Lawrence Rosso e Marrone		15	1.015	19	32	Wild Ale	30	Flanders Oud Bruin
+151	Captain Lawrence Smoke from the Oak	6.4	35	1.014	29	41	Smoked Beer	11	American Porter
+152	Captain Lawrence Xtra Gold	10	30	1.011	6	9	Tripel	37	Tripel
+2078	Captured by Porches Invasive Species IPA	6.3	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+1708	Carlow Brewing O'Hara's Celtic Stout	4.3	37	1.009	32	11	Stout	68	Irish Dry Stout
+1709	Carlow Brewing O'Hara's Irish Red	4.3	22	1.011	14	29	Amber	69	Irish Red Ale
+1134	Carlsberg Carlsberg Beer	4.6	35	1.01	4	12	Pilsner	90	German Pilsener
+1135	Carlsberg Carlsberg Elephant	7.2	20	1.017	5	20	Lager	85	Euro Strong Lager
+2196	Carlton & United Pure Blonde	4.6	NULL	NULL	NULL	20	Lager	NULL	NULL
+2079	Carlton & United Victoria Bitter	4.9	NULL	NULL	NULL	20	Lager	NULL	NULL
+2080	Carolina Beer Company Carolina Blonde	5	NULL	NULL	NULL	30	Blonde	NULL	NULL
+2081	Castlemaine Perkins XXXX Bitter	4.8	NULL	NULL	NULL	20	Lager	NULL	NULL
+2105	Cervecera Mexicana Ed Hardy Death Or Light Beer	?	NULL	NULL	NULL	20	Lager	NULL	NULL
+2104	Cervecera Mexicana Ed Hardy Premium Beer	?	NULL	NULL	NULL	20	Lager	NULL	NULL
+153	Chimay Chimay Grande Reserve (Blue)	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+154	Chimay Chimay Première (Red)	7	20	1.013	13	33	Dubbel	28	Dubbel
+155	Chimay Chimay Tripel (White)	8	30	1.011	6	9	Tripel	37	Tripel
+676	Cisco Brewers Baggywrinkle Barleywine	12	NULL	NULL	NULL	14	Barley Wine	NULL	NULL
+677	Cisco Brewers Bailey's Ale	7.5	20	1.011	4	30	Blonde	3	American Blonde Ale
+678	Cisco Brewers Captain Swain's Extra Stout	8	NULL	NULL	NULL	11	Stout	NULL	NULL
+1798	Cisco Brewers Cherry Woods	4.7	17	1.01	8	32	Wild Ale	14	American Wild Ale
+679	Cisco Brewers Grey Lady	?	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+680	Cisco Brewers Indie Pale Ale	?	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+681	Cisco Brewers Moor Porter	7	35	1.014	29	23	Porter	11	American Porter
+156	Cisco Sankaty Light	3.8	10	1.001	3	20	Lager	80	Light Lager
+157	Cisco Whale's Tale Pale Ale	5.6	30	1.01	9	31	Pale Ale	46	English Pale Ale
+682	Clipper City Heavy Seas Below Decks	11	NULL	NULL	NULL	14	Barley Wine	NULL	NULL
+685	Clipper City Heavy Seas Big DIPA	10.6	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+683	Clipper City Heavy Seas Hang Ten	10	22	1.019	19	16	Bock Beer	67	Weizenbock
+686	Clipper City Heavy Seas Holy Sheet	9	20	1.013	13	33	Dubbel	28	Dubbel
+687	Clipper City Heavy Seas Loose Cannon (Hop3)	7.25	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+688	Clipper City Heavy Seas Peg Leg	8	NULL	NULL	NULL	11	Stout	NULL	NULL
+684	Clipper City Heavy Seas Prosit!	9	NULL	NULL	NULL	42	Marzen	NULL	NULL
+689	Clipper City Heavy Seas Red Sky At Night	8	NULL	NULL	NULL	24	Saison	NULL	NULL
+690	Clipper City Heavy Seas Small Craft Warning	7	NULL	NULL	NULL	20	Lager	NULL	NULL
+1936	Clipper City Heavy Seas Winter Storm	7.5	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+158	Clipper City MärzHon	5.8	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+159	Coast Blackbeerd	9.3	70	1.024	35	11	Stout	56	Russian Imperial Stout
+160	Coast HopArt	7.7	50	1.014	11	10	India Pale Ale	8	American IPA
+161	Coast Rye Not Brown Ale	6.2	32	1.012	27	13	Brown Ale	4	American Brown Ale
+163	Cold Spring Cold Spring Pale Ale		37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+162	Cold Spring Moonlight Ale		25	1.012	25	13	Brown Ale	15	Black & Tan
+1138	Coney Island (Shmaltz) Albino Python	6	10	1.006	3	20	Lager	78	American Pale Lager
+1140	Coney Island (Shmaltz) Coney Island Lager	5.5	32	1.01	17	29	Amber	75	American Amber / Red Lager
+1141	Coney Island (Shmaltz) Freaktoberfest	6.66	32	1.01	17	29	Amber	75	American Amber / Red Lager
+1142	Coney Island (Shmaltz) Human Blockhead	10	32	1.01	17	29	Amber	75	American Amber / Red Lager
+1139	Coney Island (Shmaltz) Sword Swallower	6.8	10	1.006	3	20	Lager	78	American Pale Lager
+691	Coniston Bluebird Bitter	4.2	NULL	NULL	NULL	28	Bitter	NULL	NULL
+164	Coniston Old Man Ale	4.8	45	1.019	16	38	Old Ale	55	Old Ale
+165	Coopers Coopers Best Extra Stout	6.3	50	1.015	35	11	Stout	52	Foreign / Export Stout
+167	Coopers Coopers Original Pale Ale	4.5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+166	Coopers Coopers Premium Lager	5	12	1.006	3	20	Lager	84	Euro Pale Lager
+168	Coopers Coopers Sparkling Ale	5.8	30	1.01	9	30	Blonde	46	English Pale Ale
+102	Coors Blue Moon	5.4	15	1.01	3	26	Wheat Beer	38	Witbier
+103	Coors Blue Moon Full Moon	5.6	20	1.013	13	33	Dubbel	28	Dubbel
+104	Coors Blue Moon Grand Cru		15	1.01	3	26	Wheat Beer	38	Witbier
+105	Coors Blue Moon Harvest Moon	5.77	20	1.015	15	44	Fruit/Vegetable	18	Pumpkin Ale
+106	Coors Blue Moon Honey Moon	5.6	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+107	Coors Blue Moon Pale Moon	5.4	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+108	Coors Blue Moon Rising Moon	5.4	32	1.012	13	26	Wheat Beer	1	American Amber / Red Ale
+169	Coors Coors	5	10	1.006	3	20	Lager	74	American Adjunct Lager
+694	Coors Coors Light	4.2	10	1.006	3	20	Lager	74	American Adjunct Lager
+692	Coors Keystone Ice	5.9	10	1.006	3	20	Lager	74	American Adjunct Lager
+693	Coors Keystone Light	4.2	10	1.006	3	20	Lager	74	American Adjunct Lager
+219	Coors Killian's Irish Red	4.9	32	1.01	17	29	Amber	75	American Amber / Red Lager
+1642	Coronado Idiot IPA	8	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1643	Coronado Islander IPA	7.5	50	1.014	11	10	India Pale Ale	8	American IPA
+1644	Coronado Mermaid's Red	5.7	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1645	Coronado Red Devil	10	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1147	Corsendonk Abbey Brown Ale	7.5	20	1.013	13	33	Dubbel	28	Dubbel
+1146	Corsendonk Abbey Pale Ale	7.5	30	1.011	6	9	Tripel	37	Tripel
+1145	Corsendonk Corsendonk Christmas Ale	8.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+2082	Craftsman 1903	0	NULL	NULL	NULL	20	Lager	NULL	NULL
+2083	Craftsman Cabernale	7.5	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+2084	Craftsman Edgar's Ale	8.2	NULL	NULL	NULL	11	Stout	NULL	NULL
+2085	Craftsman Heavenly Hefeweizen	?	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+2086	Craftsman Holiday Spruce	7.2	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2087	Craftsman IPA	6.25	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2088	Craftsman Poppyfields Pale Ale	?	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2089	Craftsman Smoked Black Lager	?	NULL	NULL	NULL	41	Smoked Beer	NULL	NULL
+1954	Craftsman Triple White Sage	9	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1918	DAB Original	5	28	1.013	5	20	Lager	88	Dortmunder / Export Lager
+2106	Damm Estrella Damm	5.2	NULL	NULL	NULL	20	Lager	NULL	NULL
+1898	Dark Horse Crooked Tree IPA	6	50	1.014	11	10	India Pale Ale	8	American IPA
+1899	Dark Horse Double Crooked Tree IPA	12	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1856	Dark Horse Perkulator	7.5	21	1.02	16	16	Bock Beer	87	Doppelbock
+1900	Dark Horse Plead The 5th	12	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1901	Dark Horse Reserve Special Black Bier Ale	7.5	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1902	Dark Horse Scotty Karate	9.75	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1903	Dark Horse Tres Blueberry Stout	4.5	55	1.016	35	11	Stout	12	American Stout
+1223	Darwin Brewery Original Flag Porter	5	27	1.011	25	23	Porter	48	English Porter
+170	De Blaugies Darbyste	5.8	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+695	De Blaugies La Moneuse	8	NULL	NULL	NULL	24	Saison	NULL	NULL
+696	De Blaugies La Moneuse Speciale Noel	8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+697	De Blaugies Saison De L'Epeautre	6	NULL	NULL	NULL	24	Saison	NULL	NULL
+1148	De Dolle Arabier	7	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1149	De Dolle Boskeun	10	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1150	De Dolle De Dulle Teve	10	30	1.011	6	9	Tripel	37	Tripel
+1904	De Dolle Extra Export Stout	9	50	1.015	35	11	Stout	52	Foreign / Export Stout
+1151	De Dolle Oerbier	9.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1152	De Dolle Stille Nacht	12	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+698	De Proef Flemish Primitive	9	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+171	De Proef Signature Ale	5.8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+699	De Proef Troubadour Blond	6.5	NULL	NULL	NULL	30	Blonde	NULL	NULL
+700	De Proef Troubadour Obscura	8.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+701	De Proef Zoetzuur Flemish Ale	7	18	1.007	13	32	Wild Ale	31	Flanders Red Ale
+702	De Proef Zoetzuur Flemish Ale	7	18	1.007	13	32	Wild Ale	31	Flanders Red Ale
+703	De Ranke Cuvee De Ranke	7	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+1258	De Ranke Guldenberg	8.5	30	1.011	6	9	Tripel	37	Tripel
+705	De Ranke Kriek	7	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+172	De Ranke Noir de Dottignies	9	25	1.015	16	36	Strong Ale	21	Belgian Dark Ale
+706	De Ranke Pere Noel	7	28	1.011	4	31	Pale Ale	25	Belgian Strong Pale Ale
+707	De Ranke XX Bitter	6.2	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+1754	De Struise Black Albert	13	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1755	De Struise Pannepot	10	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+2090	Deschutes Bachelor ESB	5.3	NULL	NULL	NULL	28	Bitter	NULL	NULL
+1635	Deschutes Black Butte Porter	5.2	35	1.014	29	23	Porter	11	American Porter
+923	Deschutes Cinder Cone Red Ale	5.4	NULL	NULL	NULL	29	Amber	NULL	NULL
+1738	Deschutes Green Lakes	5.2	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1637	Deschutes Hop Henge Experimental IPA	8.75	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1750	Deschutes Hop in the Dark	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+924	Deschutes Hop Trip	5.5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+925	Deschutes Inversion IPA	6.8	50	1.014	11	10	India Pale Ale	8	American IPA
+1740	Deschutes Jubel 2010	11	85	1.02	13	36	Strong Ale	13	American Strong Ale
+926	Deschutes Jubelale	6.7	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1636	Deschutes Mirror Mirror	11	85	1.022	14	14	Barley Wine	2	American Barleywine
+927	Deschutes Mirror Pond	5.3	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+928	Deschutes Obsidian Stout	6.4	55	1.016	35	11	Stout	12	American Stout
+1815	Deschutes Red Chair NWPA	6.4	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+929	Deschutes The Abyss	11	NULL	NULL	NULL	11	Stout	NULL	NULL
+1739	Deschutes The Dissident	9	15	1.015	19	32	Wild Ale	30	Flanders Oud Bruin
+930	Deschutes Twilight Ale	5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1358	Desnoes and Geddes Red Stripe	4.7	10	1.006	3	20	Lager	74	American Adjunct Lager
+173	Dixie Blackened Voodoo	5	28	1.013	24	43	Schwarzbier	97	Schwarzbier
+174	Dixie Crimson Voodoo	5.13	32	1.012	13	29	Amber	1	American Amber / Red Ale
+708	Dixie Dixie Beer	4.2	10	1.006	3	20	Lager	74	American Adjunct Lager
+1158	Dogfish Head 120 Minute IPA	18	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1156	Dogfish Head 60 Minute IPA	6	50	1.014	11	10	India Pale Ale	8	American IPA
+1157	Dogfish Head 90 Minute IPA	9	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1159	Dogfish Head Aprihop	7	50	1.014	11	10	India Pale Ale	8	American IPA
+1911	Dogfish Head Bitches Brew	9	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1909	Dogfish Head Black & Blue	10	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1162	Dogfish Head Burton Baton	10	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1910	Dogfish Head Chateau Jiahu	8	20	1.013	8	8	Misc	102	Herbed / Spiced Beer
+1160	Dogfish Head Chicory Stout	5.2	55	1.016	35	11	Stout	12	American Stout
+1161	Dogfish Head Festina Peche	4.5	7	1.004	3	26	Wheat Beer	60	Berliner Weissbier
+1747	Dogfish Head Fort	18	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1163	Dogfish Head Immort Ale	11	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1164	Dogfish Head Indian Brown Ale	7.2	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1165	Dogfish Head Midas Touch	9	20	1.013	8	36	Strong Ale	102	Herbed / Spiced Beer
+2091	Dogfish Head My Antonia	7.5	NULL	NULL	NULL	12	Pilsner	NULL	NULL
+1166	Dogfish Head Olde School Barleywine	15.04	85	1.022	14	14	Barley Wine	2	American Barleywine
+1167	Dogfish Head Palo Santo Marron	12	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1912	Dogfish Head Pangaea	7	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1168	Dogfish Head Punkin Ale	7	20	1.015	15	44	Fruit/Vegetable	18	Pumpkin Ale
+1169	Dogfish Head Raison D'Etre	8	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1913	Dogfish Head Raison D'extra	18	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1914	Dogfish Head Red & White	10	15	1.01	3	26	Wheat Beer	38	Witbier
+1915	Dogfish Head Sah'tea	9	26	1.01	6	8	Misc	58	Sahti
+1170	Dogfish Head Shelter Pale Ale	5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1916	Dogfish Head Squall IPA	9	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1917	Dogfish Head Theobroma	9	25	1.012	10	44	Fruit/Vegetable	16	Chile Beer
+1171	Dogfish Head World Wide Stout	18	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+1176	Drake's 1500 Pale Ale	5.2	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1177	Drake's Amber	5.9	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1178	Drake's Blonde	4.8	25	1.009	4	39	Kolsch	65	Kölsch
+1179	Drake's Hefe	4.9	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1181	Drake's Imperial Stout	8.75	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1180	Drake's IPA	7	50	1.014	11	10	India Pale Ale	8	American IPA
+1182	Dubuisson Scaldis Belgian Ale	12	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1183	Dubuisson Scaldis Noel	12	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+2092	Duck-Rabbit Amber Ale	5.5	NULL	NULL	NULL	29	Amber	NULL	NULL
+2101	Duck-Rabbit Baltic Porter	9	NULL	NULL	NULL	23	Porter	NULL	NULL
+2102	Duck-Rabbit Barleywine Ale	11	NULL	NULL	NULL	14	Barley Wine	NULL	NULL
+2093	Duck-Rabbit Brown Ale	5.6	NULL	NULL	NULL	13	Brown Ale	NULL	NULL
+2094	Duck-Rabbit Duck-Rabbator	8.5	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+2095	Duck-Rabbit Märzen	?	NULL	NULL	NULL	42	Marzen	NULL	NULL
+2096	Duck-Rabbit Milk Stout	5.7	NULL	NULL	NULL	11	Stout	NULL	NULL
+2097	Duck-Rabbit Porter	5.7	NULL	NULL	NULL	23	Porter	NULL	NULL
+2098	Duck-Rabbit Rabid Duck	10	NULL	NULL	NULL	11	Stout	NULL	NULL
+2099	Duck-Rabbit Schwarzbier	5.8	NULL	NULL	NULL	43	Schwarzbier	NULL	NULL
+2100	Duck-Rabbit Wee Heavy Scotch Style Ale	8	NULL	NULL	NULL	25	Scottish Style Ale	NULL	NULL
+1197	Dupont Avec Les Bons Voeux	9.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1191	Dupont Avril	3.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1192	Dupont Biere de Miel	8	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1193	Dupont Foret	7.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1194	Dupont Moinette Blond	8.5	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1195	Dupont Moinette Brune	8.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1196	Dupont Saison Dupont	6.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1202	Eel River Acai Berry Wheat	4	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1203	Eel River Amber Ale	4.75	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1204	Eel River I.P.A.	7.2	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+1205	Eel River Porter	5.8	35	1.014	29	23	Porter	11	American Porter
+1206	Eel River Raven's Eye Imperial Stout	9.5	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1207	Eel River Triple Exultation	9.7	45	1.019	16	38	Old Ale	55	Old Ale
+1211	Einbecker Brauhaus Mai-Ur-Bock	6.5	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+1208	Einbecker Brauhaus Schwarzbier	4.9	28	1.013	24	43	Schwarzbier	97	Schwarzbier
+1209	Einbecker Brauhaus Ur-Bock Dunkel	6.5	22	1.016	17	16	Bock Beer	86	Bock
+1210	Einbecker Brauhaus Ur-Bock Hell	6.5	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+1212	Elysian Brewing Avatar Jasmine IPA	6.3	50	1.014	11	10	India Pale Ale	8	American IPA
+1213	Elysian Brewing Dragonstooth Stout	7.4	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+1214	Elysian Brewing Night Owl Pumpkin Ale	6.1	20	1.015	15	44	Fruit/Vegetable	18	Pumpkin Ale
+1215	Elysian Brewing Perseus Porter	5.39	35	1.014	29	23	Porter	11	American Porter
+1216	Elysian Brewing The Immortal IPA	6.21	50	1.014	11	10	India Pale Ale	8	American IPA
+1217	Elysian Brewing The Wise ESB	6.21	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1627	Erdinger Pikantus	7.3	22	1.019	19	16	Bock Beer	67	Weizenbock
+1628	Erdinger Weissbier	5.3	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1629	Erdinger Weissbier Dunkel	5.6	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+1218	Erie Brewing Mad Anthony's APA	5.5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1219	Erie Brewing Misery Bay IPA	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+1222	Erie Brewing Ol' Red Cease and Desist	10.1	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1220	Erie Brewing Presque Isle Pilsner	4.2	35	1.01	4	12	Pilsner	90	German Pilsener
+1221	Erie Brewing Railbender Ale	6.8	18	1.012	13	25	Scottish Style Ale	72	Scottish Ale
+2107	Evolution Exile ESB	5.8	NULL	NULL	NULL	28	Bitter	NULL	NULL
+2108	Evolution Lot #3 IPA	6.8	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2109	Evolution Lucky 7 Porter	5.8	NULL	NULL	NULL	23	Porter	NULL	NULL
+2110	Evolution Primal Pale Ale	4.9	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+711	Fantome BBB Dark White	4.5	28	1.011	4	31	Pale Ale	25	Belgian Strong Pale Ale
+709	Fantome Black Ghost	8	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+710	Fantome Brise-BonBons	8	NULL	NULL	NULL	24	Saison	NULL	NULL
+175	Fantome Chocolat	8	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+712	Fantome De Noel	10	NULL	NULL	NULL	24	Saison	NULL	NULL
+713	Fantome Hiver	8	NULL	NULL	NULL	24	Saison	NULL	NULL
+176	Fantome La Dalmatienne	8	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+714	Fantome Printemps	8	NULL	NULL	NULL	24	Saison	NULL	NULL
+715	Fantome Saison	8	NULL	NULL	NULL	24	Saison	NULL	NULL
+716	Fantome Strange Ghost	8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1071	FEMSA Bohemia	5.3	35	1.01	4	12	Pilsner	90	German Pilsener
+1175	FEMSA Dos Equis Amber	4.5	24	1.012	13	20	Lager	98	Vienna Lager
+1174	FEMSA Dos Equis Special Lager	5	10	1.006	3	20	Lager	74	American Adjunct Lager
+1440	FEMSA Sol	4.5	10	1.006	3	20	Lager	74	American Adjunct Lager
+1486	FEMSA Tecate	4.5	10	1.006	3	20	Lager	74	American Adjunct Lager
+1605	FEMSA Xingu Black Beer	4.7	28	1.013	24	43	Schwarzbier	97	Schwarzbier
+789	Firestone Walker Double Barrel Ale	5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+882	Firestone Walker Nectar IPA	6.7	50	1.014	11	10	India Pale Ale	8	American IPA
+790	Firestone Walker Pale 31	4.8	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+883	Firestone Walker Red Nectar	5.16	NULL	NULL	NULL	29	Amber	NULL	NULL
+791	Firestone Walker Union Jack IPA	7.5	50	1.014	11	10	India Pale Ale	8	American IPA
+177	Flossmoor Station Collaborative Evil	10	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+178	Flossmoor Station Killer Kapowski	8	30	1.02	23	23	Porter	39	Baltic Porter
+179	Flossmoor Station Pullman Brown Ale	6	32	1.012	27	13	Brown Ale	4	American Brown Ale
+180	Flossmoor Station Wooden Hell	9.5	52	1.024	15	14	Barley Wine	41	English Barleywine
+182	Flying Dog Dog Schwarz	7.8	25	1.014	17	41	Smoked Beer	96	Rauchbier
+181	Flying Dog Doggie Style	5.5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+183	Flying Dog Dogtoberfest	5.8	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+184	Flying Dog Double Dog	11.5	90	1.017	12	36	Strong Ale	6	American Double / Imperial IPA
+185	Flying Dog Garde Dog	5.5	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+186	Flying Dog Gonzo	7.8	30	1.02	23	23	Porter	39	Baltic Porter
+187	Flying Dog Horn Dog	10.2	52	1.024	15	14	Barley Wine	41	English Barleywine
+188	Flying Dog In Heat Wheat	4.7	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+189	Flying Dog K9 Cruiser	6.4	26	1.02	17	36	Strong Ale	50	English Strong Ale
+190	Flying Dog Kerberos Tripel	8.5	30	1.011	6	9	Tripel	37	Tripel
+191	Flying Dog Old Scratch	5.5	32	1.01	17	29	Amber	75	American Amber / Red Lager
+1823	Flying Dog Raging Bitch Belgian IPA	8.3	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+192	Flying Dog Road Dog	6	35	1.014	29	23	Porter	11	American Porter
+193	Flying Dog Snake Dog	7.1	50	1.014	11	10	India Pale Ale	8	American IPA
+194	Flying Dog Tire Bite	5	25	1.009	4	39	Kolsch	65	Kölsch
+195	Flying Dog Woody Creek White	4.8	15	1.01	3	26	Wheat Beer	38	Witbier
+1227	Flying Fish Belgian Style Dubbel	7.3	20	1.013	13	33	Dubbel	28	Dubbel
+1228	Flying Fish ESB Ale	5.5	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1229	Flying Fish Extra Pale Ale	4.7	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1231	Flying Fish Farmhouse Summer Ale	4.6	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1232	Flying Fish Grand Cru Winter Reserve	7.2	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1230	Flying Fish HopFish	6.3	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+1233	Flying Fish Imperial Espresso Porter	8	35	1.014	29	23	Porter	11	American Porter
+196	Foothills Foothills Oktoberfest	6.5	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+197	Foothills Foothills Red	4.7	22	1.011	14	29	Amber	69	Irish Red Ale
+717	Foothills Hoppyum	6.25	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+718	Foothills Seeing Double IPA	9.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+198	Foothills Sexual Chocolate	10	70	1.024	35	11	Stout	56	Russian Imperial Stout
+719	Foothills Total Eclipse Stout	7	NULL	NULL	NULL	11	Stout	NULL	NULL
+199	Foster's Foster's Premium Ale	5.5	40	1.013	12	31	Pale Ale	51	Extra Special / Strong Bitter (ESB)
+1919	Founders Backwoods Bastard	10.2	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+931	Founders Breakfast Stout	8.3	NULL	NULL	NULL	11	Stout	NULL	NULL
+1920	Founders Canadian Breakfast Stout	9.4	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+932	Founders Centennial IPA	7.2	50	1.014	11	10	India Pale Ale	8	American IPA
+1921	Founders Cerise	6.5	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+939	Founders Curmudgeon Old Ale	9.8	45	1.019	16	38	Old Ale	55	Old Ale
+933	Founders Devil Dancer Triple IPA	12	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+934	Founders Dirty Bastard	8.3	NULL	NULL	NULL	25	Scottish Style Ale	NULL	NULL
+935	Founders Double Trouble	9.4	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+1922	Founders Harvest Ale	6.5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+937	Founders Imperial Stout	10	NULL	NULL	NULL	11	Stout	NULL	NULL
+938	Founders Kentucky Breakfast Stout	11.2	NULL	NULL	NULL	11	Stout	NULL	NULL
+1923	Founders Nemesis 2009	12	50	1.022	20	14	Barley Wine	20	Wheatwine
+1924	Founders Nemesis 2010	12	85	1.022	14	14	Barley Wine	2	American Barleywine
+936	Founders Pale Ale	6.2	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+940	Founders Porter	6.5	35	1.014	29	23	Porter	11	American Porter
+941	Founders Red's Rye P.A.	6.6	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2111	Four Peaks 8th Street Ale	4.5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2112	Four Peaks Hop Knot	6	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2113	Four Peaks Kiltlifter	6.2	NULL	NULL	NULL	25	Scottish Style Ale	NULL	NULL
+2114	Free State Ad Astra Ale	?	NULL	NULL	NULL	38	Old Ale	NULL	NULL
+2115	Free State Copperhead Pale Ale	?	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2116	Free State Oatmeal Stout	?	NULL	NULL	NULL	11	Stout	NULL	NULL
+2117	Free State Wheat State Golden	?	NULL	NULL	NULL	30	Blonde	NULL	NULL
+720	Full Sail Amber	5.5	NULL	NULL	NULL	29	Amber	NULL	NULL
+201	Full Sail Black Gold Imperial Stout	10.5	70	1.024	35	11	Stout	56	Russian Imperial Stout
+202	Full Sail Capsize	7.2	90	1.015	12	12	Pilsner	76	American Double / Imperial Pilsner
+203	Full Sail Equinox	5.7	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+200	Full Sail Full Sail 21	8	21	1.02	16	16	Bock Beer	87	Doppelbock
+208	Full Sail Full Sail IPA	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+210	Full Sail Full Sail LTD 01	6.4	22	1.016	17	16	Bock Beer	86	Bock
+211	Full Sail Full Sail LTD 02	6.4	32	1.01	17	20	Lager	75	American Amber / Red Lager
+212	Full Sail Full Sail LTD 03	5.6	35	1.01	4	12	Pilsner	90	German Pilsener
+214	Full Sail Full Sail Nut Brown Ale	6	32	1.012	27	13	Brown Ale	4	American Brown Ale
+204	Full Sail Grandsun of Spot	6	50	1.014	11	10	India Pale Ale	8	American IPA
+205	Full Sail Half Pipe Porter	5.4	35	1.014	29	23	Porter	11	American Porter
+206	Full Sail Hopocity	5.2	30	1.009	9	31	Pale Ale	42	English Bitter
+209	Full Sail Keelhauler	6.8	18	1.012	13	25	Scottish Style Ale	72	Scottish Ale
+213	Full Sail Nugget	6.5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+215	Full Sail Old Boardhead	9	85	1.022	14	14	Barley Wine	2	American Barleywine
+721	Full Sail Pale Ale	5.4	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+216	Full Sail Prodigal Sun IPA	6.2	50	1.014	11	10	India Pale Ale	8	American IPA
+217	Full Sail Rip Curl	5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1624	Full Sail Session Black	5.4	28	1.013	24	43	Schwarzbier	97	Schwarzbier
+218	Full Sail Session Lager	5.1	10	1.006	3	20	Lager	78	American Pale Lager
+722	Full Sail Slipknot Imperial IPA	7.8	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+723	Full Sail Sun Of Spot	6	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+207	Full Sail Top Sail	7.5	35	1.014	29	23	Porter	11	American Porter
+724	Full Sail Top Sail	7.5	NULL	NULL	NULL	23	Porter	NULL	NULL
+725	Full Sail Vesuvius	8.5	28	1.011	4	31	Pale Ale	25	Belgian Strong Pale Ale
+726	Full Sail Wassail	7	25	1.016	17	36	Strong Ale	57	Winter Warmer
+727	Full Sail Wreck The Halls	6.7	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+944	Fuller's 1845	6.3	26	1.02	17	36	Strong Ale	50	English Strong Ale
+945	Fuller's ESB	5.9	NULL	NULL	NULL	28	Bitter	NULL	NULL
+946	Fuller's London Porter	5.4	27	1.011	25	23	Porter	48	English Porter
+947	Fuller's London Pride	4.7	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1925	Fuller's Vintage Ale	8.5	45	1.019	16	38	Old Ale	55	Old Ale
+1700	Furthermore Oscura	5.3	38	1.013	12	15	Steam Beer	79	California Common / Steam Beer
+1732	Gaffel Gaffel Kölsch	4.8	25	1.009	4	39	Kolsch	65	Kölsch
+1189	Genesee Dundee Festive Ale	6.2	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1184	Genesee Dundee Honey Brown	4.5	32	1.01	17	29	Amber	75	American Amber / Red Lager
+1185	Genesee Dundee India Pale Ale	6.3	50	1.014	11	10	India Pale Ale	8	American IPA
+1186	Genesee Dundee Pale Ale	5.3	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1187	Genesee Dundee Pale Bock Lager	6.2	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+1188	Genesee Dundee Porter	6.5	35	1.014	29	23	Porter	11	American Porter
+1190	Genesee Dundee Wheat Beer	4.2	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+1239	Genesee Genesee Cream Ale	5.1	18	1.009	4	17	Cream Ale	17	Cream Ale
+2118	Genesee Genny Light	3.6	NULL	NULL	NULL	20	Lager	NULL	NULL
+1698	Genesee Narragansett Lager	5.1	10	1.006	3	20	Lager	74	American Adjunct Lager
+220	Goose Island 312	4.2	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+1926	Goose Island Bourbon County Brand Coffee Stout	13	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+221	Goose Island Bourbon County Stout	13	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+222	Goose Island Christmas Ale	5.4	25	1.016	17	8	Misc	57	Winter Warmer
+223	Goose Island Demolition	6.7	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+2119	Goose Island Green Line Pale Ale	5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1851	Goose Island Harvest Ale	5.6	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+728	Goose Island Honker's Ale	5	30	1.009	9	28	Bitter	42	English Bitter
+729	Goose Island Imperial IPA	9.2	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+730	Goose Island India Pale Ale	5.9	50	1.014	11	10	India Pale Ale	8	American IPA
+224	Goose Island Juliet	6.7	17	1.01	8	32	Wild Ale	14	American Wild Ale
+225	Goose Island Matilda	7	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+226	Goose Island Mild Winter	5.6	25	1.016	17	45	Specialty Grain	57	Winter Warmer
+227	Goose Island Naughty Goose	5.2	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1927	Goose Island Night Stalker	11.7	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+731	Goose Island Nut Brown Ale	5.2	20	1.011	22	13	Brown Ale	43	English Brown Ale
+732	Goose Island Oatmeal Stout	5	33	1.015	32	11	Stout	54	Oatmeal Stout
+228	Goose Island Pere Jacques	9	20	1.013	13	33	Dubbel	28	Dubbel
+229	Goose Island Red Felt	5.7	32	1.012	13	29	Amber	1	American Amber / Red Ale
+230	Goose Island Sofie	6.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+231	Goose Island Summertime	5	25	1.009	4	39	Kolsch	65	Kölsch
+1795	Gordon Biersch Black Toad	5.3	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1248	Grand Teton Bitch Creek ESB	6.5	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1249	Grand Teton Black Cauldron	8	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+1648	Grand Teton Howling Wolf	8	22	1.019	19	26	Wheat Beer	67	Weizenbock
+1250	Grand Teton Lost Continent	8	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1251	Grand Teton Sweetgrass IPA	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+232	Great Divide 15th Anniversary Wood Aged Double IPA	10	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1784	Great Divide 16th Anniversary Wood Aged	10	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+233	Great Divide Barrel-Aged Old Ruffian	12.7	85	1.022	14	14	Barley Wine	2	American Barleywine
+234	Great Divide Belgica	7.2	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+235	Great Divide Chocolate Oak-Aged Yeti Imperial Stout	9.5	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+236	Great Divide Claymore Scotch Ale	7.7	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1826	Great Divide Colette Farmhouse Ale	7.3	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+237	Great Divide Denver Pale Ale	5.4	30	1.01	9	31	Pale Ale	46	English Pale Ale
+238	Great Divide Double Wit	8.1	15	1.01	3	26	Wheat Beer	38	Witbier
+239	Great Divide Dunkel Weisse	6.4	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+1791	Great Divide Espresso Oak Aged Yeti	9.5	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+240	Great Divide Fresh Hop Pale Ale	6.1	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+241	Great Divide Hades	7.3	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+242	Great Divide Hercules Double IPA	9.1	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+243	Great Divide Hibernation Ale	8.1	25	1.016	17	38	Old Ale	57	Winter Warmer
+244	Great Divide Hoss	6.2	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+245	Great Divide Oak-Aged Yeti	9.5	70	1.024	35	11	Stout	56	Russian Imperial Stout
+246	Great Divide Old Ruffian	10.27	85	1.022	14	14	Barley Wine	2	American Barleywine
+1824	Great Divide Rumble IPA	7.1	50	1.014	11	10	India Pale Ale	8	American IPA
+248	Great Divide Saison Farmhouse Ale	7.3	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+249	Great Divide Samurai Rice Ale	5.2	20	1.011	4	30	Blonde	3	American Blonde Ale
+1860	Great Divide Smoked Baltic Porter	6.2	30	1.02	23	23	Porter	39	Baltic Porter
+247	Great Divide St. Bridget's Porter	6	35	1.014	29	23	Porter	11	American Porter
+250	Great Divide Titan IPA	6.8	50	1.014	11	10	India Pale Ale	8	American IPA
+1825	Great Divide Tripel	9.3	30	1.011	6	9	Tripel	37	Tripel
+251	Great Divide Wild Raspberry Ale	5.6	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+252	Great Divide Yeti Imperial Stout	9.5	70	1.024	35	11	Stout	56	Russian Imperial Stout
+792	Great Lakes Barrel-Aged Blackout Stout	9	NULL	NULL	NULL	11	Stout	NULL	NULL
+793	Great Lakes Blackout Stout	9	NULL	NULL	NULL	11	Stout	NULL	NULL
+794	Great Lakes Burning River	6	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+795	Great Lakes Christmas Ale	7.5	25	1.016	17	44	Fruit/Vegetable	57	Winter Warmer
+796	Great Lakes Commodore Perry	7.5	50	1.014	11	10	India Pale Ale	8	American IPA
+797	Great Lakes Conway's irish Ale	6.5	22	1.011	14	29	Amber	69	Irish Red Ale
+798	Great Lakes Dortmunder Gold	5.8	NULL	NULL	NULL	20	Lager	NULL	NULL
+799	Great Lakes Edmund Fitzgerald	5.8	35	1.014	29	23	Porter	11	American Porter
+800	Great Lakes Eliot Ness	6.2	24	1.012	13	20	Lager	98	Vienna Lager
+801	Great Lakes Glockenspiel	8	22	1.019	19	16	Bock Beer	67	Weizenbock
+802	Great Lakes Grassroots Ale	6.2	NULL	NULL	NULL	24	Saison	NULL	NULL
+803	Great Lakes Holy Moses White Ale	5.4	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+1666	Great Lakes Lake Erie Monster	9.1	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+804	Great Lakes Moondog Ale	5	NULL	NULL	NULL	28	Bitter	NULL	NULL
+805	Great Lakes Nosferatu	8	85	1.02	13	36	Strong Ale	13	American Strong Ale
+806	Great Lakes Oktoberfest	6.5	NULL	NULL	NULL	42	Marzen	NULL	NULL
+253	Great Lakes Orange Peel Ale	5.3	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+254	Great Lakes Winter Ale	6.2	25	1.016	17	8	Misc	57	Winter Warmer
+948	Green Flash Barleywine	10	NULL	NULL	NULL	14	Barley Wine	NULL	NULL
+952	Green Flash Double Stout	8.8	NULL	NULL	NULL	11	Stout	NULL	NULL
+949	Green Flash Hop Head Red	6.3	NULL	NULL	NULL	29	Amber	NULL	NULL
+950	Green Flash Imperial IPA	9	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+951	Green Flash Le Freak	9.2	NULL	NULL	NULL	9	Tripel	NULL	NULL
+953	Green Flash West Coast IPA	7.3	50	1.014	11	10	India Pale Ale	8	American IPA
+1252	Green's Green's Discovery	6	26	1.02	17	36	Strong Ale	50	English Strong Ale
+1253	Green's Green's Endeavor	7	20	1.013	13	33	Dubbel	28	Dubbel
+1254	Green's Green's Quest	8.5	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1928	Greene King / Morland Abbot Ale	5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1929	Greene King / Morland Olde Suffolk English Ale	6	45	1.019	16	38	Old Ale	55	Old Ale
+1930	Greene King / Morland Wexford Irish Cream Ale	5	30	1.009	9	28	Bitter	42	English Bitter
+1255	Grolsch Grolsch Premium Lager	5	12	1.006	3	20	Lager	84	Euro Pale Lager
+1143	Grupo Modelo Corona Extra	4.6	10	1.006	3	20	Lager	74	American Adjunct Lager
+1144	Grupo Modelo Corona Light	4.1	10	1.001	3	20	Lager	80	Light Lager
+1967	Grupo Modelo Modelo Especial	4.4	10	1.006	3	20	Lager	74	American Adjunct Lager
+1327	Grupo Modelo Negra Modelo	5.4	23	1.013	21	20	Lager	93	Munich Dunkel Lager
+1625	Grupo Modelo Pacifico	4.8	10	1.006	3	20	Lager	74	American Adjunct Lager
+1931	Guinness 250th Anniversary Stout	5	37	1.009	32	11	Stout	68	Irish Dry Stout
+1256	Guinness Guinness Draught	4.2	37	1.009	32	11	Stout	68	Irish Dry Stout
+1257	Guinness Guinness Extra Stout	6	37	1.009	32	11	Stout	68	Irish Dry Stout
+1261	Guinness Harp Lager	5	12	1.006	3	20	Lager	84	Euro Pale Lager
+1702	Guinness Kilkenny	4.3	22	1.011	14	17	Cream Ale	69	Irish Red Ale
+1431	Guinness Smithwick's	4.5	22	1.011	14	29	Amber	69	Irish Red Ale
+984	Haandbryggeriet (Norway) Aqua Vita Porter	7	35	1.014	29	23	Porter	11	American Porter
+985	Haandbryggeriet (Norway) Ardenne Blond	7.5	NULL	NULL	NULL	24	Saison	NULL	NULL
+986	Haandbryggeriet (Norway) Nissefar	7	35	1.014	29	23	Porter	11	American Porter
+987	Haandbryggeriet (Norway) Nissemor	6	45	1.019	16	38	Old Ale	55	Old Ale
+988	Haandbryggeriet (Norway) Norse Porter	6.5	35	1.014	29	23	Porter	11	American Porter
+1753	Haandbryggeriet Odin's Tipple	11	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1932	Hacker-Pschorr Oktoberfest-Märzen	5.8	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+954	Hacker-Pschorr Weisse	5.5	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+955	Hacker-Pschorr Weisse Dark	5.3	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+1259	Hair of the Dog Adam	10	45	1.019	16	38	Old Ale	55	Old Ale
+1933	Hair of the Dog Blue Dot	7	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1934	Hair of the Dog Doggie Claws	11.5	85	1.022	14	14	Barley Wine	2	American Barleywine
+1260	Hair of the Dog Fred	10	85	1.022	14	14	Barley Wine	2	American Barleywine
+1935	Hair of the Dog Ruth	5.6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1816	Hale's Ales Supergoose DIPA	7.5	50	1.014	11	10	India Pale Ale	8	American IPA
+1650	Half Acre Big Hugs	9.5	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+1649	Half Acre Daisy Cutter	5.2	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1651	Half Acre Ginger Twin	6.5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+259	Harpoon Barley Wine	10.3	85	1.022	14	14	Barley Wine	2	American Barleywine
+260	Harpoon Bohemian Pilsner	4.7	40	1.015	5	12	Pilsner	82	Czech Pilsener
+261	Harpoon Brown	4.3	18	1.01	19	13	Brown Ale	44	English Dark Mild Ale
+262	Harpoon Catamount Maple Wheat	6.8	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+263	Harpoon Celtic Ale	5.4	22	1.011	14	29	Amber	69	Irish Red Ale
+264	Harpoon Chocolate Stout	6.3	55	1.016	35	11	Stout	12	American Stout
+265	Harpoon Crystal Wheat	4.8	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+266	Harpoon English Style Old Ale	7.9	45	1.019	16	38	Old Ale	55	Old Ale
+267	Harpoon Framboise	5.3	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+268	Harpoon Frankenfest	6.9	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+269	Harpoon Glacier Harvest '08 Wet Hop		37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+270	Harpoon Glacier Harvest '09 Wet Hop	6.7	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+258	Harpoon Harpoon Ale	4.9	37	1.012	9	29	Amber	9	American Pale Ale (APA)
+271	Harpoon Helles Blond Bock	7.4	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+272	Harpoon I.P.A.	5.9	50	1.014	11	10	India Pale Ale	8	American IPA
+273	Harpoon Kellerbier	5,2	30	1.012	5	20	Lager	91	Keller Bier / Zwickel Bier
+274	Harpoon Leviathan Baltic Porter	9.5	30	1.02	23	23	Porter	39	Baltic Porter
+275	Harpoon Leviathan Big Bohemian	9	90	1.015	12	12	Pilsner	76	American Double / Imperial Pilsner
+276	Harpoon Leviathan Imperial IPA	10	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+277	Harpoon Leviathan Quad	11.75	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+1789	Harpoon Leviathan Triticus	11.5	50	1.022	20	14	Barley Wine	20	Wheatwine
+278	Harpoon Munich Dark Beer	5.6	23	1.013	21	26	Wheat Beer	93	Munich Dunkel Lager
+279	Harpoon Oatmeal Stout		33	1.015	32	11	Stout	54	Oatmeal Stout
+807	Harpoon Octoberfest Bier	5.5	NULL	NULL	NULL	42	Marzen	NULL	NULL
+280	Harpoon Old Rusty's Red Rye Ale		22	1.012	17	45	Specialty Grain	19	Rye Beer
+281	Harpoon Peche	5	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+282	Harpoon Rauchfetzen	6.3	35	1.012	20	41	Smoked Beer	103	Smoked Beer
+283	Harpoon Saison	6.3	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+284	Harpoon Smoked Porter	5.7	35	1.014	29	23	Porter	11	American Porter
+285	Harpoon Steve Stewart's Firth Of Forth Ale	5.4	18	1.012	13	25	Scottish Style Ale	72	Scottish Ale
+286	Harpoon Summer Beer	5	25	1.009	4	39	Kolsch	65	Kölsch
+1262	Harpoon UFO Hefeweizen	5.1	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+287	Harpoon UFO Raspberry Hefeweizen	5.1	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+808	Harpoon UFO White	4.8	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+288	Harpoon Weizenbock	7.8	22	1.019	19	26	Wheat Beer	67	Weizenbock
+289	Harpoon Winter Warmer	5.5	25	1.016	17	29	Amber	57	Winter Warmer
+290	Harviestoun Bitter & Twisted	4.2	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+291	Harviestoun Ola Dubh (30 Year)	8	45	1.019	16	38	Old Ale	55	Old Ale
+809	Harviestoun Ola Dubh 16 Year Old	8	45	1.019	16	38	Old Ale	55	Old Ale
+810	Harviestoun Ola Dubh 30 Year Old	8	45	1.019	16	38	Old Ale	55	Old Ale
+811	Harviestoun Old Engine Oil	6	45	1.019	16	38	Old Ale	55	Old Ale
+1263	He'Brew (Shmaltz) Bittersweet Lenny's R.I.P.A.	10	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1264	He'Brew (Shmaltz) Genesis Ale	5.6	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1265	He'Brew (Shmaltz) Jewbelation Bar Mitzvah 13	13	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1266	He'Brew (Shmaltz) Messiah Bold	5.6	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1267	He'Brew (Shmaltz) Origin	8	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1269	He'Brew (Shmaltz) R.I.P.A. on Rye	10	22	1.012	17	45	Specialty Grain	19	Rye Beer
+1268	He'Brew (Shmaltz) Rejewvenator	7.8	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1058	Heineken Birra Moretti	4.6	12	1.006	3	20	Lager	84	Euro Pale Lager
+1059	Heineken Birra Moretti La Rossa	7.2	21	1.02	16	16	Bock Beer	87	Doppelbock
+733	Heineken Heineken	5	12	1.006	3	20	Lager	84	Euro Pale Lager
+734	Heineken Heineken Premium Light	3.2	10	1.001	3	20	Lager	80	Light Lager
+1328	Heineken Newcastle Brown Ale	4.7	20	1.011	22	13	Brown Ale	43	English Brown Ale
+2028	Heinrich Reissdorf Reissdorf Kölsch	4.8	25	1.009	4	39	Kolsch	65	Kölsch
+2120	Henry Weinhard's Blue Boar Ale	4.6	NULL	NULL	NULL	17	Cream Ale	NULL	NULL
+2121	Henry Weinhard's Hefeweizen	4.86	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+2122	Henry Weinhard's Private Reserve	4.8	NULL	NULL	NULL	20	Lager	NULL	NULL
+1246	Het Anker Cuvee Van de Keizer Blue	11	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1247	Het Anker Cuvee Van de Keizer Red	10	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1241	Het Anker Gouden Carolus Ambrio	8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1242	Het Anker Gouden Carolus Classic	8.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1243	Het Anker Gouden Carolus Hopsinjoor	8	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+1244	Het Anker Gouden Carolus Noel	10.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1245	Het Anker Gouden Carolus Triple	9	30	1.011	6	9	Tripel	37	Tripel
+1937	Highland Auld Asheville Vintage Ale	9.5	45	1.019	16	38	Old Ale	55	Old Ale
+1938	Highland Big Butte Smoked Porter	7	35	1.014	29	23	Porter	11	American Porter
+1939	Highland Black Mocha Stout	5.6	55	1.016	35	11	Stout	12	American Stout
+1940	Highland Black Mountain Bitter	4	30	1.009	9	28	Bitter	42	English Bitter
+1941	Highland Cattail Peak Wheat	4.7	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+1942	Highland Clawhammer Oktoberfest	5	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+1943	Highland Cold Mountain Winter Ale	?	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1944	Highland Gaelic Ale	5.8	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1945	Highland Kashmir IPA	5.6	50	1.014	11	10	India Pale Ale	8	American IPA
+1946	Highland Oatmeal Porter	5.8	35	1.014	29	23	Porter	11	American Porter
+1947	Highland Seven Sisters	6.5	20	1.013	13	33	Dubbel	28	Dubbel
+1948	Highland St. Terese's Pale Ale	5.2	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1949	Highland Tasgall Ale	8	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+2123	Hill Farmstead Abner	8.2	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2124	Hill Farmstead Edward	5.2	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2125	Hill Farmstead Ephraim	10.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2126	Hill Farmstead Jim	7.5	NULL	NULL	NULL	8	Misc	NULL	NULL
+812	Hitachino Espresso Stout	7.5	NULL	NULL	NULL	11	Stout	NULL	NULL
+814	Hitachino Japanese Classic Ale	7	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+815	Hitachino Lacto Sweet Stout	3.8	NULL	NULL	NULL	11	Stout	NULL	NULL
+818	Hitachino Nest Weizen	5	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+816	Hitachino New Year Celebration Ale	9	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+813	Hitachino Real Ginger Brew	7	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+817	Hitachino Red Rice Ale	7	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+819	Hitachino White Ale	5	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+820	Hitachino XH	7	85	1.02	13	36	Strong Ale	13	American Strong Ale
+2127	Hite Hite	4.5	NULL	NULL	NULL	20	Lager	NULL	NULL
+1952	Hofbräu München Hofbräu Original	5.1	19	1.01	4	16	Bock Beer	94	Munich Helles Lager
+1950	Hofbräu München Münchner Weisse	5.1	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1951	Hofbräu München Oktoberfestbier	6.3	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+1728	Hometown Light	3.7	10	1.001	3	20	Lager	80	Light Lager
+1727	Hometown New Jersey Lager	4.1	32	1.01	17	29	Amber	75	American Amber / Red Lager
+1729	Hometown New York Lager	5	32	1.01	17	29	Amber	75	American Amber / Red Lager
+1726	Hometown Pennsylvania Lager	5	10	1.006	3	20	Lager	74	American Adjunct Lager
+1270	Hoppin' Frog B.O.R.I.S. The Crusher	9.4	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1953	Hoppin' Frog Mean Manalishi Double I.P.A.	8.2	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1271	Hopworks (HUB) Hopworks IPA	6.6	50	1.014	11	10	India Pale Ale	8	American IPA
+1272	Hopworks (HUB) Survival 7-Grain Stout	5.3	33	1.015	32	11	Stout	54	Oatmeal Stout
+2218	Hudepohl-Schoenling Little Kings Cream Ale	5.5	NULL	NULL	NULL	17	Cream Ale	NULL	NULL
+1153	Huyghe Delirium Nocturnum	8.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1154	Huyghe Delirium Noel	10	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1155	Huyghe Delirium Tremens	8.5	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+2021	Innis and Gunn Oak Aged Beer	6.6	30	1.01	9	31	Pale Ale	46	English Pale Ale
+292	Inveralmond Blackfriar	7	18	1.012	13	25	Scottish Style Ale	72	Scottish Ale
+293	Inveralmond Lia Fail	4.7	18	1.012	13	28	Bitter	72	Scottish Ale
+294	Inveralmond Ossian	4.1	18	1.011	9	30	Blonde	47	English Pale Mild Ale
+64	Iron City Augustiner Lager	4.3	24	1.012	13	20	Lager	98	Vienna Lager
+821	Iron City I.C. Light	4.15	10	1.001	3	20	Lager	80	Light Lager
+295	Iron City Premium Lager	4.5	10	1.006	3	20	Lager	74	American Adjunct Lager
+296	Ithaca Alphalpha	8.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+822	Ithaca Apricot Wheat	4.9	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+823	Ithaca Brute	6.5	17	1.01	8	32	Wild Ale	14	American Wild Ale
+824	Ithaca Cascazilla	7	NULL	NULL	NULL	29	Amber	NULL	NULL
+825	Ithaca Double IPA	9.2	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+297	Ithaca Eleven	8.5	30	1.019	35	11	Stout	53	Milk / Sweet Stout
+826	Ithaca Flower Power	7	50	1.014	11	10	India Pale Ale	8	American IPA
+827	Ithaca Gorges Smoked Porter	6.3	35	1.014	29	41	Smoked Beer	11	American Porter
+2128	Ithaca Ground Break	6	NULL	NULL	NULL	24	Saison	NULL	NULL
+828	Ithaca Nut Brown Ale	4.9	20	1.011	22	13	Brown Ale	43	English Brown Ale
+298	Ithaca Old Habit	9	22	1.012	17	14	Barley Wine	19	Rye Beer
+831	Ithaca Pale Ale	5.8	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+829	Ithaca Ten	10	85	1.02	13	36	Strong Ale	13	American Strong Ale
+830	Ithaca White Gold	8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1284	J.W. Lees Harvest Ale	11.5	52	1.024	15	14	Barley Wine	41	English Barleywine
+1703	James Boag Premium Lager	5	12	1.006	3	20	Lager	84	Euro Pale Lager
+833	Jolly Pumpkin Bam Biere	4.5	NULL	NULL	NULL	24	Saison	NULL	NULL
+834	Jolly Pumpkin Bam Noire	4.3	NULL	NULL	NULL	24	Saison	NULL	NULL
+299	Jolly Pumpkin Calabaza Blanca	4.8	15	1.01	3	26	Wheat Beer	38	Witbier
+300	Jolly Pumpkin La Roja	7.2	17	1.01	8	32	Wild Ale	14	American Wild Ale
+835	Jolly Pumpkin Luciernaga (The Firefly)	6.5	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+836	Jolly Pumpkin Madrugada Obscura (Dark Dawn Stout)	8.1	NULL	NULL	NULL	11	Stout	NULL	NULL
+837	Jolly Pumpkin Maracaibo Especial (Special Brown Ale)	7.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+301	Jolly Pumpkin Oro de Calabaza	8	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+1607	Karl Strauss Amber Lager	4.2	32	1.01	17	29	Amber	75	American Amber / Red Lager
+1606	Karl Strauss Red Trolley Ale	5.8	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1608	Karl Strauss Woodie Gold	4.6	35	1.01	4	12	Pilsner	90	German Pilsener
+2022	Kenya Breweries Tusker Premium Lager	4.2	10	1.006	3	20	Lager	74	American Adjunct Lager
+1822	Kettlehouse Cold Smoke Scotch Ale	6.5	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1761	Kirin Kirin Ichiban	5	12	1.006	3	20	Lager	100	Japanese Rice Lager
+302	Kona Fire Rock Pale Ale	6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+303	Kona Longboard Lager	5.5	10	1.006	3	20	Lager	78	American Pale Lager
+304	Kona Pipeline Porter	5.4	35	1.014	29	23	Porter	11	American Porter
+305	Kona Wailua	5.4	13	1.01	3	44	Fruit/Vegetable	10	American Pale Wheat Ale
+957	Konigshoeven La Trappe Blond	6.5	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+958	Konigshoeven La Trappe Dubbel	7	20	1.013	13	33	Dubbel	28	Dubbel
+959	Konigshoeven La Trappe Quadrupel	10	NULL	NULL	NULL	34	Quad	NULL	NULL
+960	Konigshoeven La Trappe Tripel	8	30	1.011	6	9	Tripel	37	Tripel
+1505	Konigshoeven Tilburg's Dutch Brown Ale	5	25	1.015	16	33	Dubbel	21	Belgian Dark Ale
+1286	Konigshoeven Witte Trappist	5.5	15	1.01	3	26	Wheat Beer	38	Witbier
+1811	Köstritzer Köstritzer Schwarzbier	4.8	28	1.013	24	43	Schwarzbier	97	Schwarzbier
+2023	Kronenbourg 1664	5.9	12	1.006	3	20	Lager	84	Euro Pale Lager
+1287	Kulmbacher Eisbock	9.2	30	1.027	24	16	Bock Beer	89	Eisbock
+2020	Kulmbacher EKU 28	11	21	1.02	16	16	Bock Beer	87	Doppelbock
+1810	Kulmbacher Mönchshof Schwarzbier	4.9	28	1.013	24	43	Schwarzbier	97	Schwarzbier
+2133	Labatt Ice	5.6	NULL	NULL	NULL	20	Lager	NULL	NULL
+2134	Labatt Kokanee	5	NULL	NULL	NULL	20	Lager	NULL	NULL
+1631	Labatt Labatt Blue	5	10	1.006	3	20	Lager	74	American Adjunct Lager
+1632	Labatt Labatt Blue Light	4	10	1.001	3	20	Lager	80	Light Lager
+2135	Labatt Maximum Ice	7.1	NULL	NULL	NULL	8	Misc	NULL	NULL
+1958	Lagunitas A Little Sumpin' Extra! Ale	8.74	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1590	Lagunitas A Little Sumpin' Sumpin' Ale	7.3	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+961	Lagunitas Brown Shugga'	9.5	85	1.02	13	36	Strong Ale	13	American Strong Ale
+962	Lagunitas Cappuccino Stout	8.3	NULL	NULL	NULL	11	Stout	NULL	NULL
+963	Lagunitas Censored (Kronik)	5.9	NULL	NULL	NULL	29	Amber	NULL	NULL
+966	Lagunitas Hop Stoopid	8	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1959	Lagunitas Imperial Stout	8.2	70	1.024	35	11	Stout	56	Russian Imperial Stout
+967	Lagunitas IPA	5.7	50	1.014	11	10	India Pale Ale	8	American IPA
+2040	Lagunitas Little Sumpin' Wild	8.85	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+968	Lagunitas Lucky 13	8.3	NULL	NULL	NULL	29	Amber	NULL	NULL
+969	Lagunitas Maximus	7.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+1416	Lagunitas New Dogtown Pale Ale	6.4	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+964	Lagunitas Olde Gnarlywine	11	NULL	NULL	NULL	14	Barley Wine	NULL	NULL
+970	Lagunitas Pils	5.3	NULL	NULL	NULL	20	Lager	NULL	NULL
+1960	Lagunitas Sirius Ale	7	18	1.009	4	17	Cream Ale	17	Cream Ale
+965	Lagunitas The Hairy Eyeball Ale	8.8	85	1.02	13	36	Strong Ale	13	American Strong Ale
+971	Lagunitas Undercover Investigation Shut-Down	9.28	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1591	Lagunitas Wilco Tango Foxtrot	7.83	85	1.02	13	36	Strong Ale	13	American Strong Ale
+2137	Lake Placid 46'er Pale Ale	6	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2138	Lake Placid Honey Rye	?	NULL	NULL	NULL	45	Specialty Grain	NULL	NULL
+2139	Lake Placid India Pale Ale	6.8	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2140	Lake Placid Ubu Ale	7	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+1288	Lakefront E.S.B.	5.42	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1961	Lakefront Fuel Cafe	5.93	55	1.016	35	11	Stout	12	American Stout
+1289	Lakefront New Grist	5.75	13	1.012	8	45	Specialty Grain	101	Fruit / Vegetable Beer
+1962	Lancaster Hop Hog	7.9	50	1.014	11	10	India Pale Ale	8	American IPA
+1857	Lancaster Milk Stout	5.3	30	1.019	35	11	Stout	53	Milk / Sweet Stout
+1817	Lazy Magnolia Southern Pecan	4.25	20	1.011	22	13	Brown Ale	43	English Brown Ale
+838	Left Hand Black Jack Porter	5.8	27	1.011	25	23	Porter	48	English Porter
+839	Left Hand Chainsaw Ale (Double Sawtooth)	8.3	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1697	Left Hand Fade to Black	8.5	50	1.015	35	11	Stout	52	Foreign / Export Stout
+306	Left Hand Goosinator Doppelbock	7.2	21	1.02	16	16	Bock Beer	87	Doppelbock
+840	Left Hand Haystack Wheat	4.9	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+841	Left Hand Imperial Stout	10.4	NULL	NULL	NULL	11	Stout	NULL	NULL
+842	Left Hand Jackman's	5.2	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+843	Left Hand Juju Ginger	4	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+844	Left Hand Milk Stout	5.2	30	1.019	35	11	Stout	53	Milk / Sweet Stout
+307	Left Hand Oak Aged Imperial Stout	10.4	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+316	Left Hand Oak-Aged Widdershins	8.8	85	1.022	14	14	Barley Wine	2	American Barleywine
+845	Left Hand Oktoberfest	6	NULL	NULL	NULL	42	Marzen	NULL	NULL
+846	Left Hand Polestar Pilsner	5	NULL	NULL	NULL	12	Pilsner	NULL	NULL
+308	Left Hand Rye Bock Lager	7.7	21	1.02	16	16	Bock Beer	87	Doppelbock
+309	Left Hand Sawtooth	4.75	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+310	Left Hand Smoke Jumper	9.8	35	1.014	29	41	Smoked Beer	11	American Porter
+847	Left Hand Smoked Goosinator Doppelbock	7.7	21	1.02	16	41	Smoked Beer	87	Doppelbock
+311	Left Hand Snow Bound Winter Ale	8.6	25	1.016	17	44	Fruit/Vegetable	57	Winter Warmer
+848	Left Hand Snowbound	8.6	25	1.016	17	36	Strong Ale	57	Winter Warmer
+312	Left Hand St. Vrain Tripel	9	30	1.011	6	9	Tripel	37	Tripel
+313	Left Hand Terra-Rye'zd	6.6	22	1.012	17	45	Specialty Grain	19	Rye Beer
+314	Left Hand Twin Sisters	9.6	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+849	Left Hand Twin Sisters	9.6	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+315	Left Hand Warrior IPA	6.8	50	1.014	11	10	India Pale Ale	8	American IPA
+317	Leinenkugel's 1888 Bock	5.1	22	1.016	17	16	Bock Beer	86	Bock
+318	Leinenkugel's Berry Weisse	4.74	13	1.012	8	26	Wheat Beer	101	Fruit / Vegetable Beer
+319	Leinenkugel's Big Butt Doppelbock	5.8	21	1.02	16	16	Bock Beer	87	Doppelbock
+320	Leinenkugel's Classic Amber	4.9	32	1.01	17	20	Lager	75	American Amber / Red Lager
+321	Leinenkugel's Creamy Dark	4.94	14	1.01	17	20	Lager	83	Euro Dark Lager
+322	Leinenkugel's Fireside Nut Brown	4.9	14	1.01	17	13	Brown Ale	83	Euro Dark Lager
+323	Leinenkugel's Honey Weisse	4.9	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+324	Leinenkugel's Light	4.19	10	1.001	3	20	Lager	80	Light Lager
+325	Leinenkugel's Oktoberfest	5.1	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+326	Leinenkugel's Original	4.5	10	1.006	3	20	Lager	74	American Adjunct Lager
+327	Leinenkugel's Red Lager	4.49	24	1.012	13	20	Lager	98	Vienna Lager
+328	Leinenkugel's Summer Shandy	4.2	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+329	Leinenkugel's Sunset Wheat	4.9	15	1.01	3	26	Wheat Beer	38	Witbier
+1290	Lindemans Cassis	4	5	1.005	5	44	Fruit/Vegetable	33	Lambic - Fruit
+1292	Lindemans Faro Lambic	4.2	5	1.005	5	32	Wild Ale	29	Faro
+1293	Lindemans Framboise	2.5	5	1.005	5	44	Fruit/Vegetable	33	Lambic - Fruit
+1294	Lindemans Gueuze	4	5	1.003	5	32	Wild Ale	32	Gueuze
+1291	Lindemans Gueuze Cuvée René	6	5	1.003	5	32	Wild Ale	32	Gueuze
+1295	Lindemans Kriek	4	5	1.005	5	44	Fruit/Vegetable	33	Lambic - Fruit
+1296	Lindemans Pêche	4	5	1.005	5	44	Fruit/Vegetable	33	Lambic - Fruit
+1297	Lindemans Pomme	4	5	1.005	5	44	Fruit/Vegetable	33	Lambic - Fruit
+1701	Lion Brewery Lionshead Deluxe Pilsner	4.5	10	1.006	3	20	Lager	74	American Adjunct Lager
+2141	Little Creatures Pale Ale	5.2	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1963	Long Trail Blackbeary Wheat	4	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1299	Long Trail Double Bag	7.2	38	1.013	16	38	Old Ale	59	Altbier
+1298	Long Trail Long Trail Ale	4.6	38	1.013	16	38	Old Ale	59	Altbier
+1300	Long Trail Long Trail IPA	5.9	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+1413	Long Trail Pale Ale	5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+330	Lost Abbey 10 Commandments	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+850	Lost Abbey Avant Garde	7	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+335	Lost Abbey Carnevale 2009	6.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+336	Lost Abbey Cuvee De Tomme	11.5	17	1.01	8	36	Strong Ale	14	American Wild Ale
+851	Lost Abbey Cuvee De Tomme	11.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+2142	Lost Abbey Deliverance	12.5	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+337	Lost Abbey Devotion	6.2	25	1.012	11	30	Blonde	23	Belgian Pale Ale
+338	Lost Abbey Gift Of The Magi	10	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+339	Lost Abbey Inferno Ale	8.5	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+340	Lost Abbey Judgment Day	10.5	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+341	Lost Abbey Lost And Found	8	20	1.013	13	33	Dubbel	28	Dubbel
+342	Lost Abbey Ne Goeien	5.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+343	Lost Abbey Red Barn	6.7	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+344	Lost Abbey Serpent's Stout	11	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+332	Lost Abbey The Angel's Share (Bourbon Barrel-Aged)	12.5	85	1.02	13	14	Barley Wine	13	American Strong Ale
+331	Lost Abbey The Angel's Share (Brandy Barrel-Aged)	12.5	85	1.02	13	14	Barley Wine	13	American Strong Ale
+345	Lost Abbey Witch's Wit	4.8	15	1.01	3	26	Wheat Beer	38	Witbier
+1617	Lost Coast 8 Ball Stout	6.3	55	1.016	35	11	Stout	12	American Stout
+1618	Lost Coast Alleycat Amber	5.5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1619	Lost Coast Downtown Brown	5	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1620	Lost Coast Great White	4.8	15	1.01	3	26	Wheat Beer	38	Witbier
+1621	Lost Coast Indica India Pale Ale	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+1622	Lost Coast Winterbraun	6.5	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1301	Lowenbrau Munich Löwenbräu Original	5.2	19	1.01	4	20	Lager	94	Munich Helles Lager
+1731	Luxembourg Diekirch Premium	4.8	12	1.006	3	20	Lager	84	Euro Pale Lager
+2143	Mac and Jack's African Amber	?	NULL	NULL	NULL	29	Amber	NULL	NULL
+1302	Mad River Jamaica Red Ale	6.5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1303	Mad River John Barleycorn	9.5	85	1.022	14	14	Barley Wine	2	American Barleywine
+1304	Mad River Steelhead Double IPA	8.6	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1305	Mad River Steelhead Extra Pale Ale	5.6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1306	Mad River Steelhead Extra Stout	6.6	55	1.016	35	11	Stout	12	American Stout
+1307	Mad River Steelhead Scotch Porter	6	27	1.011	25	23	Porter	48	English Porter
+346	Magic Hat #9	4.6	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+735	Magic Hat Blind Faith	5.6	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+347	Magic Hat Circus Boy	5.4	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+1838	Magic Hat Hex	5.4	32	1.012	13	29	Amber	1	American Amber / Red Ale
+348	Magic Hat Hi.P.A.	5.8	50	1.014	11	10	India Pale Ale	8	American IPA
+736	Magic Hat Hocus Pocus	4.5	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+737	Magic Hat Jinx	6.9	NULL	NULL	NULL	25	Scottish Style Ale	NULL	NULL
+349	Magic Hat Lucky Kat	5.8	50	1.014	11	10	India Pale Ale	8	American IPA
+350	Magic Hat Odd Notion Fall '09	6.2	25	1.015	16	11	Stout	21	Belgian Dark Ale
+351	Magic Hat Odd Notion Spring '09	5	20	1.013	8	12	Pilsner	102	Herbed / Spiced Beer
+352	Magic Hat Odd Notion Summer '09	5	25	1.012	11	20	Lager	23	Belgian Pale Ale
+353	Magic Hat Roxy Rolles	5.8	32	1.012	13	29	Amber	1	American Amber / Red Ale
+354	Magic Hat Wacko	4.5	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1836	Mammoth Brewing IPA 395	8	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1841	Marshall Brewing Atlas IPA	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+1844	Marshall Brewing Big Jamoke	6.8	35	1.014	29	23	Porter	11	American Porter
+1842	Marshall Brewing McNellie's Pub Ale	5	30	1.009	9	28	Bitter	42	English Bitter
+1840	Marshall Brewing Oktoberfest	6	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+1843	Marshall Brewing Old Pavilion	5	35	1.01	4	12	Pilsner	90	German Pilsener
+1845	Marshall Brewing Sundown Wheat	4.7	15	1.01	3	26	Wheat Beer	38	Witbier
+974	Matt Brewing Mississippi Mud Black & Tan	5	25	1.012	25	13	Brown Ale	15	Black & Tan
+975	Matt Brewing Pete's Wicked Ale	5.3	20	1.011	22	13	Brown Ale	43	English Brown Ale
+976	Matt Brewing Pete's Wicked Strawberry Blonde	5	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+1592	Maui Big Swell IPA	6.3	50	1.014	11	10	India Pale Ale	8	American IPA
+1593	Maui CoCoNut Porter	5.7	35	1.014	29	23	Porter	11	American Porter
+1758	Mayflower IPA	7	50	1.014	11	10	India Pale Ale	8	American IPA
+1759	Mayflower Porter	5.5	27	1.011	25	23	Porter	48	English Porter
+1459	McAuslan St. Ambroise Oatmeal Stout	5	33	1.015	32	11	Stout	54	Oatmeal Stout
+355	Meantime Coffee Porter	6	27	1.011	25	23	Porter	48	English Porter
+356	Meantime IPA	7.5	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+357	Meantime London Porter	6.5	27	1.011	25	23	Porter	48	English Porter
+1308	Meantime London Stout	4.5	38	1.01	33	11	Stout	49	English Stout
+358	Meantime Scotch Ale	8	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1309	Mendocino Black Hawk Stout	5.2	55	1.016	35	11	Stout	12	American Stout
+1741	Mendocino Blue Heron	6.1	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1310	Mendocino Eye of the Hawk	8	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1311	Mendocino Red Tail Ale	6	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1312	Mendocino White Hawk IPA	7	50	1.014	11	10	India Pale Ale	8	American IPA
+1652	Metropolitan Dynamo	5.6	24	1.012	13	20	Lager	98	Vienna Lager
+1653	Metropolitan Flywheel	5	35	1.01	4	12	Pilsner	90	German Pilsener
+1654	Metropolitan Krankshaft	5	25	1.009	4	39	Kolsch	65	Kölsch
+852	Michelob Amber Bock	5.2	22	1.016	17	16	Bock Beer	86	Bock
+853	Michelob Bavarian Style Wheat	5.2	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+738	Michelob Beach Bum Blonde	5.4	NULL	NULL	NULL	30	Blonde	NULL	NULL
+854	Michelob Dunkel Weisse	5.5	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+855	Michelob Honey Lager	4.9	NULL	NULL	NULL	20	Lager	NULL	NULL
+856	Michelob Honey Wheat	5.6	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+739	Michelob Hop Hound Amber Wheat	5.3	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+857	Michelob Jack's Pumpkin Spice	5.5	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+858	Michelob Lager	5	10	1.006	3	20	Lager	78	American Pale Lager
+859	Michelob Light	4.3	10	1.001	3	20	Lager	80	Light Lager
+860	Michelob Marzen	4.9	NULL	NULL	NULL	42	Marzen	NULL	NULL
+1964	Michelob Original Lager	5	10	1.006	3	20	Lager	78	American Pale Lager
+861	Michelob Pale Ale	5.2	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1965	Michelob Pale Ale	5.5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+862	Michelob Porter	5.9	35	1.014	29	23	Porter	11	American Porter
+1966	Michelob Porter	5.9	35	1.014	29	23	Porter	11	American Porter
+740	Michelob Shock Top	5.2	15	1.01	3	26	Wheat Beer	38	Witbier
+359	Michelob Ultra	4.2	10	1.001	3	20	Lager	80	Light Lager
+360	Michelob Ultra Amber	5	10	1.001	3	20	Lager	80	Light Lager
+863	Michelob Winter's Bourbon Cask Ale	6	25	1.016	17	44	Fruit/Vegetable	57	Winter Warmer
+2144	Michigan Celis Grand Cru	8	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2145	Michigan Celis Pale Bock	3.9	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2146	Michigan Celis Raspberry	3.9	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+2147	Michigan Celis White	3.9	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+2148	Michigan High Seas India Pale Ale	7.2	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2149	Michigan Mackinac Pale Ale	5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2150	Michigan Nut Brown Ale	5	NULL	NULL	NULL	13	Brown Ale	NULL	NULL
+2151	Michigan Peninsula Porter	5.5	NULL	NULL	NULL	23	Porter	NULL	NULL
+2152	Michigan Screamin' Pumpkin Spiced Ale	6	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+2153	Michigan Sunset Amber	5	NULL	NULL	NULL	20	Lager	NULL	NULL
+2154	Michigan Superior Stout	5.5	NULL	NULL	NULL	11	Stout	NULL	NULL
+1313	Middle Ages Beast Bitter	5.3	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1314	Middle Ages Black Heart Stout	6.6	38	1.01	33	11	Stout	49	English Stout
+1315	Middle Ages Dragonslayer	9.5	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1320	Middle Ages Druid Fluid	9.5	85	1.022	14	14	Barley Wine	2	American Barleywine
+1316	Middle Ages Grail Ale	5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1317	Middle Ages ImPaled Ale	6.5	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+1318	Middle Ages Kilt Tilter	9	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1319	Middle Ages Wailing Wench	8	85	1.02	13	36	Strong Ale	13	American Strong Ale
+361	Midnight Sun Arctic Devil	14	52	1.024	15	14	Barley Wine	41	English Barleywine
+864	Midnight Sun Arctic Rhino Coffee Porter	5	35	1.014	29	23	Porter	11	American Porter
+362	Midnight Sun Cohoho	8	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+363	Midnight Sun Conspiracy	8.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+868	Midnight Sun Épluche-Culotte	8.5	30	1.011	6	9	Tripel	37	Tripel
+865	Midnight Sun Kodiak Brown	5	20	1.011	22	13	Brown Ale	43	English Brown Ale
+866	Midnight Sun La Mâitresse du Moine	11.5	20	1.013	13	33	Dubbel	28	Dubbel
+364	Midnight Sun Melt Down	8	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+867	Midnight Sun Sockeye Red IPA	5.7	50	1.014	11	10	India Pale Ale	8	American IPA
+365	Mikkeller All Others Pale	6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+366	Mikkeller Amarillo Single Hop IPA	7	50	1.014	11	10	India Pale Ale	8	American IPA
+869	Mikkeller Beer Geek Breakfast	7.5	NULL	NULL	NULL	11	Stout	NULL	NULL
+870	Mikkeller Beer Geek Brunch Weasel	10.9	NULL	NULL	NULL	11	Stout	NULL	NULL
+367	Mikkeller Big Worse Barley Wine	12	85	1.022	14	14	Barley Wine	2	American Barleywine
+871	Mikkeller Black	17.5	NULL	NULL	NULL	11	Stout	NULL	NULL
+368	Mikkeller Black Hole	13.1	70	1.024	35	11	Stout	56	Russian Imperial Stout
+369	Mikkeller Cascade Single Hop	6.9	50	1.014	11	10	India Pale Ale	8	American IPA
+370	Mikkeller Czech-Style Pilsner	4.8	40	1.015	5	12	Pilsner	82	Czech Pilsener
+371	Mikkeller Draft Bear	8	90	1.015	12	12	Pilsner	76	American Double / Imperial Pilsner
+372	Mikkeller Fra Til (From To)	8	30	1.02	23	23	Porter	39	Baltic Porter
+1746	Mikkeller I Beat YoU	9.75	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+373	Mikkeller It's Alive	8	28	1.011	4	32	Wild Ale	25	Belgian Strong Pale Ale
+374	Mikkeller Jackie Brown	6	32	1.012	27	13	Brown Ale	4	American Brown Ale
+375	Mikkeller Nelson Sauvin Single Hop IPA	6.9	50	1.014	11	10	India Pale Ale	8	American IPA
+376	Mikkeller Not Just Another Wit	7.6	15	1.01	3	26	Wheat Beer	38	Witbier
+377	Mikkeller Nugget Single Hop IPA	6.9	50	1.014	11	10	India Pale Ale	8	American IPA
+378	Mikkeller Santa's Little Helper 2007	11	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+379	Mikkeller Santa's Little Helper 2008	11	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+380	Mikkeller Simcoe Single Hop IPA	6.9	50	1.014	11	10	India Pale Ale	8	American IPA
+381	Mikkeller Stateside IPA	7	50	1.014	11	10	India Pale Ale	8	American IPA
+382	Mikkeller USAlive!	8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+383	Mikkeller Warrior Single Hop IPA	6.9	50	1.014	11	10	India Pale Ale	8	American IPA
+872	Miller Icehouse	5.5	10	1.006	3	20	Lager	74	American Adjunct Lager
+873	Miller MGD	4.7	10	1.006	3	20	Lager	74	American Adjunct Lager
+874	Miller Mickey's Fine Malt Liquor	5.6	20	1.018	5	8	Misc	77	American Malt Liquor
+384	Miller Miller Chill	4.2	10	1.006	3	44	Fruit/Vegetable	74	American Adjunct Lager
+385	Miller Miller Genuine Draft Light 64	3	10	1.006	3	20	Lager	74	American Adjunct Lager
+386	Miller Miller High Life	4.7	10	1.006	3	20	Lager	74	American Adjunct Lager
+387	Miller Miller High Life Light	4.2	10	1.001	3	20	Lager	80	Light Lager
+388	Miller Miller Lite	4.2	10	1.006	3	20	Lager	74	American Adjunct Lager
+875	Miller Milwaukee's Best	4.3	10	1.006	3	20	Lager	74	American Adjunct Lager
+876	Miller Milwaukee's Best Ice	5.9	10	1.006	3	20	Lager	74	American Adjunct Lager
+877	Miller Milwaukee's Best Light	4.2	10	1.006	3	20	Lager	74	American Adjunct Lager
+880	Miller Steel Reserve	8.1	NULL	NULL	NULL	8	Misc	NULL	NULL
+1680	Minhas Simpler Times Lager	6.2	10	1.006	3	20	Lager	74	American Adjunct Lager
+1681	Minhas Simpler Times Pilsner	5.5	35	1.01	4	12	Pilsner	90	German Pilsener
+1321	Mission Amber Ale	5	38	1.013	16	38	Old Ale	59	Altbier
+1322	Mission Blonde Ale	5	25	1.009	4	39	Kolsch	65	Kölsch
+1323	Mission Hefeweizen	5	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1324	Mission IPA	6.8	50	1.014	11	10	India Pale Ale	8	American IPA
+1594	Molson Molson Canadian	5	10	1.006	3	20	Lager	74	American Adjunct Lager
+1595	Molson Molson Golden	5	20	1.011	4	30	Blonde	3	American Blonde Ale
+1596	Molson Molson Ice	5.6	10	1.006	3	20	Lager	74	American Adjunct Lager
+1597	Molson Molson XXX	7.3	20	1.018	5	8	Misc	77	American Malt Liquor
+1198	Moortgat Duvel	8.5	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+2103	Moortgat Duvel Green	6.8	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1201	Moortgat Maredsous 10	10	30	1.011	6	9	Tripel	37	Tripel
+1199	Moortgat Maredsous 6	6	25	1.012	11	30	Blonde	23	Belgian Pale Ale
+1200	Moortgat Maredsous 8	8	20	1.013	13	33	Dubbel	28	Dubbel
+2024	Moosehead Lager	5	10	1.006	3	20	Lager	78	American Pale Lager
+1325	Morland Old Speckled Hen	5.2	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1723	Moylans Dragoons	5	37	1.009	32	11	Stout	68	Irish Dry Stout
+1720	Moylans Hopsickle	9.2	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1721	Moylans Kilt Lifter	8	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1722	Moylans Moylander	8.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1724	Moylans Old Blarney	10	85	1.022	14	14	Barley Wine	2	American Barleywine
+1970	Moylans Ryan Sullivan's Imperial Stout	10	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1725	Moylans Tipperary Pale Ale	5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1971	Murphy Murphy's Irish Red	5	22	1.011	14	8	Misc	69	Irish Red Ale
+1326	Murphy Murphy's Irish Stout	4	37	1.009	32	11	Stout	68	Irish Dry Stout
+2155	Mythos Mythos	5	NULL	NULL	NULL	20	Lager	NULL	NULL
+1357	Nacional Dominicana Presidente	6	10	1.006	3	12	Pilsner	74	American Adjunct Lager
+1330	Nethergate Augustinian Ale	5.2	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1331	Nethergate Old Growler	5.5	27	1.011	25	23	Porter	48	English Porter
+389	New Belgium 1554	5.6	25	1.015	16	20	Lager	21	Belgian Dark Ale
+741	New Belgium 2° Below Winter Ale	6.6	NULL	NULL	NULL	28	Bitter	NULL	NULL
+742	New Belgium Abbey Ale	7	20	1.013	13	33	Dubbel	28	Dubbel
+2157	New Belgium Belgian Style Blond	8.5	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2158	New Belgium Belgo IPA	8	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2159	New Belgium Biere De Mars	6.2	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+2156	New Belgium Blue Paddle Pilsner	4.8	NULL	NULL	NULL	12	Pilsner	NULL	NULL
+2160	New Belgium Dark Kriek	8	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+2039	New Belgium Eric's Ale	7	17	1.01	8	32	Wild Ale	14	American Wild Ale
+390	New Belgium Fat Tire	5.2	32	1.012	13	29	Amber	1	American Amber / Red Ale
+391	New Belgium Giddy Up!	6	32	1.012	13	44	Fruit/Vegetable	1	American Amber / Red Ale
+1737	New Belgium Hoptober	6	20	1.011	4	30	Blonde	3	American Blonde Ale
+2161	New Belgium Imperial Berliner Weisse	7	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+743	New Belgium La Folie	6	18	1.007	13	32	Wild Ale	31	Flanders Red Ale
+2162	New Belgium Le Fleur Misseur	6.5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+392	New Belgium Mighty Arrow	6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1736	New Belgium Mighty Arrow	6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+393	New Belgium Mothership Wit	4.8	15	1.01	3	26	Wheat Beer	38	Witbier
+394	New Belgium Old Cherry	6.5	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1655	New Belgium Ranger IPA	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+2163	New Belgium Sahti	7.2	NULL	NULL	NULL	8	Misc	NULL	NULL
+395	New Belgium Skinny Dip	4.2	20	1.011	4	30	Blonde	3	American Blonde Ale
+396	New Belgium Springboard	6.2	25	1.012	11	44	Fruit/Vegetable	23	Belgian Pale Ale
+397	New Belgium Sunshine Wheat	4.8	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+744	New Belgium Sunshine Wheat	4.8	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+2164	New Belgium Transatlantique Kriek	8	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+398	New Belgium Trippel	7.8	30	1.011	6	9	Tripel	37	Tripel
+2165	New Belgium Vrienden Ale	8.5	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+1853	New English Troopers Tipple	4.8	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+1659	New Glarus Coffee Stout	5.75	55	1.016	35	11	Stout	12	American Stout
+1660	New Glarus Crack'd Wheat	5.95	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1661	New Glarus Dancing Man Wheat	7.2	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1662	New Glarus Fat Squirrel Ale	5.8	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1663	New Glarus Hop Hearty Ale	6.1	50	1.014	11	10	India Pale Ale	8	American IPA
+1664	New Glarus Raspberry Tart	4	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1623	New Glarus Spotted Cow	5.1	18	1.009	4	17	Cream Ale	17	Cream Ale
+1665	New Glarus Stone Soup	5.3	25	1.012	11	30	Blonde	23	Belgian Pale Ale
+1972	New Glarus Unplugged Enigma	5.5	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1332	New Glarus Wisconsin Belgian Red	5.1	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+977	New Holland Dark Tulip	9	30	1.011	6	9	Tripel	37	Tripel
+399	New Holland Dragon's Milk	9	26	1.02	17	36	Strong Ale	50	English Strong Ale
+978	New Holland Existential Hopwine	10.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+400	New Holland Full Circle	5.25	25	1.009	4	39	Kolsch	65	Kölsch
+401	New Holland Golden Cap	7	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+402	New Holland Ichabod	4.8	20	1.015	15	44	Fruit/Vegetable	18	Pumpkin Ale
+979	New Holland Mad Hatter	5.8	50	1.014	11	10	India Pale Ale	8	American IPA
+980	New Holland Night Tripper	10.8	NULL	NULL	NULL	11	Stout	NULL	NULL
+981	New Holland Pilgrim's Dole	10	50	1.022	20	26	Wheat Beer	20	Wheatwine
+982	New Holland The Poet	5.5	33	1.015	32	11	Stout	54	Oatmeal Stout
+2025	New Zealand Breweries Steinlager	5	12	1.006	3	20	Lager	84	Euro Pale Lager
+1335	Ninkasi Believer	6.9	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1336	Ninkasi Oatis	7.5	33	1.015	32	11	Stout	54	Oatmeal Stout
+1333	Ninkasi Total Domination	6.7	50	1.014	11	10	India Pale Ale	8	American IPA
+1334	Ninkasi Tricerahops	8.8	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1337	Nogne O Bitter	4.5	30	1.009	9	28	Bitter	42	English Bitter
+1338	Nogne O Brown Ale	4.5	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1339	Nogne O Brun	6	25	1.015	16	36	Strong Ale	21	Belgian Dark Ale
+1340	Nogne O God Jul	8.5	27	1.011	25	23	Porter	48	English Porter
+1341	Nogne O Imperial Stout	9	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1342	Nogne O India Pale Ale	7.5	50	1.014	11	10	India Pale Ale	8	American IPA
+1343	Nogne O Pale Ale	6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1344	Nogne O Porter	7	27	1.011	25	23	Porter	48	English Porter
+1345	Nogne O Tyttebaer	8	17	1.01	8	32	Wild Ale	14	American Wild Ale
+983	North Coast Acme California IPA	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+989	North Coast Acme California Pale Ale	5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+990	North Coast Blue Star	4.5	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+991	North Coast Brother Thelonious	9	20	1.013	13	33	Dubbel	28	Dubbel
+992	North Coast Cru D'or	8	20	1.013	13	33	Dubbel	28	Dubbel
+993	North Coast Le Merle	7.9	NULL	NULL	NULL	24	Saison	NULL	NULL
+994	North Coast Old No. 38 Stout	5.6	37	1.009	32	11	Stout	68	Irish Dry Stout
+995	North Coast Old Plowshare Stout	5.7	55	1.016	35	11	Stout	12	American Stout
+1329	North Coast Old Rasputin	9	70	1.024	35	11	Stout	56	Russian Imperial Stout
+996	North Coast Old Stock Ale	12.5	45	1.019	16	38	Old Ale	55	Old Ale
+997	North Coast Pranqster	7.6	28	1.011	4	31	Pale Ale	25	Belgian Strong Pale Ale
+998	North Coast Red Seal Ale	5.5	NULL	NULL	NULL	29	Amber	NULL	NULL
+999	North Coast Scrimshaw Pilsner	4.4	NULL	NULL	NULL	20	Lager	NULL	NULL
+2166	Odell Brewing 5 Barrel Pale Ale	5.2	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1973	Odell Brewing 90 Shilling Ale	5.5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+2167	Odell Brewing Bourbon Barrel Stout	10.5	NULL	NULL	NULL	11	Stout	NULL	NULL
+2168	Odell Brewing Cutthroat Porter	5.1	NULL	NULL	NULL	23	Porter	NULL	NULL
+2169	Odell Brewing Double Pilsner	8.1	NULL	NULL	NULL	12	Pilsner	NULL	NULL
+2170	Odell Brewing Easy Street Wheat	4.6	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+2171	Odell Brewing Isolation Ale	6	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2172	Odell Brewing Levity Amber Ale	5.1	NULL	NULL	NULL	29	Amber	NULL	NULL
+1812	Odell Brewing Odell IPA	7	50	1.014	11	10	India Pale Ale	8	American IPA
+2173	Odell Brewing Red Ale	6.5	NULL	NULL	NULL	29	Amber	NULL	NULL
+1855	Odell Brewing Saboteur	10	17	1.01	8	32	Wild Ale	14	American Wild Ale
+2174	Odell Brewing St. Lupulin	6.5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2175	Oggi's Black Magic Stout	6.8	NULL	NULL	NULL	11	Stout	NULL	NULL
+2176	Oggi's California Gold Blonde Ale	4.5	NULL	NULL	NULL	17	Cream Ale	NULL	NULL
+2177	Oggi's Hop Juice Double IPA	9.4	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2178	Oggi's McGarvey's Scottish Ale	5	NULL	NULL	NULL	25	Scottish Style Ale	NULL	NULL
+2179	Oggi's Paradise Pale Ale	4.8	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2180	Oggi's Sunset Amber Ale	5	NULL	NULL	NULL	29	Amber	NULL	NULL
+2181	Oggi's Torrey Pines IPA	6.8	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+1172	Old Dominion Dominion Millennium Ale	11.4	52	1.024	15	14	Barley Wine	41	English Barleywine
+1173	Old Dominion Dominion Oak Barrel Stout	5.2	55	1.016	35	11	Stout	12	American Stout
+1346	Ommegang Abbey Ale	8.5	20	1.013	13	33	Dubbel	28	Dubbel
+1347	Ommegang Adoration	10	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1638	Ommegang Biere de Mars	6.5	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+1348	Ommegang BPA	6.2	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+1349	Ommegang Chocolate Indulgence	7	25	1.015	16	11	Stout	21	Belgian Dark Ale
+1639	Ommegang Hennepin	7.7	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1640	Ommegang Ommegeddon	8	17	1.01	8	32	Wild Ale	14	American Wild Ale
+1641	Ommegang Rare Vos	6.5	25	1.015	16	29	Amber	21	Belgian Dark Ale
+1350	Ommegang Three Philosophers	9.8	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+1351	Ommegang Tripel Perfection	8.9	30	1.011	6	9	Tripel	37	Tripel
+1352	Ommegang Witte	5.1	15	1.01	3	26	Wheat Beer	38	Witbier
+1799	Ommegang Zuur	6	15	1.015	19	32	Wild Ale	30	Flanders Oud Bruin
+2182	Oriental Cass Fresh	4.5	NULL	NULL	NULL	20	Lager	NULL	NULL
+2183	Oriental OB Lager	4.5	NULL	NULL	NULL	20	Lager	NULL	NULL
+1718	Orkney Dark Island	4.6	18	1.012	13	25	Scottish Style Ale	72	Scottish Ale
+1719	Orkney Dragonhead Stout	4	38	1.01	33	11	Stout	49	English Stout
+1353	Orkney SkullSplitter	8.5	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1354	Orval Orval	6.9	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+39	Oskar Blues Dale's Pale Ale	6.5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+41	Oskar Blues Gordon	8.7	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+43	Oskar Blues Mamas Little Yella Pils	5.3	40	1.015	5	12	Pilsner	82	Czech Pilsener
+40	Oskar Blues Old Chub	8	18	1.012	13	25	Scottish Style Ale	72	Scottish Ale
+42	Oskar Blues Ten Fidy	10	70	1.024	35	11	Stout	56	Russian Imperial Stout
+403	Otter Creek 15th Anniversary IPA	6.8	50	1.014	11	10	India Pale Ale	8	American IPA
+404	Otter Creek Copper Ale	5.4	38	1.013	16	38	Old Ale	59	Altbier
+405	Otter Creek Cuckoo Bock	7.5	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+406	Otter Creek Equinox Ale	?	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+407	Otter Creek Holy Otter	?	30	1.011	6	9	Tripel	37	Tripel
+408	Otter Creek Imperial IPA	11	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+409	Otter Creek Mud Bock	5.7	21	1.02	16	16	Bock Beer	87	Doppelbock
+410	Otter Creek Oktoberfest	4.8	32	1.012	13	42	Marzen	1	American Amber / Red Ale
+412	Otter Creek Otter Kilter	6.5	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+413	Otter Creek Otter Mon	?	50	1.015	35	11	Stout	52	Foreign / Export Stout
+415	Otter Creek Otter San	?	20	1.011	4	45	Specialty Grain	3	American Blonde Ale
+411	Otter Creek Otterbahn	8	22	1.019	19	16	Bock Beer	67	Weizenbock
+414	Otter Creek Otteroo	7.13	30	1.01	9	30	Blonde	46	English Pale Ale
+417	Otter Creek Pale Ale	4.6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+422	Otter Creek Raspberry Brown Winter Ale	5.8	32	1.012	27	44	Fruit/Vegetable	4	American Brown Ale
+418	Otter Creek Russian Imperial Stout	10.6	70	1.024	35	11	Stout	56	Russian Imperial Stout
+419	Otter Creek Stovepipe Porter	5.4	35	1.014	29	23	Porter	11	American Porter
+416	Otter Creek Summer Ale	4.9	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+420	Otter Creek Vermont Lager	5	40	1.015	5	12	Pilsner	82	Czech Pilsener
+421	Otter Creek White Sail	5	15	1.01	3	26	Wheat Beer	38	Witbier
+766	Otter Creek Wolaver's Ben Gleason's White Ale	4.34	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+767	Otter Creek Wolaver's Brown Ale	5.7	20	1.011	22	13	Brown Ale	43	English Brown Ale
+768	Otter Creek Wolaver's India Pale Ale	6.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+770	Otter Creek Wolaver's Pale Ale	5.8	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+772	Otter Creek Wolaver's Pat Leavy's All-American Ale	6	NULL	NULL	NULL	29	Amber	NULL	NULL
+771	Otter Creek Wolaver's Will Steven's Pumpkin Ale	5.35	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+773	Otter Creek Wolaver's Wit Bier	4.6	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+769	Otter Wolaver's Oatmeal Stout	5.9	33	1.015	32	11	Stout	54	Oatmeal Stout
+1669	Pabst Lone Star	4.72	10	1.006	3	20	Lager	74	American Adjunct Lager
+878	Pabst Old Milwaukee	4.6	10	1.006	3	20	Lager	74	American Adjunct Lager
+879	Pabst Old Milwaukee Light	3.9	10	1.006	3	20	Lager	74	American Adjunct Lager
+1670	Pabst Old Style	4.64	10	1.006	3	20	Lager	74	American Adjunct Lager
+1675	Pabst Old Style Light	4.64	10	1.001	3	20	Lager	80	Light Lager
+2184	Pabst Olympia	4.73	NULL	NULL	NULL	20	Lager	NULL	NULL
+423	Pabst Pabst Blue Ribbon	5	10	1.006	3	20	Lager	74	American Adjunct Lager
+424	Pabst Pabst Blue Ribbon Light	4.3	10	1.006	3	20	Lager	74	American Adjunct Lager
+881	Pabst Stroh's	4.6	10	1.006	3	20	Lager	74	American Adjunct Lager
+1626	Palm Palm Speciale	5.4	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+425	Paulaner Hefe-Weizen	5.5	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+426	Paulaner Oktoberfest Marzen	6	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+427	Paulaner Original Munich Lager	4.9	19	1.01	4	20	Lager	94	Munich Helles Lager
+1000	Paulaner Premium Pils	4.9	NULL	NULL	NULL	20	Lager	NULL	NULL
+1001	Paulaner Salvator	7.9	21	1.02	16	16	Bock Beer	87	Doppelbock
+1760	Peak Organic IPA	7.2	50	1.014	11	10	India Pale Ale	8	American IPA
+1355	Peroni Peroni	5.1	12	1.006	3	20	Lager	84	Euro Pale Lager
+1691	Philadelphia Fleur de Lehigh	4.5	25	1.012	11	30	Blonde	23	Belgian Pale Ale
+1692	Philadelphia Joe	5	35	1.014	29	23	Porter	11	American Porter
+1693	Philadelphia Kenzinger	4.5	25	1.009	4	39	Kolsch	65	Kölsch
+1694	Philadelphia Newbold IPA	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+1695	Philadelphia Rowhouse Red	5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1696	Philadelphia Walt Wit	4.2	15	1.01	3	26	Wheat Beer	38	Witbier
+2186	Pisgah Baptista	11.5	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2187	Pisgah Cosmos	9.5	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2188	Pisgah Equinox	7.5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2185	Pisgah Hellbender Barleywine	9.8	NULL	NULL	NULL	14	Barley Wine	NULL	NULL
+2189	Pisgah India Pale Ale	7.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2190	Pisgah Pale Ale	5.5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2191	Pisgah Porter	0	NULL	NULL	NULL	23	Porter	NULL	NULL
+2192	Pisgah Solstice	9	NULL	NULL	NULL	9	Tripel	NULL	NULL
+2193	Pisgah Valdez	6.8	NULL	NULL	NULL	11	Stout	NULL	NULL
+2194	Pisgah Vortex I	10.8	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2195	Pisgah Vortex II	11.7	NULL	NULL	NULL	11	Stout	NULL	NULL
+2131	Pivovar Velké Popovice Kozel Cerny	3.8	NULL	NULL	NULL	20	Lager	NULL	NULL
+2130	Pivovar Velké Popovice Kozel Premium	4.8	NULL	NULL	NULL	12	Pilsner	NULL	NULL
+2132	Pivovar Velké Popovice Kozel Svetly	4	NULL	NULL	NULL	12	Pilsner	NULL	NULL
+1002	Plzensky Prazdroj Pilsner Urquell	4.4	40	1.015	5	12	Pilsner	82	Czech Pilsener
+428	Port / Pizza Port 2nd Anniversary	9.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+429	Port / Pizza Port 3rd Anniversary	10	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+333	Port / Pizza Port Brother Levonian	6.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+334	Port / Pizza Port Brouwer's Imagination	6.5	17	1.01	8	24	Saison	14	American Wild Ale
+430	Port / Pizza Port High Tide	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+431	Port / Pizza Port Hop-15	10.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+432	Port / Pizza Port Isabelle Proximus	7	17	1.01	8	32	Wild Ale	14	American Wild Ale
+433	Port / Pizza Port Moon Lit Sessions	5	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+435	Port / Pizza Port Old Viscosity	10	85	1.02	13	36	Strong Ale	13	American Strong Ale
+434	Port / Pizza Port Older Viscosity	12	70	1.024	35	36	Strong Ale	7	American Double / Imperial Stout
+436	Port / Pizza Port Panzer Imperial Pilsner	9	90	1.015	12	20	Lager	76	American Double / Imperial Pilsner
+437	Port / Pizza Port Santa's Little Helper	10	70	1.024	35	11	Stout	56	Russian Imperial Stout
+438	Port / Pizza Port Shark Attack	9.2	32	1.012	13	36	Strong Ale	1	American Amber / Red Ale
+439	Port / Pizza Port Wipeout I.P.A.	7	50	1.014	11	10	India Pale Ale	8	American IPA
+1790	Pretty Things American Darling	7	10	1.006	3	20	Lager	78	American Pale Lager
+1751	Pretty Things Baby Tree	9	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+1752	Pretty Things Jack D'Or	6.4	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+440	Pyramid Amber Ale	?	20	1.012	18	26	Wheat Beer	5	American Dark Wheat Ale
+441	Pyramid Audacious Apricot Ale	5.1	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+442	Pyramid Broken Rake	6.4	32	1.012	13	29	Amber	1	American Amber / Red Ale
+443	Pyramid Crystal Wheat	?	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+444	Pyramid Curve Ball Blonde Ale	4.8	25	1.009	4	39	Kolsch	65	Kölsch
+445	Pyramid Haywire Hefeweizen	5.2	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+446	Pyramid Imperial Hefeweizen	7.5	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+447	Pyramid Juggernaut Red Ale	5.6	32	1.012	13	29	Amber	1	American Amber / Red Ale
+448	Pyramid Rollick Amber Lager	6	32	1.01	17	20	Lager	75	American Amber / Red Lager
+449	Pyramid Snow Cap	7	25	1.016	17	36	Strong Ale	57	Winter Warmer
+450	Pyramid Thunderhead	6.7	50	1.014	11	10	India Pale Ale	8	American IPA
+2197	Quilmes Quilmes	4.9	NULL	NULL	NULL	20	Lager	NULL	NULL
+2027	Radeberger Pilsner	4.8	35	1.01	4	12	Pilsner	90	German Pilsener
+1775	Rahr and Sons Blind Salamander	5.5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1744	Rahr and Sons Blonde	4.8	19	1.01	4	20	Lager	94	Munich Helles Lager
+1772	Rahr and Sons Bucking Bock	7.5	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+1785	Rahr and Sons Buffalo Butt	4.5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1771	Rahr and Sons Iron Thistle	8	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1774	Rahr and Sons Oktoberfest	5.5	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+1743	Rahr and Sons Stormcloud IPA	6	50	1.014	11	10	India Pale Ale	8	American IPA
+1773	Rahr and Sons Summertime Wheat	5.2	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1745	Rahr and Sons Texas Red	4.5	32	1.01	17	29	Amber	75	American Amber / Red Lager
+1742	Rahr and Sons Ugly Pug	4.5	28	1.013	24	43	Schwarzbier	97	Schwarzbier
+1776	Rahr and Sons Winter Warmer	8.5	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1781	Real Ale Brewing Brewhouse Brown	5.4	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1783	Real Ale Brewing Firemans #4	5.1	20	1.011	4	30	Blonde	3	American Blonde Ale
+1779	Real Ale Brewing Full Moon Pale Rye Ale	5.6	22	1.012	17	45	Specialty Grain	19	Rye Beer
+1777	Real Ale Brewing Hans' Pils	5.3	35	1.01	4	12	Pilsner	90	German Pilsener
+1780	Real Ale Brewing Lost Gold IPA	6.6	50	1.014	11	10	India Pale Ale	8	American IPA
+1778	Real Ale Brewing Oktoberfest	5.7	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+1782	Real Ale Brewing Rio Blanco Pale Ale	5.3	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+452	Redhook Black Hook Porter	5.23	35	1.014	29	23	Porter	11	American Porter
+453	Redhook Blonde Ale	5.41	20	1.011	4	30	Blonde	3	American Blonde Ale
+454	Redhook Copper Hook	5.7	32	1.012	13	29	Amber	1	American Amber / Red Ale
+455	Redhook Double Black Stout	7	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+456	Redhook ESB	5.77	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+457	Redhook Late Harvest	5.9	32	1.012	13	29	Amber	1	American Amber / Red Ale
+458	Redhook Long Hammer IPA	6.51	50	1.014	11	10	India Pale Ale	8	American IPA
+459	Redhook Slim Chance	3.9	20	1.011	4	30	Blonde	3	American Blonde Ale
+460	Redhook Sunrye	4.7	22	1.012	17	30	Blonde	19	Rye Beer
+461	Redhook Treblehook	9.8	85	1.022	14	14	Barley Wine	2	American Barleywine
+462	Redhook Tripel	10.2	30	1.011	6	9	Tripel	37	Tripel
+463	Redhook Winter Hook	6.11	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1839	River Horse Brewing Hop Hazard	6.5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+601	Rochefort Trappistes 6	7.5	20	1.013	13	33	Dubbel	28	Dubbel
+1004	Rochefort Trappistes Rochefort 10	11.3	NULL	NULL	NULL	34	Quad	NULL	NULL
+1003	Rochefort Trappistes Rochefort 8	9.2	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1005	Rodenbach Grand Cru	6	18	1.007	13	32	Wild Ale	31	Flanders Red Ale
+464	Rodenbach Rodenbach Classic Ale	5.2	18	1.007	13	32	Wild Ale	31	Flanders Red Ale
+465	Rogue American Amber	5.1	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1006	Rogue Brutal Bitter	6.2	NULL	NULL	NULL	28	Bitter	NULL	NULL
+466	Rogue Captain Sig's Deadliest Ale	6.2	32	1.012	13	29	Amber	1	American Amber / Red Ale
+467	Rogue Chipotle Ale	5.5	25	1.012	10	44	Fruit/Vegetable	16	Chile Beer
+1007	Rogue Chocolate Stout	6.3	55	1.016	35	11	Stout	12	American Stout
+468	Rogue Dad's Little Helper	7.2	20	1.018	5	8	Misc	77	American Malt Liquor
+1008	Rogue Dead Guy	6.5	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+1787	Rogue Dirtoir Black Lager	6	28	1.013	24	43	Schwarzbier	97	Schwarzbier
+469	Rogue Double Dead Guy	9.5	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1009	Rogue Double Dead Guy	9.5	85	1.02	13	36	Strong Ale	13	American Strong Ale
+470	Rogue Hazelnut Brown Nectar	6.22	32	1.012	27	13	Brown Ale	4	American Brown Ale
+477	Rogue Imperial Porter	8.2	30	1.02	23	23	Porter	39	Baltic Porter
+1011	Rogue Imperial Stout	11	70	1.024	35	11	Stout	56	Russian Imperial Stout
+471	Rogue Imperial Youngers Special Ale	7.1	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+472	Rogue Independence Hop Ale	?	50	1.014	11	31	Pale Ale	8	American IPA
+1786	Rogue John John Dead Guy Ale	6.4	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+1012	Rogue Juniper Pale Ale	5.2	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1013	Rogue Kells Irish-Style Lager	5.2	12	1.006	3	20	Lager	84	Euro Pale Lager
+1014	Rogue Mocha Porter	5.1	35	1.014	29	23	Porter	11	American Porter
+1015	Rogue MoM (Half-E-Weizen)	5.2	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+1359	Rogue Morimoto Black Obi	4.8	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1360	Rogue Morimoto Imperial Pilsner	8.8	90	1.015	12	12	Pilsner	76	American Double / Imperial Pilsner
+1361	Rogue Morimoto Soba Ale	4.8	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1362	Rogue Santa's Private Reserve	6	32	1.012	13	29	Amber	1	American Amber / Red Ale
+473	Rogue Seahorse Pale Ale	?	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+474	Rogue Sesquicentennial Ale	6.3	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1363	Rogue Shakespeare Stout	6.1	33	1.015	32	11	Stout	54	Oatmeal Stout
+1788	Rogue Single Malt Ale	?	20	1.011	4	30	Blonde	3	American Blonde Ale
+475	Rogue Smoke Ale	5.9	35	1.012	20	41	Smoked Beer	103	Smoked Beer
+1010	Rogue St. Rogue Red Ale	5.1	32	1.012	13	29	Amber	1	American Amber / Red Ale
+476	Rogue Ten Thousand Brew Ale	10	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1365	Rogue XS Imperial IPA	9.2	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1366	Rogue XS Imperial Stout	11	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1367	Rogue XS Old Crustacean	11.5	85	1.022	14	14	Barley Wine	2	American Barleywine
+478	Rogue Yellow Snow IPA	6.2	50	1.014	11	10	India Pale Ale	8	American IPA
+1368	Rogue Younger's Special Bitter	4.8	30	1.009	9	28	Bitter	42	English Bitter
+2198	Rush River Bubblejack India Pale Ale	6	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2199	Rush River Lost Arrow Porter	5	NULL	NULL	NULL	23	Porter	NULL	NULL
+2200	Rush River Small Axe Golden Ale	?	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+2201	Rush River The Unforgiven Amber Ale	5.8	NULL	NULL	NULL	29	Amber	NULL	NULL
+2202	Rush River Winter Warmer	6.5	NULL	NULL	NULL	25	Scottish Style Ale	NULL	NULL
+1974	Russian River Beatification	5.5	17	1.01	8	32	Wild Ale	14	American Wild Ale
+22	Russian River Blind Pig IPA	6.1	50	1.014	11	10	India Pale Ale	8	American IPA
+20	Russian River Consecration	10	17	1.01	8	44	Fruit/Vegetable	14	American Wild Ale
+23	Russian River Damnation	7.75	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+26	Russian River Deviation	6.83	17	1.01	8	32	Wild Ale	14	American Wild Ale
+21	Russian River Pliny the Elder	8	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1975	Russian River Pliny The Younger	11	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+24	Russian River Redemption	5	25	1.012	11	30	Blonde	23	Belgian Pale Ale
+25	Russian River Salvation	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1369	Russian River Supplication	7	17	1.01	8	32	Wild Ale	14	American Wild Ale
+19	Russian River Temptation	7.25	17	1.01	8	32	Wild Ale	14	American Wild Ale
+1763	Saint Arnold Amber Ale	5.5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1748	Saint Arnold Brown Ale	5.3	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1766	Saint Arnold Christmas Ale	7	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1770	Saint Arnold Divine Reserve #8	9.3	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1769	Saint Arnold Divine Reserve #9	11	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+1749	Saint Arnold Elissa IPA	6.6	50	1.014	11	10	India Pale Ale	8	American IPA
+1765	Saint Arnold Fancy Lawnmower	4.9	25	1.009	4	39	Kolsch	65	Kölsch
+1767	Saint Arnold Oktoberfest	6	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+1764	Saint Arnold Spring Bock	6.4	22	1.016	17	16	Bock Beer	86	Bock
+1762	Saint Arnold Texas Wheat	4.9	12	1.01	3	26	Wheat Beer	64	Kristalweizen
+1768	Saint Arnold Winter Stout	5.6	55	1.016	35	11	Stout	12	American Stout
+1370	Saint Somewhere Lectio Divina	8	28	1.011	4	31	Pale Ale	25	Belgian Strong Pale Ale
+1371	Saint Somewhere Saison Athene	7.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+745	Samuel Adams Black Lager	4.9	28	1.013	24	20	Lager	97	Schwarzbier
+1372	Samuel Adams Blackberry Witbier	5.5	15	1.01	3	26	Wheat Beer	38	Witbier
+746	Samuel Adams Boston Ale	4.94	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+479	Samuel Adams Boston Lager	4.75	24	1.012	13	20	Lager	98	Vienna Lager
+480	Samuel Adams Cherry Wheat	5.4	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1710	Samuel Adams Chocolate Bock	5.6	22	1.016	17	16	Bock Beer	86	Bock
+1711	Samuel Adams Coastal Wheat	5.3	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+481	Samuel Adams Cranberry Lambic	5.9	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+482	Samuel Adams Cream Stout	4.9	30	1.019	35	11	Stout	53	Milk / Sweet Stout
+1712	Samuel Adams Double Bock	9.5	21	1.02	16	16	Bock Beer	87	Doppelbock
+483	Samuel Adams Dunkelweizen	5.4	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+1373	Samuel Adams Hefeweizen	5.4	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+484	Samuel Adams Holiday Porter	5.8	35	1.014	29	23	Porter	11	American Porter
+485	Samuel Adams Honey Porter	5.25	35	1.014	29	23	Porter	11	American Porter
+486	Samuel Adams Imperial Pilsner	8.8	90	1.015	12	12	Pilsner	76	American Double / Imperial Pilsner
+1374	Samuel Adams Imperial Stout	9.2	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1713	Samuel Adams Imperial Stout	9.2	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1714	Samuel Adams Imperial White	10.3	15	1.01	3	26	Wheat Beer	38	Witbier
+487	Samuel Adams Irish Red	5.5	22	1.011	14	29	Amber	69	Irish Red Ale
+1976	Samuel Adams Latitude 48	5.8	50	1.014	11	10	India Pale Ale	8	American IPA
+1630	Samuel Adams Noble Pils	5.2	35	1.01	4	12	Pilsner	90	German Pilsener
+488	Samuel Adams Octoberfest	5.4	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+489	Samuel Adams Old Fezziwig Ale	5.9	25	1.016	17	44	Fruit/Vegetable	57	Winter Warmer
+1415	Samuel Adams Pale Ale	5.25	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1715	Samuel Adams Pale Ale	5.25	30	1.01	9	31	Pale Ale	46	English Pale Ale
+747	Samuel Adams Sam Adams Light	4	10	1.001	3	20	Lager	80	Light Lager
+1716	Samuel Adams Scotch Ale	5.4	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+490	Samuel Adams Smoked Lager	5.3	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+1717	Samuel Adams Summer Ale	5.2	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+1977	Samuel Adams Utopias	27	85	1.02	13	36	Strong Ale	13	American Strong Ale
+491	Samuel Adams White Ale	5.4	15	1.01	3	26	Wheat Beer	38	Witbier
+492	Samuel Adams Winter Lager	5.8	22	1.019	19	16	Bock Beer	67	Weizenbock
+1375	Samuel Smith Imperial Stout	7	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1376	Samuel Smith India Ale	5	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+1377	Samuel Smith Nut Brown Ale	5	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1378	Samuel Smith Oatmeal Stout	5	33	1.015	32	11	Stout	54	Oatmeal Stout
+1379	Samuel Smith Old Brewery Pale Ale	5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1380	Samuel Smith Organic Best Ale	5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1381	Samuel Smith Organic Lager	5	12	1.006	3	20	Lager	84	Euro Pale Lager
+1837	Samuel Smith Organic Raspberry Fruit Beer	5.1	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1382	Samuel Smith Pure Brewed Lager	5	12	1.006	3	20	Lager	84	Euro Pale Lager
+1383	Samuel Smith Taddy Porter	5	27	1.011	25	23	Porter	48	English Porter
+1384	Samuel Smith Winter Welcome	6	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1828	Santa Cruz Mountain Amber Ale	5.4	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1827	Santa Cruz Mountain Devout Stout	5.4	55	1.016	35	11	Stout	12	American Stout
+1831	Santa Cruz Mountain Dread Brown Ale	5.4	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1385	Sapporo Sapporo Premium Beer	5	12	1.006	3	20	Lager	100	Japanese Rice Lager
+1386	Saranac Adirondack Lager	5.5	35	1.01	4	12	Pilsner	90	German Pilsener
+493	Saranac Belgian Ale	5.9	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+1387	Saranac Belgian Ale	5.9	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+1388	Saranac Belgian White	5.3	15	1.01	3	26	Wheat Beer	38	Witbier
+1389	Saranac Black and Tan	5.4	25	1.012	25	11	Stout	15	Black & Tan
+494	Saranac Black Diamond Bock	6	22	1.016	17	16	Bock Beer	86	Bock
+1390	Saranac Black Forest	5.5	28	1.013	24	43	Schwarzbier	97	Schwarzbier
+495	Saranac Bock	6	22	1.016	17	16	Bock Beer	86	Bock
+496	Saranac Bohemian Pilsener	4.8	40	1.015	5	12	Pilsner	82	Czech Pilsener
+497	Saranac Caramel Porter	5.4	35	1.014	29	23	Porter	11	American Porter
+1391	Saranac Chocolate Amber	5.5	14	1.01	17	29	Amber	83	Euro Dark Lager
+498	Saranac E.S.B.	5.9	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+499	Saranac Golden Pilsener	5.1	35	1.01	4	12	Pilsner	90	German Pilsener
+500	Saranac Helles Lager	4.8	19	1.01	4	20	Lager	94	Munich Helles Lager
+501	Saranac Imperial IPA	8.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+502	Saranac Imperial Stout	9	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+503	Saranac India Brown Ale	6	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1392	Saranac India Pale Ale	5.8	50	1.014	11	10	India Pale Ale	8	American IPA
+504	Saranac Irish Red	4.5	22	1.011	14	29	Amber	69	Irish Red Ale
+505	Saranac Nut Brown Ale	5.4	20	1.011	22	13	Brown Ale	43	English Brown Ale
+506	Saranac Oatmeal Stout	4.3	33	1.015	32	11	Stout	54	Oatmeal Stout
+1393	Saranac Pale Ale	5.5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+507	Saranac Pale Pale Ale	4.7	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+508	Saranac Pomegranate Wheat	4.7	13	1.01	3	44	Fruit/Vegetable	10	American Pale Wheat Ale
+509	Saranac Pumpkin Ale	5.4	20	1.015	15	44	Fruit/Vegetable	18	Pumpkin Ale
+510	Saranac Rauchbier	5.6	35	1.012	20	41	Smoked Beer	103	Smoked Beer
+511	Saranac Roggen Bock	5.5	22	1.012	17	45	Specialty Grain	19	Rye Beer
+512	Saranac Rye Pilsener	4.8	22	1.012	17	12	Pilsner	19	Rye Beer
+513	Saranac Scotch Ale	6	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+514	Saranac Season's Best Nut Brown Lager	5.3	14	1.01	17	20	Lager	83	Euro Dark Lager
+515	Saranac Summer Ale	4.7	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+516	Saranac Traditional Lager	4.8	32	1.01	17	20	Lager	75	American Amber / Red Lager
+517	Saranac Vanilla Stout	4.8	55	1.016	35	11	Stout	12	American Stout
+518	Saranac Winter Wassail	5	25	1.016	17	44	Fruit/Vegetable	57	Winter Warmer
+2203	Schell's Barrel Aged Schmaltz's Alt	5.1	NULL	NULL	NULL	38	Old Ale	NULL	NULL
+2204	Schell's Bock	6.1	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+2205	Schell's Dark	4.8	NULL	NULL	NULL	20	Lager	NULL	NULL
+2206	Schell's Deer Brand	4.8	NULL	NULL	NULL	20	Lager	NULL	NULL
+2207	Schell's FireBrick	5	NULL	NULL	NULL	20	Lager	NULL	NULL
+2208	Schell's Grain Belt Premium	4.6	NULL	NULL	NULL	20	Lager	NULL	NULL
+2209	Schell's Hopfenmalz	4.9	NULL	NULL	NULL	29	Amber	NULL	NULL
+2210	Schell's Lakemaid	4.5	NULL	NULL	NULL	20	Lager	NULL	NULL
+2211	Schell's Maifest	7.2	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+2212	Schell's Oktoberfest	5.5	NULL	NULL	NULL	42	Marzen	NULL	NULL
+2213	Schell's Pils	5.6	NULL	NULL	NULL	12	Pilsner	NULL	NULL
+2214	Schell's Schmaltz's Alt	5.1	NULL	NULL	NULL	38	Old Ale	NULL	NULL
+2215	Schell's Snowstorm 2010	7.0	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+2216	Schell's Stout	5	NULL	NULL	NULL	11	Stout	NULL	NULL
+2217	Schell's Zommerfest	5	NULL	NULL	NULL	39	Kolsch	NULL	NULL
+1707	Schlafly Bière de Garde	7	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+1706	Schlafly Grand Cru	9	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1968	Schlafly Kölsch	4.8	25	1.009	4	39	Kolsch	65	Kölsch
+1394	Schlafly No. 15	6	20	1.012	18	26	Wheat Beer	5	American Dark Wheat Ale
+1395	Schlafly Oatmeal Stout	5.7	33	1.015	32	11	Stout	54	Oatmeal Stout
+1396	Schlafly Pumpkin Ale	8	20	1.015	15	44	Fruit/Vegetable	18	Pumpkin Ale
+1397	Schlafly Reserve Barleywine	10.2	85	1.022	14	14	Barley Wine	2	American Barleywine
+1398	Schlafly Reserve Imperial Stout	10.5	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1705	Schlafly Tripel	10	30	1.011	6	9	Tripel	37	Tripel
+520	Schlenkerla Helles Lagerbier	4.3	19	1.01	4	20	Lager	94	Munich Helles Lager
+521	Schlenkerla Rauchbier Marzen	5.1	25	1.014	17	41	Smoked Beer	96	Rauchbier
+519	Schlenkerla Rauchbier Urbock	6.5	35	1.012	20	41	Smoked Beer	103	Smoked Beer
+1399	Schlenkerla Rauchbier Weizen	5.2	25	1.014	17	41	Smoked Beer	96	Rauchbier
+522	Schlitz Schlitz	4.6	10	1.006	3	20	Lager	74	American Adjunct Lager
+523	Schlitz Schlitz Bull Ice	8.2	20	1.018	5	8	Misc	77	American Malt Liquor
+524	Schlitz Schlitz High Gravity VSL	8.5	20	1.018	5	8	Misc	77	American Malt Liquor
+525	Schlitz Schlitz Malt Liquor	5.9	20	1.018	5	8	Misc	77	American Malt Liquor
+526	Schlitz Schlitz Red Bull XL	5.9	20	1.018	5	8	Misc	77	American Malt Liquor
+774	Schloss Eggenberg Samichlaus Bier	14	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+1978	Schloss Eggenberg Urbock 23°	9.6	21	1.02	16	16	Bock Beer	87	Doppelbock
+1400	Schneider Aventinus	8.2	22	1.019	19	16	Bock Beer	67	Weizenbock
+1401	Schneider Aventinus Weizen-Eisbock	12	30	1.027	24	16	Bock Beer	89	Eisbock
+1833	Schneider Hopfen-Weisse	8.2	22	1.019	19	16	Bock Beer	67	Weizenbock
+1402	Schneider Weisse	5.4	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1979	Schneider Wiesen Edel-Weisse	6.2	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1603	Scottish and Newcastle John Courage	4.7	30	1.01	9	29	Amber	46	English Pale Ale
+1604	Scottish and Newcastle McEwan's India Pale Ale	4.7	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+1403	Sea Dog Apricot Wheat	4.6	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1404	Sea Dog Blue Paw	4.6	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+2219	Shepherd Neame Bishops Finger	5.4	NULL	NULL	NULL	28	Bitter	NULL	NULL
+2220	Shepherd Neame Spitfire	4.5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1980	Shipyard Export Ale	5	20	1.011	4	30	Blonde	3	American Blonde Ale
+1409	Shipyard IPA	5.8	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+1411	Shipyard Pumpkinhead	4.5	20	1.015	15	44	Fruit/Vegetable	18	Pumpkin Ale
+1410	Shipyard Ringwood Old Thumper	5.9	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1818	Short's Brewing Huma-Lupa-Licious IPA	6.6	50	1.014	11	10	India Pale Ale	8	American IPA
+1834	Short's Brewing Pandemonium	5.4	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1983	Sierra Nevada 30th Anniversary Charlie Fred And Ken's Bock	8.3	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+1981	Sierra Nevada 30th Anniversary Fritz & Ken's Ale	9.2	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+1982	Sierra Nevada 30th Anniversary Grand Cru	9.2	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1984	Sierra Nevada 30th Anniversary Jack And Ken's Ale	10.2	85	1.022	14	14	Barley Wine	2	American Barleywine
+527	Sierra Nevada Anniversary Ale	5.9	50	1.014	11	10	India Pale Ale	8	American IPA
+528	Sierra Nevada Bigfoot	9.6	85	1.022	14	14	Barley Wine	2	American Barleywine
+1418	Sierra Nevada Celebration	6.8	50	1.014	11	10	India Pale Ale	8	American IPA
+529	Sierra Nevada Estate Brewers Harvest Ale		50	1.014	11	10	India Pale Ale	8	American IPA
+1734	Sierra Nevada Glissade	6.4	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+1419	Sierra Nevada Harvest	6.7	50	1.014	11	10	India Pale Ale	8	American IPA
+1985	Sierra Nevada India Pale Ale	6.8	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+530	Sierra Nevada Kellerweis	4.8	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1835	Sierra Nevada Life & Limb	10.2	85	1.02	13	36	Strong Ale	13	American Strong Ale
+531	Sierra Nevada Pale Ale	5.6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+532	Sierra Nevada Porter	5.6	35	1.014	29	23	Porter	11	American Porter
+1420	Sierra Nevada Southern Hemisphere Harvest	6.7	50	1.014	11	10	India Pale Ale	8	American IPA
+1421	Sierra Nevada Stout	5.8	55	1.016	35	11	Stout	12	American Stout
+533	Sierra Nevada Summerfest	5	40	1.015	5	12	Pilsner	82	Czech Pilsener
+534	Sierra Nevada Torpedo Extra IPA	7.2	50	1.014	11	10	India Pale Ale	8	American IPA
+1846	Sierra Nevada Tumbler	5.5	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1805	Silver City Bavarian Style Hefeweizen	5.25	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1806	Silver City Big Daddy's ESB	5.3	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1804	Silver City Clear Creek Pale Ale	4.8	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1800	Silver City Fat Scotch Ale	9	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1808	Silver City Gold Mountain Pilsner	5	35	1.01	4	12	Pilsner	90	German Pilsener
+1803	Silver City Indianola IPA	6.9	50	1.014	11	10	India Pale Ale	8	American IPA
+1807	Silver City Macfarlanes Scotch Ale	6.8	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1809	Silver City Oktoberfest	6	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+1801	Silver City Panther Lake Porter	5.2	35	1.014	29	23	Porter	11	American Porter
+1802	Silver City Ridgetop Red	6	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1285	Sinebrychoff Koff Porter	7.2	30	1.02	23	23	Porter	39	Baltic Porter
+1986	Sinebrychoff Porter	7.2	30	1.02	23	23	Porter	39	Baltic Porter
+1422	Ska Brewing Buster Nut Brown	5.15	20	1.011	22	13	Brown Ale	43	English Brown Ale
+535	Ska Brewing Decadent	10	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1423	Ska Brewing Modus Hoperandi	6.8	50	1.014	11	10	India Pale Ale	8	American IPA
+536	Ska Brewing Nefarious Ten Pin	8	30	1.02	23	23	Porter	39	Baltic Porter
+1424	Ska Brewing Pinstripe	5.15	32	1.012	13	29	Amber	1	American Amber / Red Ale
+537	Ska Brewing Steel Toe Milk Stout	4.5	30	1.019	35	11	Stout	53	Milk / Sweet Stout
+1425	Ska Brewing Steel Toe Stout	5.4	30	1.019	35	11	Stout	53	Milk / Sweet Stout
+1426	Ska Brewing Ten Pin Porter	5.5	35	1.014	29	23	Porter	11	American Porter
+1427	Ska Brewing True Blonde Ale	5.3	20	1.011	4	30	Blonde	3	American Blonde Ale
+1428	Ska Brewing True Blonde Dubbel	8	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1730	Skagway Spruce Tip Ale	5.5	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1646	Sleeman Cream Ale	5	18	1.009	4	17	Cream Ale	17	Cream Ale
+1647	Sleeman Honey Brown Lager	5.2	14	1.01	17	20	Lager	83	Euro Dark Lager
+548	Sly Fox Black Raspberry Reserve	8	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1429	Sly Fox Christmas Ale	6.5	25	1.016	17	36	Strong Ale	57	Winter Warmer
+539	Sly Fox Dunkel Lager	5.3	23	1.013	21	20	Lager	93	Munich Dunkel Lager
+540	Sly Fox Gang Aft Agley	7.5	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+541	Sly Fox Ichor	10	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+542	Sly Fox Incubus	10.3	30	1.011	6	9	Tripel	37	Tripel
+543	Sly Fox Instigator Doppelbock	7.3	21	1.02	16	16	Bock Beer	87	Doppelbock
+1430	Sly Fox O'Reilly's Stout	3.6	37	1.009	32	11	Stout	68	Irish Dry Stout
+544	Sly Fox Odyssey	8.4	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+545	Sly Fox Oktoberfest	5.8	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+546	Sly Fox Phoenix Pale Ale	5.25	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+547	Sly Fox Pikeland Pils	4.9	35	1.01	4	12	Pilsner	90	German Pilsener
+549	Sly Fox Renard D'Or	7.9	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+550	Sly Fox Royal Weisse	5.4	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+538	Sly Fox Rte. 113 India Pale Ale	6.6	50	1.014	11	10	India Pale Ale	8	American IPA
+551	Sly Fox Saison VOS	6.9	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1514	Smisje BBBourgondier	12	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+1515	Smisje Calva Reserva	12	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1516	Smisje Catherine the Great	10	50	1.015	35	11	Stout	52	Foreign / Export Stout
+1517	Smisje Guido	8	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1518	Smisje Vuuve	5	15	1.01	3	26	Wheat Beer	38	Witbier
+1519	Smisje Wostyntje	7	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1987	Smuttynose Baltic Porter	9	30	1.02	23	23	Porter	39	Baltic Porter
+1988	Smuttynose Barleywine Style Ale	11.1	85	1.022	14	14	Barley Wine	2	American Barleywine
+1432	Smuttynose Big A IPA	9.6	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1989	Smuttynose Farmhouse Ale	9.3	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1436	Smuttynose Imperial Stout	9.8	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1437	Smuttynose IPA	6.9	50	1.014	11	10	India Pale Ale	8	American IPA
+1990	Smuttynose Maibock	8.7	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+1438	Smuttynose Old Brown Dog	6.7	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1433	Smuttynose Pumpkin Ale	9.6	20	1.015	15	44	Fruit/Vegetable	18	Pumpkin Ale
+1439	Smuttynose Robust Porter	5.7	35	1.014	29	23	Porter	11	American Porter
+1991	Smuttynose S'muttonator	9.5	21	1.02	16	16	Bock Beer	87	Doppelbock
+1434	Smuttynose Shoals Pale Ale	5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1435	Smuttynose Star Island Single	5.8	25	1.012	11	30	Blonde	23	Belgian Pale Ale
+2222	Smuttynose Summer Weizen	5.5	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+1992	Smuttynose Wheat Wine Ale	12	50	1.022	20	14	Barley Wine	20	Wheatwine
+1993	Smuttynose Winter Ale	5.1	20	1.013	13	33	Dubbel	28	Dubbel
+1441	Southampton Abbot 12	10.5	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+552	Southampton Altbier	5.1	NULL	NULL	NULL	38	Old Ale	NULL	NULL
+1442	Southampton Biere de Garde	7.2	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+553	Southampton Double White	6.8	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+1443	Southampton Grand Cru	9.5	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1444	Southampton Imperial Porter	7.2	35	1.014	29	23	Porter	11	American Porter
+1445	Southampton India Pale Ale	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+554	Southampton Pumpkin Ale	6	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+884	Southern Star Pine Belt Pale Ale	6.3	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1956	Southern Tier 2XIPA	8.2	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+555	Southern Tier 422 Pale Wheat Ale	4.5	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+1994	Southern Tier Backburner	9.1	85	1.022	14	14	Barley Wine	2	American Barleywine
+748	Southern Tier Big Red	9	NULL	NULL	NULL	29	Amber	NULL	NULL
+556	Southern Tier Chautauqua Brew	4.9	NULL	NULL	NULL	29	Amber	NULL	NULL
+749	Southern Tier Cherry Saison	8	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+750	Southern Tier Creme Brulee Stout	10	NULL	NULL	NULL	11	Stout	NULL	NULL
+557	Southern Tier Cuvee Series 1	11	85	1.02	13	36	Strong Ale	13	American Strong Ale
+558	Southern Tier Cuvee Series 2	11	85	1.02	13	36	Strong Ale	13	American Strong Ale
+559	Southern Tier Cuvee Series 3	?	85	1.02	13	36	Strong Ale	13	American Strong Ale
+561	Southern Tier Gemini	10.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+1446	Southern Tier Harvest Ale	6.4	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1447	Southern Tier Heavy Weizen	8	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+752	Southern Tier Hop Sun	4.6	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+751	Southern Tier Hoppe	8	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+560	Southern Tier Imperial Choklat Stout	11	NULL	NULL	NULL	11	Stout	NULL	NULL
+563	Southern Tier Iniquity	9	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+564	Southern Tier IPA	6.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+565	Southern Tier Jah-va	11	NULL	NULL	NULL	11	Stout	NULL	NULL
+566	Southern Tier Krampus	9	NULL	NULL	NULL	20	Lager	NULL	NULL
+562	Southern Tier Mokah	11	NULL	NULL	NULL	11	Stout	NULL	NULL
+567	Southern Tier Oak-Aged Un'earthly	11	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+753	Southern Tier Oat	11	NULL	NULL	NULL	11	Stout	NULL	NULL
+1448	Southern Tier Old Man	7.2	45	1.019	16	38	Old Ale	55	Old Ale
+568	Southern Tier Pale Ale	?	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+754	Southern Tier Phin & Matt's Extraordinary Ale	5.6	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+569	Southern Tier Porter	5.2	35	1.014	29	23	Porter	11	American Porter
+570	Southern Tier Pumking	9	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+571	Southern Tier Raspberrry Porter	4.8	NULL	NULL	NULL	23	Porter	NULL	NULL
+572	Southern Tier Raspberry Wheat Beer	4.5	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+1449	Southern Tier Tripel	9	30	1.011	6	9	Tripel	37	Tripel
+1450	Southern Tier Uber Sun	8	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+755	Southern Tier UnEarthly	11	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+942	Spaten-Franziskaner Hefe-Weissbier	5	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+943	Spaten-Franziskaner Hefe-Weissbier Dunkel	5.5	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+1451	Spaten-Franziskaner Oktoberfest Ur-Märzen	5.9	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+1452	Spaten-Franziskaner Optimator	7.2	21	1.02	16	16	Bock Beer	87	Doppelbock
+1453	Spaten-Franziskaner Premium	5.2	19	1.01	4	20	Lager	94	Munich Helles Lager
+1995	Spaten-Franziskaner Spaten Premium Lager	5.2	19	1.01	4	16	Bock Beer	94	Munich Helles Lager
+1454	Speakeasy Big Daddy IPA	6.5	50	1.014	11	10	India Pale Ale	8	American IPA
+1455	Speakeasy Double Daddy	9.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1456	Speakeasy Payback Porter	7.5	35	1.014	29	23	Porter	11	American Porter
+1457	Speakeasy Prohibition Ale	6.1	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1458	Speakeasy Untouchable	5.5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1405	Spoetzl Shiner Blonde	4.4	10	1.006	3	20	Lager	78	American Pale Lager
+1406	Spoetzl Shiner Bock	4.4	22	1.016	17	16	Bock Beer	86	Bock
+1407	Spoetzl Shiner Bohemian Black Lager	4.9	28	1.013	24	43	Schwarzbier	97	Schwarzbier
+1408	Spoetzl Shiner Hefeweizen	5.4	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+573	Spoetzl Shiner Smokehaus	4.89	NULL	NULL	NULL	41	Smoked Beer	NULL	NULL
+2223	Sprecher Abbey Triple	8.41	NULL	NULL	NULL	9	Tripel	NULL	NULL
+2224	Sprecher Barleywine	9.71	NULL	NULL	NULL	14	Barley Wine	NULL	NULL
+2225	Sprecher Black Bavarian	5.86	NULL	NULL	NULL	43	Schwarzbier	NULL	NULL
+2228	Sprecher Bourbon Barrel Aged Dopple Bock	9	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+2226	Sprecher Czar Brew	9	NULL	NULL	NULL	11	Stout	NULL	NULL
+2227	Sprecher Dopple Bock	7.85	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+2229	Sprecher Hefe Weiss	4.2	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+2230	Sprecher IPA2	8.4	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2231	Sprecher Irish Style Stout	5.73	NULL	NULL	NULL	11	Stout	NULL	NULL
+2232	Sprecher Mai Bock	6	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+2233	Sprecher Oktoberfest	5.75	NULL	NULL	NULL	42	Marzen	NULL	NULL
+2234	Sprecher Pipers Scotch-Style Ale	8.27	NULL	NULL	NULL	25	Scottish Style Ale	NULL	NULL
+2235	Sprecher Pub Brown Ale	4.8	NULL	NULL	NULL	13	Brown Ale	NULL	NULL
+2236	Sprecher Russian Imperial Stout	8.5	NULL	NULL	NULL	11	Stout	NULL	NULL
+2237	Sprecher Shakparo	5.7	NULL	NULL	NULL	29	Amber	NULL	NULL
+2238	Sprecher Special Amber	5	NULL	NULL	NULL	20	Lager	NULL	NULL
+2239	Sprecher Winter Brew	5.75	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+2240	Squatters Chasing Tail Golden Ale	4	NULL	NULL	NULL	30	Blonde	NULL	NULL
+2241	Squatters IPA	6	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+1460	St. Bernardus Abt 12	10.5	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+255	St. Bernardus Brown Ale	6.7	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1466	St. Bernardus Christmas Ale	10	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+256	St. Bernardus Grotten Flemish Ale	7.7	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1461	St. Bernardus Pater 6	6.7	20	1.013	13	33	Dubbel	28	Dubbel
+1462	St. Bernardus Prior 8	8	20	1.013	13	33	Dubbel	28	Dubbel
+1463	St. Bernardus Tripel	8	30	1.011	6	9	Tripel	37	Tripel
+1464	St. Bernardus Watou Tripel	7.5	30	1.011	6	9	Tripel	37	Tripel
+1465	St. Bernardus Wit	5.5	15	1.01	3	26	Wheat Beer	38	Witbier
+575	St. Feuillen Saison	6.5	NULL	NULL	NULL	24	Saison	NULL	NULL
+1469	St. Feuillien Blonde	7.5	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1467	St. Feuillien Brune	7.5	20	1.013	13	33	Dubbel	28	Dubbel
+574	St. Feuillien Cuvée De Noël	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1468	St. Feuillien Tripel	8.5	30	1.011	6	9	Tripel	37	Tripel
+1475	St. Pauli St. Pauli Girl	4.9	35	1.01	4	12	Pilsner	90	German Pilsener
+2029	St. Peter's Cream Stout	6.5	30	1.019	35	11	Stout	53	Milk / Sweet Stout
+2030	St. Peter's Golden Ale	4.7	30	1.01	9	31	Pale Ale	46	English Pale Ale
+2031	St. Peter's India Pale Ale	4.9	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+2032	St. Peter's Old-Style Porter	5.1	27	1.011	25	23	Porter	48	English Porter
+1240	St. Sylvestre 3 Monts	8.5	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+1238	St. Sylvestre Gavroche	8.5	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+1704	Staropramen (StarBev) Staropramen Lager	5	40	1.015	5	12	Pilsner	82	Czech Pilsener
+2242	Starr Hill Amber Ale	4.8	NULL	NULL	NULL	8	Misc	NULL	NULL
+2243	Starr Hill Dark Starr Stout	4.81	NULL	NULL	NULL	11	Stout	NULL	NULL
+2244	Starr Hill Jomo Lager	5.57	NULL	NULL	NULL	20	Lager	NULL	NULL
+2245	Starr Hill Northern Lights IPA	6.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2246	Starr Hill Pale Ale	6.08	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1830	Steinhaus Jumping Cow Amber Ale	5.5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1829	Steinhaus Mission St. Brown Ale	5.7	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1412	Stella Artois Stella Artois	5	12	1.006	3	20	Lager	84	Euro Pale Lager
+2247	Stillwater Artisanal Cellar Door	6.6	NULL	NULL	NULL	24	Saison	NULL	NULL
+2248	Stillwater Artisanal Of Love & Regret	7.2	NULL	NULL	NULL	8	Misc	NULL	NULL
+2249	Stillwater Artisanal Stateside Saison	6.8	NULL	NULL	NULL	24	Saison	NULL	NULL
+2253	Stone 07.07.07 Vertical Epic Ale	8.4	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2252	Stone 08.08.08 Vertical Epic Ale	8.4	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2251	Stone 09.09.09 Vertical Epic Ale	8.5	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2250	Stone 10.10.10 Vertical Epic Ale	9.5	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+1814	Stone 14th Anniversary Emperial IPA	8.9	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+775	Stone Arrogant Bastard	7.2	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1273	Stone Cali-Belgique	6.9	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+1274	Stone Double Bastard	10.5	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1275	Stone Imperial Russian Stout	10.5	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1276	Stone IPA	6.9	50	1.014	11	10	India Pale Ale	8	American IPA
+1277	Stone Levitation	4.4	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1278	Stone Oaked Arrogant Bastard	7.2	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1279	Stone Old Guardian	11.1	85	1.022	14	14	Barley Wine	2	American Barleywine
+1280	Stone Pale Ale	5.4	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1281	Stone Ruination IPA	7.7	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1996	Stone Saison Du BUFF	6.8	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1282	Stone Smoked Porter	5.9	35	1.014	29	23	Porter	11	American Porter
+1283	Stone Sublimely Self-Righteous	8.7	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1414	Stoudts American Pale Ale	5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1997	Stoudts Double IPA	10	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1998	Stoudts Fat Dog	9	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+1472	Stoudts Gold Lager	5	19	1.01	4	20	Lager	94	Munich Helles Lager
+1473	Stoudts Pils	5.4	35	1.01	4	12	Pilsner	90	German Pilsener
+1474	Stoudts Scarlet Lady Ale	5	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1999	Stoudts Triple	9	30	1.011	6	9	Tripel	37	Tripel
+2256	Straub Peter Straub's Special Dark	4.1	NULL	NULL	NULL	29	Amber	NULL	NULL
+2254	Straub Straub Beer	4.3	NULL	NULL	NULL	20	Lager	NULL	NULL
+2255	Straub Straub Light	3.2	NULL	NULL	NULL	20	Lager	NULL	NULL
+1850	Sudwerk Imperial Pilsner	7	90	1.015	12	12	Pilsner	76	American Double / Imperial Pilsner
+576	Summit ESB	5.1	NULL	NULL	NULL	28	Bitter	NULL	NULL
+577	Summit Extra Pale Ale	5.1	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1476	Summit Great Northern Porter	5.6	35	1.014	29	23	Porter	11	American Porter
+579	Summit Hefe Weizen	4.2	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+580	Summit Horizon Red	5.7	NULL	NULL	NULL	29	Amber	NULL	NULL
+581	Summit India Pale Ale	5.8	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+582	Summit Maibock	7.1	NULL	NULL	NULL	16	Bock Beer	NULL	NULL
+2257	Summit Oatmeal Stout	4.7	NULL	NULL	NULL	11	Stout	NULL	NULL
+583	Summit Oktoberfest	7.4	NULL	NULL	NULL	42	Marzen	NULL	NULL
+578	Summit Pilsener	5	NULL	NULL	NULL	12	Pilsner	NULL	NULL
+584	Summit Scandia Ale	4.8	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+585	Summit Winter Ale	5.9	25	1.016	17	29	Amber	57	Winter Warmer
+1477	Sunner Sünner Kölsch	5.4	25	1.009	4	39	Kolsch	65	Kölsch
+2000	Surly Abrasive Ale	9.7	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1478	Surly Bender	5.1	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1479	Surly Bitter Brewer	4	30	1.009	9	28	Bitter	42	English Bitter
+586	Surly Coffee Bender	5.1	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1480	Surly CynicAle	6.7	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1481	Surly Darkness	10.3	70	1.024	35	11	Stout	56	Russian Imperial Stout
+2258	Surly Four	10	NULL	NULL	NULL	11	Stout	NULL	NULL
+1482	Surly Furious	6.2	50	1.014	11	10	India Pale Ale	8	American IPA
+2259	Surly Hell	4.5	NULL	NULL	NULL	8	Misc	NULL	NULL
+2260	Surly Smoke	8.2	NULL	NULL	NULL	23	Porter	NULL	NULL
+587	Surly SurlyFest	6.3	NULL	NULL	NULL	42	Marzen	NULL	NULL
+2261	Surly Wet	7.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+1483	Sweetwater 420 Extra Pale Ale	5.4	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1485	Sweetwater Georgia Brown	5.1	20	1.011	22	13	Brown Ale	43	English Brown Ale
+2001	Sweetwater IPA	6.7	50	1.014	11	10	India Pale Ale	8	American IPA
+1484	Sweetwater Sweetwater Blue	4.9	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+2262	Switchback Switchback Ale	5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2264	Tallgrass Buffalo Sweat	5	NULL	NULL	NULL	11	Stout	NULL	NULL
+2265	Tallgrass IPA	6.3	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2266	Tallgrass Kold	5	NULL	NULL	NULL	12	Pilsner	NULL	NULL
+2267	Tallgrass Oasis	7.2	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+2263	Tallgrass Tallgrass Ale	4.4	NULL	NULL	NULL	13	Brown Ale	NULL	NULL
+2268	Telegraph California Ale	6.2	NULL	NULL	NULL	15	Steam Beer	NULL	NULL
+2269	Telegraph Golden Wheat Ale	5.0	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+2270	Telegraph Gypsy Ale	8	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+2271	Telegraph Oatmeal Stout	6.5	NULL	NULL	NULL	11	Stout	NULL	NULL
+2272	Telegraph Reserve Wheat Ale	5	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+2273	Telegraph Rhinoceros	10	NULL	NULL	NULL	14	Barley Wine	NULL	NULL
+2274	Telegraph Robust Ale	7.5	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2275	Telegraph Stock Porter	5.8	NULL	NULL	NULL	23	Porter	NULL	NULL
+2276	Telegraph White Ale	4.5	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+2277	Telegraph Winter Ale	6.5	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2278	Tennent Caledonian Tennent's Lager	5	NULL	NULL	NULL	20	Lager	NULL	NULL
+1488	Terrapin Big Hoppy Monster	8.3	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1487	Terrapin Coffee Oatmeal Imperial Stout	8.1	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+2002	Terrapin Gamma Ray	11	50	1.022	20	14	Barley Wine	20	Wheatwine
+1489	Terrapin Golden Ale	5	18	1.009	4	17	Cream Ale	17	Cream Ale
+1490	Terrapin Hop Karma Brown IPA	6	32	1.012	27	13	Brown Ale	4	American Brown Ale
+2003	Terrapin Hopsecutioner	7.2	50	1.014	11	10	India Pale Ale	8	American IPA
+1491	Terrapin Rye Pale Ale	5.3	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1492	Terrapin Rye Squared	9.5	50	1.014	11	10	India Pale Ale	8	American IPA
+1128	The Bruery 2 Turtle Doves	12	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1129	The Bruery Autumn Maple	10.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+2279	The Bruery Black Tuesday	19.5	NULL	NULL	NULL	11	Stout	NULL	NULL
+1130	The Bruery Hottenroth Berliner Weisse	3.1	7	1.004	3	26	Wheat Beer	60	Berliner Weissbier
+1131	The Bruery Mischief	8.5	28	1.011	4	36	Strong Ale	25	Belgian Strong Pale Ale
+1132	The Bruery Orchard White	5.7	15	1.01	3	26	Wheat Beer	38	Witbier
+2004	The Bruery Saison Rue	8.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1602	Theakston Old Peculier	5.7	45	1.019	16	38	Old Ale	55	Old Ale
+588	Thiriez Amber	5.8	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+589	Thiriez Biere De Noel	5.8	25	1.016	17	13	Brown Ale	57	Winter Warmer
+590	Thiriez Blonde	6	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+591	Thiriez Extra	4.5	NULL	NULL	NULL	24	Saison	NULL	NULL
+2005	Thirsty Dog Old Leghumper	6.7	35	1.014	29	23	Porter	11	American Porter
+1493	Thirsty Dog Siberian Night	9	70	1.024	35	11	Stout	56	Russian Imperial Stout
+592	Thomas Hooker American Pale Ale	?	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+593	Thomas Hooker Blonde Ale	5	18	1.009	4	17	Cream Ale	17	Cream Ale
+594	Thomas Hooker Hop Meadow IPA	6.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+1494	Thomas Hooker Imperial Porter	7.8	35	1.014	29	23	Porter	11	American Porter
+595	Thomas Hooker Irish Red	5.3	22	1.011	14	29	Amber	69	Irish Red Ale
+1495	Thomas Hooker Liberator	8	21	1.02	16	16	Bock Beer	87	Doppelbock
+596	Thomas Hooker Octoberfest Lager	?	NULL	NULL	NULL	42	Marzen	NULL	NULL
+1496	Thomas Hooker Old Marley	10	85	1.022	14	14	Barley Wine	2	American Barleywine
+597	Thomas Hooker Watermelon Ale	4.5	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+1497	Three Floyds Alpha King	6	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+2006	Three Floyds Alpha Klaus	6	35	1.014	29	23	Porter	11	American Porter
+1498	Three Floyds Behemoth	12.5	85	1.022	14	14	Barley Wine	2	American Barleywine
+2007	Three Floyds Black Sun Stout	6.5	37	1.009	32	11	Stout	68	Irish Dry Stout
+2008	Three Floyds Brian Boru	5.5	22	1.011	14	8	Misc	69	Irish Red Ale
+1499	Three Floyds Dark Lord	15	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1500	Three Floyds Dreadnaught	9.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1501	Three Floyds Gumballhead	4.8	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+1502	Three Floyds Pride and Joy	6.5	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+2009	Three Floyds Rabbid Rabbit	7.4	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1503	Three Floyds Robert the Bruce	6.5	18	1.012	13	25	Scottish Style Ale	72	Scottish Ale
+2061	Timmermans Bourgogne Des Flandres	5	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+2060	Timmermans Bourgogne Des Flandres Blonde	6	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2059	Timmermans Bourgogne Des Flandres Brune	5.2	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+2033	Tommyknocker Butt Head	8.2	21	1.02	16	16	Bock Beer	87	Doppelbock
+2034	Tommyknocker Imperial Nut Brown Ale	9.8	32	1.012	27	13	Brown Ale	4	American Brown Ale
+2035	Tommyknocker Maple Nut Brown Ale	4.5	32	1.012	27	13	Brown Ale	4	American Brown Ale
+2280	Tooheys Tooheys New	4.6	NULL	NULL	NULL	20	Lager	NULL	NULL
+1634	Traquair House Ale	7.2	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+1633	Traquair Jacobite Ale	8	26	1.035	19	25	Scottish Style Ale	71	Scotch Ale / Wee Heavy
+2281	Tri-City Brownhoist Nut Brown Ale	4.8	NULL	NULL	NULL	13	Brown Ale	NULL	NULL
+2282	Tri-City Fortunato	7.5	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+2283	Tri-City Giant Slayer	8.5	NULL	NULL	NULL	11	Stout	NULL	NULL
+2010	Troegs Dead Reckoning Porter	5.8	35	1.014	29	23	Porter	11	American Porter
+1506	Troegs Dreamweaver Wheat	4.8	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+1507	Troegs HopBack Amber	6	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1508	Troegs JavaHead Stout	7.5	33	1.015	32	11	Stout	54	Oatmeal Stout
+2012	Troegs Mad Elf	11	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1509	Troegs Nugget Nectar	7.5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1510	Troegs Pale Ale	5.4	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1511	Troegs Rugged Trail	4.4	20	1.011	22	13	Brown Ale	43	English Brown Ale
+2011	Troegs The Flying Mouflan	9.3	85	1.022	14	14	Barley Wine	2	American Barleywine
+1512	Troegs Troegenator	8.2	21	1.02	16	16	Bock Beer	87	Doppelbock
+1513	Tsingtao Tsingtao	4.8	10	1.006	3	20	Lager	74	American Adjunct Lager
+2284	Tuckerman 6288 Stout	5.9	NULL	NULL	NULL	11	Stout	NULL	NULL
+2285	Tuckerman Headwall Alt	4.75	NULL	NULL	NULL	38	Old Ale	NULL	NULL
+2286	Tuckerman Pale Ale	5.5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+2221	Turk Tuborg Skol Beer	0	NULL	NULL	NULL	20	Lager	NULL	NULL
+603	Two Brothers Bonfire Dunkle Weisse	6.2	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+604	Two Brothers Cane and Ebel	7	22	1.012	17	45	Specialty Grain	19	Rye Beer
+1520	Two Brothers Domain DuPage	5.9	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+1521	Two Brothers Heavy Handed IPA	5.7	50	1.014	11	10	India Pale Ale	8	American IPA
+1522	Two Brothers Hop Juice	9.9	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+605	Two Brothers Monarch White Beer	4.5	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+1523	Two Brothers Northwind	8.5	70	1.024	35	11	Stout	56	Russian Imperial Stout
+606	Two Brothers Red Eye Coffee Porter	9.2	NULL	NULL	NULL	23	Porter	NULL	NULL
+1417	Two Brothers The Bitter End	5.1	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1524	Two Brothers The Bitter End	5.1	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1525	Tyranena Bitter Woman IPA	5.75	50	1.014	11	10	India Pale Ale	8	American IPA
+607	Tyranena Devil Over  A Barrel	8	NULL	NULL	NULL	23	Porter	NULL	NULL
+608	Tyranena Dirty Old Man	7.9	NULL	NULL	NULL	23	Porter	NULL	NULL
+609	Tyranena High-Class Broad	?	NULL	NULL	NULL	13	Brown Ale	NULL	NULL
+1526	Tyranena Hop Whore	?	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1527	Tyranena Rocky's Revenge	6	32	1.012	27	13	Brown Ale	4	American Brown Ale
+610	Tyranena Scurvy	?	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+611	Tyranena Sheep Shagger Scotch Ale	7.7	NULL	NULL	NULL	25	Scottish Style Ale	NULL	NULL
+612	Tyranena Stickin' It To The Man	6.5	NULL	NULL	NULL	10	India Pale Ale	NULL	NULL
+613	Tyranena The Devil Made Me Do It	7.5	NULL	NULL	NULL	23	Porter	NULL	NULL
+614	Tyranena Three Beaches Honey Blonde	?	NULL	NULL	NULL	30	Blonde	NULL	NULL
+1819	Uinta Brewing Blue Sky Pilsener	4	40	1.015	5	12	Pilsner	82	Czech Pilsener
+1820	Uinta Brewing Cutthroat Pale Ale	4	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1821	Uinta Brewing Summer Solstice Ale	4	25	1.009	4	39	Kolsch	65	Kölsch
+615	Unibroue 17	10	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+756	Unibroue Blanche De Chambly	5	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+757	Unibroue Chambly Noire	6.2	25	1.015	16	8	Misc	21	Belgian Dark Ale
+758	Unibroue Don de Dieu	9	28	1.011	4	31	Pale Ale	25	Belgian Strong Pale Ale
+759	Unibroue Éphémère Apple	5.5	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+760	Unibroue La Fin Du Monde	9	30	1.011	6	9	Tripel	37	Tripel
+764	Unibroue La Terrible	10.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+761	Unibroue Maudite	8	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+762	Unibroue Quelque Chose	8	NULL	NULL	NULL	44	Fruit/Vegetable	NULL	NULL
+1848	Unibroue Raftman	5.5	25	1.012	11	31	Pale Ale	23	Belgian Pale Ale
+763	Unibroue Seigneuriale	7.5	28	1.011	4	31	Pale Ale	25	Belgian Strong Pale Ale
+765	Unibroue Trois Pistoles	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+2036	United Breweries Kingfisher Premium Lager	4.8	10	1.006	3	20	Lager	78	American Pale Lager
+616	Urthel Hibernus Quentum	9	30	1.011	6	9	Tripel	37	Tripel
+617	Urthel Hop-it	9.5	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+1529	Urthel Saisonnière	6	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+618	Urthel Samaranth	11	NULL	NULL	NULL	34	Quad	NULL	NULL
+1528	Urthel Vlaemse Bock	7.5	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1122	Van den Bossche Buffalo Belgian Bitter	8.5	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+1123	Van den Bossche Buffalo Belgian Stout	9	28	1.017	17	36	Strong Ale	24	Belgian Strong Dark Ale
+1124	Van den Bossche Pater Lieven Tripel	8	30	1.011	6	9	Tripel	37	Tripel
+2287	Van Honsebrouck Bacchus	4.5	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+2288	Van Honsebrouck Brigand	9	NULL	NULL	NULL	36	Strong Ale	NULL	NULL
+1616	Van Honsebrouck Kasteel Blonde	11	30	1.011	6	9	Tripel	37	Tripel
+1615	Van Honsebrouck Kasteel Bruin	11	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+1614	Van Honsebrouck Kasteel Rouge	8	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+2289	Van Honsebrouck St. Louis Gueuze Fond Tradition	5	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+2291	Van Honsebrouck St. Louis Kriek	4.5	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+2292	Van Honsebrouck St. Louis Pêche	3.5	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+2290	Van Honsebrouck St. Louis Premium Framboise	2.8	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+2293	Van Honsebrouck St. Louis Premium Kriek	3.2	NULL	NULL	NULL	32	Wild Ale	NULL	NULL
+1530	Van Steenberge Augustijn	8	30	1.011	6	9	Tripel	37	Tripel
+1531	Van Steenberge Bios Kriek	5	5	1.005	5	44	Fruit/Vegetable	33	Lambic - Fruit
+109	Van Steenberge Bornem Double	8	20	1.013	13	33	Dubbel	28	Dubbel
+110	Van Steenberge Bornem Triple	9	30	1.011	6	9	Tripel	37	Tripel
+1532	Van Steenberge Bruegel	5.2	25	1.012	11	30	Blonde	23	Belgian Pale Ale
+257	Van Steenberge Gulden Draak	10.5	28	1.017	17	9	Tripel	24	Belgian Strong Dark Ale
+1969	Van Steenberge Monk's Café	5.5	15	1.015	19	32	Wild Ale	30	Flanders Oud Bruin
+1356	Van Steenberge Piraat	10.5	55	1.014	11	10	India Pale Ale	22	Belgian IPA
+1125	Verhaeghe Duchesse de Bourgogne	6.2	18	1.007	13	32	Wild Ale	31	Flanders Red Ale
+1126	Verhaeghe Echt Kriekenbier	6.8	18	1.007	13	32	Wild Ale	31	Flanders Red Ale
+1127	Verhaeghe Vichtenaar	5.1	18	1.007	13	32	Wild Ale	31	Flanders Red Ale
+33	Victory Baltic Thunder	8.5	30	1.02	23	23	Porter	39	Baltic Porter
+1533	Victory Festbier	5.6	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+36	Victory Golden Monkey	9.5	30	1.011	6	9	Tripel	37	Tripel
+31	Victory Helios	7.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+29	Victory Hop Wallop	8.5	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1534	Victory HopDevil	6.7	50	1.014	11	10	India Pale Ale	8	American IPA
+1535	Victory Moonglow Weizenbock	8.7	22	1.019	19	16	Bock Beer	67	Weizenbock
+1536	Victory Old Horizontal	11	85	1.022	14	14	Barley Wine	2	American Barleywine
+32	Victory Prima Pils	5.3	35	1.01	4	12	Pilsner	90	German Pilsener
+34	Victory St. Boisterous	7.4	28	1.015	8	16	Bock Beer	92	Maibock / Helles Bock
+37	Victory St. Victorious	8.5	21	1.02	16	16	Bock Beer	87	Doppelbock
+1537	Victory Storm King	9.1	70	1.024	35	11	Stout	56	Russian Imperial Stout
+2013	Victory Sunrise Weiss	5.7	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+35	Victory Ten Years Alt	8.5	38	1.013	16	38	Old Ale	59	Altbier
+1539	Victory V Lager	5.2	19	1.01	4	20	Lager	94	Munich Helles Lager
+1538	Victory V Twelve	12	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+1540	Victory Whirlwind	5	15	1.01	3	26	Wheat Beer	38	Witbier
+30	Victory Wild Devil Ale	6.7	55	1.014	11	32	Wild Ale	22	Belgian IPA
+1955	Victory Yakima Glory	8.7	55	1.014	25	8	Misc	104	Black IPA / Cascadian Dark Ale
+619	Voodoo Big Black Voodoo Daddy	12	NULL	NULL	NULL	11	Stout	NULL	NULL
+1541	Voodoo Black Magick	15	70	1.024	35	11	Stout	7	American Double / Imperial Stout
+620	Voodoo Gran Met	9.5	15	1.012	12	35	Biere de Garde	27	Bière de Garde
+621	Voodoo Love Child	9.5	NULL	NULL	NULL	35	Biere de Garde	NULL	NULL
+1542	Voodoo Pilzilla	6.7	30	1.012	5	12	Pilsner	91	Keller Bier / Zwickel Bier
+622	Voodoo White Magick Of The Sun	6	NULL	NULL	NULL	26	Wheat Beer	NULL	NULL
+623	Voodoo Wynona's Big Brown Ale	7.2	32	1.012	27	13	Brown Ale	4	American Brown Ale
+1543	Wachusett Blueberry	4.4	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+1544	Wachusett Green Monsta	6.4	85	1.02	13	36	Strong Ale	13	American Strong Ale
+1545	Wachusett IPA	5.6	50	1.014	11	10	India Pale Ale	8	American IPA
+1546	Warsteiner Premium Dunkel	4.9	23	1.013	21	20	Lager	93	Munich Dunkel Lager
+1547	Warsteiner Premium Verum	4.8	35	1.01	4	12	Pilsner	90	German Pilsener
+2014	Weihenstephaner Festbier	5.8	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+1548	Weihenstephaner Hefeweissbier	5.4	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+1549	Weihenstephaner Hefeweissbier Dunkel	5.3	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+1550	Weihenstephaner Korbinian	7.4	21	1.02	16	16	Bock Beer	87	Doppelbock
+1551	Weihenstephaner Kristallweissbier	5.4	12	1.01	3	26	Wheat Beer	64	Kristalweizen
+1552	Weihenstephaner Original Premium	5.1	19	1.01	4	20	Lager	94	Munich Helles Lager
+2015	Weihenstephaner Vitus	7.7	22	1.019	19	16	Bock Beer	67	Weizenbock
+1832	Wells Banana Bread Beer	5.2	13	1.012	8	44	Fruit/Vegetable	101	Fruit / Vegetable Beer
+2294	Wells Wells Bombardier	5.2	NULL	NULL	NULL	28	Bitter	NULL	NULL
+625	Weltenburger Anno 1050	5.5	NULL	NULL	NULL	42	Marzen	NULL	NULL
+1553	Weltenburger Asam Bock	6.9	21	1.02	16	16	Bock Beer	87	Doppelbock
+1554	Weltenburger Barock Dunkel	4.7	23	1.013	21	20	Lager	93	Munich Dunkel Lager
+1555	Weltenburger Barock Hell	5.6	19	1.01	4	20	Lager	94	Munich Helles Lager
+624	Weltenburger Hefe-Weissbier Dunkel	5.3	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+1556	Weltenburger Hefe-Weizen Dunkel	5.3	13	1.012	18	26	Wheat Beer	61	Dunkelweizen
+1557	Weltenburger Hefe-Weizen Hell	5.4	12	1.012	5	26	Wheat Beer	63	Hefeweizen
+626	Weltenburger Urtyp Hell	4.9	19	1.01	4	20	Lager	94	Munich Helles Lager
+1558	Weltenburger Winter-Traum	5.2	23	1.014	11	42	Marzen	95	Märzen / Oktoberfest
+1559	Westmalle Dubbel	7	20	1.013	13	33	Dubbel	28	Dubbel
+1560	Westmalle Tripel	9.5	30	1.011	6	9	Tripel	37	Tripel
+1656	Westvleteren Westvleteren 12	10.2	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+1657	Westvleteren Westvleteren 8	8	20	1.013	13	33	Dubbel	28	Dubbel
+1658	Westvleteren Westvleteren Blond	5.8	25	1.012	11	30	Blonde	23	Belgian Pale Ale
+1561	Weyerbacher Blithering Idiot	11.1	52	1.024	15	14	Barley Wine	41	English Barleywine
+1562	Weyerbacher Double Simcoe IPA	9	90	1.017	12	10	India Pale Ale	6	American Double / Imperial IPA
+1563	Weyerbacher Heresy	8	70	1.024	35	11	Stout	56	Russian Imperial Stout
+1564	Weyerbacher Hops Infusion	6.2	50	1.014	11	10	India Pale Ale	8	American IPA
+1565	Weyerbacher Imperial Pumpkin Ale	8	20	1.015	15	44	Fruit/Vegetable	18	Pumpkin Ale
+1566	Weyerbacher Insanity	11.1	52	1.024	15	14	Barley Wine	41	English Barleywine
+1567	Weyerbacher Merry Monks' Ale	9.3	30	1.011	6	9	Tripel	37	Tripel
+1568	Weyerbacher Old Heathen	8	70	1.024	35	11	Stout	56	Russian Imperial Stout
+2016	Weyerbacher Quad	11.8	28	1.017	17	34	Quad	35	Quadrupel (Quad)
+2017	Weyerbacher Winter Ale	5.6	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1569	Widmer Brothers Broken Halo IPA	6	50	1.014	11	10	India Pale Ale	8	American IPA
+1570	Widmer Brothers Brrr	7.2	25	1.016	17	36	Strong Ale	57	Winter Warmer
+1571	Widmer Brothers Cherry Oak Doppelbock	9	21	1.02	16	16	Bock Beer	87	Doppelbock
+1572	Widmer Brothers Drifter Pale Ale	5.7	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1573	Widmer Brothers Drop Top Amber	5	32	1.012	13	29	Amber	1	American Amber / Red Ale
+1574	Widmer Brothers Hefeweizen	4.9	13	1.01	3	26	Wheat Beer	10	American Pale Wheat Ale
+1575	Widmer Brothers Okto	5.5	38	1.013	16	38	Old Ale	59	Altbier
+1576	Widmer Brothers Snow Plow	5.5	30	1.019	35	11	Stout	53	Milk / Sweet Stout
+2295	William Bull William's Pale Ale	4.5	NULL	NULL	NULL	31	Pale Ale	NULL	NULL
+1957	Williams Brothers Alba Scots Pine Ale	7.5	2	1.013	10	8	Misc	73	Scottish Gruit / Ancient Herbed Ale
+1577	Wychwood Fiddler's Elbow	5.2	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1578	Wychwood Hobgoblin	5.2	20	1.011	22	13	Brown Ale	43	English Brown Ale
+1579	Wychwood Scarecrow	4.7	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1580	Wychwood WychCraft	4.5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1683	Yards Brawler	4.2	18	1.01	19	37	Mild	44	English Dark Mild Ale
+1684	Yards Extra Special Ale	6.3	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1685	Yards General Washington's Tavern Porter	7	27	1.011	25	23	Porter	48	English Porter
+1686	Yards India Pale Ale	7	50	1.014	11	10	India Pale Ale	45	English India Pale Ale (IPA)
+1687	Yards Love Stout	5	38	1.01	33	11	Stout	49	English Stout
+1688	Yards Philadelphia Pale Ale	4.3	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1690	Yards Saison	6.5	25	1.007	9	24	Saison	36	Saison / Farmhouse Ale
+1689	Yards Thomas Jefferson's Tavern Ale	8	26	1.02	17	36	Strong Ale	50	English Strong Ale
+2018	Young's Oatmeal Stout	5.2	33	1.015	32	11	Stout	54	Oatmeal Stout
+2019	Young's Old Nick	7.2	52	1.024	15	14	Barley Wine	41	English Barleywine
+1583	Youngs Double Chocolate Stout	5.2	30	1.019	35	11	Stout	53	Milk / Sweet Stout
+1581	Youngs Special London Ale	6.4	40	1.013	12	28	Bitter	51	Extra Special / Strong Bitter (ESB)
+1582	Youngs Waggledance	5	30	1.01	9	31	Pale Ale	46	English Pale Ale
+1584	Yuengling Black and Tan	4.7	25	1.012	25	20	Lager	15	Black & Tan
+1586	Yuengling Light Lager	3.4	10	1.001	3	20	Lager	80	Light Lager
+1587	Yuengling Lord Chesterfield Ale	5.4	37	1.012	9	31	Pale Ale	9	American Pale Ale (APA)
+1588	Yuengling Porter	4.7	35	1.014	29	23	Porter	11	American Porter
+1589	Yuengling Premium Beer	4.4	10	1.006	3	20	Lager	78	American Pale Lager
+1585	Yuengling Traditional Lager	4.4	32	1.01	17	29	Amber	75	American Amber / Red Lager
+2038	Zywiec Breweries Zywiec Beer	5.7	12	1.006	3	20	Lager	84	Euro Pale Lager
+2037	Zywiec Breweries Zywiec Porter	9.5	30	1.02	23	23	Porter	39	Baltic Porter
