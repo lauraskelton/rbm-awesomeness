@@ -1,4 +1,4 @@
-import datamanager as dm
+-import datamanager as dm
 import autoencoder as ae
 import numpy as np
 import theano
@@ -7,6 +7,7 @@ import time
 import datavisualizer as vis
 import pandas as pd
 from pandas import DataFrame as DF
+from datavisualizer import rgbMix
 
 
 beer_extra_data = pd.read_csv('data/beer_data.csv', sep='\t')
@@ -47,15 +48,15 @@ class NodeVisualizer(object):
 
 		return out
 
-	def get_activation(self, cats=None, **kwargs):
-		return self.activations(self.mock_vector(cats, kwargs))
+	def get_colors(self, cats=None, **kwargs):
+		return [rgbMix(value, 1, 0) for value in self.activations(self.mock_vector(cats, kwargs))]
 
 
 def get_buckets(metric):
 	metric = metric.copy()
 	metric.sort()
 	n = sum(1-metric.apply(np.isnan))
-	step = int(n / 5.)
+-	step = int(n / 5.)
 
 	out = []
 	# first 4 quantiles
