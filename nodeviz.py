@@ -21,6 +21,8 @@ class NodeVisualizer(object):
 		self.buckets = {}
 		self.buckets["ABV"] = get_buckets(beer_data['ABV'])
 		self.buckets["GRAVITY"] = get_buckets(beer_data['GRAVITY'])
+		self.buckets["COLOR"] = get_buckets(beer_data['COLOR'])
+		self.buckets["IBU"] = get_buckets(beer_data['IBU'])
 
 
 	def mock_vector(self, **kwargs):
