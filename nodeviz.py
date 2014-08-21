@@ -25,16 +25,23 @@ class NodeVisualizer(object):
 		self.buckets["IBU"] = get_buckets(beer_data['IBU'])
 
 
-	def mock_vector(self, **kwargs):
+	def mock_vector(self, cats=None, **kwargs):
 		out = np.zeros(len(self.beer_data))
 
 		for metric, bucket in kwargs:
 			u, s = self.buckets[metric][bucket]
 
-			g = self.beer_data[metric].apply(lambda x : gauss(x, u, s/2)).fillna(0)
+			delta = self.beer_data[metric].apply(lambda x : gauss(x, u, s/2)).fillna(0)
 
 			max_gauss = gauss(u, u, s/2)
-			out = np.maximum(out, g / max_gauss)
+
+			# maybe add them together and divide at end? This could result in just a bunch of 1s
+			out = np.maximum(out, delta / max_gauss)
+
+		if cats:
+			for cat in cats:
+				delta = self.beer_data["CATEGORY_NAME"] == cat
+				out = np.maximum(out, delta)
 
 		return out
 
