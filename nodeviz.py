@@ -13,8 +13,11 @@ beer_extra_data = pd.read_csv('data/beer_data.csv', sep='\t')
 
 
 class NodeVisualizer(object):
-	def __init__(self, ae, beer_data):
-		self.ae = ae
+	def __init__(self, W, b_in, beer_data):
+		self.vec = T.dvector("vec")
+		self.ae = ae.CFAutoencoder(W.shape[0], W.shape[1], vec, pct_noise=0, W=W, b_in=b_in)
+		self.activations = theano.function([vec], ae.active_hidden)
+
 		self.beer_data = beer_data
 		self.beer_data["ABV"] = self.beer_data["ABV"].apply(toFloat)
 
@@ -23,7 +26,6 @@ class NodeVisualizer(object):
 		self.buckets["GRAVITY"] = get_buckets(beer_data['GRAVITY'])
 		self.buckets["COLOR"] = get_buckets(beer_data['COLOR'])
 		self.buckets["IBU"] = get_buckets(beer_data['IBU'])
-
 
 	def mock_vector(self, cats=None, **kwargs):
 		out = np.zeros(len(self.beer_data))
@@ -44,6 +46,10 @@ class NodeVisualizer(object):
 				out = np.maximum(out, delta)
 
 		return out
+
+	def get_activation(self, cats=None, **kwargs):
+		return self.activations(self.mock_vector(cats, kwargs))
+
 
 def get_buckets(metric):
 	metric = metric.copy()
