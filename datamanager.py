@@ -16,7 +16,7 @@ def loadBeerIDs(path='data'):
 	beer_ids={}
 	for line in open(path+'/u.item'):
 		(id,name)=line.split('\t')
-		beer_ids[name.rstrip()]=id
+		beer_ids[name.rstrip()]=int(id)
 	
 	return beer_ids
 
@@ -24,7 +24,7 @@ def loadBeerNames(path='data'):
 	
 	# Get beer IDs
 	beer_names={}
-	for line in open(path+'/u.item'):
+	for line in open(path+'/u.item'): 
 		(id,name)=line.split('\t')
 		beer_names[id]=name.rstrip()
 	

@@ -9,7 +9,7 @@ import pandas as pd
 from pandas import DataFrame as DF
 
 
-beer_extra_data = pd.read_csv('data/beer_data_no_id.csv', sep='\t')
+beer_extra_data = pd.read_csv('data/beer_data.csv', sep='\t')
 
 
 class NodeVisualizer(object):
