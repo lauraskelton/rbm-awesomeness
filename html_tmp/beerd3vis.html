@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="http://d3js.org/d3.v2.js"></script>
+	</head>
+	<body>
+		<div id="viz"></div>
+		<script type="text/javascript">
+			//Beer Data Set
+			var beerData = [
+							{"cx": 2800.0, 
+		"cy": 100.0, 
+		"radius": 5, 
+		"font-size": 10},
+		
+			];
+			//Create the SVG Viewport
+			var svgContainer = d3.select("body").append("svg")
+				.attr("width",500)
+				.attr("height",500);
+
+			var foreignObject = svgContainer.selectAll("foreignObject")
+				.data(beerData)
+				.style("stroke", "gray")
+   				.style("fill", "white")
+				.enter()
+				.append("foreignObject");
+
+			
+
+		</script>
+	</body>
+</html>
+	
