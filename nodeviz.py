@@ -17,30 +17,35 @@ class NodeVisualizer(object):
 		self.ae = ae
 		self.beer_data = beer_data
 		self.beer_data["ABV"] = self.beer_data["ABV"].apply(toFloat)
-		self.abv_buckets = get_abv_buckets(beer_data['ABV'])
+
+		self.buckets = {}
+		self.buckets["ABV"] = get_buckets(beer_data['ABV'])
+		self.buckets["GRAVITY"] = get_buckets(beer_data['GRAVITY'])
 
 
-	def mock_vector(self, abv_bucket=None):
+	def mock_vector(self, **kwargs):
 		out = np.zeros(len(self.beer_data))
-		if abv_bucket:
-			u, s = self.abv_buckets[abv_bucket]
-			g = self.beer_data["ABV"].apply(lambda x : gauss(x, u, s/2)).fillna(0)
+
+		for metric, bucket in kwargs:
+			u, s = self.buckets[metric][bucket]
+
+			g = self.beer_data[metric].apply(lambda x : gauss(x, u, s/2)).fillna(0)
 
 			max_gauss = gauss(u, u, s/2)
-			out += g / max_gauss
+			out = np.maximum(out, g / max_gauss)
 
 		return out
 
-def get_abv_buckets(abv):
-	abv = abv.copy()
-	abv.sort()
-	n = sum(1-abv.apply(np.isnan))
+def get_buckets(metric):
+	metric = metric.copy()
+	metric.sort()
+	n = sum(1-metric.apply(np.isnan))
 	step = int(n / 5.)
 
 	out = []
 	# first 4 quantiles
 	for i in xrange(5):
-		d = abv[i*step : (i+1)*step]
+		d = metric[i*step : (i+1)*step]
 		out.append((np.mean(d), np.std(d)))
 
 	return out
