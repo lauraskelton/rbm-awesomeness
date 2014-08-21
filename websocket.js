@@ -14,13 +14,22 @@ function onClose(evt) {
 
 function onMessage(evt) {
 	writeToScreen("data received:\n" + JSON.stringify(evt.data));
+	setColors(evt.data);
+}
+
+function setColors(vector) {
+	// colorvector = translateintocolors(vector);
+	var colors = vector.split(" ");
+	console.log(colors);
+	// console.log
+	d3.selectAll("circle").data(colors).style("fill", function(d) {return d});
 }
 
 function onError(evt) { 
 	writeToScreen('<span style="color: red;">ERROR:</span>\n' + evt.data);
 }
 
-function prepareWebsocket() {
+function init() {
 	websocket.onopen = function(evt) { onOpen(evt) };
 	websocket.onclose = function(evt) { onClose(evt) };
 	websocket.onmessage = function(evt) { onMessage(evt) };
@@ -29,6 +38,8 @@ function prepareWebsocket() {
 		websocket.send(document.getElementById("inputTxt").value);
 		console.log("click registered.");
 	};
+
+
 }
 
 function writeToScreen(message) { 
@@ -39,4 +50,4 @@ window.onReady = function onReady(fn){
     document.body ? fn() : setTimeout(function(){ onReady(fn);},50);
 };
 
-window.onReady(prepareWebsocket);
+window.onReady(init);
