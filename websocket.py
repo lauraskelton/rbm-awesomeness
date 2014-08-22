@@ -15,7 +15,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 		
 		# send this to nodeviz somehow?
 		message_array = message.split(' ')
-		if len(message_array) == 3 && message_array[0] == "setBucket":
+		if len(message_array) == 3 and message_array[0] == "setBucket":
 			viz.set_bucket(int(message_array[1]),int(message_array[2]))
 
 	def on_close(self):

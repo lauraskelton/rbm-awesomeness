@@ -1,4 +1,5 @@
--import datamanager as dm
+# -*- coding: utf-8 -*-
+import datamanager as dm
 import autoencoder as ae
 import numpy as np
 import theano
@@ -41,8 +42,8 @@ class NodeVisualizer(object):
 			# maybe add them together and divide at end? This could result in just a bunch of 1s
 			out = np.maximum(out, delta / max_gauss)
 
-		if cats: # 🐱🐱🐱
-			for cat in cats: # 🐱
+		if cats: # u'🐱🐱🐱'
+			for cat in cats: # u'🐱'
 				delta = self.beer_data["CATEGORY_NAME"] == cat
 				out = np.maximum(out, delta)
 
@@ -56,7 +57,7 @@ def get_buckets(metric):
 	metric = metric.copy()
 	metric.sort()
 	n = sum(1-metric.apply(np.isnan))
--	step = int(n / 5.)
+	step = int(n / 5.)
 
 	out = []
 	# first 4 quantiles
