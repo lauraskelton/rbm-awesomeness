@@ -41,8 +41,8 @@ class NodeVisualizer(object):
 			# maybe add them together and divide at end? This could result in just a bunch of 1s
 			out = np.maximum(out, delta / max_gauss)
 
-		if cats:
-			for cat in cats:
+		if cats: # 🐱🐱🐱
+			for cat in cats: # 🐱
 				delta = self.beer_data["CATEGORY_NAME"] == cat
 				out = np.maximum(out, delta)
 
@@ -65,6 +65,10 @@ def get_buckets(metric):
 		out.append((np.mean(d), np.std(d)))
 
 	return out
+
+def set_bucket(cat=0,bucket=0):
+	# actually do something here
+	print("set bucket to cat: {} bucket: {}".format(cat,bucket))
 
 
 def gauss(x,u,s): 

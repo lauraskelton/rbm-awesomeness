@@ -25,6 +25,25 @@ function setColors(vector) {
 	d3.selectAll("circle").data(colors).style("fill", function(d) {return d});
 }
 
+function mouseoverBucket(category, bucket_id) {
+	// category: ABV, IBU, sweetness, etc. 0,1,2
+	// bucket_id: 0,1,2,3,4 (how many stars should we fill in)
+	// fill in stars up to this bucket
+	for (i = 0; i < bucket_id; i++) { 
+		document.getElementById("bucket_"+category+"_"+i).src="images/star128.png";
+	}
+	// empty stars above this bucket
+	for (i = bucket_id; i < 5; i++) { 
+		document.getElementById("bucket_"+category+"_"+i).src="images/star128_empty.png";
+	}
+}
+
+function setBucket(category, bucket_id) {
+	// category: ABV, IBU, sweetness, etc
+	// bucket_id: 0,1,2,3,4 (how many stars should we fill in)
+	websocket.send("setBucket " + category + " " + bucket_id);
+}
+
 function onError(evt) { 
 	writeToScreen('<span style="color: red;">ERROR:</span>\n' + evt.data);
 }

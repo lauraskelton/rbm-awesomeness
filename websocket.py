@@ -3,6 +3,8 @@ import tornado.web
 import tornado.websocket
 import tornado.httpserver
 
+import nodeviz as viz
+
 class WSHandler(tornado.websocket.WebSocketHandler):
 	def open(self):
 		print 'new connection'
@@ -10,6 +12,11 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 	def on_message(self, message):
 		print 'message received %s' % message
 		self.write_message("red blue green")
+		
+		# send this to nodeviz somehow?
+		message_array = message.split(' ')
+		if len(message_array) == 3 && message_array[0] == "setBucket":
+			viz.set_bucket(int(message_array[1]),int(message_array[2]))
 
 	def on_close(self):
 		print 'connection closed'
