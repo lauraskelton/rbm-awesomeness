@@ -22,19 +22,30 @@ function setColors(vector) {
 	var colors = vector.split(" ");
 	console.log(colors);
 	// console.log
-	d3.selectAll("circle").data(colors).style("fill", function(d) {return d});
+	d3.selectAll("circle").data(colors)
+	.style("fill", function(d) {return d})
+	.style("stroke", "black");    // set the line colour
+
 }
 
 function mouseoverBucket(category, bucket_id) {
 	// category: ABV, IBU, sweetness, etc. 0,1,2
 	// bucket_id: 0,1,2,3,4 (how many stars should we fill in)
 	// fill in stars up to this bucket
-	for (i = 0; i < bucket_id; i++) { 
-		document.getElementById("bucket_"+category+"_"+i).src="images/star128.png";
+	for (i = 0; i <= bucket_id; i++) { 
+		document.getElementById("bucket_"+category+"_"+i).src="images/star_128.png";
 	}
 	// empty stars above this bucket
-	for (i = bucket_id; i < 5; i++) { 
-		document.getElementById("bucket_"+category+"_"+i).src="images/star128_empty.png";
+	for (i = bucket_id + 1; i <= 5; i++) { 
+		document.getElementById("bucket_"+category+"_"+i).src="images/star_128_empty.png";
+	}
+}
+
+function mouseoutBucket(category) {
+	// category: ABV, IBU, sweetness, etc. 0,1,2
+	// empty stars in this bucket (or reset to previous rating- store this?)
+	for (i = 0; i < 5; i++) { 
+		document.getElementById("bucket_"+category+"_"+i).src="images/star_128_empty.png";
 	}
 }
 

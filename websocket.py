@@ -4,6 +4,8 @@ import tornado.websocket
 import tornado.httpserver
 
 import nodeviz as viz
+from datavisualizer import load_weights_biases
+import pandas as pd
 
 class WSHandler(tornado.websocket.WebSocketHandler):
 	def open(self):
@@ -28,3 +30,7 @@ if __name__ == "__main__":
 	http_server = tornado.httpserver.HTTPServer(application)
 	http_server.listen(8000)
 	tornado.ioloop.IOLoop.instance().start()
+
+W, b_in = load_weights_biases
+beer_data = pd.read_csv('data/beer_data.csv', sep='	', index_col='BEER_ID')
+nodeviz = viz.NodeVisualiser(W, b_in, beer_data)

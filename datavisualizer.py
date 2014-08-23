@@ -217,6 +217,11 @@ def load_all_beer_weights(toLoad="weight_decay_15.npz"):
 	allBeerWeights = beer_dict_from_weights(filteredBeerNamesArray, trainedWeights)
 	return allBeerWeights
 
+def load_weights_biases(toLoad="weight_decay_15.npz"):
+	trainedWeights = np.load(toLoad)['W']
+	trainedBiases = np.load(toLoad)['b_in']
+	return trainedWeights, trainedBiases
+
 # This is the function we actually call!!!
 def makeAllBeerMaps(filename="beernodemap", toLoad="weight_decay_15.npz"):
 	allBeerWeights = load_all_beer_weights(toLoad=toLoad)
