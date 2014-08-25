@@ -3,8 +3,9 @@ import operator
 import numpy as np
 import random
 
-def shuffle_all(*args):
+def shuffle_all(*args, seed=1234):
 	idx = range(len(args[0]))
+	random.seed(seed)
 	random.shuffle(idx)
 	for arg in args:
 		assert(len(arg) == len(args[0]))
