@@ -8,7 +8,7 @@ import time
 import datavisualizer as vis
 import pandas as pd
 from pandas import DataFrame as DF
-from datavisualizer import rgbMix
+from datavisualizer import rgbString
 
 
 beer_extra_data = pd.read_csv('data/beer_data.csv', sep='\t')
@@ -50,7 +50,7 @@ class NodeVisualizer(object):
 		return out
 
 	def get_colors(self, cats=None, **kwargs):
-		return [rgbMix(value, 1, 0) for value in self.activations(self.mock_vector(cats, kwargs))]
+		return [rgbString(value, 1, 0) for value in self.activations(self.mock_vector(cats, kwargs))]
 
 
 def get_buckets(metric):
@@ -66,10 +66,6 @@ def get_buckets(metric):
 		out.append((np.mean(d), np.std(d)))
 
 	return out
-
-def set_bucket(cat=0,bucket=0):
-	# actually do something here
-	print("set bucket to cat: {} bucket: {}".format(cat,bucket))
 
 
 def gauss(x,u,s): 

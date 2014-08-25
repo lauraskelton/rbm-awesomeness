@@ -3,13 +3,16 @@ import tornado.web
 import tornado.websocket
 import tornado.httpserver
 
-import nodeviz as viz
+import nodeviz as nv
 from datavisualizer import load_weights_biases
 import pandas as pd
 
 class WSHandler(tornado.websocket.WebSocketHandler):
 	def open(self):
 		print 'new connection'
+		self.W, self.b_in = load_weights_biases()
+		self.beer_data = pd.read_csv('data/beer_data.csv', sep='	', index_col='BEER_ID')
+		self.nodeviz = nv.NodeVisualizer(self.W, self.b_in, self.beer_data)
 	
 	def on_message(self, message):
 		print 'message received %s' % message
@@ -17,8 +20,15 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 		
 		# send this to nodeviz somehow?
 		message_array = message.split(' ')
-		if len(message_array) == 3 and message_array[0] == "setBucket":
-			viz.set_bucket(int(message_array[1]),int(message_array[2]))
+		if len(message_array) > 0 and message_array[0] == "setBucket" and len(message_array) % 2 == 1:
+			del message_array[0]
+			buckets_dict = {}
+			for i in range(len(message_array)):
+				if i % 2 == 0:
+					buckets_dict[str(message_array[i])] = int(message_array[i+1])
+
+			colors = self.nodeviz.get_colors(buckets_dict)
+			self.write_message(colors)
 
 	def on_close(self):
 		print 'connection closed'
@@ -31,6 +41,4 @@ if __name__ == "__main__":
 	http_server.listen(8000)
 	tornado.ioloop.IOLoop.instance().start()
 
-W, b_in = load_weights_biases
-beer_data = pd.read_csv('data/beer_data.csv', sep='	', index_col='BEER_ID')
-nodeviz = viz.NodeVisualiser(W, b_in, beer_data)
+

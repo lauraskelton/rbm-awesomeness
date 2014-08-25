@@ -3,6 +3,10 @@
 var wsUri = "ws://localhost:8000/ws";
 var websocket = new WebSocket(wsUri);
 
+var abv_bucket = 0;
+var ibu_bucket = 0;
+var gravity_bucket = 0;
+
 function onOpen(evt) { 
 	writeToScreen("CONNECTED");
 	websocket.send("newgame");
@@ -15,6 +19,22 @@ function onClose(evt) {
 function onMessage(evt) {
 	writeToScreen("data received:\n" + JSON.stringify(evt.data));
 	setColors(evt.data);
+}
+
+function setCategoryToBucket(category, bucket_id) {
+	switch(category) {
+	    case 0:
+	        abv_bucket = bucket_id;
+	        break;
+	    case 1:
+	        ibu_bucket = bucket_id;
+	        break;
+	    case 2:
+	        gravity_bucket = bucket_id;
+	        break;
+	    default:
+	        break;
+	}
 }
 
 function setColors(vector) {
@@ -39,12 +59,31 @@ function mouseoverBucket(category, bucket_id) {
 	for (i = bucket_id + 1; i <= 5; i++) { 
 		document.getElementById("bucket_"+category+"_"+i).src="images/star_128_empty.png";
 	}
+	setCategoryToBucket(category, bucket_id);
 }
 
 function mouseoutBucket(category) {
 	// category: ABV, IBU, sweetness, etc. 0,1,2
 	// empty stars in this bucket (or reset to previous rating- store this?)
-	for (i = 0; i < 5; i++) { 
+	var bucket_id = 0;
+	switch(category) {
+	    case 0:
+	        bucket_id = abv_bucket;
+	        break;
+	    case 1:
+	        bucket_id = ibu_bucket;
+	        break;
+	    case 2:
+	        bucket_id = gravity_bucket;
+	        break;
+	    default:
+	        break;
+	}
+	for (i = 0; i <= bucket_id; i++) { 
+		document.getElementById("bucket_"+category+"_"+i).src="images/star_128.png";
+	}
+	// empty stars above this bucket
+	for (i = bucket_id + 1; i <= 5; i++) { 
 		document.getElementById("bucket_"+category+"_"+i).src="images/star_128_empty.png";
 	}
 }
@@ -52,7 +91,9 @@ function mouseoutBucket(category) {
 function setBucket(category, bucket_id) {
 	// category: ABV, IBU, sweetness, etc
 	// bucket_id: 0,1,2,3,4 (how many stars should we fill in)
-	websocket.send("setBucket " + category + " " + bucket_id);
+	setCategoryToBucket(category, bucket_id);
+
+	websocket.send("setBucket " + "ABV" + " " + abv_bucket + "IBU" + " " + ibu_bucket + "GRAVITY" + " " + gravity_bucket);
 }
 
 function onError(evt) { 
