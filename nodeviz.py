@@ -16,9 +16,9 @@ beer_extra_data = pd.read_csv('data/beer_data.csv', sep='\t')
 
 class NodeVisualizer(object):
 	def __init__(self, W, b_in, beer_data):
-		self.vec = T.dvector("vec")
-		self.ae = ae.CFAutoencoder(W.shape[0], W.shape[1], vec, pct_noise=0, W=W, b_in=b_in)
-		self.activations = theano.function([vec], ae.active_hidden)
+		self.vec = ae.matrixType("vec")
+		self.neuralnet = ae.CFAutoencoder(W.shape[0], W.shape[1], self.vec, pct_noise=0, W=W, b_in=b_in)
+		self.activations = theano.function([self.vec], self.neuralnet.active_hidden)
 
 		self.beer_data = beer_data
 		self.beer_data["ABV"] = self.beer_data["ABV"].apply(toFloat)
@@ -30,9 +30,9 @@ class NodeVisualizer(object):
 		self.buckets["IBU"] = get_buckets(beer_data['IBU'])
 
 	def mock_vector(self, cats=None, **kwargs):
-		out = np.zeros(len(self.beer_data))
+		out = np.zeros((len(self.beer_data), 1))
 
-		for metric, bucket in kwargs:
+		for metric, bucket in kwargs.iteritems():
 			u, s = self.buckets[metric][bucket]
 
 			delta = self.beer_data[metric].apply(lambda x : gauss(x, u, s/2)).fillna(0)
@@ -40,7 +40,7 @@ class NodeVisualizer(object):
 			max_gauss = gauss(u, u, s/2)
 
 			# maybe add them together and divide at end? This could result in just a bunch of 1s
-			out = np.maximum(out, delta / max_gauss)
+			out = np.maximum(delta / max_gauss, out)
 
 		if cats: # u'🐱🐱🐱' lol laura are these unicode 'cats' ?
 			for cat in cats: # u'🐱' haha obviously
@@ -50,7 +50,7 @@ class NodeVisualizer(object):
 		return out
 
 	def get_colors(self, cats=None, **kwargs):
-		return [rgbString(value, 1, 0) for value in self.activations(self.mock_vector(cats, kwargs))]
+		return [rgbString(value, 1, 0) for value in self.activations(self.mock_vector(cats, **kwargs))]
 
 
 def get_buckets(metric):

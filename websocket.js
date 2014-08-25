@@ -93,7 +93,7 @@ function setBucket(category, bucket_id) {
 	// bucket_id: 0,1,2,3,4 (how many stars should we fill in)
 	setCategoryToBucket(category, bucket_id);
 
-	websocket.send("setBucket " + "ABV" + " " + abv_bucket + "IBU" + " " + ibu_bucket + "GRAVITY" + " " + gravity_bucket);
+	websocket.send("setBucket " + "ABV" + " " + abv_bucket + " " + "IBU" + " " + ibu_bucket + " " + "GRAVITY" + " " + gravity_bucket);
 }
 
 function onError(evt) { 

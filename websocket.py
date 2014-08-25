@@ -27,7 +27,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 				if i % 2 == 0:
 					buckets_dict[str(message_array[i])] = int(message_array[i+1])
 
-			colors = self.nodeviz.get_colors(buckets_dict)
+			colors = self.nodeviz.get_colors(**buckets_dict)
 			self.write_message(colors)
 
 	def on_close(self):
