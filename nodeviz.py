@@ -31,6 +31,7 @@ class NodeVisualizer(object):
 
 	def mock_vector(self, cats=None, **kwargs):
 		out = np.zeros((1, len(self.beer_data)))
+		zeros = np.zeros((1, len(self.beer_data)))
 
 		normalizer = 0.0
 

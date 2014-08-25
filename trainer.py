@@ -38,7 +38,7 @@ class AETrainer(object):
 	def get_training_function(self):
 		given = {self.x : self.shared_input[self.i:self.i+self.bs]}
 
-		if self.model.mask:
+		if self.x_mask:
 			given[self.x_mask] = self.shared_mask[self.i:self.i+self.bs]
 
 		if self.momentum:
