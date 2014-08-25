@@ -43,7 +43,7 @@ class NodeVisualizer(object):
 			out = np.maximum(out, delta / max_gauss)
 
 		if cats: # u'🐱🐱🐱' lol laura are these unicode 'cats' ?
-			for cat in cats: # u'🐱'
+			for cat in cats: # u'🐱' haha obviously
 				delta = self.beer_data["CATEGORY_NAME"] == cat
 				out = np.maximum(out, delta)
 
