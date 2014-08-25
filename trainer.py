@@ -25,7 +25,6 @@ class AETrainer(object):
 		self.shared_input = shared_input
 		self.shared_mask = shared_mask
 		self.batch_size = batch_size
-		self.mask=mask
 		self.momentum = momentum
 
 		if momentum:

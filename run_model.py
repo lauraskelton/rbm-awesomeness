@@ -49,7 +49,7 @@ decay_layer = ae.CFAutoencoder(data.shape[1]*2, 16, inputs=input_combined, mask=
 
 print "\n\t[Training] a network with weight decay!"
 
-aet = trainer.AETrainer(decay_layer, shared_train, shared_mask, momentum=0.9)
+aet = trainer.AETrainer(decay_layer, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
 
 aet.run_epochs(min_epochs=200, lr_decay=0.1)
 
