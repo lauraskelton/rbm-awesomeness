@@ -16,10 +16,14 @@ def epoch(batch_size_to_use, n_train, training_function):
 
 
 class AETrainer(object):
-	def __init__(self, model, inputs, mask=None, batch_size=64, momentum=0.0):
+	def __init__(self, model, x, shared_input, x_mask=None, shared_mask=None, batch_size=64, momentum=0.0):
 		self.i, self.bs = T.iscalars('i', 'bs')
+
 		self.model = model
-		self.inputs = inputs
+		self.x = x
+		self.x_mask = x_mask
+		self.shared_input = shared_input
+		self.shared_mask = shared_mask
 		self.batch_size = batch_size
 		self.mask=mask
 		self.momentum = momentum
@@ -33,10 +37,10 @@ class AETrainer(object):
 
 
 	def get_training_function(self):
-		given = {self.model.inputs : self.inputs[self.i:self.i+self.bs]}
+		given = {self.x : self.shared_input[self.i:self.i+self.bs]}
 
 		if self.model.mask:
-			given[self.model.mask] = self.mask[self.i:self.i+self.bs]
+			given[self.x_mask] = self.shared_mask[self.i:self.i+self.bs]
 
 		if self.momentum:
 			l_r = self.model.learning_rate
@@ -60,7 +64,7 @@ class AETrainer(object):
 
 		# train for at least this many epochs
 		epoch_stop = min_epochs
-		n_train = len(self.inputs.get_value())
+		n_train = len(self.shared_input.get_value())
 		since_last_decay = 0
 
 		while self.steps < epoch_stop:

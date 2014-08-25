@@ -44,7 +44,7 @@ mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
 ####################
 # TRAINING WITH WEIGHT DECAY
 
-decay_layer = ae.CFAutoencoder(data.shape[1], 15, inputs=input_combined, mask=mask_combined, 
+decay_layer = ae.CFAutoencoder(data.shape[1]*2, 16, inputs=input_combined, mask=mask_combined, 
                                 weight_decay=0.0001)
 
 print "\n\t[Training] a network with weight decay!"
