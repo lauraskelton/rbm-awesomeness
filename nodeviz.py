@@ -35,7 +35,7 @@ class NodeVisualizer(object):
 		for metric, bucket in kwargs.iteritems():
 			u, s = self.buckets[metric][bucket]
 
-			delta = self.beer_data[metric].apply(lambda x : gauss(x, u, s/2)).fillna(0)
+			delta = np.mat(self.beer_data[metric].apply(lambda x : gauss(x, u, s/2)).fillna(0))
 
 			max_gauss = gauss(u, u, s/2)
 
