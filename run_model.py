@@ -63,25 +63,22 @@ mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
 layer1 = ae.CFAutoencoder(data.shape[1]*2, 256, inputs=input_combined, mask=mask_combined, 
                                 weight_decay=0.0001)
 aet1 = trainer.AETrainer(layer1, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
-aet1.run_epochs(min_epochs=5, lr_decay=0.1, min_improvement=2)
+aet1.run_epochs(min_epochs=200, lr_decay=0.1, min_improvement=2)
 layer1.set_noise(0.0)
+layer1.save("layer1_deep")
 
 layer2 = ae.CFAutoencoder(layer1.n_hidden, 64, inputs=layer1.active_hidden, weight_decay=0.0001)
 aet2 = trainer.AETrainer(layer2, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
-aet2.run_epochs(min_epochs=5, lr_decay=0.1, min_improvement=2)
+aet2.run_epochs(min_epochs=200, lr_decay=0.1, min_improvement=2)
 layer2.set_noise(0.0)
+layer2.save("layer2_deep")
 
 layer3 = ae.CFAutoencoder(layer1.n_hidden + layer2.n_hidden, data.shape[1]*2,
 							inputs=T.concatenate([layer1.active_hidden, layer2.active_hidden], axis=1),
 							weight_decay = 0.0001)
 aet3 = trainer.AETrainer(layer3, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
-aet3.run_epochs(min_epochs=5, lr_decay=0.1)
-
-layer3.origial_input = x
-layer3.set_cost_and_updates(x_mask)
-aet3_final = trainer.AETrainer(layer1, shared_train, shared_mask, momentum=0.9)
-aet3_final.run_epochs(min_epochs=5, lr_decay=0.1)
-
+aet3.run_epochs(min_epochs=200, lr_decay=0.1)
+layer3.save("layer3_deep")
 
 
 
