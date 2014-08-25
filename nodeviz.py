@@ -32,6 +32,8 @@ class NodeVisualizer(object):
 	def mock_vector(self, cats=None, **kwargs):
 		out = np.zeros((1, len(self.beer_data)))
 
+		normalizer = 0.0
+
 		for metric, bucket in kwargs.iteritems():
 			u, s = self.buckets[metric][bucket]
 			delta = np.mat(self.beer_data[metric].apply(lambda x : gauss(x, u, s/2)).fillna(0))
@@ -39,24 +41,31 @@ class NodeVisualizer(object):
 			max_gauss = gauss(u, u, s/2)
 
 			# maybe add them together and divide at end? This could result in just a bunch of 1s
-			out = np.maximum(delta / max_gauss, out)
+			out += delta / max_gauss
+			normalizer += 1.
 			# import pdb;pdb.set_trace()
 
 		if cats: # u'🐱🐱🐱' lol laura are these unicode 'cats' ?
 			for cat in cats: # u'🐱' haha obviously
 				delta = self.beer_data["CATEGORY_NAME"] == cat
-				out = np.maximum(out, delta)
+				out += delta
+				normalizer += 1.
+
+		if normalizer:
+			return out/normalizer
 
 		return out
 
 	def get_colors(self, cats=None, **kwargs):
 		print cats
 		print kwargs
-		print self.mock_vector(cats, **kwargs)
+		mock = self.mock_vector(cats, **kwargs)
+		# import pdb; pdb.set_trace()
 		activations = self.activations(self.mock_vector(cats, **kwargs))[0]
 		print activations
-		# import pdb; pdb.set_trace()
-		return rgbString(activations, 1, 0)
+		strings = rgbString(activations, 1, 0)
+		print strings
+		return strings
 
 def get_buckets(metric):
 	metric = metric.copy()

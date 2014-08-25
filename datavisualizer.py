@@ -55,7 +55,6 @@ def rgbMix(colorValue, maxColorValue, minColorValue, red=255, green=109, blue=87
 	return r, g, b
 
 def rgbString(colorValue, maxColorValue, minColorValue, red=255, green=109, blue=87):
-	print "rgbString called"
 	if type(colorValue) == float or type(colorValue) == int:
 		return "rgb({},{},{})".format(r,g,b)
 	else:

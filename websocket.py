@@ -13,7 +13,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 		self.W, self.b_in = visualizer.load_weights_biases()
 		beer_weights = visualizer.load_all_beer_weight_ids()
 		beer_weights_data = pd.DataFrame.from_dict(beer_weights, orient='index')
-		beer_extra_data = pd.read_csv('data/beer_data.csv', sep='	', index_col='BEER_ID')
+		beer_extra_data = pd.read_csv('data/beer_data.csv', sep='\t', index_col='BEER_ID')
 		self.beer_data = beer_extra_data.join(beer_weights_data, how='inner')
 		self.nodeviz = nv.NodeVisualizer(self.W, self.b_in, self.beer_data)
 	
