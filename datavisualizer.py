@@ -55,8 +55,12 @@ def rgbMix(colorValue, maxColorValue, minColorValue, red=255, green=109, blue=87
 	return r, g, b
 
 def rgbString(colorValue, maxColorValue, minColorValue, red=255, green=109, blue=87):
-	r,g,b = rgbMix(colorValue, maxColorValue, minColorValue, red, green, blue)
-	return "rgb(" + r + "," + g + "," + b + ")"
+	print "rgbString called"
+	if type(colorValue) == float or type(colorValue) == int:
+		return "rgb({},{},{})".format(r,g,b)
+	else:
+		return ["rgb({},{},{})".format(r,g,b) for r, g, b in [rgbMix(cv, maxColorValue, minColorValue, red, green, blue) for cv in colorValue]]
+	
 
 def getBackgroundColor(ratingWeight, maxWeight, minWeight):
 	if ratingWeight >= 0:

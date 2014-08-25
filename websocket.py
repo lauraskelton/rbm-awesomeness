@@ -31,7 +31,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 					buckets_dict[str(message_array[i])] = int(message_array[i+1])
 
 			colors = self.nodeviz.get_colors(**buckets_dict)
-			self.write_message(colors)
+			self.write_message(' '.join(colors))
 
 	def on_close(self):
 		print 'connection closed'
