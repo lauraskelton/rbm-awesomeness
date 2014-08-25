@@ -4,14 +4,17 @@ import tornado.websocket
 import tornado.httpserver
 
 import nodeviz as nv
-from datavisualizer import load_weights_biases
+import datavisualizer as visualizer
 import pandas as pd
 
 class WSHandler(tornado.websocket.WebSocketHandler):
 	def open(self):
 		print 'new connection'
-		self.W, self.b_in = load_weights_biases()
-		self.beer_data = pd.read_csv('data/beer_data.csv', sep='	', index_col='BEER_ID')
+		self.W, self.b_in = visualizer.load_weights_biases()
+		beer_weights = visualizer.load_all_beer_weight_ids()
+		beer_weights_data = pd.DataFrame.from_dict(beer_weights, orient='index')
+		beer_extra_data = pd.read_csv('data/beer_data.csv', sep='	', index_col='BEER_ID')
+		self.beer_data = beer_extra_data.join(beer_weights_data, how='inner')
 		self.nodeviz = nv.NodeVisualizer(self.W, self.b_in, self.beer_data)
 	
 	def on_message(self, message):
