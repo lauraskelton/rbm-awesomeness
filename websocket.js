@@ -56,7 +56,7 @@ function mouseoverBucket(category, bucket_id) {
 		document.getElementById("bucket_"+category+"_"+i).src="images/star_128.png";
 	}
 	// empty stars above this bucket
-	for (var i = bucket_id + 1; i <= 5; i++) { 
+	for (var i = bucket_id + 1; i < 5; i++) { 
 		document.getElementById("bucket_"+category+"_"+i).src="images/star_128_empty.png";
 	}
 	setCategoryToBucket(category, bucket_id);
@@ -83,7 +83,7 @@ function mouseoutBucket(category) {
 		document.getElementById("bucket_"+category+"_"+i).src="images/star_128.png";
 	}
 	// empty stars above this bucket
-	for (var i = bucket_id + 1; i <= 5; i++) { 
+	for (var i = bucket_id + 1; i < 5; i++) { 
 		document.getElementById("bucket_"+category+"_"+i).src="images/star_128_empty.png";
 	}
 }
