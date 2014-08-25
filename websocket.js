@@ -59,13 +59,12 @@ function mouseoverBucket(category, bucket_id) {
 	for (var i = bucket_id + 1; i < 5; i++) { 
 		document.getElementById("bucket_"+category+"_"+i).src="images/star_128_empty.png";
 	}
-	setCategoryToBucket(category, bucket_id);
 }
 
 function mouseoutBucket(category) {
 	// category: ABV, IBU, sweetness, etc. 0,1,2
 	// empty stars in this bucket (or reset to previous rating- store this?)
-	var bucket_id = 0;
+	var bucket_id = -1;
 	switch(category) {
 	    case 0:
 	        bucket_id = abv_bucket;
