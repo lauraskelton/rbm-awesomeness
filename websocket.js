@@ -3,9 +3,9 @@
 var wsUri = "ws://localhost:8000/ws";
 var websocket = new WebSocket(wsUri);
 
-var abv_bucket = 0;
-var ibu_bucket = 0;
-var gravity_bucket = 0;
+var abv_bucket = -1;
+var ibu_bucket = -1;
+var gravity_bucket = -1;
 
 function onOpen(evt) { 
 	writeToScreen("CONNECTED");
@@ -93,7 +93,18 @@ function setBucket(category, bucket_id) {
 	// bucket_id: 0,1,2,3,4 (how many stars should we fill in)
 	setCategoryToBucket(category, bucket_id);
 
-	websocket.send("setBucket " + "ABV" + " " + abv_bucket + " " + "IBU" + " " + ibu_bucket + " " + "GRAVITY" + " " + gravity_bucket);
+	var outString = "setBucket"
+	if (abv_bucket != -1) {
+		outString += " " + "ABV" + " " + abv_bucket;
+	}
+	if (ibu_bucket != -1) {
+		outString += " " + "IBU" + " " + ibu_bucket;
+	}
+	if (gravity_bucket != -1) {
+		outString += " " + "GRAVITY" + " " + gravity_bucket;
+	}
+
+	websocket.send(outString);
 }
 
 function onError(evt) { 
