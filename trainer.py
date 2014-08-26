@@ -10,7 +10,7 @@ def epoch(batch_size_to_use, n_train, training_function):
 	while i + batch_size_to_use <= n_train:
 		costs.append(training_function(i, batch_size_to_use))
 		i += batch_size_to_use
-
+		import pdb;pdb.set_trace()
 	return costs
 
 

@@ -12,6 +12,9 @@ import trainer
 
 data, mask, names = dm.createNDArray()
 
+# for negative inputs
+data = dm.haterizeArray(data)
+
 dm.shuffle_all(data, mask)
 
 eighty = int(len(data) * 0.8)
@@ -61,13 +64,13 @@ mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
 # LET'S GO A LITTLE DEEPER!
 
 layer1 = ae.CFAutoencoder(data.shape[1]*2, 256, inputs=input_combined, mask=mask_combined, 
-                                weight_decay=0.0001)
+                                weight_decay=0.0001, activation=T.tanh)
 aet1 = trainer.AETrainer(layer1, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
 aet1.run_epochs(min_epochs=200, lr_decay=0.1)
 layer1.set_noise(0.0)
 layer1.save("layer1_deep")
 
-layer2 = ae.CFAutoencoder(layer1.n_hidden, 64, inputs=layer1.active_hidden, weight_decay=0.0001)
+layer2 = ae.CFAutoencoder(layer1.n_hidden, 64, inputs=layer1.active_hidden, weight_decay=0.0001, activation=T.tanh)
 aet2 = trainer.AETrainer(layer2, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
 aet2.run_epochs(min_epochs=200, lr_decay=0.1)
 layer2.set_noise(0.0)

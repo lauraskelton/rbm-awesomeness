@@ -77,6 +77,9 @@ def createNDArray():
 
 	return trainingArray, bitMaskArray, filteredBeerNamesArray
 
+def haterizeArray(trainingArray):
+	return (trainingArray * 2) - 1
+
 
 def createNDArrayOld():
 	userPrefs = loadBeerChooser()

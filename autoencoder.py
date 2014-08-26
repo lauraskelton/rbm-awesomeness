@@ -95,9 +95,15 @@ class CFAutoencoder(object):
         if self.activation == T.tanh:
             self.normal_output = (1 + self.output) / 2.
             self.normal_hidden = (1 + self.active_hidden) / 2.
+            self.normal_inputs = (1 + self.inputs) / 2.
+            if self.original_input != None:
+                self.normal_original_input = (1 + self.original_input) / 2.
         else:
             self.normal_output = self.output
             self.normal_hidden = self.active_hidden
+            self.normal_inputs = self.inputs
+            if self.original_input != None:
+                self.normal_original_input = self.original_input
 
 
     def set_cost_and_updates(self, mask=None):
@@ -106,14 +112,14 @@ class CFAutoencoder(object):
         # entropy is our cost function. it represents how much information was lost.
         # this is applying the entropy cost function to each value of output relative to each value of the uncorrupted original input matrix
         if self.original_input == None:
-            self.entropy = -T.sum(self.inputs * T.log(self.normal_output) + 
-                            (1 - self.inputs) * T.log(1 - self.normal_output), axis=1)
+            self.entropy = -T.sum(self.normal_inputs * T.log(self.normal_output) + 
+                            (1 - self.normal_inputs) * T.log(1 - self.normal_output), axis=1)
         else:
             # then compare the error of the output to the original input layer somehow...
             # so instead of inputs vs output, we need to compare active_hidden to original_input
             # active_hidden here is referring to the next "hidden" layer, which is really the output layer (all of the beers)
-            self.entropy = -T.sum(self.original_input * T.log(self.normal_hidden) + 
-                                (1 - self.original_input) * T.log(1-self.normal_hidden), axis=1)
+            self.entropy = -T.sum(self.normal_original_input * T.log(self.normal_hidden) + 
+                                (1 - self.normal_original_input) * T.log(1-self.normal_hidden), axis=1)
 
 
         # return a cost function, with gradient updates
