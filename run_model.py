@@ -59,9 +59,16 @@ mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
 
 
 
-# ########################
-# # LET'S GO A LITTLE DEEPER!
+# #######################################################################################
+# 		THIS IS A 256 - 64
+# 					\   /
+# 					3814
+# 			Fancy-pants Network
+# #################################
 
+
+#  
+# raise Error("I refactored the Autoencoder/Trainer separation since this code was written. Needs updating.")
 # layer1 = ae.CFAutoencoder(data.shape[1]*2, 256, inputs=input_combined, mask=mask_combined, 
 #                                 weight_decay=0.0001)
 # aet1 = trainer.AETrainer(layer1, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
@@ -88,10 +95,65 @@ mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
 # #############
 # # RELOAD & tuning
 
-layer1 = ae.load("layer1_deep.npz", input_combined, mask_combined)
-layer2 = ae.load("layer2_deep.npz", layer1.active_hidden, mask_combined)
-layer3 = ae.load("layer3_deep.npz", T.concatenate([layer1.active_hidden, layer2.active_hidden], axis=1),
-					mask=mask_combined)
+# layer1 = ae.load("layer1_deep.npz", input_combined, mask_combined)
+# layer2 = ae.load("layer2_deep.npz", layer1.active_hidden, mask_combined)
+# layer3 = ae.load("layer3_deep.npz", T.concatenate([layer1.active_hidden, layer2.active_hidden], axis=1),
+# 					mask=mask_combined, original_input=input_combined)
+
+# layer1.set_noise(0.33)
+# layer3.set_noise(0.0)
+
+# for layer in [layer1, layer2, layer3]:
+# 	if layer.b_out in layer.parameters:
+# 		layer.parameters.remove(layer.b_out)
+
+# tuner = trainer.AETrainer([layer1, layer2, layer3], layer3.cost, 
+# 							x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
+
+# tuner.run_epochs(min_epochs=100)
+
+# layer1.save("layer1_tuned")
+# layer2.save("layer2_tuned")
+# layer3.save("layer3_tuned")
+
+#################################################################################################
+
+
+
+# #######################################################################################
+# 		THIS IS A 128 - 32 - 3804
+# 						 Network
+# #################################
+
+layer1 = ae.CFAutoencoder(data.shape[1]*2, 128, inputs=input_combined, mask=mask_combined)
+
+aet1 = trainer.AETrainer(layer1, layer1.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
+aet1.run_epochs(min_epochs=200)
+
+layer1.set_noise(0.0)
+layer1.save("vanilla1")
+
+layer2 = ae.CFAutoencoder(layer1.n_hidden, 32, inputs=layer1.active_hidden)
+aet1 = trainer.AETrainer(layer2, layer2.cost, x, shared_train)
+aet2.run_epochs(min_epochs=200)
+layer2.set_noise(0.0)
+layer2.save("strawberry2")
+
+
+layer1.set_noise(0.5)
+layer3 = ae.CFAutoencoder(layer2.n_hidden, data.shape[1]*2, inputs=layer2.active_hidden, 
+							mask=mask_combined, original_input=input_combined)
+aet3 = trainer.AETrainer(layer3, layer3.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
+aet3.run_epochs(min_epochs=200, lr_decay=0.1)
+layer3.save("chocolate3")
+
+
+# #############
+# # RELOAD & tuning
+
+layer1 = ae.load("vanilla1.npz", input_combined, mask_combined)
+layer2 = ae.load("strawberry2.npz", layer1.active_hidden)
+layer3 = ae.load("chocolate3.npz", layer2.active_hidden, mask=x_mask, original_input=input_combined)
 
 layer1.set_noise(0.33)
 layer3.set_noise(0.0)
@@ -105,9 +167,13 @@ tuner = trainer.AETrainer([layer1, layer2, layer3], layer3.cost,
 
 tuner.run_epochs(min_epochs=100)
 
-layer1.save("layer1_tuned")
-layer2.save("layer2_tuned")
-layer3.save("layer3_tuned")
+layer1.save("vanilla1_t")
+layer2.save("strawberry2_t")
+layer3.save("chocolate3_t")
+
+#################################################################################################
+
+
 
 # nn64_1 = ae.CFAutoencoder(data.shape[1], 64, inputs=x, mask=x_mask)
 
