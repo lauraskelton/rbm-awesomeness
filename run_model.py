@@ -13,7 +13,7 @@ import trainer
 data, mask, names = dm.createNDArray()
 
 # for negative inputs
-data = dm.haterizeArray(data)
+# data = dm.haterizeArray(data)
 
 dm.shuffle_all(data, mask)
 
@@ -47,42 +47,51 @@ mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
 ####################
 # TRAINING WITH WEIGHT DECAY
 
-# decay_layer = ae.CFAutoencoder(data.shape[1]*2, 16, inputs=input_combined, mask=mask_combined, 
-#                                 weight_decay=0.0001)
+refactored_layer = ae.CFAutoencoder(data.shape[1]*2, 16, inputs=input_combined, mask=mask_combined)
 
-# print "\n\t[Training] a network with weight decay!"
+print "\n\t[Training] a network with weight decay!"
 
-# aet = trainer.AETrainer(decay_layer, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
+aet = trainer.AETrainer(decay_layer, decay_layer.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
 
-# aet.run_epochs(min_epochs=200, lr_decay=0.1)
+aet.run_epochs(min_epochs=200, lr_decay=0.1)
 
 # decay_layer.save("hater_nodes")
 
 
 
-########################
-# LET'S GO A LITTLE DEEPER!
+# ########################
+# # LET'S GO A LITTLE DEEPER!
 
-layer1 = ae.CFAutoencoder(data.shape[1]*2, 256, inputs=input_combined, mask=mask_combined, 
-                                weight_decay=0.0001, activation=T.tanh)
-aet1 = trainer.AETrainer(layer1, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
-aet1.run_epochs(min_epochs=200, lr_decay=0.1)
-layer1.set_noise(0.0)
-layer1.save("layer1_deep")
+# layer1 = ae.CFAutoencoder(data.shape[1]*2, 256, inputs=input_combined, mask=mask_combined, 
+#                                 weight_decay=0.0001)
+# aet1 = trainer.AETrainer(layer1, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
+# aet1.run_epochs(min_epochs=200, lr_decay=0.1)
+# layer1.set_noise(0.0)
+# layer1.save("layer1_deep")
 
-layer2 = ae.CFAutoencoder(layer1.n_hidden, 64, inputs=layer1.active_hidden, weight_decay=0.0001, activation=T.tanh)
-aet2 = trainer.AETrainer(layer2, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
-aet2.run_epochs(min_epochs=200, lr_decay=0.1)
-layer2.set_noise(0.0)
-layer2.save("layer2_deep")
+# layer2 = ae.CFAutoencoder(layer1.n_hidden, 64, inputs=layer1.active_hidden, weight_decay=0.0001)
+# aet2 = trainer.AETrainer(layer2, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
+# aet2.run_epochs(min_epochs=200, lr_decay=0.1)
+# layer2.set_noise(0.0)
+# layer2.save("layer2_deep")
 
-layer3 = ae.CFAutoencoder(layer1.n_hidden + layer2.n_hidden, data.shape[1]*2,
-							inputs=T.concatenate([layer1.active_hidden, layer2.active_hidden], axis=1),
-							mask=mask_combined, weight_decay = 0.0001)
-aet3 = trainer.AETrainer(layer3, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
-aet3.run_epochs(min_epochs=200, lr_decay=0.1)
-layer3.save("layer3_deep")
 
+# layer1.set_noise(0.5)
+# layer3 = ae.CFAutoencoder(layer1.n_hidden + layer2.n_hidden, data.shape[1]*2,
+# 							inputs=T.concatenate([layer1.active_hidden, layer2.active_hidden], axis=1),
+# 							mask=mask_combined, weight_decay = 0.0001)
+# aet3 = trainer.AETrainer(layer3, x, shared_train, x_mask=x_mask, shared_mask=shared_mask, momentum=0.9)
+# aet3.run_epochs(min_epochs=200, lr_decay=0.1)
+# layer3.save("layer3_deep")
+
+
+# #############
+# # RELOAD & tuning
+
+# layer1 = ae.load("layer1_deep.npz", inputs_combined, mask_combined, weight_decay=0.0001)
+# layer2 = ae.load("layer2_deep.npz", layer1.active_hidden, mask_combined, weight_decay=0.0001)
+# layer3 = ae.load("layer3_deep.npz", T.concatenate([layer1.active_hidden, layer2.active_hidden], axis=1),
+# 					mask=mask_combined, weight_decay = 0.0001)
 
 
 

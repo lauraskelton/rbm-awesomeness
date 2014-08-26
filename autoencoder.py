@@ -5,9 +5,8 @@ import numpy as np
 matrixType = T.TensorType(theano.config.floatX, (False,)*2)
 
 class CFAutoencoder(object):
-    def __init__(self, n_in, n_hidden, inputs, mask=None, learning_rate=0.05, 
-                pct_noise=0.5, W=None, b_in=None, b_out=None, original_input=None, weight_decay=0.0,
-                activation=T.nnet.sigmoid):
+    def __init__(self, n_in, n_hidden, inputs, mask=None, pct_noise=0.5, W=None, b_in=None, 
+                    b_out=None, original_input=None, activation=T.nnet.sigmoid):
         if W is None:
             # initialization of weights as suggested in theano tutorials
 
@@ -48,7 +47,7 @@ class CFAutoencoder(object):
         self.activation = activation
 
         self.set_noise(self.pct_noise)
-        self.set_cost_and_updates(self.mask)
+        self.set_cost_and_params(self.mask)
 
     def set_noise(self, pct_noise):
         self.pct_noise = pct_noise
@@ -106,15 +105,14 @@ class CFAutoencoder(object):
                 self.normal_original_input = self.original_input
 
 
-    def set_cost_and_updates(self, mask=None):
+    def set_cost_and_params(self, mask=None):
         self.mask = mask
 
         # entropy is our cost function. it represents how much information was lost.
         # this is applying the entropy cost function to each value of output relative to each value of the uncorrupted original input matrix
         if self.original_input == None:
-            # self.printy_out = theano.printing.Print('Here are the outputs:')(np.min(self.normal_output))
-            self.entropy = -T.sum(self.normal_inputs * T.log(self.printy_out) + 
-                            (1 - self.normal_inputs) * T.log(1 - self.printy_out), axis=1)
+            self.entropy = -T.sum(self.normal_inputs * T.log(self.normal_output) + 
+                            (1 - self.normal_inputs) * T.log(1 - self.normal_output), axis=1)
         else:
             # then compare the error of the output to the original input layer somehow...
             # so instead of inputs vs output, we need to compare active_hidden to original_input
@@ -139,19 +137,6 @@ class CFAutoencoder(object):
             self.parameters = [self.W, self.b_in]
         else:
             self.parameters = [self.W, self.b_in, self.b_out]
-
-        # calculate the gradient (direction of greatest change of the cost vector) so we can step towards a lower cost in the next iteration
-        self.gradients = T.grad(self.cost, self.parameters)
-
-        # make a vector of the new values of each parameter by descending slightly along the gradient (opposite direction of gradient, to move towards lower cost)
-        self.updates = []
-        # zip is confusing... tuples?
-        for param, grad in zip(self.parameters, self.gradients):
-            self.updates.append((param, param - self.learning_rate * grad * (1-self.weight_decay)))
-
-        # the cost function is the same as the final output layer cost
-        # the only difference is that we need to use updates to update the weights and biases of the ENTIRE NETWORK,
-        # not just the current layer... so the gradient function might be different? and the updates function is different... or extended at least...
 
 
 
@@ -192,13 +177,13 @@ class CFAutoencoder(object):
         params = {thing.name : thing.get_value() for thing in self.parameters}
         params['n_in'] = self.n_in
         params['n_hidden'] = self.n_hidden
-        params['learning_rate'] = self.learning_rate
         params['pct_noise'] = self.pct_noise
         np.savez_compressed(f, **params)
 
-    def load(f):
-        stuff = np.load(f)
-        return stuff
+def load(f, inputs, mask=None, original_input=None, weight_decay=0.0001, activation=T.nnet.sigmoid):
+    data = np.load(f)
+    return CFAutoencoder(data['n_in'], data['n_hidden'], inputs, mask, data['pct_noise'], 
+                        data['W'], data['b_in'], data['b_out'], original_input)
 
 
 def beer_dict_from_weights(names, weight_matrix):
