@@ -65,16 +65,19 @@ class AETrainer(object):
 		epoch_stop = min_epochs
 		n_train = len(self.shared_input.get_value())
 		since_last_decay = 0
+		best_cost = float('inf')
 
 		while self.steps < epoch_stop:
 			self.steps += 1
 			costs = epoch(self.batch_size, n_train, training_function)
+
 			print "=== epoch {} ===".format(self.steps)
 			print "costs: {}".format([line[()] for line in costs])
-			print "avg: {}".format(np.mean(costs))
+			print "avg: {:.5f} (previous best: {:.5f}; ratio: {:.5f})".format(
+								np.mean(costs), best_cost, best_cost/np.mean(costs))
 			
 			# keep training as long as we are improving enough
-			if (np.mean(costs) * min_improvement) < self.costs[-1][1]:
+			if (np.mean(costs) * min_improvement) < best_cost:
 				epoch_stop += 1
 				since_last_decay += 1
 			elif lr_decay and since_last_decay - decay_modulo > 0:
@@ -85,6 +88,9 @@ class AETrainer(object):
 				print "epochs left: {}".format(epoch_stop)
 				# recompile training function with new learning rate
 				training_function = self.get_training_function()
+
+			if np.mean(costs) < best_cost:
+				best_cost = np.mean(costs)
 
 			self.costs.append((self.steps, np.mean(costs)))
 
