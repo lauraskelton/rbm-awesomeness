@@ -51,7 +51,7 @@ refactored_layer = ae.CFAutoencoder(data.shape[1]*2, 16, inputs=input_combined, 
 
 print "\n\t[Training] a network with weight decay!"
 
-aet = trainer.AETrainer(decay_layer, decay_layer.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
+aet = trainer.AETrainer(refactored_layer, refactored_layer.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
 
 aet.run_epochs(min_epochs=200, lr_decay=0.1)
 

@@ -37,8 +37,6 @@ class CFAutoencoder(object):
 
         # we only want to take a tiny step in the direction of lower cost so we can slowly follow 
         #   the curve down to the point of lowest cost (local min)
-        self.learning_rate = learning_rate
-        self.weight_decay = weight_decay
         self.pct_noise = pct_noise
 
         self.inputs = inputs
@@ -139,7 +137,6 @@ class CFAutoencoder(object):
             self.parameters = [self.W, self.b_in, self.b_out]
 
 
-
     def get_output_function(self):
         self.output_function = theano.function([self.inputs], self.output)
         # closure/block function we return from this function (matrix -> matrix)
@@ -177,13 +174,15 @@ class CFAutoencoder(object):
         params = {thing.name : thing.get_value() for thing in self.parameters}
         params['n_in'] = self.n_in
         params['n_hidden'] = self.n_hidden
+        params['learning_rate'] = self.learning_rate
         params['pct_noise'] = self.pct_noise
         np.savez_compressed(f, **params)
 
 def load(f, inputs, mask=None, original_input=None, weight_decay=0.0001, activation=T.nnet.sigmoid):
     data = np.load(f)
-    return CFAutoencoder(data['n_in'], data['n_hidden'], inputs, mask, data['pct_noise'], 
-                        data['W'], data['b_in'], data['b_out'], original_input)
+    return CFAutoencoder(data['n_in'], data['n_hidden'], inputs, mask, data['learning_rate'], 
+                        data['pct_noise'], data['W'], data['b_in'], data['b_out'], original_input,
+                        weight_decay, activation)
 
 
 def beer_dict_from_weights(names, weight_matrix):

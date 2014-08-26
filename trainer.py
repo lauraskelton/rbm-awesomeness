@@ -21,7 +21,10 @@ class AETrainer(object):
 								learning_rate=0.05, momentum=0.9, weight_decay=0.0002):
 		self.i, self.bs = T.iscalars('i', 'bs')
 
-		self.layers = layers
+		if type(layers) == list:
+			self.layers = layers
+		else:
+			self.layers = [layers]
 		self.cost = cost
 		self.x = x
 		self.x_mask = x_mask
@@ -32,7 +35,7 @@ class AETrainer(object):
 		self.weight_decay = weight_decay
 		self.learning_rate = learning_rate
 
-		self.params = [param for layer in self.layers for param in layer]
+		self.params = [param for layer in self.layers for param in layer.parameters]
 		self.gradients = T.grad(self.cost, self.params)
 		self.lr = T.dscalar('lr')
 
@@ -62,7 +65,7 @@ class AETrainer(object):
 			self.updates[param] = param * (1-self.weight_decay) + update
 
 
-		return theano.function([self.i, self.bs], self.model.cost, 
+		return theano.function([self.i, self.bs], self.cost, 
 						updates=self.updates, givens=given)
 
 
@@ -100,7 +103,7 @@ class AETrainer(object):
 				self.learning_rate *= (1 - lr_decay)
 				since_last_decay = 0
 				print "min improvement not seen; decreasing learning rate to {}".format(
-																self.model.learning_rate)
+																self.learning_rate)
 				print "epochs left: {}".format(epoch_stop)
 
 			if np.mean(costs) < best_cost:
