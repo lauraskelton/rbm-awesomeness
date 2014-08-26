@@ -17,7 +17,7 @@ data, mask, names = dm.createNDArray()
 
 dm.shuffle_all(data, mask)
 
-eighty = int(len(data) * 0.8)
+eighty = int(len(data) * 0.9)
 hundo = len(data)
 
 train_set = data[:eighty]
@@ -47,13 +47,13 @@ mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
 ####################
 # TRAINING WITH WEIGHT DECAY
 
-refactored_layer = ae.CFAutoencoder(data.shape[1]*2, 16, inputs=input_combined, mask=mask_combined)
+# refactored_layer = ae.CFAutoencoder(data.shape[1]*2, 16, inputs=input_combined, mask=mask_combined)
 
-print "\n\t[Training] a network with weight decay!"
+# print "\n\t[Training] a network with weight decay!"
 
-aet = trainer.AETrainer(refactored_layer, refactored_layer.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
+# aet = trainer.AETrainer(refactored_layer, refactored_layer.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
 
-aet.run_epochs(min_epochs=200, lr_decay=0.1)
+# aet.run_epochs(min_epochs=200, lr_decay=0.1)
 
 # decay_layer.save("hater_nodes")
 
@@ -88,13 +88,26 @@ aet.run_epochs(min_epochs=200, lr_decay=0.1)
 # #############
 # # RELOAD & tuning
 
-# layer1 = ae.load("layer1_deep.npz", inputs_combined, mask_combined, weight_decay=0.0001)
-# layer2 = ae.load("layer2_deep.npz", layer1.active_hidden, mask_combined, weight_decay=0.0001)
-# layer3 = ae.load("layer3_deep.npz", T.concatenate([layer1.active_hidden, layer2.active_hidden], axis=1),
-# 					mask=mask_combined, weight_decay = 0.0001)
+layer1 = ae.load("layer1_deep.npz", input_combined, mask_combined)
+layer2 = ae.load("layer2_deep.npz", layer1.active_hidden, mask_combined)
+layer3 = ae.load("layer3_deep.npz", T.concatenate([layer1.active_hidden, layer2.active_hidden], axis=1),
+					mask=mask_combined)
 
+layer1.set_noise(0.33)
+layer3.set_noise(0.0)
 
+for layer in [layer1, layer2, layer3]:
+	if layer.b_out in layer.parameters:
+		layer.parameters.remove(layer.b_out)
 
+tuner = trainer.AETrainer([layer1, layer2, layer3], layer3.cost, 
+							x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
+
+tuner.run_epochs(min_epochs=100)
+
+layer1.save("layer1_tuned")
+layer2.save("layer2_tuned")
+layer3.save("layer3_tuned")
 
 # nn64_1 = ae.CFAutoencoder(data.shape[1], 64, inputs=x, mask=x_mask)
 

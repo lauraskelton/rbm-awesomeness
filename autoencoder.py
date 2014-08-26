@@ -174,15 +174,13 @@ class CFAutoencoder(object):
         params = {thing.name : thing.get_value() for thing in self.parameters}
         params['n_in'] = self.n_in
         params['n_hidden'] = self.n_hidden
-        params['learning_rate'] = self.learning_rate
         params['pct_noise'] = self.pct_noise
         np.savez_compressed(f, **params)
 
-def load(f, inputs, mask=None, original_input=None, weight_decay=0.0001, activation=T.nnet.sigmoid):
+def load(f, inputs, mask=None, original_input=None, activation=T.nnet.sigmoid):
     data = np.load(f)
-    return CFAutoencoder(data['n_in'], data['n_hidden'], inputs, mask, data['learning_rate'], 
-                        data['pct_noise'], data['W'], data['b_in'], data['b_out'], original_input,
-                        weight_decay, activation)
+    return CFAutoencoder(data['n_in'], data['n_hidden'], inputs, mask, data['pct_noise'], 
+                            data['W'], data['b_in'], data['b_out'], original_input, activation)
 
 
 def beer_dict_from_weights(names, weight_matrix):
