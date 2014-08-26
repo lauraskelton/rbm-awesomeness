@@ -9,6 +9,7 @@ import datavisualizer as vis
 import pandas as pd
 from pandas import DataFrame as DF
 from datavisualizer import rgbString
+import json
 
 
 beer_extra_data = pd.read_csv('data/beer_data.csv', sep='\t')
@@ -56,27 +57,40 @@ class NodeVisualizer(object):
 			out = style_vec(style) # overrides other vectors
 
 		if specific_beer:
-			out = style_vec(style) # overrides other vectors
+			out = specific_beer_vec(specific_beer) # overrides other vectors
+
 
 		if normalizer:
 			return out/normalizer
 
 		return out
 
-	def get_colors(self, cats=None, style=None, **kwargs):
+	def get_colors(self, cats=None, style=None, specific_beer=None, **kwargs):
 		print cats
 		print kwargs
 		mock = self.mock_vector(cats, **kwargs)
 		# import pdb; pdb.set_trace()
 		activations = self.activations(self.mock_vector(cats, **kwargs))[0]
 		print activations
-		strings = rgbString(activations, 1, 0)
+
+		strings = rgbString(activations, activations.max(), activations.min())
 		print strings
-		return strings
+		return json.dumps({"type":"colors","data":strings})
 
 	def style_vec(style):
 		mock = np.mat(self.beer_data["STYLE_NAME"] == style)
 		return np.concatenate([mock, mock], axis=1)
+
+	def specific_beer_vec(specific_beer):
+		mock = np.mat(beer_data["BEER"] == specific_beer)
+		return np.concatenate([mock, mock], axis=1)
+
+	def get_d3_node_data(self):
+		# 	var circleData = [{cx:40,cy:60}, {cx:80,cy:60}, {cx:120,cy:60}]
+		circleData = []
+		for i in range(self.neuralnet.n_hidden):
+			circleData.append({"cx": ((1+i) * 40),"cy": 60})
+		return json.dumps({"type":"circles","data":circleData})
 
 def get_buckets(metric):
 	metric = metric.copy()

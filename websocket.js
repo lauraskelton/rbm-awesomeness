@@ -9,7 +9,8 @@ var gravity_bucket = -1;
 
 function onOpen(evt) { 
 	writeToScreen("CONNECTED");
-	websocket.send("newgame");
+	//websocket.send("newgame");
+
 }
 
 function onClose(evt) { 
@@ -18,7 +19,36 @@ function onClose(evt) {
 
 function onMessage(evt) {
 	writeToScreen("data received:\n" + JSON.stringify(evt.data));
-	setColors(evt.data);
+		console.log(evt.data);
+	var messageDict = JSON.parse(evt.data);
+	if (messageDict["type"] == "colors") {
+		setColors(messageDict["data"]);
+	} else if (messageDict["type"] == "circles") {
+		createD3Objects(messageDict["data"]);
+	}
+}
+
+function createD3Objects(circleData) {
+
+	//var circleData = [{id:1, cx:40,cy:60}, {id:2, cx:80,cy:60}, {id:3, cx:120,cy:60}]
+	console.log("data below!")
+	console.log(circleData)
+ 
+	var svgContainer = d3.select("body").append("svg")
+	                                     .attr("width", 720)
+	                                     .attr("height", 120);
+	 
+	var circles = svgContainer.selectAll("circle")
+										.data(circleData)
+										.enter()
+										.append("circle")
+
+	var circleAttributes = circles
+							.attr("cx", function (d) { return d.cx; })
+							.attr("cy", function (d) { return d.cy; })
+							.attr("r", 10)
+							.style("fill", "white")
+							.style("stroke", "black");
 }
 
 function setCategoryToBucket(category, bucket_id) {
@@ -37,11 +67,7 @@ function setCategoryToBucket(category, bucket_id) {
 	}
 }
 
-function setColors(vector) {
-	// colorvector = translateintocolors(vector);
-	var colors = vector.split(" ");
-	console.log(colors);
-	// console.log
+function setColors(colors) {
 	d3.selectAll("circle").data(colors)
 	.style("fill", function(d) {return d})
 	.style("stroke", "black");    // set the line colour
@@ -111,24 +137,25 @@ function onError(evt) {
 }
 
 function init() {
+
 	websocket.onopen = function(evt) { onOpen(evt) };
 	websocket.onclose = function(evt) { onClose(evt) };
 	websocket.onmessage = function(evt) { onMessage(evt) };
 	websocket.onerror = function(evt) { onError(evt) };
-	document.getElementById("connect").onclick = function () {
-		websocket.send("setBeer" + " " + document.getElementById("inputTxt").value);
-		console.log("click registered.");
-	};
-
+	//document.getElementById("connect").onclick = function () {
+	//	websocket.send("setBeer" + " " + document.getElementById("inputTxt").value);
+	//	console.log("click registered.");
+	//};
 
 }
 
 function writeToScreen(message) { 
-	document.getElementById("msg").innerHTML = message;
+	//document.getElementById("msg").innerHTML = message;
 }
 
 window.onReady = function onReady(fn){
     document.body ? fn() : setTimeout(function(){ onReady(fn);},50);
+
 };
 
 window.onReady(init);
