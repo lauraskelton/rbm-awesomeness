@@ -130,6 +130,7 @@ layer1 = ae.CFAutoencoder(data.shape[1]*2, 128, inputs=input_combined, mask=mask
 aet1 = trainer.AETrainer(layer1, layer1.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
 aet1.run_epochs(min_epochs=200)
 
+
 layer1.set_noise(0.0)
 layer1.save("vanilla1")
 
@@ -144,6 +145,7 @@ layer1.set_noise(0.5)
 layer3 = ae.CFAutoencoder(layer2.n_hidden, data.shape[1]*2, inputs=layer2.active_hidden, 
 							mask=mask_combined, original_input=input_combined)
 aet3 = trainer.AETrainer(layer3, layer3.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
+
 aet3.run_epochs(min_epochs=200, lr_decay=0.1)
 layer3.save("chocolate3")
 

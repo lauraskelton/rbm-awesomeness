@@ -19,12 +19,23 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 	
 	def on_message(self, message):
 		print 'message received %s' % message
-		self.write_message("red blue green")
+		#self.write_message("red blue green")
 		
 		# send this to nodeviz somehow?
 		message_array = message.split(' ')
 		if len(message_array) > 0 and message_array[0] == "setBucket" and len(message_array) % 2 == 1:
 			del message_array[0]
+			buckets_dict = {}
+			for i in range(len(message_array)):
+				if i % 2 == 0:
+					buckets_dict[str(message_array[i])] = int(message_array[i+1])
+
+			colors = self.nodeviz.get_colors(**buckets_dict)
+			self.write_message(' '.join(colors))
+
+		if len(message_array) > 0 and message_array[0] == "setBeer":
+			del message_array[0]
+			beerString = " ".join(message_array) # this is the name of the beer
 			buckets_dict = {}
 			for i in range(len(message_array)):
 				if i % 2 == 0:

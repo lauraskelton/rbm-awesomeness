@@ -116,7 +116,7 @@ function init() {
 	websocket.onmessage = function(evt) { onMessage(evt) };
 	websocket.onerror = function(evt) { onError(evt) };
 	document.getElementById("connect").onclick = function () {
-		websocket.send(document.getElementById("inputTxt").value);
+		websocket.send("setBeer" + " " + document.getElementById("inputTxt").value);
 		console.log("click registered.");
 	};
 

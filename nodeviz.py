@@ -29,7 +29,7 @@ class NodeVisualizer(object):
 		self.buckets["COLOR"] = get_buckets(beer_data['COLOR'])
 		self.buckets["IBU"] = get_buckets(beer_data['IBU'])
 
-	def mock_vector(self, cats=None, **kwargs):
+	def mock_vector(self, cats=None, style=None, specific_beer=None, **kwargs):
 		out = np.zeros((1, len(self.beer_data)))
 		zeros = np.zeros((1, len(self.beer_data)))
 
@@ -52,12 +52,18 @@ class NodeVisualizer(object):
 				out += delta
 				normalizer += 1.
 
+		if style:
+			out = style_vec(style) # overrides other vectors
+
+		if specific_beer:
+			out = style_vec(style) # overrides other vectors
+
 		if normalizer:
 			return out/normalizer
 
 		return out
 
-	def get_colors(self, cats=None, **kwargs):
+	def get_colors(self, cats=None, style=None, **kwargs):
 		print cats
 		print kwargs
 		mock = self.mock_vector(cats, **kwargs)
@@ -67,6 +73,10 @@ class NodeVisualizer(object):
 		strings = rgbString(activations, 1, 0)
 		print strings
 		return strings
+
+	def style_vec(style):
+		mock = np.mat(self.beer_data["STYLE_NAME"] == style)
+		return np.concatenate([mock, mock], axis=1)
 
 def get_buckets(metric):
 	metric = metric.copy()
