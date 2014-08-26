@@ -6,7 +6,8 @@ matrixType = T.TensorType(theano.config.floatX, (False,)*2)
 
 class CFAutoencoder(object):
     def __init__(self, n_in, n_hidden, inputs, mask=None, learning_rate=0.05, 
-                pct_noise=0.5, W=None, b_in=None, b_out=None, original_input=None, weight_decay=0.0):
+                pct_noise=0.5, W=None, b_in=None, b_out=None, original_input=None, weight_decay=0.0,
+                activation=T.nnet.sigmoid):
         if W is None:
             # initialization of weights as suggested in theano tutorials
 
@@ -44,6 +45,7 @@ class CFAutoencoder(object):
         self.inputs = inputs
         self.mask = mask
         self.original_input = original_input
+        self.activation = activation
 
         self.set_noise(self.pct_noise)
         self.set_cost_and_updates(self.mask)
@@ -66,7 +68,7 @@ class CFAutoencoder(object):
         # we are running the calculation of all of the activations (weights * inputs) + biases of this node
         # sigmoid is scaling the resulting activation smoothly from 0 to 1 for our sigmoid neuron
         # which gives us how activated (from 0 to 1) this node is given this input vector
-        self.active_hidden = T.nnet.sigmoid(T.dot(self.noisy, self.W) + self.b_in)
+        self.active_hidden = self.activation(T.dot(self.noisy, self.W) + self.b_in)
 
         # the clever autoencoder part!
         # we transpose the exact same weights matrix so that we can feed the hidden node activations
@@ -86,7 +88,16 @@ class CFAutoencoder(object):
         # need to change the output to go "up" if it is the final output layer
         # then compare the error of the output to the original input layer somehow...
         # but we can worry about that in the cost function
-        self.output = T.nnet.sigmoid(T.dot(self.active_hidden, self.W.T) + self.b_out)
+        self.output = self.activation(T.dot(self.active_hidden, self.W.T) + self.b_out)
+
+
+        # normalization of activations to the {0, 1} range for compatibility with entropy cost function
+        if self.activation == T.tanh:
+            self.normal_output = (1 + self.output) / 2.
+            self.normal_hidden = (1 + self.active_hidden) / 2.
+        else:
+            self.normal_output = self.output
+            self.normal_hidden = self.active_hidden
 
 
     def set_cost_and_updates(self, mask=None):
@@ -95,12 +106,14 @@ class CFAutoencoder(object):
         # entropy is our cost function. it represents how much information was lost.
         # this is applying the entropy cost function to each value of output relative to each value of the uncorrupted original input matrix
         if self.original_input == None:
-            self.entropy = -T.sum(self.inputs * T.log(self.output) + (1 - self.inputs) * T.log(1 - self.output), axis=1)
+            self.entropy = -T.sum(self.inputs * T.log(self.normal_output) + 
+                            (1 - self.inputs) * T.log(1 - self.normal_output), axis=1)
         else:
             # then compare the error of the output to the original input layer somehow...
             # so instead of inputs vs output, we need to compare active_hidden to original_input
             # active_hidden here is referring to the next "hidden" layer, which is really the output layer (all of the beers)
-            self.entropy = -T.sum(self.original_input * T.log(self.active_hidden) + (1 - self.original_input) * T.log(1-self.active_hidden), axis=1)
+            self.entropy = -T.sum(self.original_input * T.log(self.normal_hidden) + 
+                                (1 - self.original_input) * T.log(1-self.normal_hidden), axis=1)
 
 
         # return a cost function, with gradient updates
