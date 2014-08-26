@@ -112,8 +112,9 @@ class CFAutoencoder(object):
         # entropy is our cost function. it represents how much information was lost.
         # this is applying the entropy cost function to each value of output relative to each value of the uncorrupted original input matrix
         if self.original_input == None:
-            self.entropy = -T.sum(self.normal_inputs * T.log(self.normal_output) + 
-                            (1 - self.normal_inputs) * T.log(1 - self.normal_output), axis=1)
+            # self.printy_out = theano.printing.Print('Here are the outputs:')(np.min(self.normal_output))
+            self.entropy = -T.sum(self.normal_inputs * T.log(self.printy_out) + 
+                            (1 - self.normal_inputs) * T.log(1 - self.printy_out), axis=1)
         else:
             # then compare the error of the output to the original input layer somehow...
             # so instead of inputs vs output, we need to compare active_hidden to original_input

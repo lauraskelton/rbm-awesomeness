@@ -4,7 +4,7 @@ import numpy as np
 import time
 from collections import OrderedDict
 
-def epoch(batch_size_to_use, n_train, training_function):
+def epoch(batch_size_to_use, n_train, training_function,  layer):
 	i=0
 	costs = []
 	while i + batch_size_to_use <= n_train:
@@ -69,7 +69,7 @@ class AETrainer(object):
 
 		while self.steps < epoch_stop:
 			self.steps += 1
-			costs = epoch(self.batch_size, n_train, training_function)
+			costs = epoch(self.batch_size, n_train, training_function, self.model)
 
 			print "=== epoch {} ===".format(self.steps)
 			print "costs: {}".format([line[()] for line in costs])
