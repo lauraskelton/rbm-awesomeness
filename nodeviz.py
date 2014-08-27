@@ -88,6 +88,10 @@ class NodeVisualizer(object):
 	def get_d3_node_data(self):
 		# 	var circleData = [{cx:40,cy:60}, {cx:80,cy:60}, {cx:120,cy:60}]
 		circleData = []
+
+		# NOTE: need a way to create nodes for multiple layers.
+		# What property of self contains the different layers' node activations?
+		# All we would need to do is to create a different "cy" for each hidden layer.
 		for i in range(self.neuralnet.n_hidden):
 			circleData.append({"cx": ((1+i) * 40),"cy": 60})
 		return json.dumps({"type":"circles","data":circleData})
