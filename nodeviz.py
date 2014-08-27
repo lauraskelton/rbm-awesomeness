@@ -16,14 +16,12 @@ beer_extra_data = pd.read_csv('data/beer_data.csv', sep='\t')
 
 
 class NodeVisualizer(object):
-	def __init__(self, layers, beer_data):
-		self.vec = ae.matrixType("vec")
+	def __init__(self, layers, x, x_mask, beer_data):
 		for layer in layers:
 			layer.set_noise(0)
-			layer.set_mask(None)
 
 		self.layers = layers		
-		self.activations = [theano.function([self.vec], layer.active_hidden) for layer in self.layers)
+		self.activations = [theano.function([x, x_mask], layer.active_hidden) for layer in self.layers]
 
 		self.beer_data = beer_data
 		self.beer_data["ABV"] = self.beer_data["ABV"].apply(toFloat)

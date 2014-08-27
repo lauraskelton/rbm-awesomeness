@@ -121,7 +121,7 @@ mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
 
 
 # #######################################################################################
-# 		THIS IS A 128 - 32 - 3814
+# 		THIS IS A 128 - 16 - 3814
 # 				Neapolitan Network
 # #################################
 

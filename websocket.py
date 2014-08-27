@@ -7,15 +7,30 @@ import nodeviz as nv
 import datavisualizer as visualizer
 import pandas as pd
 
+import autoencoder as ae
+import theano
+import theano.tensor as T
+
 class WSHandler(tornado.websocket.WebSocketHandler):
 	def open(self):
 		print 'new connection'
-		self.W, self.b_in = visualizer.load_weights_biases()
+		# self.W, self.b_in = visualizer.load_weights_biases()
 		beer_weights = visualizer.load_all_beer_weight_ids()
 		beer_weights_data = pd.DataFrame.from_dict(beer_weights, orient='index')
 		beer_extra_data = pd.read_csv('data/beer_data.csv', sep='\t', index_col='BEER_ID')
 		self.beer_data = beer_extra_data.join(beer_weights_data, how='inner')
-		self.nodeviz = nv.NodeVisualizer(self.W, self.b_in, self.beer_data)
+
+		x = ae.matrixType('x')
+		x_mask = ae.matrixType('mask')
+		input_combined = T.concatenate([x,x_mask], axis=1)
+		mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
+
+		# self.nodeviz = nv.NodeVisualizer(self.W, self.b_in, self.beer_data)
+		layer1 = ae.load("vanilla1_t.npz", input_combined)
+		layer2 = ae.load("strawberry2_t.npz", layer1.active_hidden)
+		layer3 = ae.load("chocolate3_t.npz", layer2.active_hidden, mask=x_mask, original_input=input_combined)
+
+		self.viz = nv.NodeVisualizer([layer1, layer2, layer3], x, x_mask, self.beer_data)
 
 		# simple D3 circles
 		#circleData = self.nodeviz.get_d3_node_data()
@@ -23,7 +38,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 		#print circleData
 
 		# D3 network nodes
-		networkData = self.nodeviz.get_d3_node_data_network()
+		networkData = viz.get_d3_node_data_network()
 		self.write_message(networkData)
 		print networkData
 	
