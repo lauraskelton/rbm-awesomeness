@@ -17,9 +17,15 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 		self.beer_data = beer_extra_data.join(beer_weights_data, how='inner')
 		self.nodeviz = nv.NodeVisualizer(self.W, self.b_in, self.beer_data)
 
-		circleData = self.nodeviz.get_d3_node_data()
-		self.write_message(circleData)
-		print circleData
+		# simple D3 circles
+		#circleData = self.nodeviz.get_d3_node_data()
+		#self.write_message(circleData)
+		#print circleData
+
+		# D3 network nodes
+		networkData = self.nodeviz.get_d3_node_data_network()
+		self.write_message(networkData)
+		print networkData
 	
 	def on_message(self, message):
 		print 'message received %s' % message
@@ -34,7 +40,11 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 				if i % 2 == 0:
 					buckets_dict[str(message_array[i])] = int(message_array[i+1])
 
-			colors = self.nodeviz.get_colors(**buckets_dict)
+			# simple D3 circles
+			#colors = self.nodeviz.get_colors(**buckets_dict)
+
+			# D3 network nodes
+			colors = self.nodeviz.get_node_colors(**buckets_dict)
 			self.write_message(colors)
 
 		if len(message_array) > 0 and message_array[0] == "setBeer":
@@ -43,7 +53,11 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 			buckets_dict = {}
 			buckets_dict["specific_beer"] = str(beerString)
 
-			colors = self.nodeviz.get_colors(**buckets_dict)
+			# simple D3 circles
+			#colors = self.nodeviz.get_colors(**buckets_dict)
+
+			# D3 network nodes
+			colors = self.nodeviz.get_node_colors(**buckets_dict)
 			self.write_message(colors)
 
 	def on_close(self):
