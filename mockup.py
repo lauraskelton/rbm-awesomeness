@@ -19,7 +19,25 @@ def specific_beer_vec(specific_beer):
 
 # nodeviz.activations(style_vec("American IPA"))
 
-full_hater_mode = np.concatenate([np.zeros((1,1907)), np.ones((1,1907))], axis=1)
-lovers_paradise = np.ones((1,3814))
-bug_detection = np.zeros((1,3814))
+full_hater_mode = (np.zeros((1,1907)), np.ones((1,1907)))
+lovers_paradise = (np.ones((1,1907)), np.ones((1,1907)))
+bug_detection = (np.zeros((1,1907)), np.zeros((1,1907)))
 
+x = ae.matrixType('x')
+x_mask = ae.matrixType('mask')
+input_combined = T.concatenate([x,x_mask], axis=1)
+mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
+
+# self.nodeviz = nv.NodeVisualizer(self.W, self.b_in, self.beer_data)
+layer1 = ae.load("vanilla1_t.npz", input_combined)
+layer2 = ae.load("strawberry2_t.npz", layer1.active_hidden)
+layer3 = ae.load("chocolate3_t.npz", layer2.active_hidden, mask=x_mask, original_input=input_combined)
+
+viz = nv.NodeVisualizer([layer1, layer2, layer3], x, x_mask, beer_data)
+
+def pp(vector):
+	print ["{:.4f}".format(r) for r in vector]
+
+pp(viz.activations[1](*full_hater_mode)[0])
+pp(viz.activations[1](*lovers_paradise)[0])
+pp(viz.activations[1](*bug_detection)[0])

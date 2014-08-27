@@ -81,11 +81,11 @@ class NodeVisualizer(object):
 
 	def style_vec(style):
 		mock = np.mat(self.beer_data["STYLE_NAME"] == style)
-		return np.concatenate([mock, mock], axis=1)
+		return mock
 
 	def specific_beer_vec(specific_beer):
 		mock = np.mat(beer_data["BEER"] == specific_beer)
-		return np.concatenate([mock, mock], axis=1)
+		return mock
 
 	# def get_d3_node_data(self):
 	# 	# 	var circleData = [{cx:40,cy:60}, {cx:80,cy:60}, {cx:120,cy:60}]
