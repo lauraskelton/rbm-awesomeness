@@ -92,6 +92,9 @@ class NodeVisualizer(object):
 		# NOTE: need a way to create nodes for multiple layers.
 		# What property of self contains the different layers' node activations?
 		# All we would need to do is to create a different "cy" for each hidden layer.
+
+		# ALSO: it would be good to take a weights vector and draw lines between the nodes of different layers, for the deep networks.
+		
 		for i in range(self.neuralnet.n_hidden):
 			circleData.append({"cx": ((1+i) * 40),"cy": 60})
 		return json.dumps({"type":"circles","data":circleData})

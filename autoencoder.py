@@ -109,10 +109,7 @@ class CFAutoencoder(object):
         # entropy is our cost function. it represents how much information was lost.
         # this is applying the entropy cost function to each value of output relative to each value of the uncorrupted original input matrix
         if self.original_input == None:
-<<<<<<< HEAD
-=======
-            # self.printy_out = theano.printing.Print('Here are the outputs:')(np.min(self.normal_output))
->>>>>>> working D3 dynamic node visualizations
+
             self.entropy = -T.sum(self.normal_inputs * T.log(self.normal_output) + 
                             (1 - self.normal_inputs) * T.log(1 - self.normal_output), axis=1)
         else:
