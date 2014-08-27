@@ -109,7 +109,6 @@ class CFAutoencoder(object):
         # entropy is our cost function. it represents how much information was lost.
         # this is applying the entropy cost function to each value of output relative to each value of the uncorrupted original input matrix
         if self.original_input == None:
-
             self.entropy = -T.sum(self.normal_inputs * T.log(self.normal_output) + 
                             (1 - self.normal_inputs) * T.log(1 - self.normal_output), axis=1)
         else:
@@ -172,7 +171,10 @@ class CFAutoencoder(object):
 
 
     def save(self, f):
-        params = {thing.name : thing.get_value() for thing in self.parameters}
+        params = {}
+        params['W'] = self.W.get_value()
+        params['b_in'] = self.b_in.get_value()
+        params['b_out'] = self.b_out.get_value()
         params['n_in'] = self.n_in
         params['n_hidden'] = self.n_hidden
         params['pct_noise'] = self.pct_noise
