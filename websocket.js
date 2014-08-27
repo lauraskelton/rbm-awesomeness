@@ -65,17 +65,16 @@ function demoNetworkData(data) {
 	var links = data.links
 
 	var svg = d3.select("body").append("svg")
-	.attr("width", width)
-	.attr("height", height);
+            .attr("width", width)
+            .attr("height", height);
 
-	svg.selectAll("line")
-              .data(links)
-            .enter().append("line")
+    svg.selectAll("line")
+      .data(links)
+    .enter().append("line")
       .attr("x1", function(d) { return d.source.x; })
       .attr("y1", function(d) { return d.source.y; })
       .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; })
-      .style("stroke-width", "1.5");
+      .attr("y2", function(d) { return d.target.y; });
 
   svg.selectAll("circle")
       .data(nodes)
@@ -83,6 +82,7 @@ function demoNetworkData(data) {
       .attr("cx", function(d) { return width * d.x})
       .attr("cy", function(d) { return 64 + (200 * d.y)})
       .attr("r", node_radius);
+
 
 	// svg
 	// .append("marker")
