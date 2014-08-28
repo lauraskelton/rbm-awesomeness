@@ -72,9 +72,9 @@ layer3 = ae.load("chocolate3_t.npz", layer2.active_hidden, mask=x_mask, original
 viz = nv.NodeVisualizer([layer1, layer2, layer3], x, x_mask, beer_data)
 
 
-untuned1 = ae.load("64_16_vanilla1.npz", input_combined)
-untuned2 = ae.load("64_16_strawberry2.npz", untuned1.active_hidden)
-untuned3 = ae.load("64_16_chocolate3.npz", untuned2.active_hidden, mask=x_mask, original_input=input_combined)
+untuned1 = ae.load("lono_vanilla1_t.npz", input_combined)
+untuned2 = ae.load("lono_strawberry2_t.npz", untuned1.active_hidden)
+untuned3 = ae.load("lono_chocolate3_t.npz", untuned2.active_hidden, mask=x_mask, original_input=input_combined)
 
 unviz = nv.NodeVisualizer([untuned1, untuned2, untuned3], x, x_mask, beer_data)
 
@@ -82,9 +82,19 @@ def pp(vector):
 	print ["{:.4f}".format(r) for r in vector]
 
 def quicktest(n):
-	return get_favourite_beers(beer_data, unviz.activations[2](np.mat(train_set[n]), np.mat(train_mask[n]))[0], 10)
+	return get_favourite_beers(beer_data, unviz.activations[2](np.mat(train_set[n]), np.mat(train_mask[n]))[0], 25)
 
 pp(viz.activations[1](*full_hater_mode)[0])
 pp(viz.activations[1](*lovers_paradise)[0])
 pp(viz.activations[1](*bug_detection)[0])
 
+def get_avg_rating(beer):
+	idx = names.index(beer)
+	r = 0.
+	n = 0
+	for rating in test_set[:,idx]:
+		if rating != 0:
+			r += rating
+			n += 1
+
+	return (r, n)

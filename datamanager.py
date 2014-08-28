@@ -39,8 +39,8 @@ def loadBeerChooser(path='data'):
 	userPrefs={}
 	for line in open(path+'/u.data'):
 		(user,beerid,rating)=line.split(',')
-		userPrefs.setdefault(user,{})
-		userPrefs[user][beers[beerid]]=float(rating)
+		userPrefs.setdefault(int(user),{})
+		userPrefs[int(user)][beers[beerid]]=float(rating)
 	return userPrefs
 
 def transformPrefs(userPrefs):
@@ -72,6 +72,8 @@ def createNDArray():
 		for k in range(0,len(beersArray)):
 			if beersArray[k][0] in userPrefs[usersArray[j][0]]:
 				rating = (userPrefs[usersArray[j][0]][beersArray[k][0]] * 5 - 1) / 4
+				if rating == 0:
+					rating = 0.01
 				trainingArray[j][k] = rating
 				bitMaskArray[j][k] = 1
 

@@ -125,30 +125,30 @@ mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
 # 				Neapolitan Network
 # #################################
 
-layer1 = ae.CFAutoencoder(data.shape[1]*2, 64, inputs=input_combined, mask=mask_combined)
-layer1.set_noise(0.2)
-aet1 = trainer.AETrainer(layer1, layer1.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
-aet1.run_epochs(min_epochs=100, lr_decay=0.1)
+# layer1 = ae.CFAutoencoder(data.shape[1]*2, 64, inputs=input_combined, mask=mask_combined)
+# layer1.set_noise(0.2)
+# aet1 = trainer.AETrainer(layer1, layer1.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
+# aet1.run_epochs(min_epochs=100, lr_decay=0.1)
 
 
-layer1.set_noise(0.0)
-layer1.save("lono_vanilla1")
+# layer1.set_noise(0.0)
+# layer1.save("lono_vanilla1")
 
-layer2 = ae.CFAutoencoder(layer1.n_hidden, 16, inputs=layer1.active_hidden)
-layer2.set_noise(0.2)
-aet2 = trainer.AETrainer(layer2, layer2.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
-aet2.run_epochs(min_epochs=100, lr_decay=0.1)
-layer2.set_noise(0.0)
-layer2.save("lono_strawberry2")
+# layer2 = ae.CFAutoencoder(layer1.n_hidden, 16, inputs=layer1.active_hidden)
+# layer2.set_noise(0.2)
+# aet2 = trainer.AETrainer(layer2, layer2.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
+# aet2.run_epochs(min_epochs=100, lr_decay=0.1)
+# layer2.set_noise(0.0)
+# layer2.save("lono_strawberry2")
 
 
-layer3 = ae.CFAutoencoder(layer2.n_hidden, data.shape[1]*2, inputs=layer2.active_hidden, 
-							mask=mask_combined, original_input=input_combined)
-layer3.set_noise(0.2)
-aet3 = trainer.AETrainer(layer3, layer3.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
+# layer3 = ae.CFAutoencoder(layer2.n_hidden, data.shape[1]*2, inputs=layer2.active_hidden, 
+# 							mask=mask_combined, original_input=input_combined)
+# layer3.set_noise(0.2)
+# aet3 = trainer.AETrainer(layer3, layer3.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
 
-aet3.run_epochs(min_epochs=100, lr_decay=0.1)
-layer3.save("lono_chocolate3")
+# aet3.run_epochs(min_epochs=100, lr_decay=0.1)
+# layer3.save("lono_chocolate3")
 
 
 # #############
@@ -165,10 +165,10 @@ for layer in [layer1, layer2, layer3]:
 	if layer.b_out in layer.parameters:
 		layer.parameters.remove(layer.b_out)
 
-tuner = trainer.AETrainer([layer1, layer2, layer3], layer3.cost, 
-							x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
+tuner = trainer.AETrainer([layer1, layer2, layer3], layer3.cost, x, shared_train, x_mask=x_mask, 
+							shared_mask=shared_mask, learning_rate=0.0005, weight_decay=0)
 
-tuner.run_epochs(min_epochs=100)
+tuner.run_epochs(min_epochs=100, decay_modulo=25, lr_decay=0.2)
 
 layer1.save("lono_vanilla1_t")
 layer2.save("lono_strawberry2_t")

@@ -91,8 +91,8 @@ class AETrainer(object):
 			costs = epoch(self.batch_size, n_train, training_function)
 
 			print "=== epoch {} ===".format(self.steps)
-			print "costs: {}".format([line[()] for line in costs])
-			print "avg: {:.5f} (previous best: {:.5f}; ratio: {:.5f})".format(
+			# print "costs: {}".format([line[()] for line in costs])
+			print "avg cost: {:.5f} (previous best: {:.5f}; ratio: {:.5f})".format(
 								np.mean(costs), best_cost, best_cost/np.mean(costs))
 			
 			# keep training as long as we are improving enough
