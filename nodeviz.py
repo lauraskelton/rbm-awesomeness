@@ -103,16 +103,23 @@ class NodeVisualizer(object):
 	# 		circleData.append({"cx": ((1+i) * 40),"cy": 60})
 	# 	return json.dumps({"type":"circles","data":circleData})
 
-	def get_favourite_beers(self, matrix, n):
-		assert(matrix.shape == (1, 3814)) # Make sure we're getting the right thing, otherwise fix line below
-		sorted_pairs = sorted(zip(np.array(matrix.astype(float))[0][:1907], beer_data["BEER"]), key=lambda x: -x[0])
+	def get_favourite_beers(self, data, n):
+		if (type(data) == np.matrix) and data.shape == (1, 3814):
+			sorted_pairs = sorted(zip(np.array(data.astype(float))[0][:1907], 
+												self.beer_data["BEER"]), key=lambda x: -x[0])
+		elif (type(data) == np.ndarray) and data.shape == (3814,):
+			sorted_pairs = sorted(zip(data.astype(float), self.beer_data["BEER"]), key=lambda x: -x[0])
+		else:
+			print type(data)
+			print data.shape
+			raise Exception("Figure out why data was passed in weird")
 		return [name for score, name in sorted_pairs[:n]]
 
 	def get_node_colors(self, cats=None, style=None, specific_beers=None, **kwargs):
 		print cats
 		print kwargs
 		mock = self.mock_vector(cats, **kwargs)
-		activations_vectors = [activations(self.mock_vector(cats, **kwargs), np.mat(np.ones(1907)))[0] for activations in self.activations[:-1]]
+		activations_vectors = [activations(self.mock_vector(cats, **kwargs), np.mat(np.ones(1907)))[0] for activations in self.activations]
 		print activations_vectors
 
 		# get the 10 favourite beers
@@ -123,13 +130,15 @@ class NodeVisualizer(object):
 		# [ item for innerlist in outerlist for item in innerlist ]
 		# this = [rgbString(activations, activations.max(), activations.min()) for innerlist in activations_vectors for activations in innerlist]
 		# import pdb; pdb.set_trace()
-		list_of_lists_of_rgbs = [rgbStrings(vector, vector.max(), vector.min()) for vector in activations_vectors]
+		list_of_lists_of_rgbs = [rgbStrings(vector, vector.max(), vector.min()) for vector in activations_vectors[:-1]]
 		rgb_string_list = [rgb_strings for innerlist in list_of_lists_of_rgbs for rgb_strings in innerlist]
 		print rgb_string_list
 
 		outString = []
 		outString.append("rgb({},{},{})".format(200,0,0))
 		outString = outString + rgb_string_list
+
+		print "returning: {}".format(json.dumps([favourites, {"type":"colors","data":outString}]))
 
 		return json.dumps([favourites, {"type":"colors","data":outString}])
 

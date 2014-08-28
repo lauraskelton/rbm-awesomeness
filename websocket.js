@@ -16,10 +16,15 @@ function onClose(evt) {
 }
 
 function onMessage(evt) {
-	// console.log("data received:\n" + JSON.stringify(evt.data));
 		// console.log(evt.data);
 	var message = JSON.parse(evt.data);
-	var messageDict = message[1]
+	// console.log("data received:\n" + JSON.stringify(message));
+	if (message instanceof Array) {
+		var messageDict = message[1];
+		printFavouriteBeers(message[0]);
+	} else {
+		var messageDict = message;
+	}
 	if (messageDict["type"] == "colors") {
 		//setColors(messageDict["data"]);
 		setColors(messageDict["data"]);
@@ -29,19 +34,15 @@ function onMessage(evt) {
 		demoNetworkData(messageDict["data"]);
 	}
 
-	printFavouriteBeers(message[0]);
 }
 
 function printFavouriteBeers(beers) {
-	string = """
-		<center>
-		<h3> Here are the top 10 recommendations: </h3>
-	""";
+	var html_string = "<center> <h3> Here are the top 10 recommendations: </h3> ";
 	for (var i=0; i<beers.length; i++) {
-		string += "<br>" + beers[i];
+		html_string += "<br>" + beers[i];
 	}
-	string += "\n</center>"
-	document.getElementById("favourites").innerHTML(string);
+	html_string += "\n</center>";
+	document.getElementById("favourites").innerHTML(html_string);
 }
 
 function createD3Objects(circleData) {
