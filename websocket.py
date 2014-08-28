@@ -41,7 +41,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 		# D3 network nodes
 		networkData = self.viz.get_d3_node_data_network()
 		self.write_message(networkData)
-		print networkData
+		# print networkData
 	
 	def on_message(self, message):
 		print 'message received %s' % message

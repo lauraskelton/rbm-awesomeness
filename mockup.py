@@ -11,11 +11,11 @@ beer_data = beer_extra_data.join(beer_weights_data, how='inner')
 
 def style_vec(style):
 	mock = np.mat(beer_data["STYLE_NAME"] == style)
-	return np.concatenate([mock, mock], axis=1)
+	return mock
 
-def specific_beer_vec(specific_beer):
-	mock = np.mat(beer_data["BEER"] == specific_beer)
-	return np.concatenate([mock, mock], axis=1)
+def specific_beer_vec(specific_beers):
+	mock = np.sum([np.mat(beer_data["BEER"] == beer) for beer in specific_beers], axis=0)
+	return mock
 
 # nodeviz.activations(style_vec("American IPA"))
 
@@ -41,3 +41,4 @@ def pp(vector):
 pp(viz.activations[1](*full_hater_mode)[0])
 pp(viz.activations[1](*lovers_paradise)[0])
 pp(viz.activations[1](*bug_detection)[0])
+

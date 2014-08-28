@@ -2,7 +2,11 @@
 <html>
 	<head>
 	<script type="text/javascript" src="d3.min.js"></script>
+	<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="websocket.js"></script>
+	<script type="text/javascript" src="autocompletes.js"></script>
+	 <link rel="stylesheet" href="jquery-ui.css">
+	<script src="jquery-ui.min.js"></script>
 
 	<img src="images/star_128.png" width="0" height="0" style="visibility:hidden; display:none;">
 	<img src="images/star_128_empty.png" width="0" height="0" style="visibility:hidden; display:none;">
@@ -29,7 +33,10 @@
 		</div>
 
 		<br>
-
+		<div class="ui-widget">
+			<label for="specialBeer">Choose a beer: </label>
+			<input id="specialBeer" size="100">
+		</div>
 		<div id="inputs">
 			<textarea id="inputTxt"> </textarea>
 			<br>

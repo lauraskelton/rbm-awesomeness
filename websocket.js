@@ -18,8 +18,8 @@ function onClose(evt) {
 }
 
 function onMessage(evt) {
-	writeToScreen("data received:\n" + JSON.stringify(evt.data));
-		console.log(evt.data);
+	// writeToScreen("data received:\n" + JSON.stringify(evt.data));
+		// console.log(evt.data);
 	var messageDict = JSON.parse(evt.data);
 	if (messageDict["type"] == "colors") {
 		//setColors(messageDict["data"]);
