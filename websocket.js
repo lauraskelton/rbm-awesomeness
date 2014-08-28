@@ -42,7 +42,7 @@ function printFavouriteBeers(beers) {
 		html_string += "<br>" + beers[i];
 	}
 	html_string += "\n</center>";
-	document.getElementById("favourites").innerHTML(html_string);
+	document.getElementById("favourites").innerHTML = html_string;
 }
 
 function createD3Objects(circleData) {
