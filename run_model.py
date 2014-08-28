@@ -126,38 +126,39 @@ mask_combined = T.concatenate([x_mask,T.zeros_like(x_mask)], axis=1)
 # #################################
 
 layer1 = ae.CFAutoencoder(data.shape[1]*2, 64, inputs=input_combined, mask=mask_combined)
-
+layer1.set_noise(0.2)
 aet1 = trainer.AETrainer(layer1, layer1.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
 aet1.run_epochs(min_epochs=100, lr_decay=0.1)
 
 
 layer1.set_noise(0.0)
-layer1.save("64_16_vanilla1")
+layer1.save("lono_vanilla1")
 
 layer2 = ae.CFAutoencoder(layer1.n_hidden, 16, inputs=layer1.active_hidden)
+layer2.set_noise(0.2)
 aet2 = trainer.AETrainer(layer2, layer2.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
 aet2.run_epochs(min_epochs=100, lr_decay=0.1)
 layer2.set_noise(0.0)
-layer2.save("64_16_strawberry2")
+layer2.save("lono_strawberry2")
 
 
-layer1.set_noise(0.5)
 layer3 = ae.CFAutoencoder(layer2.n_hidden, data.shape[1]*2, inputs=layer2.active_hidden, 
 							mask=mask_combined, original_input=input_combined)
+layer3.set_noise(0.2)
 aet3 = trainer.AETrainer(layer3, layer3.cost, x, shared_train, x_mask=x_mask, shared_mask=shared_mask)
 
 aet3.run_epochs(min_epochs=100, lr_decay=0.1)
-layer3.save("64_16_chocolate3")
+layer3.save("lono_chocolate3")
 
 
 # #############
 # # RELOAD & tuning
 
-layer1 = ae.load("64_16_vanilla1.npz", input_combined)
-layer2 = ae.load("64_16_strawberry2.npz", layer1.active_hidden)
-layer3 = ae.load("64_16_chocolate3.npz", layer2.active_hidden, mask=x_mask, original_input=input_combined)
+layer1 = ae.load("lono_vanilla1.npz", input_combined)
+layer2 = ae.load("lono_strawberry2.npz", layer1.active_hidden)
+layer3 = ae.load("lono_chocolate3.npz", layer2.active_hidden, mask=x_mask, original_input=input_combined)
 
-layer1.set_noise(0.33)
+layer1.set_noise(0.2)
 layer3.set_noise(0.0)
 
 for layer in [layer1, layer2, layer3]:
@@ -169,9 +170,9 @@ tuner = trainer.AETrainer([layer1, layer2, layer3], layer3.cost,
 
 tuner.run_epochs(min_epochs=100)
 
-layer1.save("vanilla1_t")
-layer2.save("strawberry2_t")
-layer3.save("chocolate3_t")
+layer1.save("lono_vanilla1_t")
+layer2.save("lono_strawberry2_t")
+layer3.save("lono_chocolate3_t")
 
 #################################################################################################
 

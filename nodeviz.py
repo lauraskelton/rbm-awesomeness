@@ -103,18 +103,6 @@ class NodeVisualizer(object):
 	# 		circleData.append({"cx": ((1+i) * 40),"cy": 60})
 	# 	return json.dumps({"type":"circles","data":circleData})
 
-	def get_favourite_beers(self, data, n):
-		if (type(data) == np.matrix) and data.shape == (1, 3814):
-			sorted_pairs = sorted(zip(np.array(data.astype(float))[0][:1907], 
-												self.beer_data["BEER"]), key=lambda x: -x[0])
-		elif (type(data) == np.ndarray) and data.shape == (3814,):
-			sorted_pairs = sorted(zip(data.astype(float), self.beer_data["BEER"]), key=lambda x: -x[0])
-		else:
-			print type(data)
-			print data.shape
-			raise Exception("Figure out why data was passed in weird")
-		return [name for score, name in sorted_pairs[:n]]
-
 	def get_node_colors(self, cats=None, style=None, specific_beers=None, **kwargs):
 		print cats
 		print kwargs
@@ -123,7 +111,7 @@ class NodeVisualizer(object):
 		print activations_vectors
 
 		# get the 10 favourite beers
-		favourites = self.get_favourite_beers(activations_vectors[-1], 10)
+		favourites = get_favourite_beers(self.beer_data, activations_vectors[-1], 10)
 		print favourites
 
 		# [num for list in x for num in list]
@@ -189,6 +177,18 @@ class NodeVisualizer(object):
 				nodeData.append({"size": node_size,"fixed":"true","x":float(i + 1)/float(node_count + 1),"y":layer_index + 1})
 
 		return json.dumps({"type":"nodes","data":{"nodes":nodeData,"links":linkData}})
+
+def get_favourite_beers(beer_data, data, n):
+	if (type(data) == np.matrix) and data.shape == (1, 3814):
+		sorted_pairs = sorted(zip(np.array(data.astype(float))[0][:1907], 
+											beer_data["BEER"]), key=lambda x: -x[0])
+	elif (type(data) == np.ndarray) and data.shape == (3814,):
+		sorted_pairs = sorted(zip(data.astype(float), beer_data["BEER"]), key=lambda x: -x[0])
+	else:
+		print type(data)
+		print data.shape
+		raise Exception("Figure out why data was passed in weird")
+	return [name for score, name in sorted_pairs[:n]]
 
 def get_buckets(metric):
 	metric = metric.copy()
