@@ -32,7 +32,7 @@ class NodeVisualizer(object):
 		self.buckets["COLOR"] = get_buckets(beer_data['COLOR'])
 		self.buckets["IBU"] = get_buckets(beer_data['IBU'])
 
-	def mock_vector(self, cats=None, style=None, specific_beer=None, **kwargs):
+	def mock_vector(self, cats=None, style=None, specific_beers=None, **kwargs):
 		out = np.zeros((1, len(self.beer_data)))
 		zeros = np.zeros((1, len(self.beer_data)))
 
@@ -58,9 +58,11 @@ class NodeVisualizer(object):
 		if style:
 			out = style_vec(style) # overrides other vectors
 
-		if specific_beer:
-			out = specific_beer_vec(specific_beer) # overrides other vectors
-
+		if specific_beers:
+			out = specific_beer_vec(specific_beers) # overrides other vectors
+			if not (sum(out) == len(specific_beers)): # make sure all the beers were real
+				print "PROBLEM: not all the beers were found:"
+				print specific_beers
 
 		if normalizer:
 			return out/normalizer
@@ -101,12 +103,21 @@ class NodeVisualizer(object):
 	# 		circleData.append({"cx": ((1+i) * 40),"cy": 60})
 	# 	return json.dumps({"type":"circles","data":circleData})
 
+	def get_favourite_beers(self, matrix, n):
+		assert(matrix.shape == (1, 3814)) # Make sure we're getting the right thing, otherwise fix line below
+		sorted_pairs = sorted(zip(np.array(matrix.astype(float))[0][:1907], beer_data["BEER"]), key=lambda x: -x[0])
+		return [name for score, name in sorted_pairs[:n]]
+
 	def get_node_colors(self, cats=None, style=None, specific_beers=None, **kwargs):
 		print cats
 		print kwargs
 		mock = self.mock_vector(cats, **kwargs)
-		activations_vectors = [activations(self.mock_vector(cats, **kwargs), np.mat(np.ones(1907)))[0] for activations in self.activations]
+		activations_vectors = [activations(self.mock_vector(cats, **kwargs), np.mat(np.ones(1907)))[0] for activations in self.activations[:-1]]
 		print activations_vectors
+
+		# get the 10 favourite beers
+		favourites = self.get_favourite_beers(activations_vectors[-1], 10)
+		print favourites
 
 		# [num for list in x for num in list]
 		# [ item for innerlist in outerlist for item in innerlist ]
@@ -119,7 +130,8 @@ class NodeVisualizer(object):
 		outString = []
 		outString.append("rgb({},{},{})".format(200,0,0))
 		outString = outString + rgb_string_list
-		return json.dumps({"type":"colors","data":outString})
+
+		return json.dumps([favourites, {"type":"colors","data":outString}])
 
 	def get_d3_node_data_network(self):
 		# NOTE: these need to represent 2 different layers in reality.	

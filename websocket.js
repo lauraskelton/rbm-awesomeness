@@ -18,7 +18,8 @@ function onClose(evt) {
 function onMessage(evt) {
 	// console.log("data received:\n" + JSON.stringify(evt.data));
 		// console.log(evt.data);
-	var messageDict = JSON.parse(evt.data);
+	var message = JSON.parse(evt.data);
+	var messageDict = message[1]
 	if (messageDict["type"] == "colors") {
 		//setColors(messageDict["data"]);
 		setColors(messageDict["data"]);
@@ -27,6 +28,20 @@ function onMessage(evt) {
 	} else if (messageDict["type"] == "nodes") {
 		demoNetworkData(messageDict["data"]);
 	}
+
+	printFavouriteBeers(message[0]);
+}
+
+function printFavouriteBeers(beers) {
+	string = """
+		<center>
+		<h3> Here are the top 10 recommendations: </h3>
+	""";
+	for (var i=0; i<beers.length; i++) {
+		string += "<br>" + beers[i];
+	}
+	string += "\n</center>"
+	document.getElementById("favourites").innerHTML(string);
 }
 
 function createD3Objects(circleData) {
@@ -201,10 +216,6 @@ function init() {
 		console.log("click registered.");
 	};
 
-}
-
-function writeToScreen(message) { 
-	//document.getElementById("msg").innerHTML = message;
 }
 
 window.onReady = function onReady(fn){
