@@ -24,9 +24,20 @@
 	</style>
 	</head>
 	<body>
+		<div id="msg">
+			DEMO!
+		</div>
+
+		<br>
+
+		<div id="inputs">
+			<textarea id="inputTxt"> </textarea>
+			<br>
+			<input type="button" id="connect" value="set a favorite beer!"> </input>
+		</div>
 		
 <div id="title">
-			<span>ABV:</span>
+			<span>Booziness:</span>
 		</div>
 		<div id="abv" onmouseout="mouseoutBucket(0)" style="width:200px; height:50px; float:left;">
 			<a class="bucket_star" href="javascript:setBucket(0,0);"><img id="bucket_0_0" onmouseover="mouseoverBucket(0,0)" src="images/star_128_empty.png" height="32" width="32" style="float:left;"/></a>
@@ -37,7 +48,7 @@
 		</div>
 		<br style="clear:both;"/>
 		<div id="title">
-			<span>IBU:</span>
+			<span>Bitterness:</span>
 		</div>
 		<div id="ibu" onmouseout="mouseoutBucket(1)" style="width:200px; height:50px; float:left;">
 			<a class="bucket_star" href="javascript:setBucket(1,0);"><img id="bucket_1_0" onmouseover="mouseoverBucket(1,0)" src="images/star_128_empty.png" height="32" width="32" style="float:left;"/></a>
@@ -48,7 +59,7 @@
 		</div>
 		<br style="clear:both;"/>
 		<div id="title">
-			<span>Gravity:</span>
+			<span>Heaviness:</span>
 		</div>
 		<div id="gravity" onmouseout="mouseoutBucket(2)" style="width:200px; height:50px; float:left;">
 			<a class="bucket_star" href="javascript:setBucket(2,0);"><img id="bucket_2_0" onmouseover="mouseoverBucket(2,0)" src="images/star_128_empty.png" height="32" width="32" style="float:left;"/></a>

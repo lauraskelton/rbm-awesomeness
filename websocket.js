@@ -58,7 +58,7 @@ function demoNetworkData(data) {
 
 	function node_radius(d) { return Math.pow(40.0 * d.size, 1/3); }
 
-	var width = 1000;
+	var width = 1300;
 	var height = 700;
 
 	var nodes = data.nodes
@@ -198,10 +198,10 @@ function init() {
 	websocket.onclose = function(evt) { onClose(evt) };
 	websocket.onmessage = function(evt) { onMessage(evt) };
 	websocket.onerror = function(evt) { onError(evt) };
-	//document.getElementById("connect").onclick = function () {
-	//	websocket.send("setBeer" + " " + document.getElementById("inputTxt").value);
-	//	console.log("click registered.");
-	//};
+	document.getElementById("connect").onclick = function () {
+		websocket.send("setBeer" + " " + document.getElementById("inputTxt").value);
+		console.log("click registered.");
+	};
 
 }
 

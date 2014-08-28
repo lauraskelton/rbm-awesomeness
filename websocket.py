@@ -30,6 +30,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 		layer2 = ae.load("strawberry2_t.npz", layer1.active_hidden)
 		layer3 = ae.load("chocolate3_t.npz", layer2.active_hidden, mask=x_mask, original_input=input_combined)
 
+		# NOTE: fix this- chocolate layer to produce most active beers
 		self.viz = nv.NodeVisualizer([layer1, layer2, layer3], x, x_mask, self.beer_data)
 
 		# simple D3 circles
@@ -38,7 +39,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 		#print circleData
 
 		# D3 network nodes
-		networkData = viz.get_d3_node_data_network()
+		networkData = self.viz.get_d3_node_data_network()
 		self.write_message(networkData)
 		print networkData
 	
@@ -59,7 +60,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 			#colors = self.nodeviz.get_colors(**buckets_dict)
 
 			# D3 network nodes
-			colors = self.nodeviz.get_node_colors(**buckets_dict)
+			colors = self.viz.get_node_colors(**buckets_dict)
 			self.write_message(colors)
 
 		if len(message_array) > 0 and message_array[0] == "setBeer":
@@ -72,7 +73,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 			#colors = self.nodeviz.get_colors(**buckets_dict)
 
 			# D3 network nodes
-			colors = self.nodeviz.get_node_colors(**buckets_dict)
+			colors = self.viz.get_node_colors(**buckets_dict)
 			self.write_message(colors)
 
 	def on_close(self):

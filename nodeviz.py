@@ -8,7 +8,7 @@ import time
 import datavisualizer as vis
 import pandas as pd
 from pandas import DataFrame as DF
-from datavisualizer import rgbString
+from datavisualizer import rgbStrings
 import json
 
 
@@ -105,24 +105,28 @@ class NodeVisualizer(object):
 		print cats
 		print kwargs
 		mock = self.mock_vector(cats, **kwargs)
+		activations_vectors = [activations(self.mock_vector(cats, **kwargs), np.mat(np.ones(1907)))[0] for activations in self.activations]
+		print activations_vectors
+
+		# [num for list in x for num in list]
+		# [ item for innerlist in outerlist for item in innerlist ]
+		# this = [rgbString(activations, activations.max(), activations.min()) for innerlist in activations_vectors for activations in innerlist]
 		# import pdb; pdb.set_trace()
-		activations = self.activations(self.mock_vector(cats, **kwargs))[0]
-		print activations
+		list_of_lists_of_rgbs = [rgbStrings(vector, vector.max(), vector.min()) for vector in activations_vectors]
+		rgb_string_list = [rgb_strings for innerlist in list_of_lists_of_rgbs for rgb_strings in innerlist]
+		print rgb_string_list
 
-		strings = rgbString(activations, activations.max(), activations.min())
-		print strings
-
-		# double for fake second layer. in reality should be second layer data.
 		outString = []
 		outString.append("rgb({},{},{})".format(200,0,0))
-		strings2 = rgbString(activations, activations.max(), activations.min())
-		outString = outString + strings + strings2
+		outString = outString + rgb_string_list
 		return json.dumps({"type":"colors","data":outString})
 
 	def get_d3_node_data_network(self):
-		# NOTE: these need to represent 2 different layers in reality.		
-		hidden1 = self.neuralnet.n_hidden
-		hidden2 = self.neuralnet.n_hidden
+		# NOTE: these need to represent 2 different layers in reality.	
+		# self.layers -> list of layers??
+
+		#hidden1 = self.neuralnet.n_hidden
+		#hidden2 = self.neuralnet.n_hidden
 		nodeData = []
 		linkData = []
 		# NOTE: need a way to create nodes for multiple layers.
@@ -134,19 +138,34 @@ class NodeVisualizer(object):
 		# large "input" node in place of a node for each input beer (way too many- over 3000 inputs actually)
 		nodeData.append({"size": 100,"fixed":"true","x":0.5,"y":0}) # this is node 0
 
-		for i in range(hidden1):
-			# nodes 1 to hidden1 (i+1 is the node number)
-			nodeNum = i+1
-			linkData.append({"source":0,"target":nodeNum})
-			nodeData.append({"size": 20,"fixed":"true","x":float(nodeNum)/float(hidden1 + 1),"y":1})
-			for j in range(hidden2):
-				# nodes hidden1+1 to hidden1+hidden2
-				secondNodeNum = hidden1 + j + 1
-				# add a link from this node to each second layer node...
-				linkData.append({"source":nodeNum,"target":secondNodeNum})
+		for layer_index, layer in enumerate(self.layers):
+			node_count = layer.n_hidden
+			#node_count = 64
+			if node_count > 80:
+				node_size = 1
+			elif node_count > 25:
+				node_size = 8
+			else:
+				node_size = 10
+			if layer_index == len(self.layers) - 1:
+				continue
 
-		for i in range(hidden2):
-			nodeData.append({"size": 5,"fixed":"true","x":float(i+1)/float(hidden2 + 1),"y":2})
+			node_last_index = len(nodeData) - 1 # this is the id of the final node of the previous layer
+			for i in range(node_count):
+				# nodes 1 to hidden1 (i+1 is the node number)
+				nodeNum = node_last_index + 1 + i # this is the next node id after the existing nodes we have saved
+				if layer_index == 0:
+					linkData.append({"source":0,"target":nodeNum}) # link the "input" node 0 to every node in the first hidden layer
+					
+				if layer_index < (len(self.layers) - 1): # not the final hidden layer so link to next layer
+					next_node_count = self.layers[layer_index+1].n_hidden # access the next layer so we can make links
+					for j in range(next_node_count):
+						# nodes hidden1+1 to hidden1+hidden2
+						secondNodeNum = node_last_index + node_count + 1 + j # the id of each node in the next layer
+						# add a link from this node to each second layer node...
+						linkData.append({"source":nodeNum,"target":secondNodeNum})
+
+				nodeData.append({"size": node_size,"fixed":"true","x":float(i + 1)/float(node_count + 1),"y":layer_index + 1})
 
 		return json.dumps({"type":"nodes","data":{"nodes":nodeData,"links":linkData}})
 
