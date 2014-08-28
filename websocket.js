@@ -8,17 +8,15 @@ var ibu_bucket = -1;
 var gravity_bucket = -1;
 
 function onOpen(evt) { 
-	writeToScreen("CONNECTED");
-	//websocket.send("newgame");
-
+	console.log("CONNECTED");
 }
 
 function onClose(evt) { 
-	writeToScreen("DISCONNECTED");
+	console.log("DISCONNECTED");
 }
 
 function onMessage(evt) {
-	// writeToScreen("data received:\n" + JSON.stringify(evt.data));
+	// console.log("data received:\n" + JSON.stringify(evt.data));
 		// console.log(evt.data);
 	var messageDict = JSON.parse(evt.data);
 	if (messageDict["type"] == "colors") {
@@ -189,7 +187,7 @@ function setBucket(category, bucket_id) {
 }
 
 function onError(evt) { 
-	writeToScreen('<span style="color: red;">ERROR:</span>\n' + evt.data);
+	console.log('ERROR:\n' + evt.data);
 }
 
 function init() {
@@ -198,8 +196,8 @@ function init() {
 	websocket.onclose = function(evt) { onClose(evt) };
 	websocket.onmessage = function(evt) { onMessage(evt) };
 	websocket.onerror = function(evt) { onError(evt) };
-	document.getElementById("connect").onclick = function () {
-		websocket.send("setBeer" + " " + document.getElementById("inputTxt").value);
+	document.getElementById("sendBeer").onclick = function () {
+		websocket.send("setBeer" + " " + document.getElementById("specialBeer").value);
 		console.log("click registered.");
 	};
 

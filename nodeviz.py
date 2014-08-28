@@ -80,11 +80,11 @@ class NodeVisualizer(object):
 	# 	return json.dumps({"type":"colors","data":strings})
 
 	def style_vec(style):
-		mock = np.mat(self.beer_data["STYLE_NAME"] == style)
+		mock = np.mat(beer_data["STYLE_NAME"] == style)
 		return mock
 
-	def specific_beer_vec(specific_beer):
-		mock = np.mat(beer_data["BEER"] == specific_beer)
+	def specific_beer_vec(specific_beers):
+		mock = np.sum([np.mat(beer_data["BEER"] == beer) for beer in specific_beers], axis=0)
 		return mock
 
 	# def get_d3_node_data(self):
@@ -101,7 +101,7 @@ class NodeVisualizer(object):
 	# 		circleData.append({"cx": ((1+i) * 40),"cy": 60})
 	# 	return json.dumps({"type":"circles","data":circleData})
 
-	def get_node_colors(self, cats=None, style=None, specific_beer=None, **kwargs):
+	def get_node_colors(self, cats=None, style=None, specific_beers=None, **kwargs):
 		print cats
 		print kwargs
 		mock = self.mock_vector(cats, **kwargs)

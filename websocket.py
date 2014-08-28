@@ -48,9 +48,9 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 		#self.write_message("red blue green")
 		
 		# send this to nodeviz somehow?
-		message_array = message.split(' ')
-		if len(message_array) > 0 and message_array[0] == "setBucket" and len(message_array) % 2 == 1:
-			del message_array[0]
+		
+		if message.startswith("setBucket"):
+			message_array = message.split(' ')[1:]
 			buckets_dict = {}
 			for i in range(len(message_array)):
 				if i % 2 == 0:
@@ -63,11 +63,13 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 			colors = self.viz.get_node_colors(**buckets_dict)
 			self.write_message(colors)
 
-		if len(message_array) > 0 and message_array[0] == "setBeer":
-			del message_array[0]
-			beerString = " ".join(message_array) # this is the name of the beer
-			buckets_dict = {}
-			buckets_dict["specific_beer"] = str(beerString)
+		elif message.startswith("setBeer"):
+			beers = message[len("setBeer"):].strip().split(",")
+			# clearn up the strings
+			beers = [beer.strip() for beer in beers]
+
+
+			buckets_dict = {"specific_beers" : beers}
 
 			# simple D3 circles
 			#colors = self.nodeviz.get_colors(**buckets_dict)
@@ -75,6 +77,9 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 			# D3 network nodes
 			colors = self.viz.get_node_colors(**buckets_dict)
 			self.write_message(colors)
+
+		else:
+			print "I don't know what to do with this message:\n" + message
 
 	def on_close(self):
 		print 'connection closed'
