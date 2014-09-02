@@ -32,6 +32,9 @@ class NodeVisualizer(object):
 		self.buckets["COLOR"] = get_buckets(beer_data['COLOR'])
 		self.buckets["IBU"] = get_buckets(beer_data['IBU'])
 
+	def avg_recommendations(self, data, mask):
+		return np.mean(self.activations(data, mask), axis=1)
+
 	def mock_vector(self, cats=None, style=None, specific_beers=None, **kwargs):
 		out = np.zeros((1, len(self.beer_data)))
 		zeros = np.zeros((1, len(self.beer_data)))
@@ -177,6 +180,7 @@ class NodeVisualizer(object):
 				nodeData.append({"size": node_size,"fixed":"true","x":float(i + 1)/float(node_count + 1),"y":layer_index + 1})
 
 		return json.dumps({"type":"nodes","data":{"nodes":nodeData,"links":linkData}})
+
 
 def get_favourite_beers(beer_data, data, n):
 	if (type(data) == np.matrix) and data.shape == (1, 3814):
