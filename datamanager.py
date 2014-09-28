@@ -2,6 +2,7 @@ import math
 import operator
 import numpy as np
 import random
+import pandas as pd
 
 def shuffle_all(*args):
 	idx = range(len(args[0]))
@@ -78,6 +79,18 @@ def createNDArray():
 				bitMaskArray[j][k] = 1
 
 	return trainingArray, bitMaskArray, filteredBeerNamesArray
+
+def getExtendedData(filename="data/dataset_extension.tsv"):
+	data, mask, names = createNDArray()
+	extension = pd.read_csv(filename, sep="\t")
+	new_data = np.array(data[names])/5
+	new_mask = np.array(new_data != 0)
+	
+	data = np.concatenate([data, new_data], axis=0)
+	mask = np.concatenate([mask, new_mask], axis=0)
+
+	return  data, mask, names 
+
 
 def haterizeArray(trainingArray):
 	return (trainingArray * 2) - 1
